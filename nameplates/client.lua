@@ -1,7 +1,22 @@
 local NAME_DRAW_DISTANCE = 20.0
+local isRDR = not TerraingridActivate and true or false
 local names = {}
 local showIds = false
 local showNameplates = true
+local typingDebugEnabled = false
+local lastTypingStates = {}
+local localTypingTestEnabled = false
+local localTypingSynced = false
+
+local function setLocalTypingState(isTyping)
+    if localTypingSynced == isTyping then return end
+    localTypingSynced = isTyping
+    TriggerServerEvent("player_names:setTypingState", isTyping)
+
+    if typingDebugEnabled then
+        print(("[nameplates typing debug] local sync typing=%s"):format(tostring(isTyping)))
+    end
+end
 
 CreateThread(function()
     while true do
@@ -10,9 +25,106 @@ CreateThread(function()
     end
 end)
 
-RegisterNetEvent("player_names:receiveNames", function(serverNames)
-    names = serverNames or {}
+CreateThread(function()
+    while true do
+        Wait(100)
+
+        if localTypingTestEnabled then
+            setLocalTypingState(true)
+        else
+            if IsControlPressed(0, isRDR and `INPUT_MP_TEXT_CHAT_ALL` or 245) then
+                setLocalTypingState(true)
+            elseif localTypingSynced and not IsNuiFocused() then
+                setLocalTypingState(false)
+            end
+        end
+    end
 end)
+
+RegisterNetEvent("player_names:receiveNames", function(serverNames)
+local normalizedNames = {}
+
+    for id, data in pairs(serverNames or {}) do
+        local numericId = tonumber(id)
+        if numericId then
+            local previousData = names[numericId]
+            if previousData and previousData.isTyping == true and (not data or data.isTyping == nil) then
+                data = data or {}
+                data.isTyping = true
+            end
+            normalizedNames[numericId] = data
+        end
+    end
+
+    names = normalizedNames
+
+    if typingDebugEnabled then
+        for id, data in pairs(names) do
+            local isTyping = data and data.isTyping == true
+
+            if lastTypingStates[id] ~= isTyping then
+                print(("[nameplates typing debug] id=%s typing=%s"):format(id, tostring(isTyping)))
+                lastTypingStates[id] = isTyping
+            end
+        end
+    end
+end)
+
+RegisterNetEvent("player_names:updateTypingState", function(serverId, isTyping)
+    serverId = tonumber(serverId)
+    if not serverId then return end
+
+    if not names[serverId] then
+        names[serverId] = {
+            id = serverId,
+            name = GetPlayerName(GetPlayerFromServerId(serverId)) or ("Player " .. serverId)
+        }
+    end
+
+    names[serverId].isTyping = isTyping == true
+
+    if typingDebugEnabled then
+        print(("[nameplates typing debug] realtime id=%s typing=%s"):format(serverId, tostring(isTyping == true)))
+    end
+end)
+
+RegisterCommand("typingdebugnp", function()
+    typingDebugEnabled = not typingDebugEnabled
+    lastTypingStates = {}
+
+    TriggerEvent("chat:addMessage", {
+        args = {
+            "TypingDebug",
+            typingDebugEnabled and "Nameplates typing debug enabled." or "Nameplates typing debug disabled."
+        }
+    })
+end, false)
+
+AddEventHandler("onClientResourceStop", function(resourceName)
+    if resourceName ~= GetCurrentResourceName() then return end
+    TriggerServerEvent("player_names:setTypingState", false)
+end)
+
+RegisterCommand("typingtestnp", function()
+    localTypingTestEnabled = not localTypingTestEnabled
+    local myServerId = GetPlayerServerId(PlayerId())
+
+    if not names[myServerId] then
+        names[myServerId] = {
+            id = myServerId,
+            name = GetPlayerName(PlayerId())
+        }
+    end
+
+    names[myServerId].isTyping = localTypingTestEnabled
+
+    TriggerEvent("chat:addMessage", {
+        args = {
+            "TypingDebug",
+            localTypingTestEnabled and "Local typing test ON." or "Local typing test OFF."
+        }
+    })
+end, false)
 
 RegisterCommand("toggleID", function()
     showIds = not showIds
@@ -86,21 +198,18 @@ CreateThread(function()
 
                         if onScreen then
                             local displayText = name
-                            local isTyping = Player(player).state.isTypingInChat == true
+                            local isTyping = data and data.isTyping == true
 
                             if showIds then
                                 displayText = "[" .. serverId .. "] " .. name
-                            end
-
-                            if isTyping then
-                                displayText = displayText .. "\n[ ... ]"
                             end
 
                             table.insert(nameplates, {
                                 x = screenX,
                                 y = screenY,
                                 opacity = 1.0 - ((distance / NAME_DRAW_DISTANCE) * 0.5),
-                                text = displayText
+                                text = displayText,
+                                isTyping = isTyping
                             })
                         end
                     end

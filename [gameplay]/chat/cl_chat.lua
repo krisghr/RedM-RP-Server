@@ -3,10 +3,33 @@ local isRDR = not TerraingridActivate and true or false
 local chatInputActive = false
 local chatInputActivating = false
 local chatLoaded = false
+local typingDebugEnabled = false
+local lastTypingSyncAt = 0
 
 local function setTypingState(isTyping)
-  LocalPlayer.state:set('isTypingInChat', isTyping, true)
+  if typingDebugEnabled then
+    print(('[chat typing debug] sending typing state: %s'):format(tostring(isTyping)))
+    TriggerEvent('chat:addMessage', {
+      args = {
+        'TypingDebug',
+        ('sent typing state: %s'):format(tostring(isTyping))
+      }
+    })
+  end
+
+  TriggerServerEvent('player_names:setTypingState', isTyping)
 end
+
+RegisterCommand('typingdebug', function()
+  typingDebugEnabled = not typingDebugEnabled
+
+  TriggerEvent('chat:addMessage', {
+    args = {
+      'TypingDebug',
+      typingDebugEnabled and 'Typing debug enabled.' or 'Typing debug disabled.'
+    }
+  })
+end, false)
 
 RegisterNetEvent('chatMessage')
 RegisterNetEvent('chat:addTemplate')
@@ -133,7 +156,7 @@ end)
 
 RegisterNUICallback('chatResult', function(data, cb)
   chatInputActive = false
-  SetNuiFocus(false)  
+  SetNuiFocus(false)
   setTypingState(false)
 
   if not data.canceled then
@@ -233,24 +256,23 @@ local kvpEntry = GetResourceKvpString('hideState')
 local chatHideState = kvpEntry and tonumber(kvpEntry) or CHAT_HIDE_STATES.SHOW_WHEN_ACTIVE
 local isFirstHide = true
 
+if RegisterKeyMapping then
+  RegisterKeyMapping('toggleChat', 'Toggle chat', 'keyboard', 'l')
+end
 
-  if RegisterKeyMapping then
-    RegisterKeyMapping('toggleChat', 'Toggle chat', 'keyboard', 'l')
+RegisterCommand('toggleChat', function()
+  if chatHideState == CHAT_HIDE_STATES.SHOW_WHEN_ACTIVE then
+    chatHideState = CHAT_HIDE_STATES.ALWAYS_SHOW
+  elseif chatHideState == CHAT_HIDE_STATES.ALWAYS_SHOW then
+    chatHideState = CHAT_HIDE_STATES.ALWAYS_HIDE
+  elseif chatHideState == CHAT_HIDE_STATES.ALWAYS_HIDE then
+    chatHideState = CHAT_HIDE_STATES.SHOW_WHEN_ACTIVE
   end
 
-  RegisterCommand('toggleChat', function()
-    if chatHideState == CHAT_HIDE_STATES.SHOW_WHEN_ACTIVE then
-      chatHideState = CHAT_HIDE_STATES.ALWAYS_SHOW
-    elseif chatHideState == CHAT_HIDE_STATES.ALWAYS_SHOW then
-      chatHideState = CHAT_HIDE_STATES.ALWAYS_HIDE
-    elseif chatHideState == CHAT_HIDE_STATES.ALWAYS_HIDE then
-      chatHideState = CHAT_HIDE_STATES.SHOW_WHEN_ACTIVE
-    end
+  isFirstHide = false
 
-    isFirstHide = false
-
-    SetResourceKvp('hideState', tostring(chatHideState))
-  end, false)
+  SetResourceKvp('hideState', tostring(chatHideState))
+end, false)
 
 Citizen.CreateThread(function()
   SetTextChatEnabled(false)
@@ -263,7 +285,7 @@ Citizen.CreateThread(function()
     Wait(0)
 
     if not chatInputActive then
-      if IsControlPressed(0, isRDR and `INPUT_MP_TEXT_CHAT_ALL` or 245) --[[ INPUT_MP_TEXT_CHAT_ALL ]] then
+      if IsControlPressed(0, isRDR and `INPUT_MP_TEXT_CHAT_ALL` or 245) then -- INPUT_MP_TEXT_CHAT_ALL
         chatInputActive = true
         chatInputActivating = true
         setTypingState(true)
@@ -274,10 +296,18 @@ Citizen.CreateThread(function()
       end
     end
 
+    -- Keep typing state alive while input is open
+    if chatInputActive then
+      local now = GetGameTimer()
+      if now - lastTypingSyncAt >= 1000 then
+        lastTypingSyncAt = now
+        setTypingState(true)
+      end
+    end
+
     if chatInputActivating then
       if not IsControlPressed(0, isRDR and `INPUT_MP_TEXT_CHAT_ALL` or 245) then
         SetNuiFocus(true)
-
         chatInputActivating = false
       end
     end

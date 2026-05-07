@@ -1,4 +1,5 @@
 local VORPcore = exports.vorp_core:GetCore()
+local typingStates = {}
 
 local function GetCharacterName(src)
     local User = VORPcore.getUser(src)
@@ -28,9 +29,32 @@ RegisterNetEvent("player_names:requestNames", function()
 
         names[id] = {
             id = id,
-            name = GetCharacterName(id)
+            name = GetCharacterName(id),
+            isTyping = typingStates[id] == true
         }
     end
 
     TriggerClientEvent("player_names:receiveNames", src, names)
+end)
+
+RegisterNetEvent("player_names:setTypingState", function(isTyping)
+    local src = source
+    local newState = isTyping == true
+
+    if typingStates[src] ~= newState then
+        print(("[nameplates typing debug] src=%s typing=%s"):format(src, tostring(newState)))
+    end
+
+    typingStates[src] = newState
+    TriggerClientEvent("player_names:updateTypingState", -1, src, newState)
+end)
+
+AddEventHandler("playerDropped", function()
+    local src = source
+
+    -- clear server cache
+    typingStates[src] = nil
+
+    -- immediately clear client-side typing indicator for this player
+    TriggerClientEvent("player_names:updateTypingState", -1, src, false)
 end)

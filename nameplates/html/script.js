@@ -26,7 +26,16 @@ window.addEventListener("message", function (event) {
         div.style.left = (plate.x * 100) + "vw";
         div.style.top = (plate.y * 100) + "vh";
         div.style.opacity = plate.opacity;
-        div.textContent = plate.text;
+        if (plate.isTyping) {
+            const typingLine = document.createElement("div");
+            typingLine.textContent = "[...]";
+            div.appendChild(typingLine);
+        }
+
+        const nameLine = document.createElement("div");
+        nameLine.textContent = plate.text;
+        div.appendChild(nameLine);
+
 
         container.appendChild(div);
     }

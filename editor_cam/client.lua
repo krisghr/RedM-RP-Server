@@ -31,6 +31,8 @@ local KEY_Z = 0x26E9DC00
 local KEY_Q = 0xDE794E3E
 local KEY_E = 0xCEFD9220
 local KEY_BACKSPACE = 0x156F7119
+local KEY_LEFTBRACKET = 0x430593AA
+local KEY_RIGHTBRACKET = 0xA5BDCD3C
 
 -- UI toggle
 local KEY_TOGGLE_HELP = 0x24978A28 -- H
@@ -68,7 +70,8 @@ local function DrawEditorHelpMenu()
     SetTextWrap(boxLeft + padding, boxRight - padding)
 
     DisplayText(CreateVarString(10, "LITERAL_STRING",
-        "W/A/S/D: Move" ..
+        string.format("Cam Speed: %.2f", camSpeed) ..
+        "\nW/A/S/D: Move" ..
         "\nShift/Ctrl: Up/Down" ..
         "\nMouse: Look" ..
         "\nQ/E: Roll" ..
@@ -193,8 +196,6 @@ RegisterCommand("editortogglehelp", function()
     showHelpMenu = not showHelpMenu
 end, false)
 
-RegisterKeyMapping("editortogglehelp", "Toggle editor camera help menu", "keyboard", "H")
-
 RegisterCommand("editor", function()
     if editorActive then
         StopEditorCam()
@@ -277,11 +278,11 @@ CreateThread(function()
             pitch = pitch - adjustedY * sensitivity
 
             if IsDisabledControlPressedAnyGroup(KEY_Q) then
-                roll = roll - camSpeed
+                roll = roll - camSpeed * 2
             end
 
             if IsDisabledControlPressedAnyGroup(KEY_E) then
-                roll = roll + camSpeed
+                roll = roll + camSpeed * 2
             end
 
             if pitch > 89.0 then pitch = 89.0 end
