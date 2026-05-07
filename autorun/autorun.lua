@@ -11,7 +11,7 @@ local currentSpeed = 1.0
 -- Controls
 local KEY_A = 0x7065027D
 local KEY_D = 0xB4E465B4
-local KEY_S = 0xD27782E3
+local KEY_CTRL = GetHashKey("INPUT_DUCK")
 local KEY_TOGGLE = 0x80F28E95 -- G
 local KEY_SHIFT = 0x8FFC75D6
 local KEY_AIM = 0x07CE1E61
@@ -60,7 +60,7 @@ local function drawAutoRunHelp()
         getSpeedLabel(currentSpeed) ..
         "\nG, Left Click, or /autorun: Cancel" ..
         "\nShift: Increase Speed" ..
-        "\nS: Decrease Speed" ..
+        "\nCtrl: Decrease Speed" ..
         "\nA/D: Turn"
     ), boxRight - padding, boxTop + padding + 0.025)
 end
@@ -119,8 +119,13 @@ CreateThread(function()
                 end
             end
 
-            -- Decrease speed with S
-            if IsControlPressed(0, KEY_S) then
+            -- Disable default Ctrl actions so Ctrl only affects autorun speed
+            DisableControlAction(0, KEY_CTRL, true)
+            DisableControlAction(1, KEY_CTRL, true)
+            DisableControlAction(2, KEY_CTRL, true)
+
+            -- Decrease speed with Ctrl
+            if IsDisabledControlPressed(0, KEY_CTRL) or IsDisabledControlPressed(1, KEY_CTRL) or IsDisabledControlPressed(2, KEY_CTRL) then
                 if not speedHeld then
                     speedHeld = true
 
