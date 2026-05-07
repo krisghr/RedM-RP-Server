@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Chinese Rocks";
+    src: url("chineserocks.ttf");
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: none;
+    font-family: "Chinese Rocks";
+    font-size: 1.50vw;
+}
+
+#interaction-picker {
+    display: none;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translate(0, -50%);
+    background: rgba(0, 0, 0, 0.3); /* See-through black 50% */
+    color: #ffffff; /* White font */
+    border: 2px solid transparent; /* Transparent border to apply gradient */
+    border-image: linear-gradient(to middle, #000000, lemonchiffon) 1; /* Golden to white gradient */
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Softer shadow */
+    overflow: hidden; /* Hides the scrollbar */
+    font-size: calc(1.25 * 1.25vw);
+}
+#interaction-picker-title {
+    text-align: center;
+    color: lemonchiffon; /* White font */
+    padding: 1vh 1vw;
+    border-radius: 3px;
+    background: linear-gradient(to middle, lemonchiffon, #000000); /* Golden to white gradient */
+    font-size: 2.00vw;
+    position: sticky; /* Keeps the title at the top */
+    top: 0;
+}
+
+#interaction-picker-list {
+    max-height: 60vh; /* Adjusts the height to keep content within a certain limit */
+    overflow-y: auto; /* Allows vertical scrolling */
+    -webkit-overflow-scrolling: touch; /* Snappy scrolling on touch devices */
+}
+
+/* Custom Scrollbar for WebKit browsers (Chrome, Safari, etc.) */
+#interaction-picker-list::-webkit-scrollbar {
+    width: 6px; /* Width of the scrollbar */
+}
+
+#interaction-picker-list::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0); /* Transparent track */
+}
+
+#interaction-picker-list::-webkit-scrollbar-thumb {
+    background-color: #ffffff; /* White scrollbar */
+    border-radius: 10px; /* Rounded edges */
+}
+
+/* Custom Scrollbar for Firefox */
+#interaction-picker-list {
+    scrollbar-width: thin;
+    scrollbar-color: #ffffff rgba(0, 0, 0, 0); /* White scrollbar track */
+}
+
+/* Internet Explorer and Edge */
+#interaction-picker-list {
+    -ms-overflow-style: none; /* Hides scrollbar */
+}
+
+/* Interaction styling with transition */
+.interaction.selected {
+    background: #fff3b5; /* White background when selected */
+    color: #000000; /* Black font when selected */
+    border-left: 4px solid rgb(221, 221, 221); /* Accent border for selected item */
+    padding-left: 10px; /* Padding for a cleaner look */
+    transition: background 0.3s ease, color 0.3s ease; /* Smooth transition for selection */
+}
+
+.interaction {
+    background: rgba(0, 0, 0, 0.5); /* See-through black 50% */
+    color: #ffffff; /* White font */
+    padding: 0.75vh 0.5vw;
+    margin-bottom: 0.5vh;
+    border-radius: 3px;
+    cursor: pointer; /* Pointer cursor to indicate interactivity */
+    transition: background 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+}
+ 
+.interaction:hover {
+    background: #ffffff; /* White background on hover */
+    color: #000000; /* Black font on hover */
+}
+
+.end-interaction {
+    text-align: center;
+    padding: 0.75vh 0.5vw;
+    margin-bottom: 0.5vh;
+	font-size: 1.50vw;
+    border-radius: 3px;
+    background-color: transparent; /* Default background */
+    color: lightcoral; /* Default text color */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    cursor: pointer;
+}
+
+.end-interaction:hover {
+    background-color: red; /* Full red background on hover */
+    color: white; /* White text on hover */
+}

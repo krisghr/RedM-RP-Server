@@ -1,0 +1,266 @@
+print("[EDITOR_CAM] client.lua loaded")
+
+local editorActive = false
+local editorCam = nil
+
+local camSpeed = 0.10
+local maxDistance = 10.0
+
+local rollSpeed = 2.5
+
+local pitch = 0.0
+local yaw = 0.0
+local roll = 0.0
+
+-- Zoom / FOV
+local fov = 70.0
+local minFov = 20.0
+local maxFov = 90.0
+local zoomSpeed = 1.0
+
+-- Movement keys
+local KEY_W = 0x8FD015D8
+local KEY_S = 0xD27782E3
+local KEY_A = 0x7065027D
+local KEY_D = 0xB4E465B4
+local KEY_SHIFT = 0x8FFC75D6
+local KEY_Z = 0x26E9DC00
+local KEY_Q = 0xDE794E3E
+local KEY_E = 0xCEFD9220
+local KEY_BACKSPACE = 0x156F7119
+
+-- Mouse look
+local MOUSE_X = 0xA987235F
+local MOUSE_Y = 0xD2047988
+
+-- Mouse wheel
+local MOUSE_WHEEL_UP = 0x3076E97C
+local MOUSE_WHEEL = 0xFD0F0C2C
+
+-- Controls to keep blocked
+local KEY_CTRL = 0xDB096B85
+
+local function RotationToDirection(rot)
+    local z = math.rad(rot.z)
+    local x = math.rad(rot.x)
+    local cosX = math.cos(x)
+
+    return vector3(
+        -math.sin(z) * cosX,
+        math.cos(z) * cosX,
+        math.sin(x)
+    )
+end
+
+local function GetRightVector(yawDegrees)
+    local z = math.rad(yawDegrees)
+
+    return vector3(
+        math.cos(z),
+        math.sin(z),
+        0.0
+    )
+end
+
+local function IsDisabledControlPressedAnyGroup(control)
+    return IsDisabledControlPressed(0, control)
+        or IsDisabledControlPressed(1, control)
+        or IsDisabledControlPressed(2, control)
+end
+
+local function ClampCameraDistance(camCoords)
+    local ped = PlayerPedId()
+    local pedCoords = GetEntityCoords(ped)
+
+    local dx = camCoords.x - pedCoords.x
+    local dy = camCoords.y - pedCoords.y
+    local dz = camCoords.z - pedCoords.z
+
+    local dist = math.sqrt(dx * dx + dy * dy + dz * dz)
+
+    if dist <= maxDistance then
+        return camCoords
+    end
+
+    local scale = maxDistance / dist
+
+    return vector3(
+        pedCoords.x + dx * scale,
+        pedCoords.y + dy * scale,
+        pedCoords.z + dz * scale
+    )
+end
+
+local function StartEditorCam()
+    local ped = PlayerPedId()
+    local coords = GetEntityCoords(ped)
+    local heading = GetEntityHeading(ped)
+
+    -- Do NOT clear ped tasks here.
+    -- Clearing tasks cancels sitting/bench animations.
+    FreezeEntityPosition(ped, true)
+
+    editorCam = CreateCam("DEFAULT_SCRIPTED_CAMERA", true)
+
+    SetCamCoord(editorCam, coords.x, coords.y, coords.z + 1.5)
+
+    pitch = 0.0
+    yaw = heading
+    roll = 0.0
+    fov = 70.0
+
+    SetCamRot(editorCam, pitch, roll, yaw, 2)
+    SetCamFov(editorCam, fov)
+    SetCamActive(editorCam, true)
+    RenderScriptCams(true, false, 0, true, true)
+
+    editorActive = true
+
+    print("[EDITOR_CAM] Enabled")
+end
+
+local function StopEditorCam()
+    local ped = PlayerPedId()
+
+    if editorCam then
+        RenderScriptCams(false, false, 0, true, true)
+        DestroyCam(editorCam, false)
+        editorCam = nil
+    end
+
+    FreezeEntityPosition(ped, false)
+
+    editorActive = false
+
+    print("[EDITOR_CAM] Disabled")
+end
+
+RegisterCommand("editor", function()
+    if editorActive then
+        StopEditorCam()
+    else
+        StartEditorCam()
+    end
+end, false)
+
+CreateThread(function()
+    while true do
+        Wait(0)
+
+        if editorActive and editorCam then
+            local ped = PlayerPedId()
+
+            DisableAllControlActions(0)
+            DisableAllControlActions(1)
+            DisableAllControlActions(2)
+
+            EnableControlAction(0, KEY_W, true)
+            EnableControlAction(0, KEY_S, true)
+            EnableControlAction(0, KEY_A, true)
+            EnableControlAction(0, KEY_D, true)
+            EnableControlAction(0, KEY_SHIFT, true)
+            EnableControlAction(0, KEY_Z, true)
+            EnableControlAction(0, KEY_BACKSPACE, true)
+            EnableControlAction(0, MOUSE_X, true)
+            EnableControlAction(0, MOUSE_Y, true)
+            EnableControlAction(0, MOUSE_WHEEL_UP, true)
+            EnableControlAction(0, MOUSE_WHEEL, true)
+
+            DisableControlAction(0, KEY_Q, true)
+            DisableControlAction(1, KEY_Q, true)
+            DisableControlAction(2, KEY_Q, true)
+
+            DisableControlAction(0, KEY_E, true)
+            DisableControlAction(1, KEY_E, true)
+            DisableControlAction(2, KEY_E, true)
+
+            DisableControlAction(0, KEY_CTRL, true)
+            DisableControlAction(1, KEY_CTRL, true)
+            DisableControlAction(2, KEY_CTRL, true)
+
+            FreezeEntityPosition(ped, true)
+
+            if IsDisabledControlJustPressed(0, KEY_BACKSPACE) then
+                StopEditorCam()
+                goto continue
+            end
+
+            local mouseX = GetDisabledControlNormal(0, MOUSE_X)
+            local mouseY = GetDisabledControlNormal(0, MOUSE_Y)
+
+            local sensitivity = 8.0
+            local rollRad = math.rad(roll)
+
+            local adjustedX = (mouseX * math.cos(rollRad)) - (mouseY * math.sin(rollRad))
+            local adjustedY = (mouseX * math.sin(rollRad)) + (mouseY * math.cos(rollRad))
+
+            yaw = yaw - adjustedX * sensitivity
+            pitch = pitch - adjustedY * sensitivity
+
+            if IsDisabledControlPressedAnyGroup(KEY_Q) then
+                roll = roll - rollSpeed
+            end
+
+            if IsDisabledControlPressedAnyGroup(KEY_E) then
+                roll = roll + rollSpeed
+            end
+
+            if pitch > 89.0 then pitch = 89.0 end
+            if pitch < -89.0 then pitch = -89.0 end
+
+            local camCoords = GetCamCoord(editorCam)
+            local forward = RotationToDirection(vector3(pitch, 0.0, yaw))
+            local right = GetRightVector(yaw)
+
+            local newCoords = camCoords
+
+            if IsDisabledControlPressed(0, KEY_W) then
+                newCoords = newCoords + forward * camSpeed
+            end
+
+            if IsDisabledControlPressed(0, KEY_S) then
+                newCoords = newCoords - forward * camSpeed
+            end
+
+            if IsDisabledControlPressed(0, KEY_A) then
+                newCoords = newCoords - right * camSpeed
+            end
+
+            if IsDisabledControlPressed(0, KEY_D) then
+                newCoords = newCoords + right * camSpeed
+            end
+
+            if IsDisabledControlPressed(0, KEY_SHIFT) then
+                newCoords = vector3(newCoords.x, newCoords.y, newCoords.z + camSpeed)
+            end
+
+            if IsDisabledControlPressed(0, KEY_Z) then
+                newCoords = vector3(newCoords.x, newCoords.y, newCoords.z - camSpeed)
+            end
+
+            -- Mouse wheel zoom
+            -- Wheel up hash handles zoom in.
+            if IsDisabledControlPressed(0, MOUSE_WHEEL_UP) then
+                fov = fov - zoomSpeed
+            end
+
+            -- Wheel axis handles zoom out.
+            local wheel = GetDisabledControlNormal(0, MOUSE_WHEEL)
+
+            if wheel ~= 0.0 then
+                fov = fov + (wheel * zoomSpeed)
+            end
+
+            if fov < minFov then fov = minFov end
+            if fov > maxFov then fov = maxFov end
+
+            newCoords = ClampCameraDistance(newCoords)
+
+            SetCamCoord(editorCam, newCoords.x, newCoords.y, newCoords.z)
+            SetCamRot(editorCam, pitch, roll, yaw, 2)
+            SetCamFov(editorCam, fov)
+        end
+
+        ::continue::
+    end
+end)

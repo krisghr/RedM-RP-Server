@@ -1,0 +1,32 @@
+@font-face {
+	font-family: "Chinese Rocks";
+	src: url('CHINESER.TTF');
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background: transparent;
+}
+
+#nameplates {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+}
+
+.nameplate {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-family: 'Chinese Rocks', serif;
+    font-size: 26px;
+    color: white;
+    white-space: nowrap;
+    pointer-events: none;
+
+    text-shadow:
+        -1px -1px 0 #00000080,
+         1px -1px 0 #00000080,
+        -1px  1px 0 #00000080,
+         1px  1px 0 #00000080;
+}
