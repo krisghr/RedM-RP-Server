@@ -4,9 +4,11 @@ local editorActive = false
 local editorCam = nil
 
 local camSpeed = 0.10
-local maxDistance = 10.0
+local minCamSpeed = 0.02
+local maxCamSpeed = 1.0
+local camSpeedStep = 0.02
 
-local rollSpeed = 2.5
+local maxDistance = 10.0
 
 local pitch = 0.0
 local yaw = 0.0
@@ -16,7 +18,6 @@ local roll = 0.0
 local fov = 70.0
 local minFov = 5.0
 local maxFov = 130.0
-local zoomSpeed = 1.0
 
 -- Movement keys
 local KEY_W = 0x8FD015D8
@@ -176,6 +177,8 @@ CreateThread(function()
             EnableControlAction(0, KEY_SHIFT, true)
             EnableControlAction(0, KEY_CTRL, true)
             EnableControlAction(0, KEY_BACKSPACE, true)
+            EnableControlAction(0, KEY_LEFTBRACKET, true)
+            EnableControlAction(0, KEY_RIGHTBRACKET, true)
             EnableControlAction(0, MOUSE_X, true)
             EnableControlAction(0, MOUSE_Y, true)
             EnableControlAction(0, MOUSE_WHEEL_UP, true)
@@ -199,6 +202,15 @@ CreateThread(function()
                 goto continue
             end
 
+            if IsDisabledControlJustPressed(0, KEY_LEFTBRACKET) then
+                camSpeed = math.max(minCamSpeed, camSpeed - camSpeedStep)
+            end
+
+            if IsDisabledControlJustPressed(0, KEY_RIGHTBRACKET) then
+                camSpeed = math.min(maxCamSpeed, camSpeed + camSpeedStep)
+            end
+
+
             local mouseX = GetDisabledControlNormal(0, MOUSE_X)
             local mouseY = GetDisabledControlNormal(0, MOUSE_Y)
 
@@ -212,11 +224,11 @@ CreateThread(function()
             pitch = pitch - adjustedY * sensitivity
 
             if IsDisabledControlPressedAnyGroup(KEY_Q) then
-                roll = roll - rollSpeed
+                roll = roll - camSpeed
             end
 
             if IsDisabledControlPressedAnyGroup(KEY_E) then
-                roll = roll + rollSpeed
+                roll = roll + camSpeed
             end
 
             if pitch > 89.0 then pitch = 89.0 end
@@ -255,14 +267,14 @@ CreateThread(function()
             -- Mouse wheel zoom
             -- Wheel up hash handles zoom in.
             if IsDisabledControlPressed(0, MOUSE_WHEEL_UP) then
-                fov = fov - zoomSpeed
+                fov = fov - camSpeed
             end
 
             -- Wheel axis handles zoom out.
             local wheel = GetDisabledControlNormal(0, MOUSE_WHEEL)
 
             if wheel ~= 0.0 then
-                fov = fov + (wheel * zoomSpeed)
+                fov = fov + (wheel * camSpeed)
             end
 
             if fov < minFov then fov = minFov end
