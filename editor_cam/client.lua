@@ -3,6 +3,8 @@ print("[EDITOR_CAM] client.lua loaded")
 local editorActive = false
 local editorCam = nil
 
+local showHelpMenu = true
+
 local camSpeed = 0.10
 local minCamSpeed = 0.02
 local maxCamSpeed = 1.0
@@ -30,6 +32,9 @@ local KEY_Q = 0xDE794E3E
 local KEY_E = 0xCEFD9220
 local KEY_BACKSPACE = 0x156F7119
 
+-- UI toggle
+local KEY_TOGGLE_HELP = 0x24978A28 -- H
+
 -- Mouse look
 local MOUSE_X = 0xA987235F
 local MOUSE_Y = 0xD2047988
@@ -41,6 +46,38 @@ local MOUSE_WHEEL = 0xFD0F0C2C
 -- Controls to keep blocked
 local KEY_CTRL = 0xDB096B85
 local KEY_CHAT = `INPUT_MP_TEXT_CHAT_ALL`
+
+local function DrawEditorHelpMenu()
+    local boxRight = 0.98
+    local boxWidth = 0.26
+    local boxTop = 0.08
+    local padding = 0.01
+
+    local boxLeft = boxRight - boxWidth
+
+    SetTextScale(0.35, 0.35)
+    SetTextColor(255, 80, 80, 255)
+    SetTextJustification(2)
+    SetTextWrap(boxLeft + padding, boxRight - padding)
+
+    DisplayText(CreateVarString(10, "LITERAL_STRING", "Editor Cam Active"), boxRight - padding, boxTop + padding)
+
+    SetTextScale(0.35, 0.35)
+    SetTextColor(255, 255, 255, 215)
+    SetTextJustification(2)
+    SetTextWrap(boxLeft + padding, boxRight - padding)
+
+    DisplayText(CreateVarString(10, "LITERAL_STRING",
+        "W/A/S/D: Move" ..
+        "\nShift/Ctrl: Up/Down" ..
+        "\nMouse: Look" ..
+        "\nQ/E: Roll" ..
+        "\n[/]: Speed -/+" ..
+        "\nMouse Wheel: Zoom" ..
+        "\nBackspace: Exit" ..
+        "\nH: Toggle this menu"
+    ), boxRight - padding, boxTop + padding + 0.025)
+end
 
 local function RotationToDirection(rot)
     local z = math.rad(rot.z)
@@ -151,6 +188,13 @@ local function StopEditorCam()
     print("[EDITOR_CAM] Disabled")
 end
 
+
+RegisterCommand("editortogglehelp", function()
+    showHelpMenu = not showHelpMenu
+end, false)
+
+RegisterKeyMapping("editortogglehelp", "Toggle editor camera help menu", "keyboard", "H")
+
 RegisterCommand("editor", function()
     if editorActive then
         StopEditorCam()
@@ -177,6 +221,7 @@ CreateThread(function()
             EnableControlAction(0, KEY_SHIFT, true)
             EnableControlAction(0, KEY_CTRL, true)
             EnableControlAction(0, KEY_BACKSPACE, true)
+            EnableControlAction(0, KEY_TOGGLE_HELP, true)
             EnableControlAction(0, KEY_LEFTBRACKET, true)
             EnableControlAction(0, KEY_RIGHTBRACKET, true)
             EnableControlAction(0, MOUSE_X, true)
@@ -200,6 +245,14 @@ CreateThread(function()
             if IsDisabledControlJustPressed(0, KEY_BACKSPACE) then
                 StopEditorCam()
                 goto continue
+            end
+
+            if IsDisabledControlJustPressed(0, KEY_TOGGLE_HELP) then
+                showHelpMenu = not showHelpMenu
+            end
+
+            if showHelpMenu then
+                DrawEditorHelpMenu()
             end
 
             if IsDisabledControlJustPressed(0, KEY_LEFTBRACKET) then
