@@ -4,6 +4,10 @@ local chatInputActive = false
 local chatInputActivating = false
 local chatLoaded = false
 
+local function setTypingState(isTyping)
+  LocalPlayer.state:set('isTypingInChat', isTyping, true)
+end
+
 RegisterNetEvent('chatMessage')
 RegisterNetEvent('chat:addTemplate')
 RegisterNetEvent('chat:addMessage')
@@ -129,7 +133,8 @@ end)
 
 RegisterNUICallback('chatResult', function(data, cb)
   chatInputActive = false
-  SetNuiFocus(false)
+  SetNuiFocus(false)  
+  setTypingState(false)
 
   if not data.canceled then
     local id = PlayerId()
@@ -261,6 +266,7 @@ Citizen.CreateThread(function()
       if IsControlPressed(0, isRDR and `INPUT_MP_TEXT_CHAT_ALL` or 245) --[[ INPUT_MP_TEXT_CHAT_ALL ]] then
         chatInputActive = true
         chatInputActivating = true
+        setTypingState(true)
 
         SendNUIMessage({
           type = 'ON_OPEN'
@@ -304,4 +310,10 @@ Citizen.CreateThread(function()
       end
     end
   end
+end)
+
+AddEventHandler('onClientResourceStop', function(resourceName)
+  if resourceName ~= GetCurrentResourceName() then return end
+
+  setTypingState(false)
 end)

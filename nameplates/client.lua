@@ -86,9 +86,14 @@ CreateThread(function()
 
                         if onScreen then
                             local displayText = name
+                            local isTyping = Player(player).state.isTypingInChat == true
 
                             if showIds then
                                 displayText = "[" .. serverId .. "] " .. name
+                            end
+
+                            if isTyping then
+                                displayText = displayText .. "\n[ ... ]"
                             end
 
                             table.insert(nameplates, {
