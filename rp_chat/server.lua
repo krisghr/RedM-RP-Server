@@ -559,11 +559,33 @@ local function SendProximityMessage(src, range, prefix, message, mode)
     end
 end
 
+local function CommandExists(commandName)
+    local lowered = string.lower(commandName)
+
+    for _, registeredCommand in ipairs(GetRegisteredCommands()) do
+        if string.lower(registeredCommand.name) == lowered then
+            return true
+        end
+    end
+
+    return false
+end
+
 -- Default / normal talking
 RegisterServerEvent('chatMessage')
 
 AddEventHandler('chatMessage', function(src, name, message)
     if string.sub(message, 1, 1) == "/" then
+
+        local commandName = message:sub(2):match("^%S+")
+
+        if commandName and not CommandExists(commandName) then
+            CancelEvent()
+            TriggerClientEvent('chat:addMessage', src, {
+                args = { '^1System', '^7No such command exists.' }
+            })
+        end
+        
         return
     end
 
