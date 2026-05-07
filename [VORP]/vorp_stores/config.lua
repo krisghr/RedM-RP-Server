@@ -45,7 +45,7 @@ end
 
 
 -- open stores
-Config.Key = 0x760A9C6F --[G] open stores
+Config.Key = 0xCEFD9220 -- [E] open stores
 
 Config.Stores = {
     -- any name you want sell items and buy items must have same name
