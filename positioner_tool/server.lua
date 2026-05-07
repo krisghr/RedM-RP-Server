@@ -12,8 +12,6 @@ RegisterNetEvent("editpos:stop", function()
 end)
 
 RegisterNetEvent("editpos:update", function(coords, heading)
-
-
     local src = source
     local ped = GetPlayerPed(src)
 
@@ -31,18 +29,21 @@ RegisterNetEvent("editpos:update", function(coords, heading)
         return
     end
 
-    SetEntityCoordsNoOffset(
-        ped,
-        coords.x,
-        coords.y,
-        coords.z,
-        true,
-        true,
-        false
-    )
+    -- 🔴 REMOVED: Server should NOT set position during animations
+    -- SetEntityCoordsNoOffset(
+    --     ped,
+    --     coords.x,
+    --     coords.y,
+    --     coords.z,
+    --     true,
+    --     true,
+    --     false
+    -- )
+    --
+    -- SetEntityHeading(ped, heading)
 
-    SetEntityHeading(ped, heading)
-
+    -- 🔴 CHANGED: Just broadcast to all clients - let them handle it
+    -- The client already updated their position locally, just sync to others
     TriggerClientEvent("editpos:applyRemotePosition", -1, src, coords, heading, true)
 end)
 

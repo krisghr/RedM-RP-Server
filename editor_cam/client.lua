@@ -14,8 +14,8 @@ local roll = 0.0
 
 -- Zoom / FOV
 local fov = 70.0
-local minFov = 20.0
-local maxFov = 90.0
+local minFov = 5.0
+local maxFov = 130.0
 local zoomSpeed = 1.0
 
 -- Movement keys
@@ -39,6 +39,7 @@ local MOUSE_WHEEL = 0xFD0F0C2C
 
 -- Controls to keep blocked
 local KEY_CTRL = 0xDB096B85
+local KEY_CHAT = `INPUT_MP_TEXT_CHAT_ALL`
 
 local function RotationToDirection(rot)
     local z = math.rad(rot.z)
@@ -89,6 +90,20 @@ local function ClampCameraDistance(camCoords)
         pedCoords.y + dy * scale,
         pedCoords.z + dz * scale
     )
+end
+
+local function ClampCameraAboveGround(camCoords)
+    local success, groundZ = GetGroundZFor_3dCoord(camCoords.x, camCoords.y, camCoords.z, 0)
+
+    if success then
+        local minCamZ = groundZ + 0.2
+
+        if camCoords.z < minCamZ then
+            return vector3(camCoords.x, camCoords.y, minCamZ)
+        end
+    end
+
+    return camCoords
 end
 
 local function StartEditorCam()
@@ -159,20 +174,19 @@ CreateThread(function()
             EnableControlAction(0, KEY_A, true)
             EnableControlAction(0, KEY_D, true)
             EnableControlAction(0, KEY_SHIFT, true)
-            EnableControlAction(0, KEY_Z, true)
+            EnableControlAction(0, KEY_CTRL, true)
             EnableControlAction(0, KEY_BACKSPACE, true)
             EnableControlAction(0, MOUSE_X, true)
             EnableControlAction(0, MOUSE_Y, true)
             EnableControlAction(0, MOUSE_WHEEL_UP, true)
             EnableControlAction(0, MOUSE_WHEEL, true)
+            EnableControlAction(0, KEY_CHAT, true)
+            EnableControlAction(1, KEY_CHAT, true)
+            EnableControlAction(2, KEY_CHAT, true)
 
             DisableControlAction(0, KEY_Q, true)
             DisableControlAction(1, KEY_Q, true)
             DisableControlAction(2, KEY_Q, true)
-
-            DisableControlAction(0, KEY_E, true)
-            DisableControlAction(1, KEY_E, true)
-            DisableControlAction(2, KEY_E, true)
 
             DisableControlAction(0, KEY_CTRL, true)
             DisableControlAction(1, KEY_CTRL, true)
@@ -234,7 +248,7 @@ CreateThread(function()
                 newCoords = vector3(newCoords.x, newCoords.y, newCoords.z + camSpeed)
             end
 
-            if IsDisabledControlPressed(0, KEY_Z) then
+            if IsDisabledControlPressedAnyGroup(KEY_CTRL) then
                 newCoords = vector3(newCoords.x, newCoords.y, newCoords.z - camSpeed)
             end
 
@@ -255,6 +269,7 @@ CreateThread(function()
             if fov > maxFov then fov = maxFov end
 
             newCoords = ClampCameraDistance(newCoords)
+            newCoords = ClampCameraAboveGround(newCoords)
 
             SetCamCoord(editorCam, newCoords.x, newCoords.y, newCoords.z)
             SetCamRot(editorCam, pitch, roll, yaw, 2)

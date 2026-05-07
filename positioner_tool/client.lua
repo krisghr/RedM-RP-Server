@@ -21,6 +21,7 @@ local KEY_T = 0x9720FCEE
 
 -- Remote players being edited
 local remoteEditPositions = {}
+local remoteFrozenPeds = {}
 
 -- Toggle edit mode
 RegisterCommand("editpos", function()
@@ -227,6 +228,12 @@ RegisterNetEvent("editpos:applyRemotePosition", function(serverId, coords, headi
 
     if not active then
         remoteEditPositions[serverId] = nil
+
+        local oldPed = remoteFrozenPeds[serverId]
+        if oldPed and oldPed ~= 0 and DoesEntityExist(oldPed) then
+            FreezeEntityPosition(oldPed, false)
+        end
+        remoteFrozenPeds[serverId] = nil
         return
     end
 
@@ -248,6 +255,15 @@ CreateThread(function()
                 local ped = GetPlayerPed(player)
 
                 if ped and ped ~= 0 and DoesEntityExist(ped) then
+                                        if remoteFrozenPeds[serverId] ~= ped then
+                        local oldPed = remoteFrozenPeds[serverId]
+                        if oldPed and oldPed ~= 0 and DoesEntityExist(oldPed) then
+                            FreezeEntityPosition(oldPed, false)
+                        end
+
+                        FreezeEntityPosition(ped, true)
+                        remoteFrozenPeds[serverId] = ped
+                    end
                     SetEntityCoordsNoOffset(
                         ped,
                         data.coords.x,
