@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="panel" class="hidden">
+    <h2>Scene Marker</h2>
+    <label>Ground Icon</label>
+    <select id="icon"></select>
+
+    <label>Marker Colour</label>
+    <select id="color"></select>
+
+    <label>Duration</label>
+    <select id="duration">
+      <option value="300">5 minutes</option>
+      <option value="600">10 minutes</option>
+      <option value="900">15 minutes</option>
+      <option value="1800">30 minutes</option>
+      <option value="3600">60 minutes</option>
+      <option value="-1">Forever (until restart)</option>
+    </select>
+
+    <label>Scene Text</label>
+    <textarea id="text" rows="5" placeholder="Describe the scene..."></textarea>
+
+    <div class="buttons">
+      <button id="cancel">Cancel</button>
+      <button id="submit">Submit</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

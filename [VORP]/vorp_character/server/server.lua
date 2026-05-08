@@ -1,4 +1,3 @@
-local T = Translation.Langs[Lang]
 local random = math.random(1, #Config.SpawnPosition)
 local Core = exports.vorp_core:GetCore()
 
