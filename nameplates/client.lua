@@ -7,6 +7,32 @@ local typingDebugEnabled = false
 local lastTypingStates = {}
 local localTypingTestEnabled = false
 local localTypingSynced = false
+local hasSelectedCharacter = true
+
+local function refreshCharacterSelectionState()
+    local state = LocalPlayer and LocalPlayer.state
+    if not state then return end
+
+    if state.Character ~= nil or state.IsInSession == true then
+        hasSelectedCharacter = true
+    end
+end
+
+local function shouldHideNameplates()
+    if not hasSelectedCharacter then
+        return true
+    end
+
+    if IsLoadingScreenActive and IsLoadingScreenActive() then
+        return true
+    end
+
+    if IsLoadingScreenVisible and IsLoadingScreenVisible() then
+        return true
+    end
+
+    return false
+end
 
 local function setLocalTypingState(isTyping)
     if localTypingSynced == isTyping then return end
@@ -42,6 +68,8 @@ CreateThread(function()
 end)
 
 RegisterNetEvent("player_names:receiveNames", function(serverNames)
+    refreshCharacterSelectionState()
+
 local normalizedNames = {}
 
     for id, data in pairs(serverNames or {}) do
@@ -87,6 +115,23 @@ RegisterNetEvent("player_names:updateTypingState", function(serverId, isTyping)
         print(("[nameplates typing debug] realtime id=%s typing=%s"):format(serverId, tostring(isTyping == true)))
     end
 end)
+
+RegisterNetEvent("vorp:SelectedCharacter", function()
+    hasSelectedCharacter = true
+end)
+
+RegisterNetEvent("vorpcharacter:selectCharacter", function()
+    hasSelectedCharacter = false
+end)
+
+RegisterNetEvent("vorpcharacter:startCharacterCreator", function()
+    hasSelectedCharacter = false
+end)
+
+RegisterNetEvent("vorp:initNewCharacter", function()
+    hasSelectedCharacter = false
+end)
+
 
 RegisterCommand("typingdebugnp", function()
     typingDebugEnabled = not typingDebugEnabled
@@ -159,7 +204,13 @@ CreateThread(function()
     while true do
         Wait(0)
 
-        if not showNameplates then
+        if not showNameplates or not hasSelectedCharacter then
+            if not hasSelectedCharacter then
+                SendNUIMessage({
+                    action = "updateNameplates",
+                    nameplates = {}
+                })
+            end
             Wait(250)
         else
             local nameplates = {}

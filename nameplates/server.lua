@@ -41,10 +41,6 @@ RegisterNetEvent("player_names:setTypingState", function(isTyping)
     local src = source
     local newState = isTyping == true
 
-    if typingStates[src] ~= newState then
-        print(("[nameplates typing debug] src=%s typing=%s"):format(src, tostring(newState)))
-    end
-
     typingStates[src] = newState
     TriggerClientEvent("player_names:updateTypingState", -1, src, newState)
 end)
