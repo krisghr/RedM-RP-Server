@@ -160,3 +160,15 @@ em {
 .hidden.animated {
   transition: opacity 1s;
 }
+
+#app,
+.chat-window,
+.chat-input,
+.chat-input > div.input,
+.suggestions {
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+  outline: none !important;
+}
