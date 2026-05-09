@@ -6,4 +6,16 @@ version '0.1a'
 author 'Warhead'
 
 client_script 'client.lua'
-server_script 'server.lua'
+server_scripts {
+    'server/shared/core.lua',
+    'server/shared/proximity.lua',
+    'server/shared/system.lua',
+    'server/commands/speech.lua',
+    'server/commands/low.lua',
+    'server/commands/shout.lua',
+    'server/commands/emotes.lua',
+    'server/commands/ooc.lua',
+    'server/commands/targeted.lua',
+    'server/commands/npc.lua',
+    'server/main.lua'
+}

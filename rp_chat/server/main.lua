@@ -1,0 +1,1 @@
+print("[RP_CHAT] server/main.lua loaded")
