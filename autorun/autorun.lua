@@ -16,6 +16,9 @@ local KEY_TOGGLE = 0x80F28E95 -- G
 local KEY_SHIFT = 0x8FFC75D6
 local KEY_AIM = 0x07CE1E61
 
+local SLOPE_CHECK_DISTANCE = 2.0
+local MAX_UPHILL_GRADE = 0.8 -- ~39 degrees; blocks near-vertical climbs
+
 local autoRunPromptGroupMain = GetRandomIntInRange(0, 0xffffff)
 local promptStop, promptInc, promptDec
 
@@ -40,7 +43,6 @@ local function registerAutoRunPrompts()
     UiPromptSetVisible(promptStop, true)
     UiPromptSetStandardMode(promptStop, true)
     UiPromptSetGroup(promptStop, autoRunPromptGroupMain, 0)
-    PromptSetPriority(promptStop, 3) -- highest
     UiPromptRegisterEnd(promptStop)
 
     -- Increase Speed (Shift)
@@ -51,7 +53,6 @@ local function registerAutoRunPrompts()
     UiPromptSetVisible(promptInc, true)
     UiPromptSetStandardMode(promptInc, true)
     UiPromptSetGroup(promptInc, autoRunPromptGroupMain, 0)
-    PromptSetPriority(promptInc, 2) -- above decrease
     UiPromptRegisterEnd(promptInc)
 
     -- Decrease Speed (Ctrl)
@@ -62,8 +63,7 @@ local function registerAutoRunPrompts()
     UiPromptSetVisible(promptDec, true)
     UiPromptSetStandardMode(promptDec, true)
     UiPromptSetGroup(promptDec, autoRunPromptGroupMain, 0)
-    PromptSetPriority(promptDec, 1) -- below increase
-    UiPromptRegisterEnd(promptDec)  
+    UiPromptRegisterEnd(promptDec)
 end
 
 local function getForwardPoint(ped, distance)
@@ -78,9 +78,36 @@ local function getForwardPoint(ped, distance)
     return x, y, z, heading
 end
 
+local function getGroundZAt(x, y, z)
+    local foundGround, groundZ = GetGroundZFor_3dCoord(x, y, z + 1.0, true)
+    if foundGround then
+        return groundZ
+    end
+
+    return nil
+end
+
+local function isForwardSlopeWalkable(ped)
+    local x1, y1, z1 = table.unpack(GetEntityCoords(ped))
+    local x2, y2, z2 = getForwardPoint(ped, SLOPE_CHECK_DISTANCE)
+
+    local groundZ1 = getGroundZAt(x1, y1, z1)
+    local groundZ2 = getGroundZAt(x2, y2, z2)
+
+    if not groundZ1 or not groundZ2 then
+        return false
+    end
+
+    local deltaZ = groundZ2 - groundZ1
+    local grade = deltaZ / SLOPE_CHECK_DISTANCE
+
+    return grade <= MAX_UPHILL_GRADE
+end
+
 local function stopAutoRun(reason)
     autoRun = false
     ClearPedTasks(PlayerPedId())
+    print(reason)
 end
 
 local function toggleAutoRun()
@@ -150,18 +177,22 @@ CreateThread(function()
                             SetEntityHeading(ped, heading)
                         end
 
-                        SetPedMaxMoveBlendRatio(ped, currentSpeed)
+                        if not isForwardSlopeWalkable(ped) then
+                            stopAutoRun("Cancelled: slope too steep.")
+                        else
+                            SetPedMaxMoveBlendRatio(ped, currentSpeed)
 
-                        local x, y, z, newHeading = getForwardPoint(ped, DISTANCE_AHEAD)
+                            local x, y, z, newHeading = getForwardPoint(ped, DISTANCE_AHEAD)
 
-                        TaskGoStraightToCoord(
+                            TaskGoStraightToCoord(
                             ped,
                             x, y, z,
                             currentSpeed,
                             300,
                             newHeading,
                             0.5
-                        )
+                            )
+                        end
                     end
                 end
             end

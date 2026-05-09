@@ -10,7 +10,7 @@ export default {
   fadeTimeout: 20000,
   suggestionLimit: 5,
   style: {
-    background: 'none!important',
+    background: 'rgba(255, 255, 255, 1)',
     width: '38vw',
     height: '22%',
   }
