@@ -9,3 +9,15 @@ RegisterCommand("l", function(src, args, rawCommand)
     if message == "" then return end
     RPChat.SendProximityMessage(src, RPChat.RANGES.low, "Low", message, "speech")
 end, false)
+
+RegisterCommand("lower", function(src, args, rawCommand)
+    local message = rawCommand:sub(7):gsub("^%s+", "")
+    if message == "" then return end
+    RPChat.SendProximityMessage(src, RPChat.RANGES.lower, "Lower", message, "speech")
+end, false)
+
+RegisterCommand("lw", function(src, args, rawCommand)
+    local message = rawCommand:sub(4):gsub("^%s+", "")
+    if message == "" then return end
+    RPChat.SendProximityMessage(src, RPChat.RANGES.lower, "Lower", message, "speech")
+end, false)

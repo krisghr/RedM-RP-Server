@@ -9,11 +9,11 @@ repository 'https://github.com/citizenfx/cfx-server-data'
 client_script 'cl_chat.lua'
 server_script 'sv_chat.lua'
 
-ui_page 'dist/ui.html'
+ui_page 'html/index.html'
 
 files {
-  'dist/ui.html',
-  'dist/index.css',
+  'html/index.html',
+  'html/index.css',
   'html/vendor/*.css',
   'html/vendor/fonts/*.woff2',
 }

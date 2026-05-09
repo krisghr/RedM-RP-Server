@@ -29,6 +29,19 @@ RegisterCommand("lt", function(src, args)
     RPChat.SendTargetedProximityMessage(src, RPChat.RANGES.low, "LowTo", targetId, message)
 end, false)
 
+RegisterCommand("lowerto", function(src, args)
+    local targetId, message = ParseToCommand(args)
+    if not targetId or message == "" then return end
+    RPChat.SendTargetedProximityMessage(src, RPChat.RANGES.lower, "LowerTo", targetId, message)
+end, false)
+
+RegisterCommand("lwto", function(src, args)
+    local targetId, message = ParseToCommand(args)
+    if not targetId or message == "" then return end
+    RPChat.SendTargetedProximityMessage(src, RPChat.RANGES.lower, "LowerTo", targetId, message)
+end, false)
+
+
 RegisterCommand("shoutto", function(src, args)
     local targetId, message = ParseToCommand(args)
     if not targetId or message == "" then return end

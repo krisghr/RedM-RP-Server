@@ -17,5 +17,6 @@ server_scripts {
     'server/commands/ooc.lua',
     'server/commands/targeted.lua',
     'server/commands/npc.lua',
+    'server/commands/pm.lua',
     'server/main.lua'
 }

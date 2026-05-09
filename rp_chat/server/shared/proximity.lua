@@ -89,6 +89,8 @@ function RPChat.SendTargetedProximityMessage(src, range, prefix, targetId, messa
                 local verb = "says"
                 if prefix == "LowTo" then
                     verb = (lastChar == "?" and "asks quietly") or (lastChar == "!" and "quietly exclaims") or "says quietly"
+                elseif prefix == "LowerTo" then
+                    verb = "whispers"
                 elseif prefix == "ShoutTo" then
                     verb = "shouts"
                 else
@@ -133,6 +135,8 @@ function RPChat.SendProximityMessage(src, range, prefix, message, mode)
                     local verb = "states"
                     if prefix == "Low" then
                         verb = (lastChar == "?" and "asks quietly") or (lastChar == "!" and "quietly exclaims") or "says quietly"
+                    elseif prefix == "Lower" then
+                        verb = "whispers"
                     elseif prefix == "Shout" then
                         verb = "shouts"
                     else

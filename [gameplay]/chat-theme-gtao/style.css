@@ -85,7 +85,7 @@
 }
 
 .chat-input > div {
-    background-color: rgba(0, 0, 0, .6) !important;
+    background-color: transparent !important;
     border: calc(0.28vh / 2) solid rgba(180, 180, 180, .6);
     outline: calc(0.28vh / 2) solid rgba(0, 0, 0, .8); /* to replace margin-background */
     padding: calc(0.28vh / 2);
