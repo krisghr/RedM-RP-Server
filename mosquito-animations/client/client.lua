@@ -46,102 +46,6 @@ local RejectText = string.format(Config.SharedEmoteRejectText, Config.SharedEmot
 
 local AnimationStartTime = nil
 local AnimationKey = nil
-local EmoteMovementOrigin = nil
-
-local EmoteMoveConfig = {
-	maxDistance = 1.5,
-	step = 0.02,
-	turnStep = 1.5,
-}
-
-local EmoteMoveControls = {
-	forward = { GetHashKey("INPUT_MOVE_UP_ONLY") }, -- W
-	backward = { GetHashKey("INPUT_MOVE_DOWN_ONLY") }, -- S
-	left = { GetHashKey("INPUT_MOVE_LEFT_ONLY") }, -- A
-	right = { GetHashKey("INPUT_MOVE_RIGHT_ONLY") }, -- D
-	turnLeft = { 0xDE794E3E }, -- Q
-	turnRight = { 0xCEFD9220 }, -- E
-}
-
-local function IsAnyControlPressed(controlGroup, controls)
-	for _, control in ipairs(controls) do
-		DisableControlAction(0, control, true)
-		DisableControlAction(1, control, true)
-		DisableControlAction(2, control, true)
-		if IsDisabledControlPressed(0, control) or IsDisabledControlPressed(1, control) or IsDisabledControlPressed(2, control) then
-			return true
-		end
-	end
-	return false
-end
-
-local function HandleEmoteMovementControls(ped)
-	if not EmoteMovementOrigin then
-		return
-	end
-
-	local currentCoords = GetEntityCoords(ped)
-	local heading = GetEntityHeading(ped)
-	local newHeading = heading
-
-	if IsAnyControlPressed(0, EmoteMoveControls.turnLeft) then
-		newHeading = newHeading + EmoteMoveConfig.turnStep
-	end
-	if IsAnyControlPressed(0, EmoteMoveControls.turnRight) then
-		newHeading = newHeading - EmoteMoveConfig.turnStep
-	end
-	if newHeading ~= heading then
-		SetEntityHeading(ped, newHeading)
-		heading = newHeading
-	end
-
-	local forwardDir = GetEntityForwardVector(ped)
-	local rightDir = vector3(forwardDir.y, -forwardDir.x, 0.0)
-	local moveX, moveY = 0.0, 0.0
-
-	if IsAnyControlPressed(0, EmoteMoveControls.forward) then
-		moveX = moveX + forwardDir.x
-		moveY = moveY + forwardDir.y
-	end
-	if IsAnyControlPressed(0, EmoteMoveControls.backward) then
-		moveX = moveX - forwardDir.x
-		moveY = moveY - forwardDir.y
-	end
-	if IsAnyControlPressed(0, EmoteMoveControls.left) then
-		moveX = moveX - rightDir.x
-		moveY = moveY - rightDir.y
-	end
-	if IsAnyControlPressed(0, EmoteMoveControls.right) then
-		moveX = moveX + rightDir.x
-		moveY = moveY + rightDir.y
-	end
-
-	if moveX == 0.0 and moveY == 0.0 then
-		return
-	end
-
-	local magnitude = math.sqrt((moveX * moveX) + (moveY * moveY))
-	if magnitude <= 0.0 then
-		return
-	end
-
-	local deltaX = (moveX / magnitude) * EmoteMoveConfig.step
-	local deltaY = (moveY / magnitude) * EmoteMoveConfig.step
-	local desiredX = currentCoords.x + deltaX
-	local desiredY = currentCoords.y + deltaY
-	local origin = EmoteMovementOrigin
-	local fromOriginX = desiredX - origin.x
-	local fromOriginY = desiredY - origin.y
-	local fromOriginDistance = math.sqrt((fromOriginX * fromOriginX) + (fromOriginY * fromOriginY))
-
-	if fromOriginDistance > EmoteMoveConfig.maxDistance and fromOriginDistance > 0.0 then
-		local clampScale = EmoteMoveConfig.maxDistance / fromOriginDistance
-		desiredX = origin.x + (fromOriginX * clampScale)
-		desiredY = origin.y + (fromOriginY * clampScale)
-	end
-
-	SetEntityCoordsNoOffset(ped, desiredX, desiredY, EmoteMovementOrigin.z, true, true, true)
-end
 
 Config.Emotes["mapopen"] = {
 	type = "prop",
@@ -824,12 +728,6 @@ local function StartCurrentEmoteRuntimeThread()
 	local token = currentEmoteThreadToken
 
 	CreateThread(function()
-		if not EmoteMovementOrigin then
-				local startCoords = GetEntityCoords(PlayerPedId())
-				EmoteMovementOrigin = vector4(startCoords.x, startCoords.y, startCoords.z, GetEntityHeading(PlayerPedId()))
-			end
-
-
 		local LastAnimTime = nil
 		local wasMoving = false
 		local runtimePlaybackStarted = false
@@ -843,7 +741,6 @@ local function StartCurrentEmoteRuntimeThread()
 
 		while currentEmoteThreadToken == token and CurrentEmote do
 			local ped = PlayerPedId()
-			HandleEmoteMovementControls(ped)
 			local emote = CurrentEmote
 			local anim = emote and emote.animation
 
@@ -1128,7 +1025,6 @@ function StopUsingEmote(replace)
 	end
 
 	local emote = CurrentEmote
-	local emoteMovementOrigin = EmoteMovementOrigin
 	currentEmoteThreadToken = currentEmoteThreadToken + 1
 	currentEmoteThreadRunning = false
 
@@ -1143,14 +1039,8 @@ function StopUsingEmote(replace)
 	end
 
 	CurrentEmote = nil
-	EmoteMovementOrigin = nil
 	clearCurrentlyEmoting()
 	local playerPed = PlayerPedId()
-	if emoteMovementOrigin then
-		SetEntityCoordsNoOffset(playerPed, emoteMovementOrigin.x, emoteMovementOrigin.y, emoteMovementOrigin.z, false, false, false)
-		SetEntityHeading(playerPed, emoteMovementOrigin.w)
-	end
-
 	if isAttachedToOther and IsEntityAttachedToAnyPed(playerPed) then
 		DetachEntity(playerPed)
 		isAttachedToOther = false
@@ -1578,11 +1468,6 @@ local function handleAnimationState(ped)
 			end
 		end
 		local isPlayingAnim = IsEntityPlayingAnim(ped, anim.dict, anim.name, 3)
-			if EmoteMovementOrigin and not isPlayingAnim then
-				PlayAnimation(ped, anim)
-				isPlayingAnim = IsEntityPlayingAnim(ped, anim.dict, anim.name, 3)
-			end
-
 		if (anim.repeating or anim.keepPlaying == true) and not isPlayingAnim then
 			PlayAnimation(ped, anim)
 		elseif not once then

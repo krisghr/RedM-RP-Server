@@ -46,6 +46,60 @@ end
 -- Speech parser:
 -- Normal text is formatted.
 -- *emotes* become emote-colored text, but the asterisks are hidden.
+
+local function AppendSlashFormatted(template, args, index, text, colorStyle)
+    local pos = 1
+
+    while true do
+        local startI = text:find('/', pos, true)
+
+        if not startI then
+            local remaining = text:sub(pos)
+
+            if remaining ~= "" then
+                template = template .. '<span style="' .. colorStyle .. '">{' .. index .. '}</span>'
+                table.insert(args, remaining)
+                index = index + 1
+            end
+
+            break
+        end
+
+        local endI = text:find('/', startI + 1, true)
+
+        if not endI then
+            local remaining = text:sub(pos)
+
+            if remaining ~= "" then
+                template = template .. '<span style="' .. colorStyle .. '">{' .. index .. '}</span>'
+                table.insert(args, remaining)
+                index = index + 1
+            end
+
+            break
+        end
+
+        local before = text:sub(pos, startI - 1)
+        local italicText = text:sub(startI + 1, endI - 1)
+
+        if before ~= "" then
+            template = template .. '<span style="' .. colorStyle .. '">{' .. index .. '}</span>'
+            table.insert(args, before)
+            index = index + 1
+        end
+
+        if italicText ~= "" then
+            template = template .. '<span style="' .. colorStyle .. '; font-style: italic;">{' .. index .. '}</span>'
+            table.insert(args, italicText)
+            index = index + 1
+        end
+
+        pos = endI + 1
+    end
+
+    return template, index
+end
+
 local function BuildSpeechMessage(charName, verb, message, r, g, b, emoteR, emoteG, emoteB)
     local template = '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')">{0} ' .. verb .. ', </span>'
     local args = { charName }
@@ -60,8 +114,9 @@ local function BuildSpeechMessage(charName, verb, message, r, g, b, emoteR, emot
             local remaining = Trim(message:sub(pos))
 
             if remaining ~= "" then
-                template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')">"{' .. index .. '}"</span>'
-                table.insert(args, remaining)
+                template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')">"</span>'
+                template, index = AppendSlashFormatted(template, args, index, remaining, 'color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')')
+                template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')">"</span>'
             end
 
             break
@@ -73,8 +128,9 @@ local function BuildSpeechMessage(charName, verb, message, r, g, b, emoteR, emot
             local remaining = Trim(message:sub(pos))
 
             if remaining ~= "" then
-                template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')">"{' .. index .. '}"</span>'
-                table.insert(args, remaining)
+                template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')">"</span>'
+                template, index = AppendSlashFormatted(template, args, index, remaining, 'color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')')
+                template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')">"</span>'
             end
 
             break
@@ -84,15 +140,14 @@ local function BuildSpeechMessage(charName, verb, message, r, g, b, emoteR, emot
         local emote = Trim(message:sub(endE + 1, endE2 - 1))
 
         if before ~= "" then
-            template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')">"{' .. index .. '}" </span>'
-            table.insert(args, before)
-            index = index + 1
+            template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')">"</span>'
+            template, index = AppendSlashFormatted(template, args, index, before, 'color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')')
+            template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')">" </span>'
         end
 
         if emote ~= "" then
-            template = template .. '<span style="color: rgb(' .. emoteR .. ',' .. emoteG .. ',' .. emoteB .. ')">{' .. index .. '} </span>'
-            table.insert(args, emote)
-            index = index + 1
+            template, index = AppendSlashFormatted(template, args, index, emote, 'color: rgb(' .. emoteR .. ',' .. emoteG .. ',' .. emoteB .. ')')
+            template = template .. '<span style="color: rgb(' .. emoteR .. ',' .. emoteG .. ',' .. emoteB .. ')"> </span>'
         end
 
         pos = endE2 + 1
@@ -120,8 +175,8 @@ local function BuildMeMessage(charName, message, r, g, b)
             local remaining = message:sub(pos)
 
             if remaining ~= "" then
-                template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')"> {' .. index .. '}</span>'
-                table.insert(args, remaining)
+                template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')"> </span>'
+                template, index = AppendSlashFormatted(template, args, index, remaining, 'color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')')
             end
 
             break
@@ -133,8 +188,8 @@ local function BuildMeMessage(charName, message, r, g, b)
             local remaining = message:sub(pos)
 
             if remaining ~= "" then
-                template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')"> {' .. index .. '}</span>'
-                table.insert(args, remaining)
+                template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')"> </span>'
+                template, index = AppendSlashFormatted(template, args, index, remaining, 'color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')')
             end
 
             break
@@ -144,14 +199,13 @@ local function BuildMeMessage(charName, message, r, g, b)
         local quoted = message:sub(endQ + 1, endQ2 - 1)
 
         if before ~= "" then
-            template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')"> {' .. index .. '}</span>'
-            table.insert(args, before)
-            index = index + 1
+            template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')"> </span>'
+            template, index = AppendSlashFormatted(template, args, index, before, 'color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')')
         end
 
-        template = template .. '<span style="color: white">"{' .. index .. '}"</span>'
-        table.insert(args, quoted)
-        index = index + 1
+        template = template .. '<span style="color: white">"</span>'
+        template, index = AppendSlashFormatted(template, args, index, quoted, 'color: white')
+        template = template .. '<span style="color: white">"</span>'
 
         pos = endQ2 + 1
     end
@@ -178,9 +232,7 @@ local function BuildDoMessage(charName, message, r, g, b)
             local remaining = message:sub(pos)
 
             if remaining ~= "" then
-                template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')">{' .. index .. '}</span>'
-                table.insert(args, remaining)
-                index = index + 1
+                template, index = AppendSlashFormatted(template, args, index, remaining, 'color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')')
             end
 
             break
@@ -192,9 +244,7 @@ local function BuildDoMessage(charName, message, r, g, b)
             local remaining = message:sub(pos)
 
             if remaining ~= "" then
-                template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')">{' .. index .. '}</span>'
-                table.insert(args, remaining)
-                index = index + 1
+                template, index = AppendSlashFormatted(template, args, index, remaining, 'color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')')
             end
 
             break
@@ -204,14 +254,12 @@ local function BuildDoMessage(charName, message, r, g, b)
         local quoted = message:sub(endQ + 1, endQ2 - 1)
 
         if before ~= "" then
-            template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')">{' .. index .. '}</span>'
-            table.insert(args, before)
-            index = index + 1
+            template, index = AppendSlashFormatted(template, args, index, before, 'color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')')
         end
 
-        template = template .. '<span style="color: white">"{' .. index .. '}"</span>'
-        table.insert(args, quoted)
-        index = index + 1
+        template = template .. '<span style="color: white">"</span>'
+        template, index = AppendSlashFormatted(template, args, index, quoted, 'color: white')
+        template = template .. '<span style="color: white">"</span>'
 
         pos = endQ2 + 1
     end
@@ -327,8 +375,8 @@ local function BuildNpcMeMessage(playerName, npcName, message, r, g, b)
             local remaining = message:sub(pos)
 
             if remaining ~= "" then
-                template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')"> {' .. index .. '}</span>'
-                table.insert(args, remaining)
+                template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')"> </span>'
+                template, index = AppendSlashFormatted(template, args, index, remaining, 'color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')')
                 index = index + 1
             end
 
@@ -341,8 +389,8 @@ local function BuildNpcMeMessage(playerName, npcName, message, r, g, b)
             local remaining = message:sub(pos)
 
             if remaining ~= "" then
-                template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')"> {' .. index .. '}</span>'
-                table.insert(args, remaining)
+                template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')"> </span>'
+                template, index = AppendSlashFormatted(template, args, index, remaining, 'color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')')
                 index = index + 1
             end
 
@@ -353,14 +401,13 @@ local function BuildNpcMeMessage(playerName, npcName, message, r, g, b)
         local quoted = message:sub(endQ + 1, endQ2 - 1)
 
         if before ~= "" then
-            template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')"> {' .. index .. '}</span>'
-            table.insert(args, before)
-            index = index + 1
+            template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')"> </span>'
+            template, index = AppendSlashFormatted(template, args, index, before, 'color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')')
         end
 
-        template = template .. '<span style="color: white">"{' .. index .. '}"</span>'
-        table.insert(args, quoted)
-        index = index + 1
+        template = template .. '<span style="color: white">"</span>'
+        template, index = AppendSlashFormatted(template, args, index, quoted, 'color: white')
+        template = template .. '<span style="color: white">"</span>'
 
         pos = endQ2 + 1
     end
@@ -388,9 +435,7 @@ local function BuildNpcDoMessage(playerName, npcName, message, r, g, b)
             local remaining = message:sub(pos)
 
             if remaining ~= "" then
-                template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')">{' .. index .. '}</span>'
-                table.insert(args, remaining)
-                index = index + 1
+                template, index = AppendSlashFormatted(template, args, index, remaining, 'color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')')
             end
 
             break
@@ -402,9 +447,7 @@ local function BuildNpcDoMessage(playerName, npcName, message, r, g, b)
             local remaining = message:sub(pos)
 
             if remaining ~= "" then
-                template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')">{' .. index .. '}</span>'
-                table.insert(args, remaining)
-                index = index + 1
+                template, index = AppendSlashFormatted(template, args, index, remaining, 'color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')')
             end
 
             break
@@ -414,14 +457,12 @@ local function BuildNpcDoMessage(playerName, npcName, message, r, g, b)
         local quoted = message:sub(endQ + 1, endQ2 - 1)
 
         if before ~= "" then
-            template = template .. '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')">{' .. index .. '}</span>'
-            table.insert(args, before)
-            index = index + 1
+            template, index = AppendSlashFormatted(template, args, index, before, 'color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')')
         end
 
-        template = template .. '<span style="color: white">"{' .. index .. '}"</span>'
-        table.insert(args, quoted)
-        index = index + 1
+        template = template .. '<span style="color: white">"</span>'
+        template, index = AppendSlashFormatted(template, args, index, quoted, 'color: white')
+        template = template .. '<span style="color: white">"</span>'
 
         pos = endQ2 + 1
     end
@@ -447,6 +488,7 @@ local function SendProximityMessage(src, range, prefix, message, mode)
     local charName = GetCharacterName(src)
 
     for _, playerId in ipairs(GetPlayers()) do
+
         local targetId = tonumber(playerId)
         local targetPed = GetPlayerPed(targetId)
 
