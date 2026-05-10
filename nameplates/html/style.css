@@ -26,6 +26,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    display: inline-block;
+    line-height: 1;
+
     pointer-events: none;
 
     text-shadow:
@@ -33,4 +36,18 @@ body {
          1px -1px 0 #00000080,
         -1px  1px 0 #00000080,
          1px  1px 0 #00000080;
+}
+
+.name-line {
+    position: relative;
+    z-index: 1;
+}
+
+.typing-indicator {
+    position: absolute;
+    left: 50%;
+    top: -1.1em;
+    transform: translateX(-50%);
+    z-index: 2;
+    line-height: 1;
 }
