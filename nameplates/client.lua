@@ -7,7 +7,12 @@ local typingDebugEnabled = false
 local lastTypingStates = {}
 local localTypingTestEnabled = false
 local localTypingSynced = false
+local localAfkSynced = false
 local hasSelectedCharacter = true
+local AFK_TIMEOUT_MS = 5 * 60 * 1000
+local ACTIVITY_CHECK_INTERVAL_MS = 250
+local lastLocalActivityAt = GetGameTimer()
+
 
 local function refreshCharacterSelectionState()
     local state = LocalPlayer and LocalPlayer.state
@@ -44,10 +49,67 @@ local function setLocalTypingState(isTyping)
     end
 end
 
+local function setLocalAfkState(isAfk)
+    if localAfkSynced == isAfk then return end
+    localAfkSynced = isAfk
+    TriggerServerEvent("player_names:setAfkState", isAfk)
+end
+
+local function hasLocalActivity()
+    local ped = PlayerPedId()
+
+    if IsPedRunning(ped) or IsPedSprinting(ped) or IsPedWalking(ped) then
+        return true
+    end
+
+    if IsPedJumping(ped) or IsPedClimbing(ped) or IsPedSwimming(ped) then
+        return true
+    end
+
+    if IsPedInAnyVehicle(ped, false) and (GetEntitySpeed(ped) > 0.1) then
+        return true
+    end
+
+    local movementControls = {
+        isRDR and `INPUT_MOVE_UP_ONLY` or 32,
+        isRDR and `INPUT_MOVE_DOWN_ONLY` or 33,
+        isRDR and `INPUT_MOVE_LEFT_ONLY` or 34,
+        isRDR and `INPUT_MOVE_RIGHT_ONLY` or 35,
+        isRDR and `INPUT_JUMP` or 22,
+        isRDR and `INPUT_ATTACK` or 24,
+        isRDR and `INPUT_AIM` or 25,
+        isRDR and `INPUT_SPRINT` or 21,
+        isRDR and `INPUT_DUCK` or 36
+    }
+
+    for _, control in ipairs(movementControls) do
+        if IsControlJustPressed(0, control) or IsControlPressed(0, control) then
+            return true
+        end
+    end
+
+    return false
+end
+
 CreateThread(function()
     while true do
         TriggerServerEvent("player_names:requestNames")
         Wait(5000)
+    end
+end)
+
+CreateThread(function()
+    while true do
+        Wait(ACTIVITY_CHECK_INTERVAL_MS)
+
+        if hasLocalActivity() then
+            lastLocalActivityAt = GetGameTimer()
+            setLocalAfkState(false)
+        else
+            local now = GetGameTimer()
+            local isAfk = (now - lastLocalActivityAt) >= AFK_TIMEOUT_MS
+            setLocalAfkState(isAfk)
+        end
     end
 end)
 
@@ -116,6 +178,21 @@ RegisterNetEvent("player_names:updateTypingState", function(serverId, isTyping)
     end
 end)
 
+
+RegisterNetEvent("player_names:updateAfkState", function(serverId, isAfk)
+    serverId = tonumber(serverId)
+    if not serverId then return end
+
+    if not names[serverId] then
+        names[serverId] = {
+            id = serverId,
+            name = GetPlayerName(GetPlayerFromServerId(serverId)) or ("Player " .. serverId)
+        }
+    end
+
+    names[serverId].isAfk = isAfk == true
+end)
+
 RegisterNetEvent("vorp:SelectedCharacter", function()
     hasSelectedCharacter = true
 end)
@@ -148,6 +225,7 @@ end, false)
 AddEventHandler("onClientResourceStop", function(resourceName)
     if resourceName ~= GetCurrentResourceName() then return end
     TriggerServerEvent("player_names:setTypingState", false)
+    TriggerServerEvent("player_names:setAfkState", false)
 end)
 
 RegisterCommand("typingtestnp", function()
@@ -250,6 +328,7 @@ CreateThread(function()
                         if onScreen then
                             local displayText = name
                             local isTyping = data and data.isTyping == true
+                            local isAfk = data and data.isAfk == true
                             local isEditor = data and data.isEditor == true
 
                             if isEditor then
@@ -265,7 +344,8 @@ CreateThread(function()
                                 y = screenY,
                                 opacity = 1.0 - ((distance / NAME_DRAW_DISTANCE) * 0.5),
                                 text = displayText,
-                                isTyping = isTyping
+                                isTyping = isTyping,
+                                isAfk = isAfk
                             })
                         end
                     end

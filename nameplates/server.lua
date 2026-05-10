@@ -1,5 +1,6 @@
 local VORPcore = exports.vorp_core:GetCore()
 local typingStates = {}
+local afkStates = {}
 
 local function GetCharacterName(src)
     local playerState = Player(src) and Player(src).state
@@ -35,6 +36,7 @@ RegisterNetEvent("player_names:requestNames", function()
             id = id,
             name = GetCharacterName(id),
             isTyping = typingStates[id] == true,
+            isAfk = afkStates[id] == true,
             isEditor = (Player(id) and Player(id).state and Player(id).state.editorModeActive) == true
         }
     end
@@ -50,12 +52,22 @@ RegisterNetEvent("player_names:setTypingState", function(isTyping)
     TriggerClientEvent("player_names:updateTypingState", -1, src, newState)
 end)
 
+RegisterNetEvent("player_names:setAfkState", function(isAfk)
+    local src = source
+    local newState = isAfk == true
+
+    afkStates[src] = newState
+    TriggerClientEvent("player_names:updateAfkState", -1, src, newState)
+end)
+
 AddEventHandler("playerDropped", function()
     local src = source
 
     -- clear server cache
     typingStates[src] = nil
+    afkStates[src] = nil
 
     -- immediately clear client-side typing indicator for this player
     TriggerClientEvent("player_names:updateTypingState", -1, src, false)
+    TriggerClientEvent("player_names:updateAfkState", -1, src, false)
 end)

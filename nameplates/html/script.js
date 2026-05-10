@@ -23,6 +23,9 @@ window.addEventListener("message", function (event) {
         const div = document.createElement("div");
 
         div.className = "nameplate";
+        if (plate.isAfk) {
+            div.classList.add("afk");
+        }
         div.style.left = (plate.x * 100) + "vw";
         div.style.top = (plate.y * 100) + "vh";
         div.style.opacity = plate.opacity;

@@ -38,6 +38,10 @@ body {
          1px  1px 0 #00000080;
 }
 
+.nameplate.afk {
+    color: #5c5c5c;
+}
+
 .name-line {
     position: relative;
     z-index: 1;
