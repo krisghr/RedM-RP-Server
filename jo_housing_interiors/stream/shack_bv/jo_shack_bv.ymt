@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CPropSetDef>
+  <name>jo_shack_bv</name>
+  <KuRNiVA_0xD222611A itemType="CEntityDef">
+    <Item type="CEntityDef"> <!-- shack_bv_int_dc -->
+      <archetypeName>shack_bv_int_dc</archetypeName>
+      <flags value="353894400" />
+      <id value="0x493ADEB323AA7B2C" />
+      <position x="0.0030410003" y="0.01808" z="2.076746" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="15" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- shack_bv_lightbox -->
+      <archetypeName>shack_bv_lightbox</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4D2BF61F6A2C7473" />
+      <position x="0.101886004" y="-0.057307" z="0.421219" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="25" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- shack_bv_lightblocker -->
+      <archetypeName>shack_bv_lightblocker</archetypeName>
+      <flags value="35127296" />
+      <id value="0x4091C02B963CCA60" />
+      <position x="0.0006330004" y="0.010077" z="3.7637851" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="100" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- shack_bv_int_ceiling -->
+      <archetypeName>shack_bv_int_ceiling</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4D2A61654308BD26" />
+      <position x="-0.011859" y="0.046816" z="3.187745" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="25" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- shack_bv_int_floor -->
+      <archetypeName>shack_bv_int_floor</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4FB5136367A00B09" />
+      <position x="-0.0002779998" y="0.022948" z="0.71061" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="25" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- shack_bv_int_walls -->
+      <archetypeName>shack_bv_int_walls</archetypeName>
+      <flags value="353894400" />
+      <id value="0x46B420551D9B6C1F" />
+      <position x="-0.00013999967" y="-2.149717" z="2.163453" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="25" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_bigvshk_door -->
+      <archetypeName>p_bigvshk_door</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4F972EF8CDF457BE" />
+      <position x="-0.553851" y="-2.11927" z="0.69094497" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="200" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_bigvshk_door</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <ajihsdab_0x091a42d0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <sjwehana_0xa37cab71 value="False" />
+          <limitAnglePos value="1.570796" />
+          <limitAngleNeg value="1.570796" />
+          <mvynybwa_0x9c555ecf value="0" />
+          <ukmfuefa_0xbca0289e value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>ucxygwab_0x89a06424</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_bigvshk_door</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>pvdwrzoa_0x1f3e527a</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- shack_bv_int_frames -->
+      <archetypeName>shack_bv_int_frames</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4CD6565C56858082" />
+      <position x="-0.085101" y="-2.1355572" z="1.710634" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="25" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_shack_bv_col -->
+      <archetypeName>jo_shack_bv_col</archetypeName>
+      <flags value="1572864" />
+      <id value="0x44D88A490E099167" />
+      <position x="0.0" y="0.0" z="0.0" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="25" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- shack_bv_int_shadowproxy -->
+      <archetypeName>shack_bv_int_shadowproxy</archetypeName>
+      <flags value="1572864" />
+      <id value="0x44D88A490E099167" />
+      <position x="-0.011859" y="0.046816" z="3.187745" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="25" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+  </KuRNiVA_0xD222611A>
+</CPropSetDef>

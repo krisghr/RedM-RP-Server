@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_col_bunkhouse_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_col_bunkhouse_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_col_bunkhouse_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_col_bunkhouse_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.905946" y="-2.899256" z="-1.611397" />
+      <bbMax x="2.016355" y="2.947904" z="-1.496339" />
+      <bsCentre x="0.05520451" y="0.024324179" z="-1.553868" />
+      <bsRadius value="3.520901" />
+      <hdTextureDist value="10" />
+      <name>col_bunkhse_int_floor</name>
+      <textureDictionary>col_bunkhouse_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>col_bunkhse_int_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="120" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.987336" y="-3.048796" z="-1.781282" />
+      <bbMax x="1.987336" y="3.048796" z="2.013988" />
+      <bsCentre x="0" y="0" z="0.116353035" />
+      <bsRadius value="4.104349" />
+      <hdTextureDist value="10" />
+      <name>jo_col_bunkhse_int_logs</name>
+      <textureDictionary>col_bunkhouse_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_col_bunkhse_int_logs</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="120" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.258977" y="-2.962969" z="-1.374421" />
+      <bbMax x="0.772643" y="3.081839" z="3.094954" />
+      <bsCentre x="-1.2431669" y="0.05943513" z="0.86026657" />
+      <bsRadius value="4.265237" />
+      <hdTextureDist value="10" />
+      <name>jo_col_bunkhse_int_shell</name>
+      <textureDictionary>col_bunkhouse_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_col_bunkhse_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="30" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.046523" y="-3.201616" z="0" />
+      <bbMax x="2.046523" y="3.201616" z="4.809706" />
+      <bsCentre x="0" y="0" z="2.404853" />
+      <bsRadius value="4.496879" />
+      <hdTextureDist value="5" />
+      <name>col_bunkhse_lights</name>
+      <textureDictionary>col_bunkhouse_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>col_bunkhse_lights</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

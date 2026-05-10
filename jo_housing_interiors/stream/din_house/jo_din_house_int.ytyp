@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_din_house_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_din_house_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_din_house_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_din_house_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="25" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.309092" y="-5.551597" z="-2.407228" />
+      <bbMax x="5.194345" y="5.405566" z="2.281901" />
+      <bsCentre x="-0.057373524" y="-0.07301569" z="-0.062663555" />
+      <bsRadius value="7.943071" />
+      <hdTextureDist value="5" />
+      <name>din_house_int_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>din_house_int_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.94249" y="-5.303306" z="-0.019213" />
+      <bbMax x="3.805208" y="5.154308" z="0.127406" />
+      <bsCentre x="-0.068641186" y="-0.07449913" z="0.054096505" />
+      <bsRadius value="6.50788" />
+      <hdTextureDist value="12.5" />
+      <name>din_hse_int_floor</name>
+      <textureDictionary>din_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>din_hse_int_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.395705" y="-4.977804" z="-1.18049" />
+      <bbMax x="1.560737" y="5.318758" z="1.184139" />
+      <bsCentre x="-0.91748405" y="0.17047691" z="0.0018244982" />
+      <bsRadius value="5.834745" />
+      <hdTextureDist value="12.5" />
+      <name>din_hse_int_frames</name>
+      <textureDictionary>din_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>din_hse_int_frames</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="50" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.235668" y="-2.889171" z="0" />
+      <bbMax x="2.235668" y="2.889171" z="4.56168" />
+      <bsCentre x="0" y="0" z="2.28084" />
+      <bsRadius value="4.30671" />
+      <hdTextureDist value="25" />
+      <name>din_hse_int_lightholder_01</name>
+      <textureDictionary>din_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>din_hse_int_lightholder_01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="50" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.817833" y="-2.270063" z="0" />
+      <bbMax x="3.817833" y="2.270063" z="4.385577" />
+      <bsCentre x="0" y="0" z="2.1927886" />
+      <bsRadius value="4.95352" />
+      <hdTextureDist value="25" />
+      <name>din_hse_int_lightholder_02</name>
+      <textureDictionary>din_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>din_hse_int_lightholder_02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="10" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.447059" y="-3.015257" z="-0.001904" />
+      <bbMax x="3.447059" y="3.015256" z="0.001904" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.579737" />
+      <hdTextureDist value="5" />
+      <name>din_hse_int_overlay1</name>
+      <textureDictionary>din_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>din_hse_int_overlay1</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="10" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.471809" y="-2.858413" z="-0.002108" />
+      <bbMax x="1.471809" y="2.858413" z="0.002108" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="3.215082" />
+      <hdTextureDist value="5" />
+      <name>din_hse_int_overlay2</name>
+      <textureDictionary>din_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>din_hse_int_overlay2</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.090876" y="-2.146285" z="-0.842176" />
+      <bbMax x="7.455352" y="2.309836" z="0.884702" />
+      <bsCentre x="3.6822379" y="0.08177543" z="0.021263003" />
+      <bsRadius value="4.466114" />
+      <hdTextureDist value="18.07" />
+      <name>din_hse_int_roof1</name>
+      <textureDictionary>din_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>din_hse_int_roof1</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.217519" y="-2.920823" z="-0.871814" />
+      <bbMax x="2.217519" y="2.920823" z="0.871814" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="3.769437" />
+      <hdTextureDist value="7.5" />
+      <name>din_hse_int_roof2</name>
+      <textureDictionary>din_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>din_hse_int_roof2</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.772213" y="-2.174885" z="-1.454324" />
+      <bbMax x="3.772213" y="2.174885" z="1.454324" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.590727" />
+      <hdTextureDist value="12.5" />
+      <name>din_hse_int_trim</name>
+      <textureDictionary>din_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>din_hse_int_trim</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.746359" y="-5.063986" z="-1.51806" />
+      <bbMax x="3.748635" y="5.025241" z="1.518146" />
+      <bsCentre x="0.0011379719" y="-0.019372463" z="0" />
+      <bsRadius value="6.465021" />
+      <hdTextureDist value="12.5" />
+      <name>din_hse_shell</name>
+      <textureDictionary>din_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>din_hse_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

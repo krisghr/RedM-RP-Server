@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_mfr_cottage01_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_mfr_cottage01_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_mfr_cottage01_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_mfr_cottage01_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="15" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.742427" y="-1.891764" z="-2.017028" />
+      <bbMax x="1.742427" y="1.891764" z="1.996279" />
+      <bsCentre x="0" y="0" z="-0.010374546" />
+      <bsRadius value="3.262128" />
+      <hdTextureDist value="5" />
+      <name>mfr_cottage_int_brceiling</name>
+      <textureDictionary>mfr_cottage01_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mfr_cottage_int_brceiling</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.138181" y="-2.043568" z="-1.989888" />
+      <bbMax x="2.138181" y="2.043568" z="1.96909" />
+      <bsCentre x="0" y="0" z="-0.010398984" />
+      <bsRadius value="3.558984" />
+      <hdTextureDist value="32.5" />
+      <name>mfr_cottage_int_ceiling</name>
+      <textureDictionary>mfr_cottage01_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mfr_cottage_int_ceiling</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.153598" y="-3.890234" z="-0.184684" />
+      <bbMax x="2.168509" y="3.889442" z="0.18468" />
+      <bsCentre x="0.0074555874" y="-0.00039601326" z="0" />
+      <bsRadius value="4.453661" />
+      <hdTextureDist value="32.5" />
+      <name>mfr_cottage_int_floor</name>
+      <textureDictionary>mfr_cottage01_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mfr_cottage_int_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="100" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.855235" y="-2.096652" z="-1.404044" />
+      <bbMax x="5.922497" y="2.144142" z="2.843038" />
+      <bsCentre x="2.0336308" y="0.02374506" z="0.7194971" />
+      <bsRadius value="4.912106" />
+      <hdTextureDist value="5" />
+      <name>mfr_cottage_int_shad</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mfr_cottage_int_shad</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.790493" y="-1.935582" z="-1.862569" />
+      <bbMax x="1.558166" y="5.987532" z="2.437183" />
+      <bsCentre x="-0.6161635" y="2.0259752" z="0.2873069" />
+      <bsRadius value="5.004359" />
+      <hdTextureDist value="32.5" />
+      <name>mfr_cottage_int_shell</name>
+      <textureDictionary>mfr_cottage01_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mfr_cottage_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

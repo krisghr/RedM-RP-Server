@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_lar_house_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_lar_house_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_lar_house_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_lar_house_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.934693" y="-3.777975" z="0" />
+      <bbMax x="5.934693" y="3.777975" z="4.362222" />
+      <bsCentre x="0" y="0" z="2.181111" />
+      <bsRadius value="7.365522" />
+      <hdTextureDist value="5" />
+      <name>lar_int_lightholder_01</name>
+      <textureDictionary>lar_sod_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lar_int_lightholder_01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="24" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.803277" y="-3.520749" z="-2.116573" />
+      <bbMax x="6.163898" y="3.745655" z="2.482743" />
+      <bsCentre x="0.18031025" y="0.112452984" z="0.18308496" />
+      <bsRadius value="7.368304" />
+      <hdTextureDist value="5" />
+      <name>lar_int_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lar_int_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.319643" y="-3.724348" z="-2.068475" />
+      <bbMax x="6.276517" y="3.992497" z="2.101402" />
+      <bsCentre x="-0.021563053" y="0.13407445" z="0.016463518" />
+      <bsRadius value="7.674647" />
+      <hdTextureDist value="10" />
+      <name>lar_int_shell</name>
+      <textureDictionary>lar_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lar_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.161838" y="-3.696054" z="-2.129564" />
+      <bbMax x="6.33517" y="3.902524" z="2.226506" />
+      <bsCentre x="0.08666563" y="0.10323501" z="0.048470974" />
+      <bsRadius value="7.630349" />
+      <hdTextureDist value="7.5" />
+      <name>jo_lar_int_walldetails</name>
+      <textureDictionary>lar_sod_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_lar_int_walldetails</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

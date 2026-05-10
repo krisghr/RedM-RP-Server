@@ -1,0 +1,417 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_han_house_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_han_house_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_han_house_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_han_house_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="25" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.87545" y="-9.010777" z="0" />
+      <bbMax x="6.87545" y="9.010777" z="8.089208" />
+      <bsCentre x="0" y="0" z="4.044604" />
+      <bsRadius value="12.03432" />
+      <hdTextureDist value="25.38" />
+      <name>han_house_lightbox_001</name>
+      <textureDictionary>han_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>han_house_lightbox_001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="25" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.084966" y="-9.285034" z="0" />
+      <bbMax x="7.084966" y="9.285034" z="8.555893" />
+      <bsCentre x="0" y="0" z="4.2779465" />
+      <bsRadius value="12.43822" />
+      <hdTextureDist value="25.96" />
+      <name>han_house_lightbox_002</name>
+      <textureDictionary>han_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>han_house_lightbox_002</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="25" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.425684" y="-9.328749" z="0" />
+      <bbMax x="7.425684" y="9.328749" z="8.789235" />
+      <bsCentre x="0" y="0" z="4.3946176" />
+      <bsRadius value="12.70744" />
+      <hdTextureDist value="26.32" />
+      <name>han_house_lightbox_003</name>
+      <textureDictionary>han_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>han_house_lightbox_003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.547835" y="-8.455018" z="-2.926281" />
+      <bbMax x="3.144327" y="2.401701" z="2.972964" />
+      <bsCentre x="-0.2017541" y="-3.0266585" z="0.023341656" />
+      <bsRadius value="7.025925" />
+      <hdTextureDist value="7.5" />
+      <name>jo_han_int_kitchen_detail01</name>
+      <textureDictionary>han_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_han_int_kitchen_detail01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="50" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.016439" y="-8.005195" z="-1.877916" />
+      <bbMax x="7.559107" y="8.097812" z="2.737018" />
+      <bsCentre x="0.7713342" y="0.046308517" z="0.429551" />
+      <bsRadius value="10.78077" />
+      <hdTextureDist value="20.08" />
+      <name>jo_han_int_level1_detail01</name>
+      <textureDictionary>han_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_han_int_level1_detail01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.72441" y="-10.223759" z="-1.856076" />
+      <bbMax x="7.691712" y="5.992096" z="1.809421" />
+      <bsCentre x="-0.016348839" y="-2.1158314" z="-0.023327589" />
+      <bsRadius value="11.3363" />
+      <hdTextureDist value="12.5" />
+      <name>jo_han_int_level1_detail02_tnt</name>
+      <textureDictionary>han_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_han_int_level1_detail02_tnt</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.657847" y="-8.0014" z="-2.130468" />
+      <bbMax x="7.611127" y="8.059361" z="2.126509" />
+      <bsCentre x="-0.023359776" y="0.028980255" z="-0.001979351" />
+      <bsRadius value="11.28286" />
+      <hdTextureDist value="10" />
+      <name>jo_han_int_level2_detail02</name>
+      <textureDictionary>han_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_han_int_level2_detail02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.54669" y="-8.316969" z="-3.906227" />
+      <bbMax x="4.644108" y="9.164574" z="3.903689" />
+      <bsCentre x="-0.9512911" y="0.42380238" z="-0.0012691021" />
+      <bsRadius value="11.08865" />
+      <hdTextureDist value="12.5" />
+      <name>han_int_shell</name>
+      <textureDictionary>hangingdog</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>han_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="80" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.700241" y="-8.86445" z="-3.885484" />
+      <bbMax x="5.75786" y="8.781639" z="4.050023" />
+      <bsCentre x="0.028809547" y="-0.041405678" z="0.08226943" />
+      <bsRadius value="11.24327" />
+      <hdTextureDist value="5" />
+      <name>han_int_shell_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>han_int_shell_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.911557" y="-3.385999" z="-2.368121" />
+      <bbMax x="3.911654" y="3.385933" z="2.368109" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="5.689762" />
+      <hdTextureDist value="7.5" />
+      <name>han_int_stairs_steps_rails</name>
+      <textureDictionary>han_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>han_int_stairs_steps_rails</assetName>
+      <extensions>
+        <Item type="CExtensionDefStairs">
+          <name>yuetfBA_0x833A19C5</name>
+          <offsetPosition x="1.382803" y="1.96746" z="-2.1339822" />
+          <bottom x="1.382802" y="1.9674596" z="-2.3370101" />
+          <top x="2.4307675" y="-0.20331788" z="-0.50975907" />
+          <boundMin x="1.7904162" y="-0.84626555" z="-2.34451" />
+          <boundMax x="2.1317625" y="2.3837597" z="-0.50975907" />
+          <steps itemType="CExtensionDefStep">
+            <Item>
+              <position x="1.382802" y="1.9674596" z="-2.1339822" />
+              <width value="1.623245" />
+              <depth value="0.301325" />
+              <height value="0.203028" />
+              <forward x="0.43450487" y="-0.9006695" z="0" />
+              <right x="0.9006695" y="0.43450487" z="0" />
+            </Item>
+            <Item>
+              <position x="1.5137296" y="1.6960642" z="-1.9309541" />
+              <width value="1.623245" />
+              <depth value="0.301325" />
+              <height value="0.203028" />
+              <forward x="0.43450487" y="-0.9006695" z="0" />
+              <right x="0.9006695" y="0.43450487" z="0" />
+            </Item>
+            <Item>
+              <position x="1.6446567" y="1.4246699" z="-1.7279261" />
+              <width value="1.623245" />
+              <depth value="0.301325" />
+              <height value="0.203028" />
+              <forward x="0.43450487" y="-0.9006695" z="0" />
+              <right x="0.9006695" y="0.43450487" z="0" />
+            </Item>
+            <Item>
+              <position x="1.7755837" y="1.1532757" z="-1.5248991" />
+              <width value="1.623245" />
+              <depth value="0.301326" />
+              <height value="0.203028" />
+              <forward x="0.43450487" y="-0.9006695" z="0" />
+              <right x="0.9006695" y="0.43450487" z="0" />
+            </Item>
+            <Item>
+              <position x="1.9065118" y="0.88188004" z="-1.3218712" />
+              <width value="1.623245" />
+              <depth value="0.301325" />
+              <height value="0.203028" />
+              <forward x="0.43450487" y="-0.9006695" z="0" />
+              <right x="0.9006695" y="0.43450487" z="0" />
+            </Item>
+            <Item>
+              <position x="2.0437655" y="0.61362886" z="-1.1188431" />
+              <width value="1.623245" />
+              <depth value="0.301326" />
+              <height value="0.203028" />
+              <forward x="0.43450487" y="-0.9006695" z="0" />
+              <right x="0.9006695" y="0.43450487" z="0" />
+            </Item>
+            <Item>
+              <position x="2.1727667" y="0.3413136" z="-0.9158151" />
+              <width value="1.623245" />
+              <depth value="0.301326" />
+              <height value="0.203028" />
+              <forward x="0.43450487" y="-0.9006695" z="0" />
+              <right x="0.9006695" y="0.43450487" z="0" />
+            </Item>
+            <Item>
+              <position x="2.3017678" y="0.0689981" z="-0.71278715" />
+              <width value="1.623245" />
+              <depth value="0.301326" />
+              <height value="0.203028" />
+              <forward x="0.43450487" y="-0.9006695" z="0" />
+              <right x="0.9006695" y="0.43450487" z="0" />
+            </Item>
+            <Item>
+              <position x="2.4307675" y="-0.20331788" z="-0.50975907" />
+              <width value="1.623245" />
+              <depth value="0.301325" />
+              <height value="0.203028" />
+              <forward x="0.43450487" y="-0.9006695" z="0" />
+              <right x="0.9006695" y="0.43450487" z="0" />
+            </Item>
+          </steps>
+        </Item>
+        <Item type="CExtensionDefStairs">
+          <name>nxtXGRA_0x9513BD78</name>
+          <offsetPosition x="2.004806" y="-1.232795" z="-0.31014013" />
+          <bottom x="2.004806" y="-1.232795" z="-0.50252914" />
+          <top x="-0.1457758" y="-2.24553" z="1.2689679" />
+          <boundMin x="-0.07546091" y="-3.121115" z="-0.5100281" />
+          <boundMax x="1.6997199" y="-0.45926738" z="1.2689679" />
+          <steps itemType="CExtensionDefStep">
+            <Item>
+              <position x="2.004806" y="-1.232795" z="-0.31014013" />
+              <width value="1.64493" />
+              <depth value="0.305903" />
+              <height value="0.192389" />
+              <forward x="-0.9061011" y="-0.42306116" z="0" />
+              <right x="0.42306116" y="-0.9061011" z="0" />
+            </Item>
+            <Item>
+              <position x="1.7275014" y="-1.361942" z="-0.11775112" />
+              <width value="1.64493" />
+              <depth value="0.305903" />
+              <height value="0.192389" />
+              <forward x="-0.9061011" y="-0.42306116" z="0" />
+              <right x="0.42306116" y="-0.9061011" z="0" />
+            </Item>
+            <Item>
+              <position x="1.4501967" y="-1.4910896" z="0.074636936" />
+              <width value="1.64493" />
+              <depth value="0.305903" />
+              <height value="0.192389" />
+              <forward x="-0.9061011" y="-0.42306116" z="0" />
+              <right x="0.42306116" y="-0.9061011" z="0" />
+            </Item>
+            <Item>
+              <position x="1.1769695" y="-1.6286547" z="0.26702595" />
+              <width value="1.64493" />
+              <depth value="0.305903" />
+              <height value="0.192389" />
+              <forward x="-0.9061011" y="-0.42306116" z="0" />
+              <right x="0.42306116" y="-0.9061011" z="0" />
+            </Item>
+            <Item>
+              <position x="0.89973307" y="-1.7579467" z="0.479414" />
+              <width value="1.64493" />
+              <depth value="0.305903" />
+              <height value="0.212389" />
+              <forward x="-0.9061011" y="-0.42306116" z="0" />
+              <right x="0.42306116" y="-0.9061011" z="0" />
+            </Item>
+            <Item>
+              <position x="0.6224961" y="-1.8872387" z="0.681803" />
+              <width value="1.64493" />
+              <depth value="0.305903" />
+              <height value="0.202389" />
+              <forward x="-0.9061011" y="-0.42306116" z="0" />
+              <right x="0.42306116" y="-0.9061011" z="0" />
+            </Item>
+            <Item>
+              <position x="0.3452587" y="-2.0165317" z="0.8741908" />
+              <width value="1.64493" />
+              <depth value="0.265903" />
+              <height value="0.192389" />
+              <forward x="-0.9061011" y="-0.42306116" z="0" />
+              <right x="0.42306116" y="-0.9061011" z="0" />
+            </Item>
+            <Item>
+              <position x="0.10427332" y="-2.1289175" z="1.0765798" />
+              <width value="1.64493" />
+              <depth value="0.275903" />
+              <height value="0.202389" />
+              <forward x="-0.9061011" y="-0.42306116" z="0" />
+              <right x="0.42306116" y="-0.9061011" z="0" />
+            </Item>
+            <Item>
+              <position x="-0.1457758" y="-2.24553" z="1.2689679" />
+              <width value="1.64493" />
+              <depth value="0.305903" />
+              <height value="0.192389" />
+              <forward x="-0.9061011" y="-0.42306116" z="0" />
+              <right x="0.42306116" y="-0.9061011" z="0" />
+            </Item>
+          </steps>
+        </Item>
+      </extensions>
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

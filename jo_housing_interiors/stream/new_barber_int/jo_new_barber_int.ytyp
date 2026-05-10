@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <name>jo_new_barber_int</name>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="25" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.531474" y="-3.082472" z="-0.066416" />
+      <bbMax x="4.771528" y="3.072279" z="3.743129" />
+      <bsCentre x="0.12002659" y="-0.005096674" z="1.8383565" />
+      <bsRadius value="5.893629" />
+      <hdTextureDist value="5" />
+      <name>new_barber_int_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_barber_int_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="42" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.989627" y="-0.271276" z="-1.569682" />
+      <bbMax x="4.550162" y="5.904552" z="2.232472" />
+      <bsCentre x="-0.21973228" y="2.816638" z="0.33139503" />
+      <bsRadius value="5.991761" />
+      <hdTextureDist value="13.64" />
+      <name>new_barber_int_shell</name>
+      <textureDictionary>new_barber_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_barber_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="42" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.989627" y="-0.271276" z="-1.569682" />
+      <bbMax x="4.550162" y="5.904552" z="2.232472" />
+      <bsCentre x="-0.21973228" y="2.816638" z="0.33139503" />
+      <bsRadius value="5.991761" />
+      <hdTextureDist value="13.64" />
+      <name>jo_new_barber_int_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_new_barber_int_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_new_barber_int_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="28" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.989627" y="-0.279657" z="-1.865672" />
+      <bbMax x="4.550162" y="5.908687" z="2.232472" />
+      <bsCentre x="-0.21973228" y="2.814515" z="0.18340003" />
+      <bsRadius value="6.04355" />
+      <hdTextureDist value="9" />
+      <name>new_barber_int_ref_mr</name>
+      <textureDictionary>new_barber_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_barber_int_ref_mr</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

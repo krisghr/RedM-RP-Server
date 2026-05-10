@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CPropSetDef>
+  <name>jo_new_barber</name>
+  <KuRNiVA_0xD222611A itemType="CEntityDef">
+    <Item type="CEntityDef">
+      <archetypeName>new_barber_int_shell</archetypeName>
+      <flags value="353894400" />
+      <id value="0x441786F08F8E843D" />
+      <position x="0.31298828" y="-2.8952637" z="-0.17264557" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="42" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>jo_new_barber_int_col</archetypeName>
+      <flags value="353894400" />
+      <id value="0x441786F08F8E843D" />
+      <position x="0.31298828" y="-2.8952637" z="-0.17264557" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="42" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>new_barber_int_shadowproxy</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4252BB34791C8E23" />
+      <position x="0.06591797" y="-0.080322266" z="-1.7089996" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="25" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>p_win_jts_sash_clean02x</archetypeName>
+      <flags value="85458944" />
+      <id value="0x4C481B3EDF3D8C8B" />
+      <position x="-4.6394043" y="-1.5778809" z="-0.38742065" />
+      <rotation x="0" y="0" z="-0.7071048" w="0.70710874" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="30" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>p_door_bla_doc_l_01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x44E677BBFF2C3B19" />
+      <position x="-4.4729004" y="0.5534668" z="-1.6964722" />
+      <rotation x="0" y="0" z="0.7071068" w="-0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="30" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_door_bla_doc_l_01x</name>
+          <offsetPosition x="0" y="0.00024414062" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>LXqCrCA_0x2E07B62B</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_door_bla_doc_l_01x</name>
+          <offsetPosition x="0" y="0.00024414062" z="0" />
+          <Id>ISDcUeA_0x1F69ED03</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>p_door_bla_doc_r_01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x43B6FDC9067402D4" />
+      <position x="-4.4729004" y="1.560791" z="-1.6962128" />
+      <rotation x="0" y="0" z="0.7071068" w="-0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="30" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_door_bla_doc_r_01x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>TzLqKWA_0x9F41E4A8</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_door_bla_doc_r_01x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>JhXpJRA_0x01C931C2</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>p_door_bla_doc_r_01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4F065DD73CCB7A3E" />
+      <position x="4.866455" y="-2.404419" z="-1.6869965" />
+      <rotation x="0" y="0" z="0.7071068" w="0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="30" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_door_bla_doc_r_01x</name>
+          <offsetPosition x="0.00024414062" y="0.00024414062" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>TzLqKWA_0x9F41E4A8</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_door_bla_doc_r_01x</name>
+          <offsetPosition x="0.00024414062" y="0.00024414062" z="0" />
+          <Id>HBucNBA_0x65D3776D</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>p_door_bla_doc_l_01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4E30507324E57CAB" />
+      <position x="4.866455" y="-1.3952637" z="-1.6869965" />
+      <rotation x="0" y="0" z="0.7071068" w="0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="30" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_door_bla_doc_l_01x</name>
+          <offsetPosition x="0" y="0.00024414062" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>LXqCrCA_0x2E07B62B</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_door_bla_doc_l_01x</name>
+          <offsetPosition x="0" y="0.00024414062" z="0" />
+          <Id>YMqHnHA_0x8C8983D8</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>p_door_bla_doc_r_01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4C4D285C10D689BE" />
+      <position x="4.854004" y="0.55358887" z="-1.6870041" />
+      <rotation x="0" y="0" z="0.7071068" w="0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="30" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_door_bla_doc_r_01x</name>
+          <offsetPosition x="0.00024414062" y="0.00024414062" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>TzLqKWA_0x9F41E4A8</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_door_bla_doc_r_01x</name>
+          <offsetPosition x="0.00024414062" y="0.00024414062" z="0" />
+          <Id>DKIuiAA_0x540DD3E2</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>p_door_bla_doc_l_01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4858144EC4C6550F" />
+      <position x="4.8535156" y="1.5625" z="-1.6870041" />
+      <rotation x="0" y="0" z="0.7071068" w="0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="30" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_door_bla_doc_l_01x</name>
+          <offsetPosition x="0" y="0.00024414062" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>LXqCrCA_0x2E07B62B</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_door_bla_doc_l_01x</name>
+          <offsetPosition x="0" y="0.00024414062" z="0" />
+          <Id>AqNrOOA_0xC9B4FE2E</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+  </KuRNiVA_0xD222611A>
+</CPropSetDef>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CPropSetDef>
+  <name>jo_col_bunkhouse</name>
+  <KuRNiVA_0xD222611A itemType="CEntityDef">
+    <Item type="CEntityDef"> <!-- jo_col_bunkhouse_col -->
+      <archetypeName>jo_col_bunkhouse_col</archetypeName>
+      <flags value="1572864" />
+      <guid value="0x0000000000000000" />
+      <position x="0" y="0" z="0" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="100" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef"> <!-- col_bunkhse_int_floor -->
+      <archetypeName>col_bunkhse_int_floor</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4BE1EFD1D3362516" />
+      <position x="0.261315" y="-0.022259999" z="2.224884" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="30" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <GtyHDFA_0x0DC5F270 value="255" />
+      <kXvVXMA_0x540CA436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_col_bunkhse_int_logs -->
+      <archetypeName>jo_col_bunkhse_int_logs</archetypeName>
+      <flags value="1572864" />
+      <id value="0x416D750BB0615C42" />
+      <position x="0.301698" y="0.016223" z="1.9394519" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="120" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <GtyHDFA_0x0DC5F270 value="255" />
+      <kXvVXMA_0x540CA436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_col_bunkhse_int_shell -->
+      <archetypeName>jo_col_bunkhse_int_shell</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4ABEB9DCCEB0E569" />
+      <position x="1.5407289" y="-0.038277" z="1.9879451" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="120" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <GtyHDFA_0x0DC5F270 value="255" />
+      <kXvVXMA_0x540CA436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- col_bunkhse_lights -->
+      <archetypeName>col_bunkhse_lights</archetypeName>
+      <flags value="1572864" />
+      <id value="0x40D87FB5202EB168" />
+      <position x="0.29315397" y="-0.050707" z="0.31077498" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="30" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <GtyHDFA_0x0DC5F270 value="255" />
+      <kXvVXMA_0x540CA436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doorsnow01x -->
+      <archetypeName>p_doorsnow01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x49F897D45E2536C2" />
+      <position x="2.213577" y="-1.592818" z="0.715118" />
+      <rotation x="0" y="0" z="0.7071068" w="-0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="200" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doorsnow01x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="False" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <limitAnglePos value="1.570796" />
+          <limitAngleNeg value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>UKPknNA_0x506B4C42</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doorsnow01x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>QbQeOIA_0x4615B01F</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <GtyHDFA_0x0DC5F270 value="255" />
+      <kXvVXMA_0x540CA436 value="255" />
+    </Item>
+  </KuRNiVA_0xD222611A>
+</CPropSetDef>

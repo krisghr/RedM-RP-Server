@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <name>jo_qua_shack01_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef"> <!-- qua_shack01_int_shdw_proxy -->
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="35" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.429003" y="-2.009572" z="-2.147168" />
+      <bbMax x="2.429003" y="2.009572" z="2.147167" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="3.814284" />
+      <hdTextureDist value="5" />
+      <name>qua_shack01_int_shdw_proxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>qua_shack01_int_shdw_proxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- qua_shack01_int_shell -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.407877" y="-2.062088" z="-2.13074" />
+      <bbMax x="2.425571" y="2.024354" z="2.130743" />
+      <bsCentre x="0.008846998" y="-0.018867016" z="0" />
+      <bsRadius value="3.81515" />
+      <hdTextureDist value="14.79" />
+      <name>qua_shack01_int_shell</name>
+      <textureDictionary>qua_shack01_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>qua_shack01_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_qua_shack01_col -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.407877" y="-2.062088" z="-2.13074" />
+      <bbMax x="2.425571" y="2.024354" z="2.130743" />
+      <bsCentre x="0.008846998" y="-0.018867016" z="0" />
+      <bsRadius value="3.81515" />
+      <hdTextureDist value="14.79" />
+      <name>jo_qua_shack01_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_qua_shack01_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_qua_shack01_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- qua_shack01_lightbox -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.669992" y="-2.293455" z="0" />
+      <bbMax x="2.669992" y="2.293455" z="4.574695" />
+      <bsCentre x="0" y="0" z="2.2873476" />
+      <bsRadius value="4.197708" />
+      <hdTextureDist value="5" />
+      <name>qua_shack01_lightbox</name>
+      <textureDictionary>qcvrgieb_0x1bd13b4e</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>qua_shack01_lightbox</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="25" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.960489" y="-15.278108" z="-1.365642" />
+      <bbMax x="7.760674" y="0.529753" z="1.593918" />
+      <bsCentre x="1.4000926" y="-7.3741775" z="0.11413801" />
+      <bsRadius value="10.25275" />
+      <hdTextureDist value="5" />
+      <name>rad_house_01_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rad_house_01_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.517424" y="-0.915878" z="-1.250458" />
+      <bbMax x="0.517439" y="0.915823" z="1.25046" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="1.634064" />
+      <hdTextureDist value="10.42" />
+      <name>rad_int_floor_fireplace</name>
+      <textureDictionary>rad_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rad_int_floor_fireplace</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.131412" y="-2.956353" z="-0.139669" />
+      <bbMax x="6.19562" y="6.270236" z="0.123937" />
+      <bsCentre x="1.532104" y="1.6569417" z="-0.007865995" />
+      <bsRadius value="6.561116" />
+      <hdTextureDist value="10.42" />
+      <name>rad_int_floor_living</name>
+      <textureDictionary>rad_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rad_int_floor_living</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.95928" y="-2.992532" z="-0.129132" />
+      <bbMax x="2.829676" y="3.064924" z="0.12021" />
+      <bsCentre x="-0.06480217" y="0.036195993" z="-0.0044610053" />
+      <bsRadius value="4.191269" />
+      <hdTextureDist value="10.42" />
+      <name>rad_int_floor_room01</name>
+      <textureDictionary>rad_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rad_int_floor_room01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.074821" y="-3.27062" z="-0.138961" />
+      <bbMax x="3.15334" y="3.244027" z="0.122161" />
+      <bsCentre x="0.039259434" y="-0.013296604" z="-0.008400008" />
+      <bsRadius value="4.508292" />
+      <hdTextureDist value="10.42" />
+      <name>rad_int_floor_room02</name>
+      <textureDictionary>rad_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rad_int_floor_room02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.069342" y="-3.058677" z="-0.183142" />
+      <bbMax x="2.962798" y="3.079022" z="0.133607" />
+      <bsCentre x="-0.05327201" y="0.0101726055" z="-0.024767503" />
+      <bsRadius value="4.305763" />
+      <hdTextureDist value="5" />
+      <name>rad_int_floor_room03</name>
+      <textureDictionary>rad_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rad_int_floor_room03</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.456452" y="-7.222809" z="-1.395575" />
+      <bbMax x="7.771306" y="5.091509" z="1.222644" />
+      <bsCentre x="1.6574273" y="-1.06565" z="-0.0864656" />
+      <bsRadius value="8.775187" />
+      <hdTextureDist value="10.42" />
+      <name>rad_int_frames01</name>
+      <textureDictionary>rad_house_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rad_int_frames01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.982466" y="-2.98577" z="-2.177127" />
+      <bbMax x="6.266891" y="6.233185" z="0.287555" />
+      <bsCentre x="1.6422126" y="1.6237075" z="-0.94478595" />
+      <bsRadius value="6.644817" />
+      <hdTextureDist value="10.42" />
+      <name>rad_int_living_details01</name>
+      <textureDictionary>rad_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rad_int_living_details01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.683408" y="-4.609154" z="-1.50923" />
+      <bbMax x="4.742062" y="4.662484" z="1.531599" />
+      <bsCentre x="0.029327393" y="0.02666521" z="0.011184573" />
+      <bsRadius value="6.783241" />
+      <hdTextureDist value="10.42" />
+      <name>rad_int_living_details02</name>
+      <textureDictionary>rad_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rad_int_living_details02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.849212" y="-2.955039" z="-0.722651" />
+      <bbMax x="2.849184" y="2.955191" z="0.722649" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.168076" />
+      <hdTextureDist value="9.104959" />
+      <name>rad_int_room01_detail01</name>
+      <textureDictionary>rad_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rad_int_room01_detail01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.87797" y="-3.050991" z="-1.349301" />
+      <bbMax x="2.877995" y="2.94177" z="1.341898" />
+      <bsCentre x="0" y="-0.05461049" z="-0.0037015676" />
+      <bsRadius value="4.367118" />
+      <hdTextureDist value="9.2" />
+      <name>rad_int_room01_detail02</name>
+      <textureDictionary>rad_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rad_int_room01_detail02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.101688" y="-3.04928" z="-1.387908" />
+      <bbMax x="3.035531" y="3.054509" z="1.494092" />
+      <bsCentre x="-0.033078432" y="0.0026144981" z="0.053092003" />
+      <bsRadius value="4.561459" />
+      <hdTextureDist value="5" />
+      <name>rad_int_room03_frames01</name>
+      <textureDictionary>rad_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rad_int_room03_frames01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.974235" y="-3.010326" z="-1.14432" />
+      <bbMax x="2.974256" y="3.009966" z="0.466855" />
+      <bsCentre x="0" y="-0.00018000603" z="-0.33873248" />
+      <bsRadius value="4.307678" />
+      <hdTextureDist value="5" />
+      <name>rad_int_room03_walldetals01</name>
+      <textureDictionary>rad_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rad_int_room03_walldetals01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.997289" y="-3.033267" z="-2.163763" />
+      <bbMax x="6.295501" y="6.172748" z="0.351265" />
+      <bsCentre x="1.6491063" y="1.5697403" z="-0.90624905" />
+      <bsRadius value="6.660181" />
+      <hdTextureDist value="10.42" />
+      <name>rad_int_living_beams</name>
+      <textureDictionary>rad_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rad_int_living_beams</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.328457" y="-7.901686" z="-1.45945" />
+      <bbMax x="6.328474" y="7.901615" z="1.459445" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.22817" />
+      <hdTextureDist value="15.13" />
+      <name>rad_int_shell</name>
+      <textureDictionary>rad_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rad_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.328457" y="-7.901686" z="-1.45945" />
+      <bbMax x="6.328474" y="7.901615" z="1.459445" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.22817" />
+      <hdTextureDist value="15.13" />
+      <name>jo_rad_house_01_int_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_rad_house_01_int_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_rad_house_01_int_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.132111" y="-3.275012" z="-2.219608" />
+      <bbMax x="3.037182" y="3.273726" z="0.423142" />
+      <bsCentre x="-0.04746437" y="-0.0006430149" z="-0.89823306" />
+      <bsRadius value="4.688558" />
+      <hdTextureDist value="10.42" />
+      <name>jo_rad_room_02_detail01_tnt</name>
+      <textureDictionary>rad_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rad_room_02_detail01_tnt_empty</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <name>jo_rad_house_01_int</name>
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_gri_g2_shack_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_gri_g2_shack_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_gri_g2_shack_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_gri_g2_shack_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="10" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.160651" y="-0.354393" z="-0.085235" />
+      <bbMax x="0.136129" y="0.353984" z="0.090056" />
+      <bsCentre x="-0.012261003" y="-0.00020450354" z="0.0024105012" />
+      <bsRadius value="0.3938919" />
+      <hdTextureDist value="5" />
+      <name>gri_g2_shack_fire_iron</name>
+      <textureDictionary>gri_g2_shack_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>gri_g2_shack_fire_iron</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.60401" y="-3.964636" z="-1.897974" />
+      <bbMax x="1.868889" y="2.243657" z="2.043068" />
+      <bsCentre x="-0.8675606" y="-0.8604896" z="0.07254696" />
+      <bsRadius value="4.583321" />
+      <hdTextureDist value="12.5" />
+      <name>gri_g2_shk_int_beams</name>
+      <textureDictionary>gri_g2_shack_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>gri_g2_shk_int_beams</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.42267" y="-0.889348" z="-1.372188" />
+      <bbMax x="0.422595" y="0.88954" z="1.372211" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="1.688982" />
+      <hdTextureDist value="12.5" />
+      <name>gri_g2_shk_int_chimney</name>
+      <textureDictionary>gri_g2_shack_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>gri_g2_shk_int_chimney</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.700735" y="-3.099208" z="-0.058628" />
+      <bbMax x="2.700846" y="3.099422" z="0.058579" />
+      <bsCentre x="0" y="0.00010704994" z="0" />
+      <bsRadius value="4.111382" />
+      <hdTextureDist value="12.5" />
+      <name>gri_g2_shk_int_floor</name>
+      <textureDictionary>gri_g2_shack_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>gri_g2_shk_int_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.570946" y="-3.958359" z="-1.836468" />
+      <bbMax x="1.871275" y="2.233296" z="1.968966" />
+      <bsCentre x="-0.84983563" y="-0.8625314" z="0.06624901" />
+      <bsRadius value="4.539705" />
+      <hdTextureDist value="12.5" />
+      <name>gri_g2_shk_int_walls</name>
+      <textureDictionary>gri_g2_shack_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>gri_g2_shk_int_walls</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.625488" y="-4.109497" z="0" />
+      <bbMax x="3.625488" y="4.109497" z="11.366112" />
+      <bsCentre x="0" y="0" z="5.683056" />
+      <bsRadius value="7.894888" />
+      <hdTextureDist value="5" />
+      <name>gri_g2shack_lightbox01</name>
+      <textureDictionary>gri_g2_shack_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>gri_g2shack_lightbox01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

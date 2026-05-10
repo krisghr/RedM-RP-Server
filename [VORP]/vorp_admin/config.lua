@@ -97,7 +97,7 @@ Config.GuamarmaCoords = {
 
 -- if both are true it will give admin to both character and user group
 -- todo: add option in menu to choose
-Config.giveCharacterGroup = false -- if true when giving group to player it will give to character group
+Config.giveCharacterGroup = true -- if true when giving group to player it will give to character group
 
 Config.giveUserGroup = true       -- if true when giving group to player it will give to user group
 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <name>jo_aur_shack01_int</name>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="80" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.460858" y="-3.373359" z="-2.691105" />
+      <bbMax x="2.467336" y="3.409591" z="2.691112" />
+      <bsCentre x="0.0032389164" y="0.018115997" z="0" />
+      <bsRadius value="4.98156" />
+      <hdTextureDist value="32.5" />
+      <name>aur_shack_int_shell</name>
+      <textureDictionary>aur_shack01_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>aur_shack_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="80" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.460858" y="-3.373359" z="-2.691105" />
+      <bbMax x="2.467336" y="3.409591" z="2.691112" />
+      <bsCentre x="0.0032389164" y="0.018115997" z="0" />
+      <bsRadius value="4.98156" />
+      <hdTextureDist value="32.5" />
+      <name>jo_aur_shack_int_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_aur_shack_int_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_aur_shack_int_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

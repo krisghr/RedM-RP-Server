@@ -1,4 +1,4 @@
-local selectedMaskId = Config.MaskOptions[1].id
+local selectedMask = Config.MaskOptions[1]
 local isWearingMask = false
 
 local function syncMaskedState(masked)
@@ -7,7 +7,16 @@ local function syncMaskedState(masked)
 end
 
 local function applyMask()
-    -- Neck-wear bandanas are handled by VORP via /bandanaon.
+    local ped = PlayerPedId()
+    if not DoesEntityExist(ped) then return end
+
+    local selectedHash = IsPedMale(ped) and selectedMask.maleHash or selectedMask.femaleHash
+    if selectedHash then
+        Citizen.InvokeNative(0xD3A7B003ED343FD9, ped, selectedHash, false, true, true) -- ApplyShopItemToPed
+        Citizen.InvokeNative(0xCC8CA3E88256E58F, ped, 0, 1, 1, 1, 0) -- UpdatePedVariation
+    end
+
+    -- Raise bandana to face-cover position.
     ExecuteCommand("bandanaon")
 end
 
@@ -39,7 +48,7 @@ RegisterCommand("setmask", function(_, args)
 
     for _, option in ipairs(Config.MaskOptions) do
         if option.id == maskId then
-            selectedMaskId = option.id
+            selectedMask = option
 
             if isWearingMask then
                 -- Re-apply face-cover state after selection change.

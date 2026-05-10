@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <name>jo_ple_house01_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef"> <!-- ple_house01_int_ceiling -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.59523" y="-2.487445" z="-1.38295" />
+      <bbMax x="1.930793" y="2.47705" z="0.728852" />
+      <bsCentre x="-0.83221865" y="-0.005197525" z="-0.32704902" />
+      <bsRadius value="3.861439" />
+      <hdTextureDist value="500" />
+      <name>ple_house01_int_ceiling</name>
+      <textureDictionary>ple_house01_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ple_house01_int_ceiling</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- ple_house01_int_floor -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.305459" y="-2.13844" z="-0.031757" />
+      <bbMax x="2.04046" y="2.77787" z="0.171609" />
+      <bsCentre x="-0.63249946" y="0.31971502" z="0.06992599" />
+      <bsRadius value="3.632847" />
+      <hdTextureDist value="500" />
+      <name>ple_house01_int_floor</name>
+      <textureDictionary>ple_house01_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ple_house01_int_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- ple_house01_int_shdw_proxy -->
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="35" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.545254" y="-0.073692" z="-0.184566" />
+      <bbMax x="2.558684" y="5.422676" z="4.244781" />
+      <bsCentre x="0.0067150593" y="2.674492" z="2.0301075" />
+      <bsRadius value="4.355438" />
+      <hdTextureDist value="5" />
+      <name>ple_house01_int_shdw_proxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ple_house01_int_shdw_proxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- ple_house01_int_walls -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.853458" y="-1.621136" z="-1.394418" />
+      <bbMax x="3.608754" y="3.476205" z="1.74716" />
+      <bsCentre x="0.877648" y="0.9275346" z="0.17637098" />
+      <bsRadius value="4.052412" />
+      <hdTextureDist value="500" />
+      <name>ple_house01_int_walls</name>
+      <textureDictionary>ple_house01_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ple_house01_int_walls</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_ple_house01_int_col -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.853458" y="-1.621136" z="-1.394418" />
+      <bbMax x="3.608754" y="3.476205" z="1.74716" />
+      <bsCentre x="0.877648" y="0.9275346" z="0.17637098" />
+      <bsRadius value="4.052412" />
+      <hdTextureDist value="500" />
+      <name>jo_ple_house01_int_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_ple_house01_int_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_ple_house01_int_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- ple_house01_lightbox -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.140376" y="-2.689912" z="0" />
+      <bbMax x="3.140376" y="2.689912" z="4.684823" />
+      <bsCentre x="0" y="0" z="2.3424115" />
+      <bsRadius value="4.752313" />
+      <hdTextureDist value="5" />
+      <name>ple_house01_lightbox</name>
+      <textureDictionary>ple_house01_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ple_house01_lightbox</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

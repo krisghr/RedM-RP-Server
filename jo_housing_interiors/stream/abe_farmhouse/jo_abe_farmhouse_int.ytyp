@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_abe_farmhouse_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef"> <!-- jo_abe_farmhouse_col -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_abe_farmhouse_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_abe_farmhouse_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_abe_farmhouse_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_abe_bathroom_detai01_tnt -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.628767" y="-2.735064" z="-2.191731" />
+      <bbMax x="2.628954" y="2.735045" z="2.17887" />
+      <bsCentre x="0" y="0" z="-0.006430626" />
+      <bsRadius value="4.378009" />
+      <hdTextureDist value="8.82" />
+      <name>jo_abe_bathroom_detai01_tnt</name>
+      <textureDictionary>abe_farm_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_abe_bathroom_detai01_tnt</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_abe_bedroom_details01 -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.838315" y="-6.397052" z="-1.570421" />
+      <bbMax x="4.045559" y="4.478422" z="1.579922" />
+      <bsCentre x="0.10362196" y="-0.9593148" z="0.00475049" />
+      <bsRadius value="6.898479" />
+      <hdTextureDist value="12.89" />
+      <name>jo_abe_bedroom_details01</name>
+      <textureDictionary>abe_farm_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_abe_bedroom_details01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_abe_dine_details01 -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.398607" y="-6.113599" z="-1.866193" />
+      <bbMax x="4.48511" y="6.101538" z="1.814624" />
+      <bsCentre x="-0.4567485" y="-0.0060300827" z="-0.025784492" />
+      <bsRadius value="8.069167" />
+      <hdTextureDist value="13.33" />
+      <name>jo_abe_dine_details01</name>
+      <textureDictionary>abe_farm_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_abe_dine_details01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- abe_farmhouse_int_shadowproxy -->
+      <loadFlags value="0x0000000000000800" />
+      <lodDist value="25" />
+      <flags value="2048" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-9.197051" y="-7.586084" z="-3.502069" />
+      <bbMax x="9.401445" y="7.620849" z="3.303575" />
+      <bsCentre x="0.10219669" y="0.017382622" z="-0.09924698" />
+      <bsRadius value="12.48471" />
+      <hdTextureDist value="100" />
+      <name>abe_farmhouse_int_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>abe_farmhouse_int_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_abe_int_shell -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="30" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-9.29235" y="-7.661743" z="-3.640046" />
+      <bbMax x="9.307589" y="7.661801" z="3.493042" />
+      <bsCentre x="0.007618904" y="0" z="-0.073501825" />
+      <bsRadius value="12.56632" />
+      <hdTextureDist value="17.09" />
+      <name>jo_abe_int_shell</name>
+      <textureDictionary>abe_farm_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_abe_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- abe_int_stairs_railing01 -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.885719" y="-2.740448" z="-2.531736" />
+      <bbMax x="1.852169" y="2.88477" z="1.351196" />
+      <bsCentre x="-0.016775012" y="0.07216096" z="-0.5902699" />
+      <bsRadius value="3.895255" />
+      <hdTextureDist value="8.84" />
+      <name>abe_int_stairs_railing01</name>
+      <textureDictionary>abe_farm_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>abe_int_stairs_railing01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_abe_livingroom_details01_tnt -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.158111" y="-5.88004" z="-1.515819" />
+      <bbMax x="4.254196" y="5.880137" z="1.617236" />
+      <bsCentre x="0.048042774" y="0" z="0.050708532" />
+      <bsRadius value="7.397377" />
+      <hdTextureDist value="12.26" />
+      <name>jo_abe_livingroom_details01_tnt</name>
+      <textureDictionary>abe_farm_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_abe_livingroom_details01_tnt</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_abe_loft_area_details01 -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.769033" y="-5.676505" z="-1.342202" />
+      <bbMax x="4.663601" y="5.819501" z="1.872286" />
+      <bsCentre x="-0.05271578" y="0.07149792" z="0.26504207" />
+      <bsRadius value="7.606998" />
+      <hdTextureDist value="12.81" />
+      <name>jo_abe_loft_area_details01</name>
+      <textureDictionary>abe_farm_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_abe_loft_area_details01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- abe_upstairsrail001 -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.323714" y="-3.374702" z="-0.59282" />
+      <bbMax x="3.300636" y="3.374751" z="0.58773" />
+      <bsCentre x="0.988461" y="0" z="-0.0025449991" />
+      <bsRadius value="4.133202" />
+      <hdTextureDist value="8.625056" />
+      <name>abe_upstairsrail001</name>
+      <textureDictionary>abe_farm_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>abe_upstairsrail001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

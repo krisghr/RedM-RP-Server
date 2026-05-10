@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_tum_saloon_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_tum_saloon_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_tum_saloon_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_tum_saloon_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.20495" y="-2.681162" z="-0.048872" />
+      <bbMax x="5.20495" y="2.681162" z="2.454228" />
+      <bsCentre x="0" y="0" z="1.202678" />
+      <bsRadius value="5.987195" />
+      <hdTextureDist value="12.5" />
+      <name>jo_tum_sal_int_gameroom</name>
+      <textureDictionary>tum_saloon_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_tum_sal_int_gameroom</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.160863" y="-7.665235" z="-1.568964" />
+      <bbMax x="5.160863" y="7.660017" z="1.554362" />
+      <bsCentre x="0" y="-0.002608776" z="-0.007300973" />
+      <bsRadius value="9.369586" />
+      <hdTextureDist value="10" />
+      <name>jo_tum_sal_int_lower_misc</name>
+      <textureDictionary>tum_saloon_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_tum_sal_int_lower_misc</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="75" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.400314" y="-7.881686" z="-3.468275" />
+      <bbMax x="5.42189" y="7.879337" z="3.287041" />
+      <bsCentre x="0.010787964" y="-0.0011749268" z="-0.09061718" />
+      <bsRadius value="10.13859" />
+      <hdTextureDist value="5" />
+      <name>tum_sal_int_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>tum_sal_int_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000002000" />
+      <lodDist value="75" />
+      <flags value="8192" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.35544" y="-7.75552" z="-3.327742" />
+      <bbMax x="5.288321" y="7.760876" z="3.396765" />
+      <bsCentre x="-0.0335598" y="0.0026779175" z="0.034511566" />
+      <bsRadius value="9.990835" />
+      <hdTextureDist value="12.5" />
+      <name>jo_tum_sal_int_shell</name>
+      <textureDictionary>tum_saloon_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_tum_sal_int_shell</assetName>
+      <extensions>
+        <Item type="CExtensionDefStairs">
+          <name>yuetfBA_0x833A19C5</name>
+          <offsetPosition x="4.286433" y="4.987491" z="-2.7944312" />
+          <bottom x="4.286433" y="4.987491" z="-2.994431" />
+          <top x="4.285534" y="0.18883705" z="0.40556192" />
+          <boundMin x="3.4015808" y="-0.11135793" z="-3.0019312" />
+          <boundMax x="5.171182" y="5.0375094" z="0.40556192" />
+          <steps itemType="CExtensionDefStep">
+            <Item>
+              <position x="4.286433" y="4.987491" z="-2.7944312" />
+              <width value="1.754497" />
+              <depth value="0.299672" />
+              <height value="0.2" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="4.285947" y="4.68782" z="-2.5944312" />
+              <width value="1.754497" />
+              <depth value="0.299688" />
+              <height value="0.2" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="4.285668" y="4.388132" z="-2.394431" />
+              <width value="1.754497" />
+              <depth value="0.30016" />
+              <height value="0.2" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="4.286028" y="4.087972" z="-2.194431" />
+              <width value="1.754497" />
+              <depth value="0.30014" />
+              <height value="0.2" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="4.286179" y="3.7878318" z="-1.994431" />
+              <width value="1.754497" />
+              <depth value="0.299672" />
+              <height value="0.2" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="4.285692" y="3.488161" z="-1.7944311" />
+              <width value="1.754497" />
+              <depth value="0.299688" />
+              <height value="0.2" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="4.285414" y="3.1884718" z="-1.594431" />
+              <width value="1.754497" />
+              <depth value="0.300159" />
+              <height value="0.2" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="4.285773" y="2.8883138" z="-1.3944311" />
+              <width value="1.754497" />
+              <depth value="0.300141" />
+              <height value="0.2" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="4.285925" y="2.588172" z="-1.1944311" />
+              <width value="1.754497" />
+              <depth value="0.299672" />
+              <height value="0.2" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="4.285438" y="2.2885008" z="-0.99443114" />
+              <width value="1.754497" />
+              <depth value="0.299688" />
+              <height value="0.2" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="4.28516" y="1.9888129" z="-0.7944312" />
+              <width value="1.754497" />
+              <depth value="0.300159" />
+              <height value="0.2" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="4.285519" y="1.688654" z="-0.59443116" />
+              <width value="1.754497" />
+              <depth value="0.300141" />
+              <height value="0.2" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="4.28567" y="1.3885131" z="-0.3944311" />
+              <width value="1.754497" />
+              <depth value="0.299671" />
+              <height value="0.2" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="4.285184" y="1.0888419" z="-0.19443107" />
+              <width value="1.754497" />
+              <depth value="0.299688" />
+              <height value="0.2" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="4.284906" y="0.78915405" z="0.005568981" />
+              <width value="1.754497" />
+              <depth value="0.300159" />
+              <height value="0.2" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="4.285265" y="0.48899508" z="0.20556879" />
+              <width value="1.754497" />
+              <depth value="0.300159" />
+              <height value="0.2" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="4.285534" y="0.18883705" z="0.40556192" />
+              <width value="1.754497" />
+              <depth value="0.300159" />
+              <height value="0.199992" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+          </steps>
+        </Item>
+      </extensions>
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="30" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.372331" y="-8.177368" z="0" />
+      <bbMax x="6.372331" y="8.177368" z="7.144122" />
+      <bsCentre x="0" y="0" z="3.572061" />
+      <bsRadius value="10.9652" />
+      <hdTextureDist value="5" />
+      <name>tum_sal_lightbox_001</name>
+      <textureDictionary>kfuWbHA_0xD6165743</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>tum_sal_lightbox_001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="30" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.112158" y="-9.12676" z="0" />
+      <bbMax x="7.112158" y="9.12676" z="7.973554" />
+      <bsCentre x="0" y="0" z="3.986777" />
+      <bsRadius value="12.23826" />
+      <hdTextureDist value="5" />
+      <name>tum_sal_lightbox_002</name>
+      <textureDictionary>kfuWbHA_0xD6165743</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>tum_sal_lightbox_002</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

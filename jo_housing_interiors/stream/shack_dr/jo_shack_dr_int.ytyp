@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <name>jo_shack_dr_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef"> <!-- jo_shack_dr_col -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_shack_dr_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_shack_dr_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_shack_dr_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- sdr_dr_cornercabinet02x -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="10" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.5723" y="-1.18894" z="-0.016886" />
+      <bbMax x="0.743011" y="0.212472" z="2.067614" />
+      <bsCentre x="0.08535546" y="-0.48823404" z="1.025364" />
+      <bsRadius value="1.417669" />
+      <hdTextureDist value="5" />
+      <name>sdr_dr_cornercabinet02x</name>
+      <textureDictionary>shack_dr_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>sdr_dr_cornercabinet02x</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- sdr_shkdr_int_blankets -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="75" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.81982" y="-2.050022" z="-1.370385" />
+      <bbMax x="1.818567" y="2.050023" z="1.370383" />
+      <bsCentre x="-0.0006264448" y="0" z="0" />
+      <bsRadius value="3.064312" />
+      <hdTextureDist value="12.5" />
+      <name>sdr_shkdr_int_blankets</name>
+      <textureDictionary>shack_dr_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>sdr_shkdr_int_blankets</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- sdr_shkdr_int_blood -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.487376" y="-2.416624" z="-0.43333" />
+      <bbMax x="2.845119" y="2.501577" z="1.045144" />
+      <bsCentre x="0.6788714" y="0.042476416" z="0.30590695" />
+      <bsRadius value="3.359505" />
+      <hdTextureDist value="7.5" />
+      <name>sdr_shkdr_int_blood</name>
+      <textureDictionary>shack_dr_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>shack_dr_int</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>sdr_shkdr_int_blood</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- sdr_shkdr_int_blood001 -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.609993" y="-1.985499" z="-2.784786" />
+      <bbMax x="4.022107" y="2.52887" z="-0.412276" />
+      <bsCentre x="-0.7939429" y="0.27168548" z="-1.598531" />
+      <bsRadius value="5.449442" />
+      <hdTextureDist value="7.5" />
+      <name>sdr_shkdr_int_blood001</name>
+      <textureDictionary>shack_dr_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>sdr_shkdr_int_blood001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- sdr_shkdr_int_d -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="10" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.881637" y="-1.79323" z="-0.670906" />
+      <bbMax x="1.958275" y="2.478784" z="0.661915" />
+      <bsCentre x="0.03831899" y="0.342777" z="-0.0044955015" />
+      <bsRadius value="2.948366" />
+      <hdTextureDist value="5" />
+      <name>sdr_shkdr_int_d</name>
+      <textureDictionary>shack_dr_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>sdr_shkdr_int_d</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- sdr_shkdr_int_detail -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.757282" y="-3.808213" z="-0.805036" />
+      <bbMax x="3.137658" y="2.948612" z="1.486027" />
+      <bsCentre x="1.190188" y="-0.4298005" z="0.34049553" />
+      <bsRadius value="4.064302" />
+      <hdTextureDist value="7.5" />
+      <name>sdr_shkdr_int_detail</name>
+      <textureDictionary>shack_dr_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>sdr_shkdr_int_detail</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- sdr_shkdr_int_floor -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.302415" y="-3.538617" z="-0.090943" />
+      <bbMax x="3.325218" y="3.548991" z="0.048842" />
+      <bsCentre x="0.011401653" y="0.0051870346" z="-0.021050498" />
+      <bsRadius value="4.8523" />
+      <hdTextureDist value="12.5" />
+      <name>sdr_shkdr_int_floor</name>
+      <textureDictionary>shack_dr_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>sdr_shkdr_int_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_sdr_shkdr_int_shell -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.871992" y="-1.891633" z="-1.318667" />
+      <bbMax x="2.837264" y="5.263654" z="3.324363" />
+      <bsCentre x="-0.517364" y="1.6860106" z="1.002848" />
+      <bsRadius value="5.426094" />
+      <hdTextureDist value="12.5" />
+      <name>jo_sdr_shkdr_int_shell</name>
+      <textureDictionary>jo_sdr_shkdr_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_sdr_shkdr_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_sdr_shkdr_int_stains -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.323161" y="-2.445003" z="-0.498653" />
+      <bbMax x="2.323188" y="2.445" z="0.498652" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="3.409373" />
+      <hdTextureDist value="12.5" />
+      <name>sdr_shkdr_int_stains</name>
+      <textureDictionary>shack_dr_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>sdr_shkdr_int_stains</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- sdr_shkdr_int_tblcloth2 -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="75" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.613806" y="-0.645612" z="-0.413632" />
+      <bbMax x="0.616343" y="0.64561" z="0.413631" />
+      <bsCentre x="0.001268506" y="0" z="0" />
+      <bsRadius value="0.9829655" />
+      <hdTextureDist value="7.5" />
+      <name>sdr_shkdr_int_tblcloth2</name>
+      <textureDictionary>shack_dr_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>shack_dr_int</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>sdr_shkdr_int_tblcloth2</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- shack_dr_int_ref -->
+      <loadFlags value="0x0000000020002000" />
+      <lodDist value="100" />
+      <flags value="536879104" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.914382" y="-4.68532" z="-0.002603" />
+      <bbMax x="1.671219" y="2.372258" z="4.603339" />
+      <bsCentre x="-1.6215816" y="-1.1565309" z="2.300368" />
+      <bsRadius value="5.347763" />
+      <hdTextureDist value="5" />
+      <name>shack_dr_int_ref</name>
+      <textureDictionary>shack_dr_int_ref</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>shack_dr_int_ref</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- shack_dr_int_shadowproxy -->
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="25" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.086984" y="-2.992261" z="-0.090462" />
+      <bbMax x="2.100707" y="2.996115" z="4.668329" />
+      <bsCentre x="0.0068614483" y="0.001926899" z="2.2889335" />
+      <bsRadius value="4.360146" />
+      <hdTextureDist value="5" />
+      <name>shack_dr_int_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>shack_dr_int_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- shackdr_lightingdummybox -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="50" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.783569" y="-3.286911" z="0" />
+      <bbMax x="2.783569" y="3.286911" z="7.276051" />
+      <bsCentre x="0" y="0" z="3.6380255" />
+      <bsRadius value="5.63802" />
+      <hdTextureDist value="25" />
+      <name>shackdr_lightingdummybox</name>
+      <textureDictionary>shack_dr_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>shackdr_lightingdummybox</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

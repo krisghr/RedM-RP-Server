@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="50" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.021964" y="-10.884633" z="-2.529267" />
+      <bbMax x="3.595078" y="4.778075" z="2.406641" />
+      <bsCentre x="-1.7134428" y="-3.053279" z="-0.061312914" />
+      <bsRadius value="9.777592" />
+      <hdTextureDist value="25" />
+      <name>pai_hse_int_shell</name>
+      <textureDictionary>pai_hse_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>pai_hse_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="50" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.021964" y="-10.884633" z="-2.529267" />
+      <bbMax x="3.595078" y="4.778075" z="2.406641" />
+      <bsCentre x="-1.7134428" y="-3.053279" z="-0.061312914" />
+      <bsRadius value="9.777592" />
+      <hdTextureDist value="25" />
+      <name>jo_pai_hse_int_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_pai_hse_int_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_pai_hse_int_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="50" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.45698" y="-4.789517" z="-1.14776" />
+      <bbMax x="3.456998" y="4.789511" z="1.147764" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="6.017273" />
+      <hdTextureDist value="25" />
+      <name>pai_hse_int_02</name>
+      <textureDictionary>pai_hse_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>pai_hse_int_02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.64367" y="-4.880269" z="0" />
+      <bbMax x="3.64367" y="4.880269" z="0.145483" />
+      <bsCentre x="0" y="0" z="0.0727415" />
+      <bsRadius value="6.090866" />
+      <hdTextureDist value="5" />
+      <name>pai_hse_int_lightblocker</name>
+      <textureDictionary>pai_hse_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>pai_hse_int_lightblocker</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.928205" y="-3.054575" z="-1.56715" />
+      <bbMax x="1.928205" y="3.054574" z="1.687048" />
+      <bsCentre x="0" y="0" z="0.05994904" />
+      <bsRadius value="3.961799" />
+      <hdTextureDist value="25" />
+      <name>jo_pai_hse_int_room01_details</name>
+      <textureDictionary>pai_hse_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_pai_hse_int_room01_details</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.330798" y="-2.941339" z="-1.661509" />
+      <bbMax x="3.330797" y="2.941339" z="1.661507" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.74408" />
+      <hdTextureDist value="25" />
+      <name>jo_pai_hse_int_room02_details</name>
+      <textureDictionary>pai_hse_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_pai_hse_int_room02_details</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="25" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.934412" y="-10.879902" z="-2.451199" />
+      <bbMax x="3.48118" y="4.724195" z="2.438183" />
+      <bsCentre x="-1.7266159" y="-3.0778532" z="-0.0065078735" />
+      <bsRadius value="9.693793" />
+      <hdTextureDist value="5" />
+      <name>pai_hse_int_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>pai_hse_int_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="50" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.409853" y="-4.687061" z="-2.409345" />
+      <bbMax x="3.459976" y="4.687061" z="2.409349" />
+      <bsCentre x="0.025061607" y="0" z="0" />
+      <bsRadius value="6.290638" />
+      <hdTextureDist value="25" />
+      <name>pai_hse_int_01</name>
+      <textureDictionary>pai_hse_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>pai_hse_int_01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <name>pai_house_int_empty</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

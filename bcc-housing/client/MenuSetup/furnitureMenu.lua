@@ -927,6 +927,7 @@ end
 
 BccUtils.RPC:Register('bcc-housing:OpenFurnitureBook', function(params)
     local ownedFurniture = params and params.ownedFurniture or {}
+    DBG:Info("bcc-housing: OpenFurnitureBook received on client; owned count " .. tostring(#ownedFurniture))
     OwnedFurnitureCache = ownedFurniture
     FurnitureMenu(HouseId, HouseOwnershipStatus, OwnedFurnitureCache)
 end)

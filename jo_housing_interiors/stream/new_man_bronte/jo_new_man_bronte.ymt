@@ -1,0 +1,4633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CPropSetDef>
+  <name>jo_new_man_bronte</name>
+  <KuRNiVA_0xD222611A itemType="CEntityDef">
+    <Item type="CEntityDef"> <!-- jo_new_man_bronte_col -->
+      <archetypeName>jo_new_man_bronte_col</archetypeName>
+      <flags value="1572864" />
+      <guid value="0x0000000000000000" />
+      <position x="0" y="0" z="-0.05" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="100" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <ambientOcclusionMultiplier value="255" />
+      <artificialAmbientOcclusion value="255" />
+      <tintValue value="0" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_new_man_bron_gnd_shell -->
+      <archetypeName>jo_new_man_bron_gnd_shell</archetypeName>
+      <flags value="353894400" />
+      <id value="0x474C6B0F2F39EA87" />
+      <position x="0.201" y="-0.287001" z="-1.842999" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="30" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_study_detail001 -->
+      <archetypeName>bronte_study_detail001</archetypeName>
+      <flags value="353894400" />
+      <id value="0x42E5C465BB39AF32" />
+      <position x="0.200195" y="-6.3435063" z="0.49948096" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="20" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_study_moulding003 -->
+      <archetypeName>bronte_study_moulding003</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4E013DF264A2A759" />
+      <position x="0.20117101" y="-6.818209" z="1.773624" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="20" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier15x -->
+      <archetypeName>p_chandelier15x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x479FE0EF6174C41B" />
+      <position x="0.20088801" y="-5.2596593" z="2.2905192" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="50" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier15x -->
+      <archetypeName>p_chandelier15x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x40F359F6558B26BC" />
+      <position x="0.20088801" y="-8.475237" z="2.2905192" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="50" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_bronte_frames_linkrear -->
+      <archetypeName>jo_bronte_frames_linkrear</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4F2E2F254DD51BBE" />
+      <position x="-6.7236476" y="2.595398" z="-0.311033" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="25" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_bronte_geom_halls_detail01 -->
+      <archetypeName>jo_bronte_geom_halls_detail01</archetypeName>
+      <flags value="353894400" />
+      <id value="0x494AD2451C9D9DD4" />
+      <position x="-3.578816" y="2.4909892" z="0.15755796" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="20" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_bronte_gnd_hall_r_decals -->
+      <archetypeName>jo_bronte_gnd_hall_r_decals</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4F8A6CBB33D37FBD" />
+      <position x="-3.600632" y="2.5464592" z="0.107001066" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="20" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_bronte_gnd_hall_wain_rear003 -->
+      <archetypeName>jo_bronte_gnd_hall_wain_rear003</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4381A6E72898E696" />
+      <position x="-3.6379821" y="2.596301" z="-1.106209" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="20" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier11x -->
+      <archetypeName>p_chandelier11x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4D512DEB2189CFDA" />
+      <position x="-4.078046" y="4.688006" z="2.11519" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="-1" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefLightEffect">
+          <name />
+          <offsetPosition x="0" y="0" z="0" />
+          <instances itemType="CLightAttrDef">
+            <Item>
+              <posn>0.00302887 0.002799 -0.556832</posn>
+              <colour>255 147 70</colour>
+              <flashiness value="33" />
+              <intensity value="20" />
+              <flags value="4224" />
+              <boneTag value="24155" />
+              <lightType value="1" />
+              <groupId value="0" />
+              <timeFlags value="15728767" />
+              <falloff value="3" />
+              <falloffExponent value="8" />
+              <cullingPlane>0 0 -1 3</cullingPlane>
+              <cullingPlane1>0 0 -1 3</cullingPlane1>
+              <shadowBlur value="0" />
+              <shadowOpacity value="255" />
+              <padding2 value="0" />
+              <roughnessMod value="0" />
+              <volIntensity value="1" />
+              <volSizeScale value="1" />
+              <volOuterColour>255 255 255</volOuterColour>
+              <lightHash value="104" />
+              <volOuterIntensity value="0" />
+              <injectsIntoVoxels value="True" />
+              <coronaSize value="0" />
+              <volOuterExponent value="1" />
+              <lightFadeDistance value="0" />
+              <shadowFadeDistance value="20" />
+              <specularFadeDistance value="0" />
+              <volumetricFadeDistance value="30" />
+              <shadowNearClip value="0.01" />
+              <jwWnkOA_0x4855CDE5 value="0" />
+              <aVNWOWA_0x0DA3D86E value="0" />
+              <coronaIntensity value="1" />
+              <coronaZBias value="0.1" />
+              <jaUgZFA_0x93C52D2C />
+              <UqAqJIA_0x52A89335 x="0" y="0" z="0" />
+              <emitterSize value="1" />
+              <emitterIntensityMult value="1" />
+              <emitterTintDesaturation value="0" />
+              <direction>0 0 1</direction>
+              <tangent>-1 0 0</tangent>
+              <coneInnerAngle value="10" />
+              <coneOuterAngle value="90" />
+              <squareAspectRatio value="1" />
+              <extents>1 0 0</extents>
+              <projectedTextureKey value="0" />
+              <SSAOStrength value="1.5" />
+              <extraFlags value="20992" />
+              <falloffBias value="0.5" />
+              <KEQjKDA_0x3F4C1BB0 value="0" />
+              <xnzMOUA_0x9C23D4E9 value="0" />
+              <wrapAmount value="0.3" />
+              <nonDirectionality value="0" />
+              <scaleDirectional value="1" />
+              <ciMauyA_0xA968034C value="0" />
+              <zuvBbAA_0x5148E7B3 value="0" />
+              <uanzvAA_0x83161CBE value="True" />
+              <yNonDHA_0xC11AF51B value="0" />
+              <hNLtnOA_0x53A339C3 value="0" />
+              <GQdKoGA_0x0F06E05A value="0" />
+              <kbeoGZA_0x724AE3FF value="1" />
+              <UuQeEIA_0x73D8B6CB value="0.7" />
+              <gvmiqBA_0x2EBE653A value="0" />
+              <JdptERA_0x208D587D value="0" />
+              <zsUuaBA_0x2E0E4E3C value="1" />
+              <VeekdIA_0xB4B05CF2 value="0" />
+              <OBPcFAA_0x0963B563 value="1000000" />
+              <dynamicShadowFadeDistance value="0" />
+              <lightId value="3261896808" />
+              <blendTime value="15" />
+              <offset value="0" />
+              <pwFikYA_0x30ECA388 x="0.0030288696" y="0.0027990341" z="-0.68659997" />
+              <overrideHash value="2008062339" />
+            </Item>
+            <Item>
+              <posn>0.00302887 0.002799 -0.759679</posn>
+              <colour>255 147 70</colour>
+              <flashiness value="33" />
+              <intensity value="40" />
+              <flags value="384" />
+              <boneTag value="24155" />
+              <lightType value="2" />
+              <groupId value="0" />
+              <timeFlags value="15728767" />
+              <falloff value="5" />
+              <falloffExponent value="8" />
+              <cullingPlane>0 0 1 5</cullingPlane>
+              <cullingPlane1>0 0 1 5</cullingPlane1>
+              <shadowBlur value="255" />
+              <shadowOpacity value="255" />
+              <padding2 value="0" />
+              <roughnessMod value="0" />
+              <volIntensity value="1" />
+              <volSizeScale value="1" />
+              <volOuterColour>255 255 255</volOuterColour>
+              <lightHash value="33" />
+              <volOuterIntensity value="0" />
+              <injectsIntoVoxels value="True" />
+              <coronaSize value="0" />
+              <volOuterExponent value="1" />
+              <lightFadeDistance value="0" />
+              <shadowFadeDistance value="20" />
+              <specularFadeDistance value="0" />
+              <volumetricFadeDistance value="30" />
+              <shadowNearClip value="0.01" />
+              <jwWnkOA_0x4855CDE5 value="0" />
+              <aVNWOWA_0x0DA3D86E value="0" />
+              <coronaIntensity value="1" />
+              <coronaZBias value="0.1" />
+              <jaUgZFA_0x93C52D2C />
+              <UqAqJIA_0x52A89335 x="0" y="0" z="0" />
+              <emitterSize value="1" />
+              <emitterIntensityMult value="1" />
+              <emitterTintDesaturation value="0" />
+              <direction>0 0 -1</direction>
+              <tangent>-1 0 0</tangent>
+              <coneInnerAngle value="10" />
+              <coneOuterAngle value="60" />
+              <squareAspectRatio value="1" />
+              <extents>1 0 0</extents>
+              <projectedTextureKey value="0" />
+              <SSAOStrength value="0" />
+              <extraFlags value="20992" />
+              <falloffBias value="0.1" />
+              <KEQjKDA_0x3F4C1BB0 value="0" />
+              <xnzMOUA_0x9C23D4E9 value="0" />
+              <wrapAmount value="0" />
+              <nonDirectionality value="0" />
+              <scaleDirectional value="1" />
+              <ciMauyA_0xA968034C value="0" />
+              <zuvBbAA_0x5148E7B3 value="0" />
+              <uanzvAA_0x83161CBE value="True" />
+              <yNonDHA_0xC11AF51B value="0" />
+              <hNLtnOA_0x53A339C3 value="0" />
+              <GQdKoGA_0x0F06E05A value="0" />
+              <kbeoGZA_0x724AE3FF value="1" />
+              <UuQeEIA_0x73D8B6CB value="0.7" />
+              <gvmiqBA_0x2EBE653A value="0" />
+              <JdptERA_0x208D587D value="0" />
+              <zsUuaBA_0x2E0E4E3C value="1" />
+              <VeekdIA_0xB4B05CF2 value="0" />
+              <OBPcFAA_0x0963B563 value="1000000" />
+              <dynamicShadowFadeDistance value="0" />
+              <lightId value="930964257" />
+              <blendTime value="15" />
+              <offset value="0" />
+              <pwFikYA_0x30ECA388 x="0.0030288696" y="0.0027990341" z="-0.889446" />
+              <overrideHash value="3297327042" />
+            </Item>
+          </instances>
+          <additionalInstances />
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier11x -->
+      <archetypeName>p_chandelier11x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4FB2787E58956CE0" />
+      <position x="-6.730767" y="-0.285779" z="2.11519" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="-1" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_bronte_dining_detail -->
+      <archetypeName>jo_bronte_dining_detail</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4C20C2D6452401E5" />
+      <position x="0.097656004" y="5.929443" z="0.17217994" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="17" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_dining_pillars1 -->
+      <archetypeName>bronte_dining_pillars1</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4689CBFE9FCF3824" />
+      <position x="0.19822" y="6.281747" z="0.0022220612" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="25" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_dining_ceiling -->
+      <archetypeName>bronte_dining_ceiling</archetypeName>
+      <flags value="353894400" />
+      <id value="0x46079778D106B565" />
+      <position x="0.198974" y="6.3131337" z="2.11211" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="18" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier15x -->
+      <archetypeName>p_chandelier15x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x46C685D26E831736" />
+      <position x="0.203502" y="5.9634967" z="2.1904392" />
+      <rotation x="0" y="0" z="0.99995446" w="0.0095510045" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="50" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_dining_posts -->
+      <archetypeName>bronte_dining_posts</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4419C3DB796184DD" />
+      <position x="0.196684" y="10.097188" z="-0.43244696" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="14" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_wine_room04 -->
+      <archetypeName>bronte_wine_room04</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4C53711687DDC173" />
+      <position x="5.7651362" y="4.476318" z="0.16886902" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="22" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_wine_fl_cloth004 -->
+      <archetypeName>bronte_wine_fl_cloth004</archetypeName>
+      <flags value="353894400" />
+      <id value="0x44DC12E582E39DD1" />
+      <position x="5.6393614" y="4.686813" z="-1.84134" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="16" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_wine_ceiling001 -->
+      <archetypeName>bronte_wine_ceiling001</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4C2C788A9DF980D2" />
+      <position x="5.645751" y="4.933056" z="2.101619" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="17" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier17x -->
+      <archetypeName>p_chandelier17x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x405C3B30C749E9B5" />
+      <position x="5.645751" y="4.679759" z="2.127638" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="50" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_wine_decals -->
+      <archetypeName>bronte_wine_decals</archetypeName>
+      <flags value="353894400" />
+      <id value="0x446D711F5538C58E" />
+      <position x="5.643142" y="4.4178157" z="2.147743" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="17" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_wine_racks005 -->
+      <archetypeName>bronte_wine_racks005</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4A1B5AF6EAD64B7C" />
+      <position x="5.645751" y="7.0657377" z="-0.14180398" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="16" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_new_man_bronte_wine -->
+      <archetypeName>jo_new_man_bronte_wine</archetypeName>
+      <flags value="353894400" />
+      <id value="0x49C9A51724253D3A" />
+      <position x="5.7430973" y="4.8987427" z="-0.294371" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="16" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- new_bro_kitchen_detail01 -->
+      <archetypeName>new_bro_kitchen_detail01</archetypeName>
+      <flags value="353894400" />
+      <id value="0x499115B55DABCD9D" />
+      <position x="-7.862789" y="4.686413" z="0.02018702" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="18" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier17x -->
+      <archetypeName>p_chandelier17x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4749043006780F27" />
+      <position x="-7.7991085" y="4.686362" z="1.8867021" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="50" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_kitchen_cabinets001 -->
+      <archetypeName>bronte_kitchen_cabinets001</archetypeName>
+      <flags value="353894400" />
+      <id value="0x405C5C240C6B640A" />
+      <position x="-8.954109" y="4.686326" z="-0.60418403" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="18" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_bronte_music_details01 -->
+      <archetypeName>jo_bronte_music_details01</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4B71732B88DD2F5E" />
+      <position x="12.6304035" y="5.0743027" z="0.14788496" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="25" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier15x -->
+      <archetypeName>p_chandelier15x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4161EA4575290BE5" />
+      <position x="11.141838" y="4.685877" z="2.17307" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="50" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier15x -->
+      <archetypeName>p_chandelier15x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4EEF5615DA0AF07E" />
+      <position x="13.991358" y="4.685877" z="2.17307" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="50" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- new_man_bronte_mrr_rfln_b -->
+      <archetypeName>new_man_bronte_mrr_rfln_b</archetypeName>
+      <flags value="538443776" />
+      <id value="0x4CE1E4C00697A87B" />
+      <position x="12.6304035" y="5.0743027" z="0.14788496" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="25" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_hall_front_detail003 -->
+      <archetypeName>bronte_hall_front_detail003</archetypeName>
+      <flags value="353894400" />
+      <id value="0x410476A6798DA8C0" />
+      <position x="6.2707033" y="-0.30838" z="0.15724707" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="18" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier11x -->
+      <archetypeName>p_chandelier11x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4DF9EF1694324055" />
+      <position x="6.307946" y="-0.285109" z="2.11519" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="50" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefLightEffect">
+          <name />
+          <offsetPosition x="0" y="0" z="0" />
+          <instances itemType="CLightAttrDef">
+            <Item>
+              <posn>0.00302887 0.002799 -0.556832</posn>
+              <colour>255 147 70</colour>
+              <flashiness value="33" />
+              <intensity value="20" />
+              <flags value="4096" />
+              <boneTag value="24155" />
+              <lightType value="1" />
+              <groupId value="0" />
+              <timeFlags value="15728767" />
+              <falloff value="2" />
+              <falloffExponent value="8" />
+              <cullingPlane>0 0 -1 2</cullingPlane>
+              <cullingPlane1>0 0 -1 2</cullingPlane1>
+              <shadowBlur value="0" />
+              <shadowOpacity value="255" />
+              <padding2 value="0" />
+              <roughnessMod value="0" />
+              <volIntensity value="1" />
+              <volSizeScale value="1" />
+              <volOuterColour>255 255 255</volOuterColour>
+              <lightHash value="104" />
+              <volOuterIntensity value="0" />
+              <injectsIntoVoxels value="True" />
+              <coronaSize value="0" />
+              <volOuterExponent value="1" />
+              <lightFadeDistance value="0" />
+              <shadowFadeDistance value="20" />
+              <specularFadeDistance value="0" />
+              <volumetricFadeDistance value="30" />
+              <shadowNearClip value="0.01" />
+              <jwWnkOA_0x4855CDE5 value="0" />
+              <aVNWOWA_0x0DA3D86E value="0" />
+              <coronaIntensity value="1" />
+              <coronaZBias value="0.1" />
+              <jaUgZFA_0x93C52D2C />
+              <UqAqJIA_0x52A89335 x="0" y="0" z="0" />
+              <emitterSize value="1" />
+              <emitterIntensityMult value="1" />
+              <emitterTintDesaturation value="0" />
+              <direction>0 0 1</direction>
+              <tangent>-1 0 0</tangent>
+              <coneInnerAngle value="10" />
+              <coneOuterAngle value="90" />
+              <squareAspectRatio value="1" />
+              <extents>1 0 0</extents>
+              <projectedTextureKey value="0" />
+              <SSAOStrength value="1.5" />
+              <extraFlags value="4608" />
+              <falloffBias value="0.5" />
+              <KEQjKDA_0x3F4C1BB0 value="0" />
+              <xnzMOUA_0x9C23D4E9 value="0" />
+              <wrapAmount value="0.3" />
+              <nonDirectionality value="0" />
+              <scaleDirectional value="1" />
+              <ciMauyA_0xA968034C value="0" />
+              <zuvBbAA_0x5148E7B3 value="0" />
+              <uanzvAA_0x83161CBE value="True" />
+              <yNonDHA_0xC11AF51B value="0" />
+              <hNLtnOA_0x53A339C3 value="0" />
+              <GQdKoGA_0x0F06E05A value="0" />
+              <kbeoGZA_0x724AE3FF value="1" />
+              <UuQeEIA_0x73D8B6CB value="0.7" />
+              <gvmiqBA_0x2EBE653A value="0" />
+              <JdptERA_0x208D587D value="0" />
+              <zsUuaBA_0x2E0E4E3C value="1" />
+              <VeekdIA_0xB4B05CF2 value="0" />
+              <OBPcFAA_0x0963B563 value="1000000" />
+              <dynamicShadowFadeDistance value="0" />
+              <lightId value="3261896808" />
+              <blendTime value="15" />
+              <offset value="0" />
+              <pwFikYA_0x30ECA388 x="0.0030288696" y="0.0027990001" z="-0.68659997" />
+              <overrideHash value="2008062339" />
+            </Item>
+            <Item>
+              <posn>0.00302887 0.002799 -0.759679</posn>
+              <colour>255 147 70</colour>
+              <flashiness value="33" />
+              <intensity value="0" />
+              <flags value="384" />
+              <boneTag value="24155" />
+              <lightType value="2" />
+              <groupId value="0" />
+              <timeFlags value="15728767" />
+              <falloff value="5" />
+              <falloffExponent value="8" />
+              <cullingPlane>0 0 1 5</cullingPlane>
+              <cullingPlane1>0 0 1 5</cullingPlane1>
+              <shadowBlur value="255" />
+              <shadowOpacity value="255" />
+              <padding2 value="0" />
+              <roughnessMod value="0" />
+              <volIntensity value="1" />
+              <volSizeScale value="1" />
+              <volOuterColour>255 255 255</volOuterColour>
+              <lightHash value="33" />
+              <volOuterIntensity value="0" />
+              <injectsIntoVoxels value="True" />
+              <coronaSize value="0" />
+              <volOuterExponent value="1" />
+              <lightFadeDistance value="0" />
+              <shadowFadeDistance value="20" />
+              <specularFadeDistance value="0" />
+              <volumetricFadeDistance value="30" />
+              <shadowNearClip value="0.01" />
+              <jwWnkOA_0x4855CDE5 value="0" />
+              <aVNWOWA_0x0DA3D86E value="0" />
+              <coronaIntensity value="1" />
+              <coronaZBias value="0.1" />
+              <jaUgZFA_0x93C52D2C />
+              <UqAqJIA_0x52A89335 x="0" y="0" z="0" />
+              <emitterSize value="1" />
+              <emitterIntensityMult value="1" />
+              <emitterTintDesaturation value="0" />
+              <direction>0 0 -1</direction>
+              <tangent>-1 0 0</tangent>
+              <coneInnerAngle value="10" />
+              <coneOuterAngle value="60" />
+              <squareAspectRatio value="1" />
+              <extents>1 0 0</extents>
+              <projectedTextureKey value="0" />
+              <SSAOStrength value="0" />
+              <extraFlags value="20992" />
+              <falloffBias value="0.1" />
+              <KEQjKDA_0x3F4C1BB0 value="0" />
+              <xnzMOUA_0x9C23D4E9 value="0" />
+              <wrapAmount value="0" />
+              <nonDirectionality value="0" />
+              <scaleDirectional value="1" />
+              <ciMauyA_0xA968034C value="0" />
+              <zuvBbAA_0x5148E7B3 value="0" />
+              <uanzvAA_0x83161CBE value="True" />
+              <yNonDHA_0xC11AF51B value="0" />
+              <hNLtnOA_0x53A339C3 value="0" />
+              <GQdKoGA_0x0F06E05A value="0" />
+              <kbeoGZA_0x724AE3FF value="1" />
+              <UuQeEIA_0x73D8B6CB value="0.7" />
+              <gvmiqBA_0x2EBE653A value="0" />
+              <JdptERA_0x208D587D value="0" />
+              <zsUuaBA_0x2E0E4E3C value="1" />
+              <VeekdIA_0xB4B05CF2 value="0" />
+              <OBPcFAA_0x0963B563 value="1000000" />
+              <dynamicShadowFadeDistance value="0" />
+              <lightId value="930964257" />
+              <blendTime value="15" />
+              <offset value="0" />
+              <pwFikYA_0x30ECA388 x="0.0030288696" y="0.0027990001" z="-0.889446" />
+              <overrideHash value="3297327042" />
+            </Item>
+          </instances>
+          <additionalInstances />
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_hall_front_decal01 -->
+      <archetypeName>bronte_hall_front_decal01</archetypeName>
+      <flags value="353894400" />
+      <id value="0x46F3EA313FD8CC3B" />
+      <position x="6.3008204" y="-0.287791" z="0.69933295" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="16" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_bronte_fram_03 -->
+      <archetypeName>p_bronte_fram_03</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4E99D67C51E892D4" />
+      <position x="5.639756" y="1.795842" z="-1.88182" />
+      <rotation x="0" y="0" z="0.7071068" w="0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="-1" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_bronte_fram_03 -->
+      <archetypeName>p_bronte_fram_03</archetypeName>
+      <flags value="1572864" />
+      <id value="0x48AF4D080A4A19A9" />
+      <position x="9.308664" y="-0.28712702" z="-1.843047" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="-1" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_geo_strsdet1_tint -->
+      <archetypeName>bronte_geo_strsdet1_tint</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4152B035129EBFC9" />
+      <position x="5.6123033" y="-5.287359" z="2.341918" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="18" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_geostrsdet4 -->
+      <archetypeName>bronte_geostrsdet4</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4327F54E8A66CCB0" />
+      <position x="5.6206794" y="-5.270021" z="-1.106246" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="17" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_stairs_window003 -->
+      <archetypeName>bronte_stairs_window003</archetypeName>
+      <flags value="353894400" />
+      <id value="0x408280A6B023C0E5" />
+      <position x="5.626704" y="-8.151451" z="3.015438" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="16" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier31x -->
+      <archetypeName>p_chandelier31x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4786FB30F788AE0E" />
+      <position x="5.624851" y="-5.262285" z="6.7536654" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="18" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_geo_strs_decals -->
+      <archetypeName>bronte_geo_strs_decals</archetypeName>
+      <flags value="353894400" />
+      <id value="0x40B996A601BD7092" />
+      <position x="5.621353" y="-3.8043141" z="3.1601171" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="15" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_bronte_hall_1_detail004 -->
+      <archetypeName>jo_bronte_hall_1_detail004</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4B68E7E99CE56766" />
+      <position x="-0.85750103" y="2.8155432" z="4.728652" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="22" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doornbd39x -->
+      <archetypeName>p_doornbd39x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x496C13DA11385ACC" />
+      <position x="-8.2839985" y="1.801999" z="2.756783" />
+      <rotation x="0" y="0" z="1" w="0" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="15" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doornbd39x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="True" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>lFJBJLA_0xA38100C9</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doornbd39x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>sYjfBKA_0xAE3FA2E6</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_hall_1_ceiling003 -->
+      <archetypeName>bronte_hall_1_ceiling003</archetypeName>
+      <flags value="353894400" />
+      <id value="0x483CABB7AA01B89D" />
+      <position x="1.1055" y="0.84342694" z="6.635177" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="22" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier11x -->
+      <archetypeName>p_chandelier11x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x48D5E4DEFCBFFB36" />
+      <position x="-9.007918" y="-0.288163" z="6.674916" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="16" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier11x -->
+      <archetypeName>p_chandelier11x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4F550843E6D9E577" />
+      <position x="-5.2498446" y="-0.286886" z="6.674916" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="16" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier11x -->
+      <archetypeName>p_chandelier11x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4731AB48734A0F1E" />
+      <position x="0.183257" y="2.54286" z="6.674916" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="16" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier11x -->
+      <archetypeName>p_chandelier11x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4DD5E16EEB4E9D3A" />
+      <position x="5.6232734" y="-0.27416602" z="6.674916" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="16" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefLightEffect">
+          <name />
+          <offsetPosition x="0" y="0" z="0" />
+          <instances itemType="CLightAttrDef">
+            <Item>
+              <posn>0.00302887 0.002799 -0.759679</posn>
+              <colour>255 147 70</colour>
+              <flashiness value="33" />
+              <intensity value="40" />
+              <flags value="384" />
+              <boneTag value="24155" />
+              <lightType value="2" />
+              <groupId value="0" />
+              <timeFlags value="15728767" />
+              <falloff value="5" />
+              <falloffExponent value="8" />
+              <cullingPlane>0 0 1 5</cullingPlane>
+              <cullingPlane1>0 0 1 5</cullingPlane1>
+              <shadowBlur value="255" />
+              <shadowOpacity value="255" />
+              <padding2 value="0" />
+              <roughnessMod value="0" />
+              <volIntensity value="1" />
+              <volSizeScale value="1" />
+              <volOuterColour>255 255 255</volOuterColour>
+              <lightHash value="33" />
+              <volOuterIntensity value="0" />
+              <injectsIntoVoxels value="True" />
+              <coronaSize value="0" />
+              <volOuterExponent value="1" />
+              <lightFadeDistance value="0" />
+              <shadowFadeDistance value="20" />
+              <specularFadeDistance value="0" />
+              <volumetricFadeDistance value="30" />
+              <shadowNearClip value="0.01" />
+              <jwWnkOA_0x4855CDE5 value="0" />
+              <aVNWOWA_0x0DA3D86E value="0" />
+              <coronaIntensity value="1" />
+              <coronaZBias value="0.1" />
+              <jaUgZFA_0x93C52D2C />
+              <UqAqJIA_0x52A89335 x="0" y="0" z="0" />
+              <emitterSize value="1" />
+              <emitterIntensityMult value="1" />
+              <emitterTintDesaturation value="0" />
+              <direction>0 0 -1</direction>
+              <tangent>-1 0 0</tangent>
+              <coneInnerAngle value="10" />
+              <coneOuterAngle value="60" />
+              <squareAspectRatio value="1" />
+              <extents>1 0 0</extents>
+              <projectedTextureKey value="0" />
+              <SSAOStrength value="0" />
+              <extraFlags value="20992" />
+              <falloffBias value="0.1" />
+              <KEQjKDA_0x3F4C1BB0 value="0" />
+              <xnzMOUA_0x9C23D4E9 value="0" />
+              <wrapAmount value="0" />
+              <nonDirectionality value="0" />
+              <scaleDirectional value="1" />
+              <ciMauyA_0xA968034C value="0" />
+              <zuvBbAA_0x5148E7B3 value="0" />
+              <uanzvAA_0x83161CBE value="True" />
+              <yNonDHA_0xC11AF51B value="0" />
+              <hNLtnOA_0x53A339C3 value="0" />
+              <GQdKoGA_0x0F06E05A value="0" />
+              <kbeoGZA_0x724AE3FF value="1" />
+              <UuQeEIA_0x73D8B6CB value="0.7" />
+              <gvmiqBA_0x2EBE653A value="0" />
+              <JdptERA_0x208D587D value="0" />
+              <zsUuaBA_0x2E0E4E3C value="1" />
+              <VeekdIA_0xB4B05CF2 value="0" />
+              <OBPcFAA_0x0963B563 value="1000000" />
+              <dynamicShadowFadeDistance value="0" />
+              <lightId value="930964257" />
+              <blendTime value="15" />
+              <offset value="0" />
+              <pwFikYA_0x30ECA388 x="0.0030288696" y="0.0027990006" z="-0.8894458" />
+              <overrideHash value="3297327042" />
+            </Item>
+          </instances>
+          <additionalInstances />
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier11x -->
+      <archetypeName>p_chandelier11x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4B151A6051C8AB47" />
+      <position x="10.421863" y="-0.27864102" z="6.674916" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="16" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_bronte_hall_1_decals -->
+      <archetypeName>jo_bronte_hall_1_decals</archetypeName>
+      <flags value="353894400" />
+      <id value="0x40640463CC4D253E" />
+      <position x="1.247663" y="0.740731" z="4.172647" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="22" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- man_bronte_lib_details01 -->
+      <archetypeName>man_bronte_lib_details01</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4BAFC1B20628E7B9" />
+      <position x="0.200048" y="-5.482509" z="4.21772" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="17" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_geo_lbry_det2 -->
+      <archetypeName>bronte_geo_lbry_det2</archetypeName>
+      <flags value="353894400" />
+      <id value="0x472BA6B1CE4841E6" />
+      <position x="0.20011601" y="-4.835579" z="6.590732" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="17" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_library_window005 -->
+      <archetypeName>bronte_library_window005</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4780104D87634361" />
+      <position x="0.199985" y="-5.335526" z="8.133211" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="17" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- new_bro_lib_fireplace -->
+      <archetypeName>new_bro_lib_fireplace</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4A9F5A6DE8930917" />
+      <position x="0.196455" y="0.21206197" z="4.150566" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="15" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_geo_lbry_decals01 -->
+      <archetypeName>bronte_geo_lbry_decals01</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4885ACA86152F611" />
+      <position x="0.2001" y="-5.335595" z="7.0741286" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="16" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- man_bronte_lib_details02 -->
+      <archetypeName>man_bronte_lib_details02</archetypeName>
+      <flags value="353894400" />
+      <id value="0x41A9AEBFEC187172" />
+      <position x="0.198826" y="-6.262947" z="5.044363" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="18" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- new_man_bronte_mrr_rfln_d -->
+      <archetypeName>new_man_bronte_mrr_rfln_d</archetypeName>
+      <flags value="538443776" />
+      <id value="0x4E49BEA92599D59D" />
+      <position x="0.200048" y="-5.482509" z="4.21772" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="25" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_brontemanbooks01x -->
+      <archetypeName>p_brontemanbooks01x</archetypeName>
+      <flags value="353894400" />
+      <id value="0x42A3495BA3B455D0" />
+      <position x="-2.548532" y="-7.988232" z="3.165012" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="13" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_brontemanbooks02ax -->
+      <archetypeName>p_brontemanbooks02ax</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4FED8974877B135A" />
+      <position x="2.9912999" y="-7.978503" z="4.592811" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="13" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_brontemanbooks02x -->
+      <archetypeName>p_brontemanbooks02x</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4816FF208ABE576C" />
+      <position x="2.973532" y="-7.975737" z="3.1678972" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="13" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_brontemanbooks03x -->
+      <archetypeName>p_brontemanbooks03x</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4395A14433CE0C98" />
+      <position x="-2.526313" y="-2.4488292" z="3.802731" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="13" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_brontemanbooks04x -->
+      <archetypeName>p_brontemanbooks04x</archetypeName>
+      <flags value="353894400" />
+      <id value="0x466D46794F48A3A1" />
+      <position x="2.975024" y="-2.3062558" z="3.800724" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="13" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_bookend01x -->
+      <archetypeName>p_bookend01x</archetypeName>
+      <flags value="353894400" />
+      <id value="0x481B5DE9360C6CE4" />
+      <position x="-2.553958" y="-2.664825" z="4.12535" />
+      <rotation x="0" y="0" z="-0.642787" w="0.766045" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="13" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_bookend01x -->
+      <archetypeName>p_bookend01x</archetypeName>
+      <flags value="353894400" />
+      <id value="0x40288E032493297D" />
+      <position x="-2.328856" y="-1.191664" z="3.8103871" />
+      <rotation x="0" y="0" z="-0.53729963" w="0.8433914" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="13" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_bronte_bedroom_tw_detail005 -->
+      <archetypeName>jo_bronte_bedroom_tw_detail005</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4A8ED6B16A0E7F4E" />
+      <position x="12.136639" y="4.686638" z="4.757013" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="18" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_bedroom_decals -->
+      <archetypeName>bronte_bedroom_decals</archetypeName>
+      <flags value="353894400" />
+      <id value="0x458E13C66AFE2176" />
+      <position x="12.561401" y="4.686439" z="4.946053" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="18" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_geobdrmbeams -->
+      <archetypeName>bronte_geobdrmbeams</archetypeName>
+      <flags value="353894400" />
+      <id value="0x49BE96B3D10249C1" />
+      <position x="0.300634" y="7.493302" z="5.524359" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="17" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_geobdrmmldng -->
+      <archetypeName>bronte_geobdrmmldng</archetypeName>
+      <flags value="353894400" />
+      <id value="0x44CB59BAF923945F" />
+      <position x="0.200313" y="7.43487" z="2.959106" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="17" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_bronte_geobdrm_frplc -->
+      <archetypeName>jo_bronte_geobdrm_frplc</archetypeName>
+      <flags value="353894400" />
+      <id value="0x48DA34AB2C138143" />
+      <position x="0.200008" y="4.305145" z="4.678909" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="17" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier11x -->
+      <archetypeName>p_chandelier11x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4867268062AAB062" />
+      <position x="0.199506" y="7.830134" z="6.674916" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="17" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefLightEffect">
+          <name />
+          <offsetPosition x="0" y="0" z="0" />
+          <instances itemType="CLightAttrDef">
+            <Item>
+              <posn>-0.252327 -0.00183 -0.649561</posn>
+              <colour>255 188 140</colour>
+              <flashiness value="42" />
+              <intensity value="0" />
+              <flags value="0" />
+              <boneTag value="24155" />
+              <lightType value="1" />
+              <groupId value="0" />
+              <timeFlags value="15728767" />
+              <falloff value="0.35" />
+              <falloffExponent value="256" />
+              <cullingPlane>0 0 1 0.35</cullingPlane>
+              <cullingPlane1>0 0 1 0.35</cullingPlane1>
+              <shadowBlur value="0" />
+              <shadowOpacity value="255" />
+              <padding2 value="0" />
+              <roughnessMod value="0" />
+              <volIntensity value="1" />
+              <volSizeScale value="1" />
+              <volOuterColour>255 255 255</volOuterColour>
+              <lightHash value="61" />
+              <volOuterIntensity value="0" />
+              <injectsIntoVoxels value="True" />
+              <coronaSize value="0" />
+              <volOuterExponent value="1" />
+              <lightFadeDistance value="0" />
+              <shadowFadeDistance value="20" />
+              <specularFadeDistance value="0" />
+              <volumetricFadeDistance value="30" />
+              <shadowNearClip value="0.01" />
+              <jwWnkOA_0x4855CDE5 value="0" />
+              <aVNWOWA_0x0DA3D86E value="0" />
+              <coronaIntensity value="0" />
+              <coronaZBias value="0.1" />
+              <jaUgZFA_0x93C52D2C>DVeleDA_0xCCAE6E0B</jaUgZFA_0x93C52D2C>
+              <UqAqJIA_0x52A89335 x="0" y="0" z="0" />
+              <emitterSize value="1" />
+              <emitterIntensityMult value="1" />
+              <emitterTintDesaturation value="0.75" />
+              <direction>0 0 -1</direction>
+              <tangent>-1 0 0</tangent>
+              <coneInnerAngle value="10" />
+              <coneOuterAngle value="25" />
+              <squareAspectRatio value="1" />
+              <extents>49.8 0 0</extents>
+              <projectedTextureKey value="0" />
+              <SSAOStrength value="0" />
+              <extraFlags value="4608" />
+              <falloffBias value="0" />
+              <KEQjKDA_0x3F4C1BB0 value="0" />
+              <xnzMOUA_0x9C23D4E9 value="0" />
+              <wrapAmount value="0" />
+              <nonDirectionality value="0" />
+              <scaleDirectional value="1" />
+              <ciMauyA_0xA968034C value="0" />
+              <zuvBbAA_0x5148E7B3 value="0" />
+              <uanzvAA_0x83161CBE value="True" />
+              <yNonDHA_0xC11AF51B value="0" />
+              <hNLtnOA_0x53A339C3 value="0" />
+              <GQdKoGA_0x0F06E05A value="0" />
+              <kbeoGZA_0x724AE3FF value="1" />
+              <UuQeEIA_0x73D8B6CB value="0.7" />
+              <gvmiqBA_0x2EBE653A value="0" />
+              <JdptERA_0x208D587D value="0" />
+              <zsUuaBA_0x2E0E4E3C value="1" />
+              <VeekdIA_0xB4B05CF2 value="0" />
+              <OBPcFAA_0x0963B563 value="1000000" />
+              <dynamicShadowFadeDistance value="0" />
+              <lightId value="71747645" />
+              <blendTime value="15" />
+              <offset value="0" />
+              <pwFikYA_0x30ECA388 x="-0.252327" y="-0.001830101" z="-0.7793288" />
+              <overrideHash value="219525249" />
+            </Item>
+            <Item>
+              <posn>0.2592545 0.004401 -0.649561</posn>
+              <colour>255 188 140</colour>
+              <flashiness value="42" />
+              <intensity value="0" />
+              <flags value="0" />
+              <boneTag value="24155" />
+              <lightType value="1" />
+              <groupId value="0" />
+              <timeFlags value="15728767" />
+              <falloff value="0.35" />
+              <falloffExponent value="256" />
+              <cullingPlane>0 0 1 0.35</cullingPlane>
+              <cullingPlane1>0 0 1 0.35</cullingPlane1>
+              <shadowBlur value="0" />
+              <shadowOpacity value="255" />
+              <padding2 value="0" />
+              <roughnessMod value="0" />
+              <volIntensity value="1" />
+              <volSizeScale value="1" />
+              <volOuterColour>255 255 255</volOuterColour>
+              <lightHash value="247" />
+              <volOuterIntensity value="0" />
+              <injectsIntoVoxels value="True" />
+              <coronaSize value="0" />
+              <volOuterExponent value="1" />
+              <lightFadeDistance value="0" />
+              <shadowFadeDistance value="20" />
+              <specularFadeDistance value="0" />
+              <volumetricFadeDistance value="30" />
+              <shadowNearClip value="0.01" />
+              <jwWnkOA_0x4855CDE5 value="0" />
+              <aVNWOWA_0x0DA3D86E value="0" />
+              <coronaIntensity value="0" />
+              <coronaZBias value="0.1" />
+              <jaUgZFA_0x93C52D2C>DVeleDA_0xCCAE6E0B</jaUgZFA_0x93C52D2C>
+              <UqAqJIA_0x52A89335 x="0" y="0" z="0" />
+              <emitterSize value="1" />
+              <emitterIntensityMult value="1" />
+              <emitterTintDesaturation value="0.75" />
+              <direction>0 0 -1</direction>
+              <tangent>-1 0 0</tangent>
+              <coneInnerAngle value="10" />
+              <coneOuterAngle value="25" />
+              <squareAspectRatio value="1" />
+              <extents>49.8 0 0</extents>
+              <projectedTextureKey value="0" />
+              <SSAOStrength value="0" />
+              <extraFlags value="4608" />
+              <falloffBias value="0" />
+              <KEQjKDA_0x3F4C1BB0 value="0" />
+              <xnzMOUA_0x9C23D4E9 value="0" />
+              <wrapAmount value="0" />
+              <nonDirectionality value="0" />
+              <scaleDirectional value="1" />
+              <ciMauyA_0xA968034C value="0" />
+              <zuvBbAA_0x5148E7B3 value="0" />
+              <uanzvAA_0x83161CBE value="True" />
+              <yNonDHA_0xC11AF51B value="0" />
+              <hNLtnOA_0x53A339C3 value="0" />
+              <GQdKoGA_0x0F06E05A value="0" />
+              <kbeoGZA_0x724AE3FF value="1" />
+              <UuQeEIA_0x73D8B6CB value="0.7" />
+              <gvmiqBA_0x2EBE653A value="0" />
+              <JdptERA_0x208D587D value="0" />
+              <zsUuaBA_0x2E0E4E3C value="1" />
+              <VeekdIA_0xB4B05CF2 value="0" />
+              <OBPcFAA_0x0963B563 value="1000000" />
+              <dynamicShadowFadeDistance value="0" />
+              <lightId value="1840103927" />
+              <blendTime value="15" />
+              <offset value="0" />
+              <pwFikYA_0x30ECA388 x="0.25925398" y="0.004401207" z="-0.7793288" />
+              <overrideHash value="480588605" />
+            </Item>
+            <Item>
+              <posn>7.629395E-06 0.255565 -0.649561</posn>
+              <colour>255 188 140</colour>
+              <flashiness value="42" />
+              <intensity value="0" />
+              <flags value="0" />
+              <boneTag value="24155" />
+              <lightType value="1" />
+              <groupId value="0" />
+              <timeFlags value="15728767" />
+              <falloff value="0.35" />
+              <falloffExponent value="256" />
+              <cullingPlane>0 0 1 0.35</cullingPlane>
+              <cullingPlane1>0 0 1 0.35</cullingPlane1>
+              <shadowBlur value="0" />
+              <shadowOpacity value="255" />
+              <padding2 value="0" />
+              <roughnessMod value="0" />
+              <volIntensity value="1" />
+              <volSizeScale value="1" />
+              <volOuterColour>255 255 255</volOuterColour>
+              <lightHash value="100" />
+              <volOuterIntensity value="0" />
+              <injectsIntoVoxels value="True" />
+              <coronaSize value="0" />
+              <volOuterExponent value="1" />
+              <lightFadeDistance value="0" />
+              <shadowFadeDistance value="20" />
+              <specularFadeDistance value="0" />
+              <volumetricFadeDistance value="30" />
+              <shadowNearClip value="0.01" />
+              <jwWnkOA_0x4855CDE5 value="0" />
+              <aVNWOWA_0x0DA3D86E value="0" />
+              <coronaIntensity value="0" />
+              <coronaZBias value="0.1" />
+              <jaUgZFA_0x93C52D2C>DVeleDA_0xCCAE6E0B</jaUgZFA_0x93C52D2C>
+              <UqAqJIA_0x52A89335 x="0" y="0" z="0" />
+              <emitterSize value="1" />
+              <emitterIntensityMult value="1" />
+              <emitterTintDesaturation value="0.75" />
+              <direction>0 0 -1</direction>
+              <tangent>-1 0 0</tangent>
+              <coneInnerAngle value="10" />
+              <coneOuterAngle value="25" />
+              <squareAspectRatio value="1" />
+              <extents>49.8 0 0</extents>
+              <projectedTextureKey value="0" />
+              <SSAOStrength value="0" />
+              <extraFlags value="4608" />
+              <falloffBias value="0" />
+              <KEQjKDA_0x3F4C1BB0 value="0" />
+              <xnzMOUA_0x9C23D4E9 value="0" />
+              <wrapAmount value="0" />
+              <nonDirectionality value="0" />
+              <scaleDirectional value="1" />
+              <ciMauyA_0xA968034C value="0" />
+              <zuvBbAA_0x5148E7B3 value="0" />
+              <uanzvAA_0x83161CBE value="True" />
+              <yNonDHA_0xC11AF51B value="0" />
+              <hNLtnOA_0x53A339C3 value="0" />
+              <GQdKoGA_0x0F06E05A value="0" />
+              <kbeoGZA_0x724AE3FF value="1" />
+              <UuQeEIA_0x73D8B6CB value="0.7" />
+              <gvmiqBA_0x2EBE653A value="0" />
+              <JdptERA_0x208D587D value="0" />
+              <zsUuaBA_0x2E0E4E3C value="1" />
+              <VeekdIA_0xB4B05CF2 value="0" />
+              <OBPcFAA_0x0963B563 value="1000000" />
+              <dynamicShadowFadeDistance value="0" />
+              <lightId value="2905788516" />
+              <blendTime value="15" />
+              <offset value="0" />
+              <pwFikYA_0x30ECA388 x="0" y="0.2555647" z="-0.7793288" />
+              <overrideHash value="347788507" />
+            </Item>
+            <Item>
+              <posn>0.001106262 -0.255278 -0.649561</posn>
+              <colour>255 188 140</colour>
+              <flashiness value="42" />
+              <intensity value="0" />
+              <flags value="0" />
+              <boneTag value="24155" />
+              <lightType value="1" />
+              <groupId value="0" />
+              <timeFlags value="15728767" />
+              <falloff value="0.35" />
+              <falloffExponent value="256" />
+              <cullingPlane>0 0 1 0.35</cullingPlane>
+              <cullingPlane1>0 0 1 0.35</cullingPlane1>
+              <shadowBlur value="0" />
+              <shadowOpacity value="255" />
+              <padding2 value="0" />
+              <roughnessMod value="0" />
+              <volIntensity value="1" />
+              <volSizeScale value="1" />
+              <volOuterColour>255 255 255</volOuterColour>
+              <lightHash value="29" />
+              <volOuterIntensity value="0" />
+              <injectsIntoVoxels value="True" />
+              <coronaSize value="0" />
+              <volOuterExponent value="1" />
+              <lightFadeDistance value="0" />
+              <shadowFadeDistance value="20" />
+              <specularFadeDistance value="0" />
+              <volumetricFadeDistance value="30" />
+              <shadowNearClip value="0.01" />
+              <jwWnkOA_0x4855CDE5 value="0" />
+              <aVNWOWA_0x0DA3D86E value="0" />
+              <coronaIntensity value="0" />
+              <coronaZBias value="0.1" />
+              <jaUgZFA_0x93C52D2C>DVeleDA_0xCCAE6E0B</jaUgZFA_0x93C52D2C>
+              <UqAqJIA_0x52A89335 x="0" y="0" z="0" />
+              <emitterSize value="1" />
+              <emitterIntensityMult value="1" />
+              <emitterTintDesaturation value="0.75" />
+              <direction>0 0 -1</direction>
+              <tangent>-1 0 0</tangent>
+              <coneInnerAngle value="10" />
+              <coneOuterAngle value="25" />
+              <squareAspectRatio value="1" />
+              <extents>49.8 0 0</extents>
+              <projectedTextureKey value="0" />
+              <SSAOStrength value="0" />
+              <extraFlags value="4608" />
+              <falloffBias value="0" />
+              <KEQjKDA_0x3F4C1BB0 value="0" />
+              <xnzMOUA_0x9C23D4E9 value="0" />
+              <wrapAmount value="0" />
+              <nonDirectionality value="0" />
+              <scaleDirectional value="1" />
+              <ciMauyA_0xA968034C value="0" />
+              <zuvBbAA_0x5148E7B3 value="0" />
+              <uanzvAA_0x83161CBE value="True" />
+              <yNonDHA_0xC11AF51B value="0" />
+              <hNLtnOA_0x53A339C3 value="0" />
+              <GQdKoGA_0x0F06E05A value="0" />
+              <kbeoGZA_0x724AE3FF value="1" />
+              <UuQeEIA_0x73D8B6CB value="0.7" />
+              <gvmiqBA_0x2EBE653A value="0" />
+              <JdptERA_0x208D587D value="0" />
+              <zsUuaBA_0x2E0E4E3C value="1" />
+              <VeekdIA_0xB4B05CF2 value="0" />
+              <OBPcFAA_0x0963B563 value="1000000" />
+              <dynamicShadowFadeDistance value="0" />
+              <lightId value="4241232669" />
+              <blendTime value="15" />
+              <offset value="0" />
+              <pwFikYA_0x30ECA388 x="0.001106" y="-0.2552781" z="-0.7793288" />
+              <overrideHash value="3262365942" />
+            </Item>
+            <Item>
+              <posn>0.00302887 0.002799 -0.556832</posn>
+              <colour>255 147 70</colour>
+              <flashiness value="33" />
+              <intensity value="0" />
+              <flags value="4096" />
+              <boneTag value="24155" />
+              <lightType value="1" />
+              <groupId value="0" />
+              <timeFlags value="15728767" />
+              <falloff value="3" />
+              <falloffExponent value="8" />
+              <cullingPlane>0 0 -1 3</cullingPlane>
+              <cullingPlane1>0 0 -1 3</cullingPlane1>
+              <shadowBlur value="0" />
+              <shadowOpacity value="255" />
+              <padding2 value="0" />
+              <roughnessMod value="0" />
+              <volIntensity value="1" />
+              <volSizeScale value="1" />
+              <volOuterColour>255 255 255</volOuterColour>
+              <lightHash value="104" />
+              <volOuterIntensity value="0" />
+              <injectsIntoVoxels value="True" />
+              <coronaSize value="0" />
+              <volOuterExponent value="1" />
+              <lightFadeDistance value="0" />
+              <shadowFadeDistance value="20" />
+              <specularFadeDistance value="0" />
+              <volumetricFadeDistance value="30" />
+              <shadowNearClip value="0.01" />
+              <jwWnkOA_0x4855CDE5 value="0" />
+              <aVNWOWA_0x0DA3D86E value="0" />
+              <coronaIntensity value="1" />
+              <coronaZBias value="0.1" />
+              <jaUgZFA_0x93C52D2C />
+              <UqAqJIA_0x52A89335 x="0" y="0" z="0" />
+              <emitterSize value="1" />
+              <emitterIntensityMult value="1" />
+              <emitterTintDesaturation value="0" />
+              <direction>0 0 1</direction>
+              <tangent>-1 0 0</tangent>
+              <coneInnerAngle value="10" />
+              <coneOuterAngle value="90" />
+              <squareAspectRatio value="1" />
+              <extents>1 0 0</extents>
+              <projectedTextureKey value="0" />
+              <SSAOStrength value="1.5" />
+              <extraFlags value="4608" />
+              <falloffBias value="0.5" />
+              <KEQjKDA_0x3F4C1BB0 value="0" />
+              <xnzMOUA_0x9C23D4E9 value="0" />
+              <wrapAmount value="0.3" />
+              <nonDirectionality value="0" />
+              <scaleDirectional value="1" />
+              <ciMauyA_0xA968034C value="0" />
+              <zuvBbAA_0x5148E7B3 value="0" />
+              <uanzvAA_0x83161CBE value="True" />
+              <yNonDHA_0xC11AF51B value="0" />
+              <hNLtnOA_0x53A339C3 value="0" />
+              <GQdKoGA_0x0F06E05A value="0" />
+              <kbeoGZA_0x724AE3FF value="1" />
+              <UuQeEIA_0x73D8B6CB value="0.7" />
+              <gvmiqBA_0x2EBE653A value="0" />
+              <JdptERA_0x208D587D value="0" />
+              <zsUuaBA_0x2E0E4E3C value="1" />
+              <VeekdIA_0xB4B05CF2 value="0" />
+              <OBPcFAA_0x0963B563 value="1000000" />
+              <dynamicShadowFadeDistance value="0" />
+              <lightId value="3261896808" />
+              <blendTime value="15" />
+              <offset value="0" />
+              <pwFikYA_0x30ECA388 x="0.003029" y="0.0027999878" z="-0.68659973" />
+              <overrideHash value="2008062339" />
+            </Item>
+            <Item>
+              <posn>0.00302887 0.002799 -0.759679</posn>
+              <colour>255 147 70</colour>
+              <flashiness value="33" />
+              <intensity value="0" />
+              <flags value="384" />
+              <boneTag value="24155" />
+              <lightType value="2" />
+              <groupId value="0" />
+              <timeFlags value="15728767" />
+              <falloff value="5" />
+              <falloffExponent value="8" />
+              <cullingPlane>0 0 1 5</cullingPlane>
+              <cullingPlane1>0 0 1 5</cullingPlane1>
+              <shadowBlur value="255" />
+              <shadowOpacity value="255" />
+              <padding2 value="0" />
+              <roughnessMod value="0" />
+              <volIntensity value="1" />
+              <volSizeScale value="1" />
+              <volOuterColour>255 255 255</volOuterColour>
+              <lightHash value="33" />
+              <volOuterIntensity value="0" />
+              <injectsIntoVoxels value="True" />
+              <coronaSize value="0" />
+              <volOuterExponent value="1" />
+              <lightFadeDistance value="0" />
+              <shadowFadeDistance value="20" />
+              <specularFadeDistance value="0" />
+              <volumetricFadeDistance value="30" />
+              <shadowNearClip value="0.01" />
+              <jwWnkOA_0x4855CDE5 value="0" />
+              <aVNWOWA_0x0DA3D86E value="0" />
+              <coronaIntensity value="1" />
+              <coronaZBias value="0.1" />
+              <jaUgZFA_0x93C52D2C />
+              <UqAqJIA_0x52A89335 x="0" y="0" z="0" />
+              <emitterSize value="1" />
+              <emitterIntensityMult value="1" />
+              <emitterTintDesaturation value="0" />
+              <direction>0 0 -1</direction>
+              <tangent>-1 0 0</tangent>
+              <coneInnerAngle value="10" />
+              <coneOuterAngle value="60" />
+              <squareAspectRatio value="1" />
+              <extents>1 0 0</extents>
+              <projectedTextureKey value="0" />
+              <SSAOStrength value="0" />
+              <extraFlags value="4608" />
+              <falloffBias value="0.1" />
+              <KEQjKDA_0x3F4C1BB0 value="0" />
+              <xnzMOUA_0x9C23D4E9 value="0" />
+              <wrapAmount value="0" />
+              <nonDirectionality value="0" />
+              <scaleDirectional value="1" />
+              <ciMauyA_0xA968034C value="0" />
+              <zuvBbAA_0x5148E7B3 value="0" />
+              <uanzvAA_0x83161CBE value="True" />
+              <yNonDHA_0xC11AF51B value="0" />
+              <hNLtnOA_0x53A339C3 value="0" />
+              <GQdKoGA_0x0F06E05A value="0" />
+              <kbeoGZA_0x724AE3FF value="1" />
+              <UuQeEIA_0x73D8B6CB value="0.7" />
+              <gvmiqBA_0x2EBE653A value="0" />
+              <JdptERA_0x208D587D value="0" />
+              <zsUuaBA_0x2E0E4E3C value="1" />
+              <VeekdIA_0xB4B05CF2 value="0" />
+              <OBPcFAA_0x0963B563 value="1000000" />
+              <dynamicShadowFadeDistance value="0" />
+              <lightId value="930964257" />
+              <blendTime value="15" />
+              <offset value="0" />
+              <pwFikYA_0x30ECA388 x="0.003029" y="0.0027999878" z="-0.8894458" />
+              <overrideHash value="3297327042" />
+            </Item>
+          </instances>
+          <additionalInstances />
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_geobdrm_decals -->
+      <archetypeName>bronte_geobdrm_decals</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4E8D8200AFF3D715" />
+      <position x="0.200094" y="6.758305" z="7.5666804" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="17" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- new_man_bronte_mrr_rfln_e -->
+      <archetypeName>new_man_bronte_mrr_rfln_e</archetypeName>
+      <flags value="538443776" />
+      <id value="0x477C773AA3B4F95C" />
+      <position x="3.298496" y="-0.369904" z="3.2704582" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="25" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_geobdmendet -->
+      <archetypeName>bronte_geobdmendet</archetypeName>
+      <flags value="353894400" />
+      <id value="0x43D62A33A18FADBC" />
+      <position x="-4.954669" y="4.186638" z="4.756799" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="17" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_toiletbath -->
+      <archetypeName>bronte_toiletbath</archetypeName>
+      <flags value="353894400" />
+      <id value="0x44BA274EB10C68FC" />
+      <position x="-5.662326" y="4.9100127" z="4.664224" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="16" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- new_bro_ensuite_fireplace -->
+      <archetypeName>new_bro_ensuite_fireplace</archetypeName>
+      <flags value="353894400" />
+      <id value="0x45E11A0E6BD28CB3" />
+      <position x="-4.209738" y="3.136887" z="2.7172198" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="15" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- new_man_bronte_mrr_rfln_f -->
+      <archetypeName>new_man_bronte_mrr_rfln_f</archetypeName>
+      <flags value="538443776" />
+      <id value="0x47F7F54789C96962" />
+      <position x="3.298496" y="-0.369904" z="3.2704582" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="25" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_bronte_dressing_detail002 -->
+      <archetypeName>jo_bronte_dressing_detail002</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4F3CF4B80AAFC0B7" />
+      <position x="5.669843" y="4.686638" z="4.756784" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="17" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_dressing_wardrobe02 -->
+      <archetypeName>bronte_dressing_wardrobe02</archetypeName>
+      <flags value="353894400" />
+      <id value="0x46BACD954B3BA164" />
+      <position x="5.7394524" y="7.047569" z="4.505138" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="17" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_dressing_wardrobe01 -->
+      <archetypeName>bronte_dressing_wardrobe01</archetypeName>
+      <flags value="353894400" />
+      <id value="0x46570241641FB47E" />
+      <position x="5.7394524" y="7.047569" z="4.505138" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="17" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_dressing_dirt003 -->
+      <archetypeName>bronte_dressing_dirt003</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4F53941A573C07F1" />
+      <position x="5.739889" y="4.509768" z="4.748755" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="15" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_new_man_bron_geoshell -->
+      <archetypeName>jo_new_man_bron_geoshell</archetypeName>
+      <flags value="353894400" />
+      <id value="0x42E8127BA4936686" />
+      <position x="3.298496" y="-0.369904" z="3.2704582" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="30" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doornbd39x -->
+      <archetypeName>p_doornbd39x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4D98177659E336D3" />
+      <position x="-8.375" y="1.801999" z="-1.842999" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="15" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doornbd39x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>lFJBJLA_0xA38100C9</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doornbd39x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>iWIedWA_0x8DF9BDA8</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doornbd39bx -->
+      <archetypeName>p_doornbd39bx</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4D07E9EAA0BABA0E" />
+      <position x="15.642" y="0.81487894" z="-1.842999" />
+      <rotation x="0" y="0" z="0.7071068" w="0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doornbd39bx</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>NLQKIIA_0x81A65471</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doornbd39bx</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>wzcriGA_0x5EA53A4C</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doornbd39bx -->
+      <archetypeName>p_doornbd39bx</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4CFB2276FD0F831A" />
+      <position x="15.641985" y="-1.389172" z="-1.842999" />
+      <rotation x="0" y="0" z="0.7071068" w="-0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doornbd39bx</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>NLQKIIA_0x81A65471</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doornbd39bx</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>ESIVBZA_0x4CF816F2</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doornbd39bx -->
+      <archetypeName>p_doornbd39bx</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4AC57AEFD3A73A7F" />
+      <position x="-4.6321507" y="7.5709987" z="-1.842999" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doornbd39bx</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>NLQKIIA_0x81A65471</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doornbd39bx</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>nbNgxEA_0xD1A8DB73</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doornbd39bx -->
+      <archetypeName>p_doornbd39bx</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4CC199D01A992709" />
+      <position x="-10.556608" y="-1.3900961" z="-1.842999" />
+      <rotation x="0" y="0" z="0.7071068" w="-0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doornbd39bx</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>NLQKIIA_0x81A65471</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doornbd39bx</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>fZoEiEA_0x435C71C0</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doornbd39bx -->
+      <archetypeName>p_doornbd39bx</archetypeName>
+      <flags value="1572864" />
+      <id value="0x472398C86BA1CDF2" />
+      <position x="-10.556593" y="0.813689" z="-1.842999" />
+      <rotation x="0" y="0" z="0.7071068" w="0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doornbd39bx</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>NLQKIIA_0x81A65471</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doornbd39bx</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>tuMOYKA_0x3565D5D3</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doorvh_bronte_r -->
+      <archetypeName>p_doorvh_bronte_r</archetypeName>
+      <flags value="1572864" />
+      <id value="0x410103FDFC355E25" />
+      <position x="-5.2603807" y="5.245933" z="-1.842999" />
+      <rotation x="0" y="0" z="0.7071068" w="0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="40" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doorvh_bronte_r</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>NneaMKA_0xA6B51501</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doorvh_bronte_r</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>cFcgjTA_0x179A50EB</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doorvh_bronte_r -->
+      <archetypeName>p_doorvh_bronte_r</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4BB8FECE6BE9F12E" />
+      <position x="-5.4687047" y="1.780306" z="2.756783" />
+      <rotation x="0" y="0" z="1" w="0" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="15" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doorvh_bronte_r</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="True" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="2.268928" />
+          <RbUnQLA_0x9C555ECF value="0.12" />
+          <OPkNlHA_0xBCA0289E value="0.16" />
+          <doorTargetRatio value="0" />
+          <audioHash>NneaMKA_0xA6B51501</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doorvh_bronte_r</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>qSScKAA_0xBEE477C0</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doornbd39x -->
+      <archetypeName>p_doornbd39x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4C81ACE0CC8A6AF6" />
+      <position x="9.871" y="1.801999" z="2.756783" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="15" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doornbd39x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>lFJBJLA_0xA38100C9</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doornbd39x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>yvaCkiA_0x60DC6133</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doorvh_bronte_r -->
+      <archetypeName>p_doorvh_bronte_r</archetypeName>
+      <flags value="1572864" />
+      <id value="0x445EC6851CF7974D" />
+      <position x="-1.244797" y="0.0060279965" z="2.756783" />
+      <rotation x="0" y="0" z="0.92387974" w="0.38268292" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="15" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doorvh_bronte_r</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>NneaMKA_0xA6B51501</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doorvh_bronte_r</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>ZNLJCbA_0x7E2B23AA</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doorvh_bronte_r -->
+      <archetypeName>p_doorvh_bronte_r</archetypeName>
+      <flags value="1572864" />
+      <id value="0x41D0F95FB963E97E" />
+      <position x="2.441219" y="-0.762515" z="2.756783" />
+      <rotation x="0" y="0" z="0.92387927" w="-0.38268405" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="15" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doorvh_bronte_r</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>NneaMKA_0xA6B51501</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doorvh_bronte_r</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>oFndLPA_0xA99FFA93</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doorvh_bronte_l -->
+      <archetypeName>p_doorvh_bronte_l</archetypeName>
+      <flags value="1572864" />
+      <id value="0x45D1EF8D811B21DF" />
+      <position x="-2.036625" y="-0.785799" z="2.7567868" />
+      <rotation x="0" y="0" z="0.92387974" w="0.38268292" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="15" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doorvh_bronte_l</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>RoJHCsA_0x3881386F</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doorvh_bronte_l</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>uaGSyAA_0x3B4C9DF6</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doorvh_bronte_l -->
+      <archetypeName>p_doorvh_bronte_l</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4BE4E9F9F2E280A9" />
+      <position x="1.649393" y="0.029312998" z="2.7567868" />
+      <rotation x="0" y="0" z="0.92387927" w="-0.38268405" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="15" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doorvh_bronte_l</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>RoJHCsA_0x3881386F</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doorvh_bronte_l</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>zKzYWRB_0x56725441</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doorvh_bronte_l -->
+      <archetypeName>p_doorvh_bronte_l</archetypeName>
+      <flags value="1572864" />
+      <id value="0x42C22EB4EFA77F89" />
+      <position x="-6.588256" y="1.780306" z="2.756783" />
+      <rotation x="0" y="0" z="1" w="0" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="15" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doorvh_bronte_l</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="True" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="2.007129" />
+          <RbUnQLA_0x9C555ECF value="0.12" />
+          <OPkNlHA_0xBCA0289E value="0.16" />
+          <doorTargetRatio value="0" />
+          <audioHash>RoJHCsA_0x3881386F</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doorvh_bronte_l</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>DPUNHLA_0xAD92D51D</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doorvh_bronte_l -->
+      <archetypeName>p_doorvh_bronte_l</archetypeName>
+      <flags value="1572864" />
+      <id value="0x48E3378B0AF02AFF" />
+      <position x="-5.2603807" y="4.126121" z="-1.8429949" />
+      <rotation x="0" y="0" z="0.7071068" w="0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="40" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doorvh_bronte_l</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>RoJHCsA_0x3881386F</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doorvh_bronte_l</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>gvoLLIA_0x7C2319FB</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_sitting_moulding004 -->
+      <archetypeName>bronte_sitting_moulding004</archetypeName>
+      <flags value="353894400" />
+      <id value="0x454A99F18F9B86FD" />
+      <position x="12.566574" y="-5.679625" z="-0.13189399" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="17" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_bronte_sitting_detail01 -->
+      <archetypeName>jo_bronte_sitting_detail01</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4C2C35CFA974A5D4" />
+      <position x="8.670462" y="-5.26624" z="-0.17505395" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="17" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_sitting_decals -->
+      <archetypeName>bronte_sitting_decals</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4589A7D01AC8E837" />
+      <position x="12.554134" y="-5.269163" z="0.09461105" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="16" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_mansionprops09x -->
+      <archetypeName>p_mansionprops09x</archetypeName>
+      <flags value="85458944" />
+      <id value="0x4D40A816E5DD1B5D" />
+      <position x="8.759537" y="-3.1066298" z="-1.295989" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="9" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier11x -->
+      <archetypeName>p_chandelier11x</archetypeName>
+      <flags value="85458944" />
+      <id value="0x4D2BFCB439071EEE" />
+      <position x="11.640868" y="-5.263658" z="2.109068" />
+      <rotation x="0" y="0" z="0.7071068" w="0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="50" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier11x -->
+      <archetypeName>p_chandelier11x</archetypeName>
+      <flags value="85458944" />
+      <id value="0x47F04AB7957B4AB9" />
+      <position x="14.486205" y="-5.2495193" z="2.102601" />
+      <rotation x="0" y="0" z="0.7071068" w="0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="50" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_sitting_detail02 -->
+      <archetypeName>bronte_sitting_detail02</archetypeName>
+      <flags value="353894400" />
+      <id value="0x40E338B31E47FE6F" />
+      <position x="12.532959" y="-5.169556" z="0.15667307" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="25" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- new_man_bronte_mrr_rfln_a -->
+      <archetypeName>new_man_bronte_mrr_rfln_a</archetypeName>
+      <flags value="538443776" />
+      <id value="0x4F492FF6B82912C0" />
+      <position x="0.200048" y="-5.482509" z="4.21772" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="25" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_hall_frame_front01 -->
+      <archetypeName>bronte_hall_frame_front01</archetypeName>
+      <flags value="353894400" />
+      <id value="0x469CE6D0ED41E232" />
+      <position x="8.475111" y="-2.3425808" z="-0.09292102" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="16" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doorbronte01x -->
+      <archetypeName>p_doorbronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x43EB5602DE7927CC" />
+      <position x="15.587593" y="-1.386726" z="2.766265" />
+      <rotation x="0" y="0" z="0.7071068" w="-0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doorbronte01x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>uaIsxPA_0x94A42B18</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doorbronte01x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>vCrQkDA_0x366D7739</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doorbronte01x -->
+      <archetypeName>p_doorbronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x49A325E36DABBDA9" />
+      <position x="15.587593" y="0.81276" z="2.7662659" />
+      <rotation x="0" y="0" z="0.70710653" w="0.7071072" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doorbronte01x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>uaIsxPA_0x94A42B18</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doorbronte01x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>SaFalHB_0xFFC709ED</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte01x -->
+      <archetypeName>p_win_bronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4E302BCAAECCFC0B" />
+      <position x="-10.565119" y="5.8250437" z="-0.088541985" />
+      <rotation x="0" y="0" z="0.7071068" w="-0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte01x -->
+      <archetypeName>p_win_bronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4935290E83CD5C74" />
+      <position x="-10.565119" y="3.5474558" z="-0.088541985" />
+      <rotation x="0" y="0" z="0.7071068" w="-0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte01x -->
+      <archetypeName>p_win_bronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4314B509D28A79FC" />
+      <position x="-1.9781041" y="9.906421" z="-0.21704602" />
+      <rotation x="0" y="0" z="-0.38268292" w="0.92387974" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte01x -->
+      <archetypeName>p_win_bronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x46B5F4B2F181F412" />
+      <position x="2.374225" y="9.905623" z="-0.21704602" />
+      <rotation x="0" y="0" z="0.38268292" w="0.92387974" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte01x -->
+      <archetypeName>p_win_bronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x436D62926FABC3C0" />
+      <position x="5.6536083" y="8.008888" z="-0.11131394" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte01x -->
+      <archetypeName>p_win_bronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x42E932755DA9C8ED" />
+      <position x="4.695268" y="7.7739615" z="-0.11131394" />
+      <rotation x="0" y="0" z="-0.25881898" w="0.9659258" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte01x -->
+      <archetypeName>p_win_bronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4F51019409242CC5" />
+      <position x="6.579225" y="7.7786994" z="-0.11131394" />
+      <rotation x="0" y="0" z="0.25881898" w="0.9659258" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte01x -->
+      <archetypeName>p_win_bronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4DFD2626D5067F19" />
+      <position x="10.966433" y="8.4046545" z="-0.11131394" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte01x -->
+      <archetypeName>p_win_bronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4753BFEDD60C2513" />
+      <position x="12.336035" y="8.4046545" z="-0.11131394" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte01x -->
+      <archetypeName>p_win_bronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4EC3467DFBBEAAE7" />
+      <position x="12.336035" y="-8.957426" z="-0.08949494" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte01x -->
+      <archetypeName>p_win_bronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4EFB6DEEBDA3ABF1" />
+      <position x="10.965446" y="-8.957426" z="-0.08949494" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte01x -->
+      <archetypeName>p_win_bronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4C5A81EFB96B8CE8" />
+      <position x="-1.980432" y="9.908749" z="4.741742" />
+      <rotation x="0" y="0" z="-0.38268292" w="0.92387974" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte01x -->
+      <archetypeName>p_win_bronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4D9D4A8E86BA4A73" />
+      <position x="2.374225" y="9.905623" z="4.741742" />
+      <rotation x="0" y="0" z="0.38268292" w="0.92387974" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte01x -->
+      <archetypeName>p_win_bronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x49B707CFD1D78545" />
+      <position x="4.3647623" y="7.559647" z="4.66224" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte01x -->
+      <archetypeName>p_win_bronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4FAA975186AD7A61" />
+      <position x="7.114136" y="7.559647" z="4.66224" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte01x -->
+      <archetypeName>p_win_bronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x47EE5378B7F14BC8" />
+      <position x="10.965454" y="7.559647" z="4.66224" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte01x -->
+      <archetypeName>p_win_bronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4F2B8DF027AE4796" />
+      <position x="14.1347065" y="7.559647" z="4.66224" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte02x -->
+      <archetypeName>p_win_bronte02x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4EB40688ACAFA74C" />
+      <position x="17.079138" y="-6.419958" z="-0.24307704" />
+      <rotation x="0" y="0" z="0.7071068" w="-0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte02x -->
+      <archetypeName>p_win_bronte02x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4E1CE1783EC438D1" />
+      <position x="17.079138" y="-4.146127" z="-0.24307704" />
+      <rotation x="0" y="0" z="0.7071068" w="-0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte02x -->
+      <archetypeName>p_win_bronte02x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x45A6AC40016F1522" />
+      <position x="17.079138" y="3.550157" z="-0.24307704" />
+      <rotation x="0" y="0" z="0.7071068" w="-0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte02x -->
+      <archetypeName>p_win_bronte02x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4D02927E006998AB" />
+      <position x="17.079138" y="5.8212867" z="-0.24307704" />
+      <rotation x="0" y="0" z="0.7071068" w="-0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte02x -->
+      <archetypeName>p_win_bronte02x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4789284991FCCE51" />
+      <position x="17.079138" y="5.8212867" z="4.248372" />
+      <rotation x="0" y="0" z="0.7071068" w="-0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte02x -->
+      <archetypeName>p_win_bronte02x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4C6F0C436E04AEA5" />
+      <position x="17.079138" y="3.5627518" z="4.248372" />
+      <rotation x="0" y="0" z="0.7071068" w="-0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte02x -->
+      <archetypeName>p_win_bronte02x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x424A1DB460F322F2" />
+      <position x="2.428058" y="-10.170055" z="4.408121" />
+      <rotation x="0" y="0" z="-0.44619817" w="0.89493424" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte02x -->
+      <archetypeName>p_win_bronte02x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x47093D901D923485" />
+      <position x="0.184724" y="-11.287948" z="4.408121" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte02x -->
+      <archetypeName>p_win_bronte02x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x495BE44D82A9CAD5" />
+      <position x="-2.0390341" y="-10.164717" z="4.408121" />
+      <rotation x="0" y="0" z="0.44619817" w="0.89493424" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte02x -->
+      <archetypeName>p_win_bronte02x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x41E3C8CA66FC2C59" />
+      <position x="0.184724" y="-11.287948" z="0.063170075" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte02x -->
+      <archetypeName>p_win_bronte02x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x41DFE3948DEFFE11" />
+      <position x="2.440412" y="-10.179364" z="0.063170075" />
+      <rotation x="0" y="0" z="-0.44619817" w="0.89493424" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_bronte02x -->
+      <archetypeName>p_win_bronte02x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4806F475BA13B76C" />
+      <position x="-2.0390341" y="-10.164717" z="0.063170075" />
+      <rotation x="0" y="0" z="0.44619817" w="0.89493424" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier11x -->
+      <archetypeName>p_chandelier11x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4EEC7614531CEA8B" />
+      <position x="0.198817" y="-0.285109" z="2.11519" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="-1" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefLightEffect">
+          <name />
+          <offsetPosition x="0" y="0" z="0" />
+          <instances itemType="CLightAttrDef">
+            <Item>
+              <posn>0.00302887 0.002799 -0.759679</posn>
+              <colour>255 147 70</colour>
+              <flashiness value="33" />
+              <intensity value="40" />
+              <flags value="384" />
+              <boneTag value="24155" />
+              <lightType value="2" />
+              <groupId value="0" />
+              <timeFlags value="15728767" />
+              <falloff value="5" />
+              <falloffExponent value="8" />
+              <cullingPlane>0 0 1 5</cullingPlane>
+              <cullingPlane1>0 0 1 5</cullingPlane1>
+              <shadowBlur value="255" />
+              <shadowOpacity value="255" />
+              <padding2 value="0" />
+              <roughnessMod value="0" />
+              <volIntensity value="1" />
+              <volSizeScale value="1" />
+              <volOuterColour>255 255 255</volOuterColour>
+              <lightHash value="33" />
+              <volOuterIntensity value="0" />
+              <injectsIntoVoxels value="True" />
+              <coronaSize value="0" />
+              <volOuterExponent value="1" />
+              <lightFadeDistance value="0" />
+              <shadowFadeDistance value="20" />
+              <specularFadeDistance value="0" />
+              <volumetricFadeDistance value="30" />
+              <shadowNearClip value="0.01" />
+              <jwWnkOA_0x4855CDE5 value="0" />
+              <aVNWOWA_0x0DA3D86E value="0" />
+              <coronaIntensity value="1" />
+              <coronaZBias value="0.1" />
+              <jaUgZFA_0x93C52D2C />
+              <UqAqJIA_0x52A89335 x="0" y="0" z="0" />
+              <emitterSize value="1" />
+              <emitterIntensityMult value="1" />
+              <emitterTintDesaturation value="0" />
+              <direction>0 0 -1</direction>
+              <tangent>-1 0 0</tangent>
+              <coneInnerAngle value="10" />
+              <coneOuterAngle value="60" />
+              <squareAspectRatio value="1" />
+              <extents>1 0 0</extents>
+              <projectedTextureKey value="0" />
+              <SSAOStrength value="0" />
+              <extraFlags value="20992" />
+              <falloffBias value="0.1" />
+              <KEQjKDA_0x3F4C1BB0 value="0" />
+              <xnzMOUA_0x9C23D4E9 value="0" />
+              <wrapAmount value="0" />
+              <nonDirectionality value="0" />
+              <scaleDirectional value="1" />
+              <ciMauyA_0xA968034C value="0" />
+              <zuvBbAA_0x5148E7B3 value="0" />
+              <uanzvAA_0x83161CBE value="True" />
+              <yNonDHA_0xC11AF51B value="0" />
+              <hNLtnOA_0x53A339C3 value="0" />
+              <GQdKoGA_0x0F06E05A value="0" />
+              <kbeoGZA_0x724AE3FF value="1" />
+              <UuQeEIA_0x73D8B6CB value="0.7" />
+              <gvmiqBA_0x2EBE653A value="0" />
+              <JdptERA_0x208D587D value="0" />
+              <zsUuaBA_0x2E0E4E3C value="1" />
+              <VeekdIA_0xB4B05CF2 value="0" />
+              <OBPcFAA_0x0963B563 value="1000000" />
+              <dynamicShadowFadeDistance value="0" />
+              <lightId value="930964257" />
+              <blendTime value="15" />
+              <offset value="0" />
+              <pwFikYA_0x30ECA388 x="0.003028" y="0.0027990001" z="-0.889446" />
+              <overrideHash value="3297327042" />
+            </Item>
+          </instances>
+          <additionalInstances />
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- new_bron_hall_wainscott -->
+      <archetypeName>new_bron_hall_wainscott</archetypeName>
+      <flags value="353894400" />
+      <id value="0x48B103A9E18E728B" />
+      <position x="0.200095" y="-0.287234" z="-1.106336" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="20" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- new_bron_entry_decal02 -->
+      <archetypeName>new_bron_entry_decal02</archetypeName>
+      <flags value="353894400" />
+      <id value="0x448D1B05216B8DD2" />
+      <position x="0.22341101" y="0.586044" z="0.107001066" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="20" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- new_bron_entry_detail02 -->
+      <archetypeName>new_bron_entry_detail02</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4570C59CBD26BC8F" />
+      <position x="0.302596" y="-0.21990302" z="0.42511106" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="20" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- new_bron_entry_frames -->
+      <archetypeName>new_bron_entry_frames</archetypeName>
+      <flags value="353894400" />
+      <id value="0x45793249951C3F46" />
+      <position x="0.096706" y="-0.26378402" z="-0.05202794" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="20" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_bronte_fram_02 -->
+      <archetypeName>p_bronte_fram_02</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4FD0FA8C2A7C129A" />
+      <position x="-2.8879151" y="-0.28719002" z="-1.842901" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="-1" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_bronte_fram_03 -->
+      <archetypeName>p_bronte_fram_03</archetypeName>
+      <flags value="1572864" />
+      <id value="0x49C22DCD103FD48F" />
+      <position x="3.287466" y="-0.28712702" z="-1.843051" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="-1" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_bronte_fram_01 -->
+      <archetypeName>p_bronte_fram_01</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4D41CCBDC4E31BF9" />
+      <position x="0.20043601" y="-2.377812" z="-1.843331" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="-1" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_bronte_hall_front_mirror006 -->
+      <archetypeName>jo_bronte_hall_front_mirror006</archetypeName>
+      <flags value="353894400" />
+      <id value="0x428AB750DC484EB1" />
+      <position x="12.5216055" y="1.515248" z="-0.17223394" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="16" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_chandelier11x -->
+      <archetypeName>p_chandelier11x</archetypeName>
+      <flags value="85458944" />
+      <id value="0x41490B8C875C021D" />
+      <position x="12.521193" y="-0.287566" z="2.099371" />
+      <rotation x="0" y="0" z="0.8660254" w="0.50000024" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="50" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_new_bron_entry_detail01 -->
+      <archetypeName>jo_new_bron_entry_detail01</archetypeName>
+      <flags value="353894400" />
+      <id value="0x483F094A794281C8" />
+      <position x="9.497057" y="-0.29176202" z="0.15607107" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="20" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- new_bron_entry_decal01 -->
+      <archetypeName>new_bron_entry_decal01</archetypeName>
+      <flags value="353894400" />
+      <id value="0x445861B05675B118" />
+      <position x="9.292641" y="-0.287791" z="0.69933295" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="20" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bront_man_shadowproxy -->
+      <archetypeName>bront_man_shadowproxy</archetypeName>
+      <flags value="1572864" />
+      <id value="0x48E4C39019E011B3" />
+      <position x="2.138428" y="-0.28003302" z="1.8271401" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="35" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doorbronte01x -->
+      <archetypeName>p_doorbronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x43665E296FFD8EA5" />
+      <position x="-10.569815" y="0.81276" z="2.7662659" />
+      <rotation x="0" y="0" z="0.70710653" w="0.7071072" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doorbronte01x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>uaIsxPA_0x94A42B18</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doorbronte01x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>pYSvHFA_0x251AD494</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doorbronte01x -->
+      <archetypeName>p_doorbronte01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x40C9999220278DAF" />
+      <position x="-10.569815" y="-1.386726" z="2.766265" />
+      <rotation x="0" y="0" z="0.7071068" w="-0.70710677" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="225" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doorbronte01x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>uaIsxPA_0x94A42B18</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doorbronte01x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>zEESBIA_0xDA2F3EBE</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- new_man_bron_int_sp -->
+      <archetypeName>new_man_bron_int_sp</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4C06C022032143E1" />
+      <position x="12.49201" y="5.062216" z="0.11190498" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="25" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doornbd39x -->
+      <archetypeName>p_doornbd39x</archetypeName>
+      <flags value="1572896" />
+      <id value="0x42CA66EF3E769044" />
+      <position x="7.3900003" y="1.771989" z="2.762805" />
+      <rotation x="0" y="0" z="1" w="0" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="15" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doornbd39x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <EFwMwAA_0x091A42D0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <PkpciBA_0xA37CAB71 value="False" />
+          <dKbmTLA_0xCFE37BDB value="1.570796" />
+          <nuskEbA_0xA0CF3C8D value="1.570796" />
+          <RbUnQLA_0x9C555ECF value="0" />
+          <OPkNlHA_0xBCA0289E value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>lFJBJLA_0xA38100C9</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doornbd39x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>WgWXXHA_0x8139C8CD</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_kitchen_dirt003 -->
+      <archetypeName>bronte_kitchen_dirt003</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4AD1ED54AF08B447" />
+      <position x="-8.437851" y="6.4982247" z="-0.09649098" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="18" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- bronte_music_dirt003 -->
+      <archetypeName>bronte_music_dirt003</archetypeName>
+      <flags value="353894400" />
+      <id value="0x4D77C3F38C6D1FE1" />
+      <position x="12.569331" y="4.686422" z="0.09461105" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="18" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <blendAgeLayer value="255" />
+      <blendAgeDirt value="255" />
+    </Item>
+  </KuRNiVA_0xD222611A>
+</CPropSetDef>

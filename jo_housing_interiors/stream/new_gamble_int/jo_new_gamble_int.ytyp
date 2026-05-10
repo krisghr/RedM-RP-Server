@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <name>jo_new_gamble_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef"> <!-- jo_new_gamble_int_counter -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.221553" y="-5.457346" z="-0.542449" />
+      <bbMax x="9.867739" y="8.341743" z="3.206508" />
+      <bsCentre x="2.823093" y="1.4421988" z="1.3320295" />
+      <bsRadius value="10.03715" />
+      <hdTextureDist value="10" />
+      <name>jo_new_gamble_int_counter</name>
+      <textureDictionary>new_gamble_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_new_gamble_int_counter</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- new_gamble_int_shell -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="28" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.908783" y="-7.011894" z="-1.910514" />
+      <bbMax x="7.706667" y="7.064034" z="1.910513" />
+      <bsCentre x="0.398942" y="0.026069641" z="0" />
+      <bsRadius value="10.32404" />
+      <hdTextureDist value="12" />
+      <name>new_gamble_int_shell</name>
+      <textureDictionary>new_gamble_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_gamble_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_new_gamble_int_col -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="28" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.908783" y="-7.011894" z="-1.910514" />
+      <bbMax x="7.706667" y="7.064034" z="1.910513" />
+      <bsCentre x="0.398942" y="0.026069641" z="0" />
+      <bsRadius value="10.32404" />
+      <hdTextureDist value="12" />
+      <name>jo_new_gamble_int_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_new_gamble_int_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_new_gamble_int_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- new_gamble_lightbox -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="30" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.572998" y="-5.966675" z="0" />
+      <bbMax x="7.572998" y="5.966675" z="6.373568" />
+      <bsCentre x="0" y="0" z="3.186784" />
+      <bsRadius value="10.15417" />
+      <hdTextureDist value="5" />
+      <name>new_gamble_lightbox</name>
+      <textureDictionary>new_gamble_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_gamble_lightbox</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- new_gamble_shadowproxy -->
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="35" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.886616" y="-5.58209" z="-0.693834" />
+      <bbMax x="9.932711" y="8.704521" z="3.262707" />
+      <bsCentre x="2.523047" y="1.5612159" z="1.2844365" />
+      <bsRadius value="10.48062" />
+      <hdTextureDist value="5" />
+      <name>new_gamble_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_gamble_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

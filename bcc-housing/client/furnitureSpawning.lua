@@ -159,13 +159,13 @@ function StartFurnCheckHandler()
                                 spawnDespawnDistance, tostring(id))
                             )
 
-                            local ok = BccUtils.RPC:CallAsync("bcc-housing:FurniturePlacedCheck", {
+                            local ok, reason = BccUtils.RPC:CallAsync("bcc-housing:FurniturePlacedCheck", {
                                 houseid = id,
                                 deletion = false,
                                 close = true
                             })
                             if not ok then
-                                DBG:Error("Failed to request furniture spawn for " .. tostring(id))
+                                DBG:Error("Failed to request furniture spawn for " .. tostring(id) .. " (reason: " .. tostring(reason) .. ")")
                             end
                             Wait(500)
                         end

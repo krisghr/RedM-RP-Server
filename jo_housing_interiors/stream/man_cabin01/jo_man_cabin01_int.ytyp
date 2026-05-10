@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_man_cabin01_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_man_cabin01_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_man_cabin01_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_man_cabin01_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.295236" y="-3.709627" z="-0.888055" />
+      <bbMax x="3.366927" y="3.709627" z="0.888548" />
+      <bsCentre x="0.03584528" y="0" z="0.0002464652" />
+      <bsRadius value="5.064239" />
+      <hdTextureDist value="13.36" />
+      <name>man_cabin01_int_ceiling</name>
+      <textureDictionary>man_cabin01_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>man_cabin01_int_ceiling</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.132494" y="-3.5681" z="-0.153731" />
+      <bbMax x="3.132271" y="3.824564" z="0.312125" />
+      <bsCentre x="-0.000111579895" y="0.128232" z="0.079197004" />
+      <bsRadius value="4.850664" />
+      <hdTextureDist value="13.36" />
+      <name>man_cabin01_int_floor</name>
+      <textureDictionary>man_cabin01_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>man_cabin01_int_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.170198" y="-2.167651" z="-1.660641" />
+      <bbMax x="3.135496" y="5.347065" z="3.152773" />
+      <bsCentre x="-0.01735115" y="1.5897071" z="0.74606586" />
+      <bsRadius value="5.463554" />
+      <hdTextureDist value="13.36" />
+      <name>jo_man_cabin01_int_misc</name>
+      <textureDictionary>man_cabin01_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_man_cabin01_int_misc</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.313543" y="-3.776799" z="-2.433054" />
+      <bbMax x="3.313434" y="3.776917" z="2.517759" />
+      <bsCentre x="0" y="0" z="0.042352676" />
+      <bsRadius value="5.601027" />
+      <hdTextureDist value="13.36" />
+      <name>man_cabin01_int_walls</name>
+      <textureDictionary>mcfarlaneranch</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>man_cabin01_int_walls</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.571146" y="-3.939166" z="0" />
+      <bbMax x="3.571146" y="3.939166" z="5.315829" />
+      <bsCentre x="0" y="0" z="2.6579144" />
+      <bsRadius value="5.944293" />
+      <hdTextureDist value="5" />
+      <name>man_cabin01_ligthbox</name>
+      <textureDictionary>hrnRRWA_0xB995B6F0</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>man_cabin01_ligthbox</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="30" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.353287" y="-3.742552" z="-0.065268" />
+      <bbMax x="3.307451" y="3.857147" z="4.990144" />
+      <bsCentre x="-0.022917986" y="0.05729747" z="2.4624379" />
+      <bsRadius value="5.649735" />
+      <hdTextureDist value="5" />
+      <name>man_cabin_int_shadow_proxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>man_cabin_int_shadow_proxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

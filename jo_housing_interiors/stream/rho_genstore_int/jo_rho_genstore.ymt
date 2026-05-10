@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CPropSetDef>
+  <name>jo_rho_genstore</name>
+  <KuRNiVA_0xD222611A itemType="CEntityDef">
+    <Item type="CEntityDef"> <!-- rho_genstore_lightbox -->
+      <archetypeName>rho_genstore_lightbox</archetypeName>
+      <flags value="1572864" />
+      <id value="0x45867F15292C5C09" />
+      <position x="1.1672363" y="0.026611328" z="-1.9277954" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="30" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- rho_genstore_lightbox001 -->
+      <archetypeName>rho_genstore_lightbox001</archetypeName>
+      <flags value="1572866" />
+      <id value="0x47910207B270BE1E" />
+      <position x="1.1672363" y="0.026611328" z="-1.9277954" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="20" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doorrhogensto02x -->
+      <archetypeName>p_doorrhogensto02x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x46C8AF9EE3F2B274" />
+      <position x="5.781128" y="2.6049805" z="-0.9907913" />
+      <rotation x="0" y="0" z="0.7372773" w="0.6755903" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="200" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doorrhogensto02x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <ajihsdab_0x091a42d0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <sjwehana_0xa37cab71 value="False" />
+          <limitAnglePos value="1.570796" />
+          <limitAngleNeg value="2.094395" />
+          <mvynybwa_0x9c555ecf value="0" />
+          <ukmfuefa_0xbca0289e value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>qczthbma_0x12cd594e</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doorrhogensto02x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>nynsgbpa_0x3f34a0ed</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_jts_sash_clean02x -->
+      <archetypeName>p_win_jts_sash_clean02x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x48D78ABC84D19A3C" />
+      <position x="4.2215576" y="3.3931885" z="0.047607422" />
+      <rotation x="0" y="0" z="0.035395008" w="0.99937344" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="200" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_jts_sash_clean02x -->
+      <archetypeName>p_win_jts_sash_clean02x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x442887C34BFBAAAB" />
+      <position x="1.4075928" y="3.633545" z="0.042564392" />
+      <rotation x="0" y="0" z="0.035395008" w="0.99937344" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="200" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_jts_sash_clean02x -->
+      <archetypeName>p_win_jts_sash_clean02x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x439800B6EDAF26E4" />
+      <position x="-2.8105469" y="-2.6917725" z="0.05342102" />
+      <rotation x="0" y="0" z="0.99905086" w="-0.043560997" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="200" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_jts_sash_clean02x -->
+      <archetypeName>p_win_jts_sash_clean02x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x45FDD35FF25A3E04" />
+      <position x="-4.2764893" y="-0.8470459" z="0.0655365" />
+      <rotation x="0" y="0" z="-0.68301934" w="0.7304004" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="200" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_jts_sash_clean02x -->
+      <archetypeName>p_win_jts_sash_clean02x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x42D20FF7F8D00E68" />
+      <position x="2.8110352" y="-3.1434326" z="0.055885315" />
+      <rotation x="0" y="0" z="0.99905086" w="-0.043560997" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="200" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_win_jts_sash_clean02x -->
+      <archetypeName>p_win_jts_sash_clean02x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x42696735F7215A7B" />
+      <position x="5.4714355" y="-0.4650879" z="0.02218628" />
+      <rotation x="0" y="0" z="0.73725003" w="0.6756201" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="200" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_doorrhogensto01x -->
+      <archetypeName>p_doorrhogensto01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4F47794A7818DE7F" />
+      <position x="-0.13647461" y="-2.927002" z="-1.005127" />
+      <rotation x="0" y="0" z="0.043620016" w="0.9990482" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="200" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_doorrhogensto01x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <ajihsdab_0x091a42d0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <sjwehana_0xa37cab71 value="False" />
+          <limitAnglePos value="1.336922" />
+          <limitAngleNeg value="1.626647" />
+          <mvynybwa_0x9c555ecf value="0" />
+          <ukmfuefa_0xbca0289e value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>imgyvvja_0xd46d5eff</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_doorrhogensto01x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>axlttgnb_0x39f529c8</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- rho_gen_int_01_shell -->
+      <archetypeName>rho_gen_int_01_shell</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4925AF9012630D34" />
+      <position x="0.6105957" y="-0.696167" z="-1.9816589" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="35" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- jo_rho_gen_col -->
+      <archetypeName>jo_rho_gen_col</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4925AF9012630D34" />
+      <position x="0.6105957" y="-0.696167" z="-1.9816589" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="35" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- rho_genstor_int_shadowproxy -->
+      <archetypeName>rho_genstor_int_shadowproxy</archetypeName>
+      <flags value="1572864" />
+      <id value="0x483AC5E7782E0FB5" />
+      <position x="-0.4182129" y="-2.8149414" z="6.176483" />
+      <rotation x="0.66780996" y="0.23244198" z="0.28382498" w="0.647645" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="25" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- p_door01x -->
+      <archetypeName>p_door01x</archetypeName>
+      <flags value="1572864" />
+      <id value="0x4DF838A226FA7085" />
+      <position x="-4.0266113" y="-0.54785156" z="-0.9889984" />
+      <rotation x="0" y="0" z="0.043619014" w="0.99904823" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="25" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions>
+        <Item type="CExtensionDefDoor">
+          <name>p_door01x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <autoOpens value="False" />
+          <enableLimitAngle value="True" />
+          <ajihsdab_0x091a42d0 value="False" />
+          <startsLocked value="False" />
+          <canBreak value="False" />
+          <sjwehana_0xa37cab71 value="False" />
+          <limitAnglePos value="1.570796" />
+          <limitAngleNeg value="1.570796" />
+          <mvynybwa_0x9c555ecf value="0" />
+          <ukmfuefa_0xbca0289e value="0" />
+          <doorTargetRatio value="0" />
+          <audioHash>gvopvapa_0xf9659e95</audioHash>
+          <doorTags>
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </doorTags>
+        </Item>
+        <Item type="CExtensionDefScriptEntityId">
+          <name>p_door01x</name>
+          <offsetPosition x="0" y="0" z="0" />
+          <Id>gchydqwa_0x90fe61f7</Id>
+        </Item>
+      </extensions>
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+    <Item type="CEntityDef"> <!-- rho_gen_int_shell_amv_hdref -->
+      <archetypeName>rho_gen_int_shell_amv_hdref</archetypeName>
+      <flags value="68681730" />
+      <id value="0x4C70D8E3E7716DD7" />
+      <position x="-3.583374" y="1.5965576" z="-0.9871597" />
+      <rotation x="0" y="0" z="0" w="1" />
+      <scaleXY value="1" />
+      <scaleZ value="1" />
+      <parentIndex value="-1" />
+      <lodDist value="18" />
+      <childLodDist value="0" />
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0" />
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions />
+      <powerGridId value="0" />
+      <tintValue value="0" />
+      <wpmyrqea_0x0dc5f270 value="255" />
+      <osuqitja_0x540ca436 value="255" />
+    </Item>
+  </KuRNiVA_0xD222611A>
+</CPropSetDef>

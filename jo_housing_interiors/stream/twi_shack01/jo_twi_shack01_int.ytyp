@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_twi_shack01_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_twi_shack01_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_twi_shack01_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_twi_shack01_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.207967" y="-3.61436" z="-0.221494" />
+      <bbMax x="7.282898" y="3.537955" z="0.193438" />
+      <bsCentre x="0.037465572" y="-0.038202524" z="-0.014027998" />
+      <bsRadius value="8.082588" />
+      <hdTextureDist value="50" />
+      <name>twi_shack01_int_ceiling</name>
+      <textureDictionary>twi_shack01_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>twi_shack01_int_ceiling</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.151049" y="-3.494038" z="-1.939996" />
+      <bbMax x="7.151049" y="3.494038" z="1.939996" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="8.192032" />
+      <hdTextureDist value="50" />
+      <name>twi_shack01_int_dc</name>
+      <textureDictionary>twi_shack01_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>twi_shack01_int_dc</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-10.678164" y="-3.396896" z="-0.064335" />
+      <bbMax x="3.735937" y="3.663941" z="0.368845" />
+      <bsCentre x="-3.4711132" y="0.13352251" z="0.15225498" />
+      <bsRadius value="8.028221" />
+      <hdTextureDist value="50" />
+      <name>twi_shack01_int_floor</name>
+      <textureDictionary>twi_shack01_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>twi_shack01_int_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="35" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.006202" y="-3.759088" z="-0.279585" />
+      <bbMax x="1.900849" y="3.484131" z="14.441712" />
+      <bsCentre x="-0.05267644" y="-0.13747835" z="7.0810637" />
+      <bsRadius value="8.432761" />
+      <hdTextureDist value="5" />
+      <name>twi_shack01_int_shadow_proxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>twi_shack01_int_shadow_proxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.776051" y="-0.839379" z="-0.125701" />
+      <bbMax x="5.956504" y="6.477392" z="3.608754" />
+      <bsCentre x="-1.4097733" y="2.8190064" z="1.7415265" />
+      <bsRadius value="8.434" />
+      <hdTextureDist value="50" />
+      <name>twi_shack01_int_shell</name>
+      <textureDictionary>twi_shack01_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>twi_shack01_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.987565" y="-4.411044" z="0" />
+      <bbMax x="7.987565" y="4.411044" z="5.139594" />
+      <bsCentre x="0" y="0" z="2.569797" />
+      <bsRadius value="9.479576" />
+      <hdTextureDist value="5" />
+      <name>twi_shack01_lightbox_001</name>
+      <textureDictionary>BmQrzSA_0x194F96A3</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>twi_shack01_lightbox_001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.683083" y="-4.795135" z="0" />
+      <bbMax x="8.683083" y="4.795135" z="5.587124" />
+      <bsCentre x="0" y="0" z="2.793562" />
+      <bsRadius value="10.30501" />
+      <hdTextureDist value="5" />
+      <name>twi_shack01_lightbox_002</name>
+      <textureDictionary>BmQrzSA_0x194F96A3</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>twi_shack01_lightbox_002</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-9.842278" y="-5.435288" z="0" />
+      <bbMax x="9.842278" y="5.435288" z="6.333008" />
+      <bsCentre x="0" y="0" z="3.166504" />
+      <bsRadius value="11.68073" />
+      <hdTextureDist value="5" />
+      <name>twi_shack01_lightbox_003</name>
+      <textureDictionary>BmQrzSA_0x194F96A3</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>twi_shack01_lightbox_003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

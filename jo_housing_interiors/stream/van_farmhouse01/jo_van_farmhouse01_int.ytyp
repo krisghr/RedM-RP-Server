@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_van_farmhouse01_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_van_farmhouse01_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_van_farmhouse01_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_van_farmhouse01_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.189957" y="-3.971552" z="-2.168961" />
+      <bbMax x="0.836688" y="3.90568" z="1.562613" />
+      <bsCentre x="-1.1766346" y="-0.032936096" z="-0.30317402" />
+      <bsRadius value="4.800763" />
+      <hdTextureDist value="32.5" />
+      <name>van_03_farmhse_int_winglass</name>
+      <textureDictionary>van_farmhse01_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>van_03_farmhse_int_winglass</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000800" />
+      <lodDist value="15" />
+      <flags value="2048" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.503812" y="-1.704103" z="0.23066" />
+      <bbMax x="0.600677" y="1.142742" z="0.238344" />
+      <bsCentre x="0.04843253" y="-0.28068042" z="0.234502" />
+      <bsRadius value="1.526801" />
+      <hdTextureDist value="32.5" />
+      <name>van_farmhouse_shadowpoly</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>van_farmhouse_shadowpoly</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="30" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.116272" y="-4.192372" z="0" />
+      <bbMax x="3.116272" y="4.192372" z="7.15765" />
+      <bsCentre x="0" y="0" z="3.578825" />
+      <bsRadius value="6.332071" />
+      <hdTextureDist value="5" />
+      <name>van_farmhse_lights</name>
+      <textureDictionary>van_farmhse01_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>van_farmhse_lights</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.222397" y="-1.029473" z="-2.25705" />
+      <bbMax x="0.787188" y="0.989152" z="4.725536" />
+      <bsCentre x="0.2823955" y="-0.020160437" z="1.2342429" />
+      <bsRadius value="3.669149" />
+      <hdTextureDist value="32.5" />
+      <name>van_farmhse01_int_firepl</name>
+      <textureDictionary>van_farmhse01_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>van_farmhse01_int_firepl</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.411849" y="-4.269602" z="-0.124849" />
+      <bbMax x="5.989119" y="3.708793" z="0.055734" />
+      <bsCentre x="2.788635" y="-0.28040457" z="-0.0345575" />
+      <bsRadius value="5.115168" />
+      <hdTextureDist value="32.5" />
+      <name>van_farmhse01_int_floor</name>
+      <textureDictionary>van_farmhse01_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>van_farmhse01_int_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.133741" y="-2.531689" z="-1.998616" />
+      <bbMax x="2.894457" y="2.52592" z="2.005106" />
+      <bsCentre x="-0.11964178" y="-0.0028846264" z="0.0032451153" />
+      <bsRadius value="4.414419" />
+      <hdTextureDist value="32.5" />
+      <name>van_farmhse01_int_lights01</name>
+      <textureDictionary>van_farmhse01_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>van_farmhse01_int_lights01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.302068" y="-4.156567" z="0.03514" />
+      <bbMax x="3.294152" y="4.151794" z="3.505659" />
+      <bsCentre x="-0.003957987" y="-0.00238657" z="1.7703996" />
+      <bsRadius value="5.580849" />
+      <hdTextureDist value="32.5" />
+      <name>van_farmhse01_int_rafters</name>
+      <textureDictionary>van_farmhse01_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>van_farmhse01_int_rafters</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.262802" y="-4.077379" z="-3.52945" />
+      <bbMax x="3.270072" y="3.979937" z="3.486197" />
+      <bsCentre x="0.003635168" y="-0.048721313" z="-0.021626472" />
+      <bsRadius value="6.261352" />
+      <hdTextureDist value="32.5" />
+      <name>van_farmhse01_int_shell</name>
+      <textureDictionary>van_farmhse01_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>van_farmhse01_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.178471" y="-3.988074" z="-2.26697" />
+      <bbMax x="0.98187" y="3.897199" z="-0.070256" />
+      <bsCentre x="-1.0983005" y="-0.045437574" z="-1.168613" />
+      <bsRadius value="4.591065" />
+      <hdTextureDist value="32.5" />
+      <name>van_farmhse01_int_win_frames</name>
+      <textureDictionary>van_farmhse01_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>van_farmhse01_int_win_frames</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.021988" y="-3.964627" z="-0.964895" />
+      <bbMax x="2.03075" y="3.948808" z="0.964799" />
+      <bsCentre x="0.00438118" y="-0.007909536" z="0" />
+      <bsRadius value="4.548924" />
+      <hdTextureDist value="32.5" />
+      <name>van_farmhse01_int_windows</name>
+      <textureDictionary>van_farmhse01_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>van_farmhse01_int_windows</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="100" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.274967" y="-4.145354" z="-3.597499" />
+      <bbMax x="3.469912" y="4.091555" z="3.529346" />
+      <bsCentre x="0.09747243" y="-0.026899338" z="-0.034076452" />
+      <bsRadius value="6.4057" />
+      <hdTextureDist value="5" />
+      <name>van_shadow_proxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>van_shadow_proxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

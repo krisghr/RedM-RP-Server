@@ -47,7 +47,7 @@ BccUtils.RPC:Register("bcc-housing:FurniturePlacedCheck", function(params, cb, s
 
     if not houseid then
         DBG:Info("bcc-housing: FurniturePlacedCheck missing houseid from src " .. tostring(src))
-        return cb(false)
+        return cb(false, "missingHouseId")
     end
 
     -- deletion branch
@@ -60,29 +60,29 @@ BccUtils.RPC:Register("bcc-housing:FurniturePlacedCheck", function(params, cb, s
     end
 
     if not close then
-        return cb(false)
+        return cb(false, "invalidCloseFlag")
     end
 
     local param = { ['houseid'] = houseid }
     local result = MySQL.query.await("SELECT furniture FROM bcchousing WHERE houseid=@houseid", param)
     if not result or not result[1] then
-        return cb(false)
+        return cb(false, "houseNotFound")
     end
 
     local furnitureData = result[1].furniture
     if furnitureData == nil or furnitureData == '' or furnitureData == 'none' then
-        return cb(false)
+        return cb(false, "noFurniturePlaced")
     end
 
     local decodeOk, decodedFurniture = pcall(json.decode, furnitureData)
     if not decodeOk then
         DBG:Error("Failed to decode furniture data for house ID " ..
         tostring(houseid) .. ": " .. tostring(decodedFurniture))
-        return cb(false)
+        return cb(false, "decodeFailed")
     end
 
     if type(decodedFurniture) ~= "table" or next(decodedFurniture) == nil then
-        return cb(false)
+        return cb(false, "invalidFurniturePayload")
     end
 
     if spawnedFurnitureByPlayer[src] and spawnedFurnitureByPlayer[src][houseid] then
@@ -417,16 +417,27 @@ end
 
 CreateThread(function()
     if not Furniture.MenuItem or Furniture.MenuItem == '' then
+        print("^1[bcc-housing]^0 Furniture.MenuItem is empty; furniture book usable item will not be registered.")
         return
     end
+    print("^3[bcc-housing]^0 Registering furniture book usable item: " .. tostring(Furniture.MenuItem))
     exports.vorp_inventory:registerUsableItem(
         Furniture.MenuItem,
         function(data)
-            local src = data.source
+            local src = type(data) == "table" and data.source or data
+            print("^3[bcc-housing]^0 furniture book use callback fired for src " .. tostring(src))
+            if not src then
+                print("^1[bcc-housing]^0 furniture book callback missing source. Payload type: " .. tostring(type(data)))
+                return
+            end
             local character = getCharacter(src)
-            if not character then return end
+            if not character then
+                print("^1[bcc-housing]^0 furniture book use callback failed; no character for src " .. tostring(src))
+                return
+            end
 
             local ownedItems = loadOwnedFurniture(character.charIdentifier)
+            print("^3[bcc-housing]^0 sending OpenFurnitureBook to src " .. tostring(src) .. " with owned count " .. tostring(#ownedItems))
             BccUtils.RPC:Notify("bcc-housing:OpenFurnitureBook", { ownedFurniture = ownedItems }, src)
             exports.vorp_inventory:closeInventory(src)
         end,

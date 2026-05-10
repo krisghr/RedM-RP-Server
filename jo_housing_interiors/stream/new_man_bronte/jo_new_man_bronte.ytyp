@@ -1,0 +1,1769 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_new_man_bronte</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_new_man_bronte_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_new_man_bronte_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_new_man_bronte_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="35" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-12.741327" y="-11.190792" z="-5.145425" />
+      <bbMax x="15.066813" y="11.190718" z="7.319367" />
+      <bsCentre x="1.1627426" y="0" z="1.0869713" />
+      <bsRadius value="18.905" />
+      <hdTextureDist value="5" />
+      <name>bront_man_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bront_man_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="18" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.487294" y="-2.792504" z="-1.801784" />
+      <bbMax x="4.487293" y="2.792504" z="1.801785" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="5.583933" />
+      <hdTextureDist value="10.32" />
+      <name>bronte_bedroom_decals</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_bedroom_decals</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="18" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.316628" y="-2.897599" z="-2.12879" />
+      <bbMax x="5.011459" y="2.906908" z="1.992897" />
+      <bsCentre x="0.34741545" y="0.004654646" z="-0.067946434" />
+      <bsRadius value="5.86715" />
+      <hdTextureDist value="10.85" />
+      <name>jo_bronte_bedroom_tw_detail005</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bronte_bedroom_tw_detail005</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="18" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.705427" y="-4.132629" z="-2.59215" />
+      <bbMax x="2.771656" y="4.13263" z="0.04457" />
+      <bsCentre x="0.03311467" y="0" z="-1.27379" />
+      <bsRadius value="5.129942" />
+      <hdTextureDist value="11.24" />
+      <name>bronte_dining_ceiling</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_dining_ceiling</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="17" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.147566" y="-4.079187" z="-2.015543" />
+      <bbMax x="3.102055" y="4.799148" z="1.984501" />
+      <bsCentre x="-0.022755384" y="0.35998058" z="-0.0155210495" />
+      <bsRadius value="5.78539" />
+      <hdTextureDist value="10.79" />
+      <name>jo_bronte_dining_detail</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bronte_dining_detail</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.079958" y="-4.431882" z="-1.845957" />
+      <bbMax x="3.177116" y="4.169991" z="1.754594" />
+      <bsCentre x="0.048578978" y="-0.1309452" z="-0.045681477" />
+      <bsRadius value="5.614872" />
+      <hdTextureDist value="10.47" />
+      <name>bronte_dining_pillars1</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_dining_pillars1</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="14" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.777948" y="-0.089785" z="-1.237155" />
+      <bbMax x="0.777948" y="0.089785" z="1.237155" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="1.464178" />
+      <hdTextureDist value="5.67" />
+      <name>bronte_dining_posts</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_dining_posts</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="17" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.378738" y="-2.914739" z="-2.028948" />
+      <bbMax x="2.229971" y="2.44101" z="1.984358" />
+      <bsCentre x="-0.0743835" y="-0.23686433" z="-0.022294998" />
+      <bsRadius value="4.062969" />
+      <hdTextureDist value="8.79" />
+      <name>jo_bronte_dressing_detail002</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bronte_dressing_detail002</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000002000" />
+      <lodDist value="15" />
+      <flags value="8192" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.157104" y="-2.615435" z="-1.991383" />
+      <bbMax x="2.157104" y="2.615435" z="1.991383" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="3.931819" />
+      <hdTextureDist value="8.4" />
+      <name>bronte_dressing_dirt003</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_dressing_dirt003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="17" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.201643" y="-0.469552" z="-1.773658" />
+      <bbMax x="2.201643" y="0.50497" z="1.719305" />
+      <bsCentre x="0" y="0.017708987" z="-0.0271765" />
+      <bsRadius value="2.852166" />
+      <hdTextureDist value="7.86" />
+      <name>bronte_dressing_wardrobe01</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_dressing_wardrobe01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="17" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.116483" y="-0.173474" z="-1.748114" />
+      <bbMax x="2.116483" y="0.569027" z="1.417614" />
+      <bsCentre x="0" y="0.19777651" z="-0.16524994" />
+      <bsRadius value="2.668855" />
+      <hdTextureDist value="7.91" />
+      <name>bronte_dressing_wardrobe02</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_dressing_wardrobe02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.841991" y="-4.973293" z="-1.534362" />
+      <bbMax x="3.841992" y="4.973293" z="1.534362" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="6.469065" />
+      <hdTextureDist value="13.6" />
+      <name>jo_bronte_frames_linkrear</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bronte_frames_linkrear</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="16" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.266872" y="-5.41563" z="-0.272314" />
+      <bbMax x="2.266872" y="5.415631" z="0.272315" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="5.877237" />
+      <hdTextureDist value="10.32" />
+      <name>bronte_geo_lbry_decals01</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_geo_lbry_decals01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="17" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.609622" y="-6.225052" z="-0.914521" />
+      <bbMax x="3.01941" y="5.225029" z="1.545651" />
+      <bsCentre x="0.20489407" y="-0.50001144" z="0.315565" />
+      <bsRadius value="6.496976" />
+      <hdTextureDist value="12.01" />
+      <name>bronte_geo_lbry_det2</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_geo_lbry_det2</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.239839" y="-4.251204" z="-3.554884" />
+      <bbMax x="2.23984" y="1.21309" z="3.554885" />
+      <bsCentre x="0" y="-1.519057" z="0" />
+      <bsRadius value="5.011857" />
+      <hdTextureDist value="10.32" />
+      <name>bronte_geo_strs_decals</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_geo_strs_decals</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="18" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.237334" y="-2.776675" z="-4.418111" />
+      <bbMax x="2.268488" y="3.26231" z="4.375082" />
+      <bsCentre x="0.015577078" y="0.24281764" z="-0.021514416" />
+      <bsRadius value="5.789905" />
+      <hdTextureDist value="10.45" />
+      <name>bronte_geo_strsdet1_tint</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_geo_strsdet1_tint</assetName>
+      <extensions>
+        <Item type="CExtensionDefStairs">
+          <name>yuetfBA_0x833A19C5</name>
+          <offsetPosition x="-1.221384" y="2.5589292" z="-3.984636" />
+          <bottom x="-1.221384" y="2.5589292" z="-4.184565" />
+          <top x="-1.221333" y="-0.7431407" z="-1.784672" />
+          <boundMin x="-2.240554" y="-1.0439448" z="-4.192065" />
+          <boundMax x="-0.20368814" y="2.609352" z="-1.784672" />
+          <steps itemType="qbgDfAA_0xA15F529D">
+            <Item>
+              <position x="-1.221384" y="2.5589292" z="-3.984636" />
+              <width value="2.02035" />
+              <depth value="0.30038" />
+              <height value="0.199929" />
+              <forward x="-0.000415" y="-1" z="0" />
+              <right x="1" y="-0.000415" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.221324" y="2.2585492" z="-3.784707" />
+              <width value="2.02035" />
+              <depth value="0.300702" />
+              <height value="0.199929" />
+              <forward x="-0.00068399985" y="-0.99999976" z="0" />
+              <right x="0.99999976" y="-0.00068399985" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.221324" y="1.9578471" z="-3.581557" />
+              <width value="2.02035" />
+              <depth value="0.300109" />
+              <height value="0.20315" />
+              <forward x="-0.00068399985" y="-0.99999976" z="0" />
+              <right x="0.99999976" y="-0.00068399985" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.221324" y="1.6577382" z="-3.381913" />
+              <width value="2.02035" />
+              <depth value="0.30011" />
+              <height value="0.199643" />
+              <forward x="-0.00068399985" y="-0.99999976" z="0" />
+              <right x="0.99999976" y="-0.00068399985" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.221324" y="1.3576281" z="-3.18227" />
+              <width value="2.02035" />
+              <depth value="0.300109" />
+              <height value="0.199643" />
+              <forward x="-0.00068399985" y="-0.99999976" z="0" />
+              <right x="0.99999976" y="-0.00068399985" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.221324" y="1.0575192" z="-2.982626" />
+              <width value="2.02035" />
+              <depth value="0.30011" />
+              <height value="0.199644" />
+              <forward x="-0.00068399985" y="-0.99999976" z="0" />
+              <right x="0.99999976" y="-0.00068399985" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.221324" y="0.7574091" z="-2.7829828" />
+              <width value="2.02035" />
+              <depth value="0.30011" />
+              <height value="0.199643" />
+              <forward x="-0.00068399985" y="-0.99999976" z="0" />
+              <right x="0.99999976" y="-0.00068399985" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.221324" y="0.45729923" z="-2.58334" />
+              <width value="2.02035" />
+              <depth value="0.30011" />
+              <height value="0.199643" />
+              <forward x="-0.00068399985" y="-0.99999976" z="0" />
+              <right x="0.99999976" y="-0.00068399985" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.221324" y="0.15718889" z="-2.383696" />
+              <width value="2.02035" />
+              <depth value="0.30011" />
+              <height value="0.199644" />
+              <forward x="-0.00068399985" y="-0.99999976" z="0" />
+              <right x="0.99999976" y="-0.00068399985" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.221324" y="-0.14292097" z="-2.184053" />
+              <width value="2.02035" />
+              <depth value="0.300109" />
+              <height value="0.199643" />
+              <forward x="-0.00068399985" y="-0.99999976" z="0" />
+              <right x="0.99999976" y="-0.00068399985" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.221324" y="-0.44302988" z="-1.9844089" />
+              <width value="2.02035" />
+              <depth value="0.300111" />
+              <height value="0.199643" />
+              <forward x="-0.00068399985" y="-0.99999976" z="0" />
+              <right x="0.99999976" y="-0.00068399985" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.221333" y="-0.7431407" z="-1.784672" />
+              <width value="2.02035" />
+              <depth value="0.300111" />
+              <height value="0.199737" />
+              <forward x="-0.00068399985" y="-0.99999976" z="0" />
+              <right x="0.99999976" y="-0.00068399985" z="0" />
+            </Item>
+          </steps>
+        </Item>
+        <Item type="CExtensionDefStairs">
+          <name>nxtXGRA_0x9513BD78</name>
+          <offsetPosition x="1.248971" y="-0.79505396" z="-1.585031" />
+          <bottom x="1.248971" y="-0.7950549" z="-1.7881811" />
+          <top x="1.24897" y="2.206635" z="0.41509914" />
+          <boundMin x="0.23125601" y="-0.84574986" z="-1.795681" />
+          <boundMax x="2.268908" y="2.5074391" z="0.41509914" />
+          <steps itemType="qbgDfAA_0xA15F529D">
+            <Item>
+              <position x="1.248971" y="-0.7950549" z="-1.585031" />
+              <width value="2.020362" />
+              <depth value="0.300701" />
+              <height value="0.20315" />
+              <forward x="0.00068399985" y="0.99999976" z="0" />
+              <right x="-0.99999976" y="0.00068399985" z="0" />
+            </Item>
+            <Item>
+              <position x="1.24897" y="-0.49435377" z="-1.38188" />
+              <width value="2.020362" />
+              <depth value="0.300111" />
+              <height value="0.20315" />
+              <forward x="0.0006849998" y="0.99999976" z="0" />
+              <right x="-0.99999976" y="0.0006849998" z="0" />
+            </Item>
+            <Item>
+              <position x="1.248971" y="-0.19424295" z="-1.1822369" />
+              <width value="2.020362" />
+              <depth value="0.300108" />
+              <height value="0.199643" />
+              <forward x="0.00068399985" y="0.99999976" z="0" />
+              <right x="-0.99999976" y="0.00068399985" z="0" />
+            </Item>
+            <Item>
+              <position x="1.248971" y="0.105865" z="-0.982594" />
+              <width value="2.020362" />
+              <depth value="0.600221" />
+              <height value="0.199643" />
+              <forward x="0.00068399985" y="0.99999976" z="0" />
+              <right x="-0.99999976" y="0.00068399985" z="0" />
+            </Item>
+            <Item>
+              <position x="1.248971" y="0.7060871" z="-0.583307" />
+              <width value="2.020362" />
+              <depth value="0.30011" />
+              <height value="0.399287" />
+              <forward x="0.00068399985" y="0.99999976" z="0" />
+              <right x="-0.99999976" y="0.00068399985" z="0" />
+            </Item>
+            <Item>
+              <position x="1.248971" y="1.006196" z="-0.38366294" />
+              <width value="2.020362" />
+              <depth value="0.30011" />
+              <height value="0.199643" />
+              <forward x="0.00068399985" y="0.99999976" z="0" />
+              <right x="-0.99999976" y="0.00068399985" z="0" />
+            </Item>
+            <Item>
+              <position x="1.248971" y="1.3063061" z="-0.18402004" />
+              <width value="2.020362" />
+              <depth value="0.300109" />
+              <height value="0.199644" />
+              <forward x="0.00068399985" y="0.99999976" z="0" />
+              <right x="-0.99999976" y="0.00068399985" z="0" />
+            </Item>
+            <Item>
+              <position x="1.248971" y="1.606416" z="0.015624046" />
+              <width value="2.020362" />
+              <depth value="0.30011" />
+              <height value="0.199643" />
+              <forward x="0.00068399985" y="0.99999976" z="0" />
+              <right x="-0.99999976" y="0.00068399985" z="0" />
+            </Item>
+            <Item>
+              <position x="1.248971" y="1.9065261" z="0.21526718" />
+              <width value="2.020362" />
+              <depth value="0.300109" />
+              <height value="0.199643" />
+              <forward x="0.00068399985" y="0.99999976" z="0" />
+              <right x="-0.99999976" y="0.00068399985" z="0" />
+            </Item>
+            <Item>
+              <position x="1.24897" y="2.206635" z="0.41509914" />
+              <width value="2.020362" />
+              <depth value="0.300109" />
+              <height value="0.199832" />
+              <forward x="0.00068399985" y="0.99999976" z="0" />
+              <right x="-0.99999976" y="0.00068399985" z="0" />
+            </Item>
+          </steps>
+        </Item>
+      </extensions>
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="17" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.974955" y="-2.384744" z="-2.002783" />
+      <bbMax x="2.064795" y="3.391516" z="2.002974" />
+      <bsCentre x="0.044920087" y="0.503386" z="0" />
+      <bsRadius value="4.053728" />
+      <hdTextureDist value="9.07" />
+      <name>bronte_geobdmendet</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_geobdmendet</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="17" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.002435" y="-2.04436" z="-0.816036" />
+      <bbMax x="3.002435" y="2.04436" z="0.816036" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="3.722894" />
+      <hdTextureDist value="10.79" />
+      <name>bronte_geobdrm_decals</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_geobdrm_decals</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="17" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.007064" y="-0.36401" z="-1.922217" />
+      <bbMax x="1.009184" y="0.496602" z="1.646454" />
+      <bsCentre x="0.001060009" y="0.06629601" z="-0.13788152" />
+      <bsRadius value="2.094118" />
+      <hdTextureDist value="7.21" />
+      <name>jo_bronte_geobdrm_frplc</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bronte_geobdrm_frplc</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="17" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.280126" y="-3.40824" z="-2.846208" />
+      <bbMax x="3.280126" y="3.40824" z="2.846208" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="5.520528" />
+      <hdTextureDist value="11.34" />
+      <name>bronte_geobdrmbeams</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_geobdrmbeams</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="17" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.090188" y="-3.306958" z="-0.205089" />
+      <bbMax x="3.090792" y="3.298998" z="3.214815" />
+      <bsCentre x="0.00030183792" y="-0.0039799213" z="1.504863" />
+      <bsRadius value="4.835776" />
+      <hdTextureDist value="11.02" />
+      <name>bronte_geobdrmmldng</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_geobdrmmldng</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.983628" y="-4.778708" z="-2.0009" />
+      <bbMax x="0.599133" y="4.989821" z="2.001513" />
+      <bsCentre x="-3.1922474" y="0.10555649" z="0.00030636787" />
+      <bsRadius value="6.498879" />
+      <hdTextureDist value="13.86" />
+      <name>jo_bronte_geom_halls_detail01</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bronte_geom_halls_detail01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="17" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.240816" y="-2.786736" z="-0.736598" />
+      <bbMax x="2.241276" y="2.786681" z="0.736598" />
+      <bsCentre x="0.00022983551" y="0" z="0" />
+      <bsRadius value="3.65111" />
+      <hdTextureDist value="8.58" />
+      <name>bronte_geostrsdet4</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_geostrsdet4</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.899841" y="-4.946156" z="-2.048" />
+      <bbMax x="0.927253" y="4.946156" z="2.048" />
+      <bsCentre x="-2.9862938" y="0" z="0" />
+      <bsRadius value="6.631336" />
+      <hdTextureDist value="10.32" />
+      <name>jo_bronte_gnd_hall_r_decals</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bronte_gnd_hall_r_decals</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.839055" y="-4.884367" z="-0.736748" />
+      <bbMax x="6.792093" y="4.88444" z="0.736824" />
+      <bsCentre x="-0.023481369" y="0" z="0" />
+      <bsRadius value="8.41738" />
+      <hdTextureDist value="13.41" />
+      <name>jo_bronte_gnd_hall_wain_rear003</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bronte_gnd_hall_wain_rear003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="22" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-11.564241" y="-3.103373" z="-0.080406" />
+      <bbMax x="14.449621" y="3.103373" z="0.081828" />
+      <bsCentre x="1.4426899" y="0" z="0.00071100146" />
+      <bsRadius value="13.37228" />
+      <hdTextureDist value="19.63" />
+      <name>bronte_hall_1_ceiling003</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_hall_1_ceiling003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="22" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-11.719475" y="-3.256206" z="-2.8089" />
+      <bbMax x="14.325579" y="3.256206" z="2.8089" />
+      <bsCentre x="1.303052" y="0" z="0" />
+      <bsRadius value="13.71419" />
+      <hdTextureDist value="10.32" />
+      <name>jo_bronte_hall_1_decals</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bronte_hall_1_decals</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="22" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-9.762169" y="-5.29432" z="-1.972331" />
+      <bbMax x="16.566511" y="1.133392" z="1.98882" />
+      <bsCentre x="3.4021711" y="-2.0804641" z="0.008244514" />
+      <bsRadius value="13.69494" />
+      <hdTextureDist value="20.01" />
+      <name>jo_bronte_hall_1_detail004</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bronte_hall_1_detail004</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="16" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.097057" y="-0.247149" z="-1.750074" />
+      <bbMax x="5.097057" y="0.247149" z="1.750074" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="5.394796" />
+      <hdTextureDist value="11.7" />
+      <name>bronte_hall_frame_front01</name>
+      <textureDictionary>new_man_bron_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_hall_frame_front01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="16" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.919249" y="-1.999051" z="-1.069785" />
+      <bbMax x="2.919249" y="1.999051" z="1.069785" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="3.696303" />
+      <hdTextureDist value="10.32" />
+      <name>bronte_hall_front_decal01</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_hall_front_decal01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="18" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.950611" y="-2.220103" z="-2.000565" />
+      <bbMax x="2.95061" y="2.220103" z="2.000565" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.199669" />
+      <hdTextureDist value="12.19" />
+      <name>bronte_hall_front_detail003</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_hall_front_detail003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="16" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.077393" y="-0.207922" z="-1.671091" />
+      <bbMax x="1.077393" y="0.207922" z="1.671091" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="1.999138" />
+      <hdTextureDist value="6.99" />
+      <name>jo_bronte_hall_front_mirror006</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bronte_hall_front_mirror006</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="18" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.524485" y="-2.794563" z="-1.068815" />
+      <bbMax x="3.596821" y="2.794885" z="2.224417" />
+      <bsCentre x="1.036168" y="0.00016093254" z="0.577801" />
+      <bsRadius value="4.132647" />
+      <hdTextureDist value="9.98" />
+      <name>bronte_kitchen_cabinets001</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_kitchen_cabinets001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="18" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.04234" y="-4.731388" z="-1.744508" />
+      <bbMax x="3.08058" y="0.980644" z="1.979194" />
+      <bsCentre x="0.51912" y="-1.8753719" z="0.11734295" />
+      <bsRadius value="4.264317" />
+      <hdTextureDist value="10.79" />
+      <name>bronte_kitchen_dirt003</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_kitchen_dirt003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000002000" />
+      <lodDist value="17" />
+      <flags value="8192" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.37141" y="-4.549265" z="0" />
+      <bbMax x="1.37141" y="4.549265" z="0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.751482" />
+      <hdTextureDist value="9.76" />
+      <name>bronte_library_window005</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_library_window005</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.641073" y="-3.330222" z="-1.995496" />
+      <bbMax x="4.476744" y="3.3318" z="2.000002" />
+      <bsCentre x="-0.082164764" y="0.0007889271" z="0.0022529364" />
+      <bsRadius value="5.989181" />
+      <hdTextureDist value="10.89" />
+      <name>jo_bronte_music_details01</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bronte_music_details01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="18" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.489581" y="-2.80691" z="-1.408174" />
+      <bbMax x="4.489581" y="2.80691" z="1.408174" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="5.478872" />
+      <hdTextureDist value="10.32" />
+      <name>bronte_music_dirt003</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_music_dirt003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="16" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.504779" y="-2.81513" z="-1.408174" />
+      <bbMax x="4.504778" y="2.815129" z="1.408174" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="5.495538" />
+      <hdTextureDist value="10.32" />
+      <name>bronte_sitting_decals</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_sitting_decals</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="17" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.80146" y="-2.645161" z="-1.642204" />
+      <bbMax x="0.80146" y="2.645162" z="1.642204" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="3.214973" />
+      <hdTextureDist value="11.31" />
+      <name>jo_bronte_sitting_detail01</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bronte_sitting_detail01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.707543" y="-3.77415" z="-2.000021" />
+      <bbMax x="4.574188" y="2.22978" z="1.310481" />
+      <bsCentre x="0.93332267" y="-0.77218485" z="-0.34476995" />
+      <bsRadius value="5.000755" />
+      <hdTextureDist value="11.31" />
+      <name>bronte_sitting_detail02</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_sitting_detail02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="17" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.545973" y="-3.249553" z="-1.711748" />
+      <bbMax x="4.526577" y="3.239312" z="2.289161" />
+      <bsCentre x="-0.009697914" y="-0.005120516" z="0.28870642" />
+      <bsRadius value="5.925027" />
+      <hdTextureDist value="10.93" />
+      <name>bronte_sitting_moulding004</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_sitting_moulding004</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="16" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.274323" y="-0.00128" z="-2.460115" />
+      <bbMax x="2.259069" y="0.437883" z="2.45623" />
+      <bsCentre x="-0.0076270103" y="0.2183015" z="-0.0019426346" />
+      <bsRadius value="3.350931" />
+      <hdTextureDist value="8.55" />
+      <name>bronte_stairs_window003</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_stairs_window003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.00873" y="-4.96349" z="-2.342799" />
+      <bbMax x="3.010242" y="3.886221" z="0.959019" />
+      <bsCentre x="0.0007560253" y="-0.5386348" z="-0.69189" />
+      <bsRadius value="5.600165" />
+      <hdTextureDist value="11.24" />
+      <name>bronte_study_detail001</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_study_detail001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.049024" y="-4.399224" z="-3.616918" />
+      <bbMax x="3.049086" y="4.389453" z="0.383378" />
+      <bsCentre x="0" y="-0.0048851967" z="-1.61677" />
+      <bsRadius value="5.710301" />
+      <hdTextureDist value="11.97" />
+      <name>bronte_study_moulding003</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_study_moulding003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="16" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.268709" y="-1.198448" z="-1.910761" />
+      <bbMax x="1.365574" y="2.569685" z="1.910845" />
+      <bsCentre x="0.04843259" y="0.6856185" z="0" />
+      <bsRadius value="2.98927" />
+      <hdTextureDist value="10.36" />
+      <name>bronte_toiletbath</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_toiletbath</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="17" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.215303" y="-3.005439" z="-0.049281" />
+      <bbMax x="2.215302" y="2.975217" z="0.048273" />
+      <bsCentre x="0" y="-0.01511097" z="-0.000504002" />
+      <bsRadius value="3.721828" />
+      <hdTextureDist value="8.74" />
+      <name>bronte_wine_ceiling001</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_wine_ceiling001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="17" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.2756" y="-2.632396" z="-3.990742" />
+      <bbMax x="2.270709" y="3.380677" z="0.000468" />
+      <bsCentre x="-0.0024454594" y="0.3741405" z="-1.995137" />
+      <bsRadius value="4.264848" />
+      <hdTextureDist value="10.32" />
+      <name>bronte_wine_decals</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_wine_decals</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="16" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.251563" y="-2.80304" z="0.000221" />
+      <bbMax x="2.259896" y="2.64886" z="0.000341" />
+      <bsCentre x="0.004166603" y="-0.077090025" z="0.000281" />
+      <bsRadius value="3.538237" />
+      <hdTextureDist value="8.62" />
+      <name>bronte_wine_fl_cloth004</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_wine_fl_cloth004</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="16" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.255236" y="-0.353296" z="-1.701193" />
+      <bbMax x="2.255236" y="0.353295" z="1.701193" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="2.846922" />
+      <hdTextureDist value="7.83" />
+      <name>bronte_wine_racks005</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_wine_racks005</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="22" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.565425" y="-2.592652" z="-2.012437" />
+      <bbMax x="2.224314" y="3.560035" z="1.883471" />
+      <bsCentre x="-0.17055559" y="0.48369145" z="-0.06448305" />
+      <bsRadius value="4.358189" />
+      <hdTextureDist value="9.53" />
+      <name>bronte_wine_room04</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bronte_wine_room04</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="17" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.004782" y="-5.866522" z="-1.466113" />
+      <bbMax x="3.006463" y="5.866523" z="1.474621" />
+      <bsCentre x="0.0008404255" y="0" z="0.0042539835" />
+      <bsRadius value="6.753653" />
+      <hdTextureDist value="13.96" />
+      <name>man_bronte_lib_details01</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>man_bronte_lib_details01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="18" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.132931" y="-3.223707" z="-2.891348" />
+      <bbMax x="1.132931" y="3.223707" z="3.03063" />
+      <bsCentre x="0" y="0" z="0.06964111" />
+      <bsRadius value="4.521424" />
+      <hdTextureDist value="13.96" />
+      <name>man_bronte_lib_details02</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>man_bronte_lib_details02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.164252" y="-1.079101" z="0" />
+      <bbMax x="1.077263" y="1.156142" z="1.435834" />
+      <bsCentre x="-0.043494463" y="0.038520455" z="0.717917" />
+      <bsRadius value="1.737982" />
+      <hdTextureDist value="7.3" />
+      <name>new_bro_ensuite_fireplace</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_bro_ensuite_fireplace</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="18" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.703217" y="-2.884374" z="-1.863659" />
+      <bbMax x="2.591254" y="2.794675" z="1.864515" />
+      <bsCentre x="-0.055981636" y="-0.044849396" z="0.00042796135" />
+      <bsRadius value="4.306458" />
+      <hdTextureDist value="8.96" />
+      <name>new_bro_kitchen_detail01</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_bro_kitchen_detail01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.043333" y="-0.336994" z="-1.383595" />
+      <bbMax x="1.043333" y="0.442609" z="1.383595" />
+      <bsCentre x="0" y="0.05280751" z="0" />
+      <bsRadius value="1.776183" />
+      <hdTextureDist value="6.74" />
+      <name>new_bro_lib_fireplace</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_bro_lib_fireplace</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="0.109483" y="-1.999051" z="-1.069785" />
+      <bbMax x="5.911068" y="1.999051" z="1.069785" />
+      <bsCentre x="3.0102756" y="0" z="0" />
+      <bsRadius value="3.681745" />
+      <hdTextureDist value="13.41" />
+      <name>new_bron_entry_decal01</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_bron_entry_decal01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.075799" y="-2.98574" z="-2.048" />
+      <bbMax x="3.075799" y="2.98574" z="2.048" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.750736" />
+      <hdTextureDist value="13.41" />
+      <name>new_bron_entry_decal02</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_bron_entry_decal02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.301232" y="-2.296677" z="-2.001741" />
+      <bbMax x="6.249662" y="2.033926" z="2.001741" />
+      <bsCentre x="2.9742148" y="-0.13137555" z="0" />
+      <bsRadius value="4.407272" />
+      <hdTextureDist value="13.41" />
+      <name>jo_new_bron_entry_detail01</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_new_bron_entry_detail01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.102215" y="-2.281475" z="-2.267815" />
+      <bbMax x="3.102215" y="2.281475" z="2.267815" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.468988" />
+      <hdTextureDist value="13.41" />
+      <name>new_bron_entry_detail02</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_bron_entry_detail02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.172508" y="1.833625" z="-1.790441" />
+      <bbMax x="1.377424" y="2.114036" z="1.791296" />
+      <bsCentre x="0.102458" y="1.9738305" z="0.0004274845" />
+      <bsRadius value="2.202818" />
+      <hdTextureDist value="13.41" />
+      <name>new_bron_entry_frames</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_bron_entry_frames</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.000988" y="-2.000642" z="-0.736613" />
+      <bbMax x="3.000988" y="2.000642" z="0.736613" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="3.681181" />
+      <hdTextureDist value="13.41" />
+      <name>new_bron_hall_wainscott</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_bron_hall_wainscott</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-13.771318" y="-11.100828" z="-5.113778" />
+      <bbMax x="13.86799" y="11.098705" z="5.113779" />
+      <bsCentre x="0.04833603" y="-0.0010614395" z="0" />
+      <bsRadius value="18.44826" />
+      <hdTextureDist value="22.91" />
+      <name>jo_new_man_bron_geoshell</name>
+      <textureDictionary>new_man_bron_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_new_man_bron_geoshell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-10.771102" y="-11.118725" z="-0.086828" />
+      <bbMax x="16.849766" y="11.017768" z="4.019437" />
+      <bsCentre x="3.0393324" y="-0.05047798" z="1.9663045" />
+      <bsRadius value="17.81711" />
+      <hdTextureDist value="26.34" />
+      <name>jo_new_man_bron_gnd_shell</name>
+      <textureDictionary>new_man_bron_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_new_man_bron_gnd_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="25" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-23.066359" y="-16.420643" z="-1.986132" />
+      <bbMax x="4.656748" y="5.683451" z="6.637461" />
+      <bsCentre x="-9.204805" y="-5.368596" z="2.3256645" />
+      <bsRadius value="18.24505" />
+      <hdTextureDist value="5" />
+      <name>new_man_bron_int_sp</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_man_bron_int_sp</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="25" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="7.848189" y="-3.514281" z="-6.06947" />
+      <bbMax x="16.907097" y="3.313074" z="-2.060452" />
+      <bsCentre x="12.377644" y="-0.10060334" z="-4.064961" />
+      <bsRadius value="6.01558" />
+      <hdTextureDist value="5" />
+      <name>new_man_bronte_mrr_rfln_a</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_man_bronte_mrr_rfln_a</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="25" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.034573" y="-3.290294" z="-1.995496" />
+      <bbMax x="4.476744" y="3.3318" z="2.009125" />
+      <bsCentre x="-0.27891445" y="0.020753145" z="0.00681448" />
+      <bsRadius value="6.130952" />
+      <hdTextureDist value="5" />
+      <name>new_man_bronte_mrr_rfln_b</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_man_bronte_mrr_rfln_b</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="25" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.997861" y="-5.968681" z="-6.061275" />
+      <bbMax x="3.019478" y="6.383788" z="3.91864" />
+      <bsCentre x="0.010808468" y="0.20755339" z="-1.0713177" />
+      <bsRadius value="8.491033" />
+      <hdTextureDist value="5" />
+      <name>new_man_bronte_mrr_rfln_d</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_man_bronte_mrr_rfln_d</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="25" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.277988" y="4.311039" z="-0.592306" />
+      <bbMax x="0.296985" y="11.272494" z="5.113779" />
+      <bsCentre x="-2.9905014" y="7.7917666" z="2.2607365" />
+      <bsRadius value="5.573409" />
+      <hdTextureDist value="5" />
+      <name>new_man_bronte_mrr_rfln_e</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_man_bronte_mrr_rfln_e</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="25" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-10.239821" y="2.081434" z="-0.516995" />
+      <bbMax x="-6.097557" y="7.948057" z="3.489391" />
+      <bsCentre x="-8.16869" y="5.0147457" z="1.4861982" />
+      <bsRadius value="4.111774" />
+      <hdTextureDist value="5" />
+      <name>new_man_bronte_mrr_rfln_f</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_man_bronte_mrr_rfln_f</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="16" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.363065" y="-3.015027" z="-1.549267" />
+      <bbMax x="2.363065" y="3.062831" z="-0.74594" />
+      <bsCentre x="0" y="0.02390194" z="-1.1476035" />
+      <bsRadius value="3.870465" />
+      <hdTextureDist value="9.16" />
+      <name>jo_new_man_bronte_wine</name>
+      <textureDictionary>new_man_bron_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_new_man_bronte_wine</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

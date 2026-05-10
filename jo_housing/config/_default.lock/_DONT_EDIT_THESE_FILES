@@ -1,0 +1,10 @@
+-------------------------------
+-- Copy the file you want edit inside the `../custom` folder
+--------------------------------
+1. Copy the file you want edit from this folder
+2. Paste it inside the `../custom` folder
+3. Edit the file inside the `../custom` folder
+4. Use `/refresh` to refresh the resource
+5. Use `/ensure jo_housing` to restart the resource
+
+DOCUMENTATION : https://docs.jumpon-studios.com/RedM/housing

@@ -1,0 +1,902 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_agu_boiler_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_agu_boiler_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_agu_boiler_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_agu_boiler_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.165364" y="-0.405767" z="-0.429491" />
+      <bbMax x="0.165178" y="0.4057" z="0.429488" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="0.6135107" />
+      <hdTextureDist value="20" />
+      <name>agu_back_bars003</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_back_bars003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.645815" y="-3.386726" z="-2.210311" />
+      <bbMax x="2.645811" y="3.386745" z="2.210312" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.832782" />
+      <hdTextureDist value="20" />
+      <name>agu_back_beams</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_back_beams</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.465657" y="-2.917891" z="-1.567837" />
+      <bbMax x="2.465748" y="2.917696" z="1.587911" />
+      <bsCentre x="0" y="0" z="0.010036945" />
+      <bsRadius value="4.133146" />
+      <hdTextureDist value="20" />
+      <name>jo_agu_back_bricks002</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_agu_back_bricks002</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.667386" y="-3.390245" z="-0.639593" />
+      <bbMax x="2.667541" y="3.390407" z="0.639593" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.361049" />
+      <hdTextureDist value="20" />
+      <name>agu_back_decals002</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_back_decals002</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.70104" y="-3.41664" z="0" />
+      <bbMax x="2.701199" y="3.416733" z="0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.355433" />
+      <hdTextureDist value="20" />
+      <name>agu_back_floor003</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_back_floor003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.640366" y="-3.386875" z="-2.331582" />
+      <bbMax x="2.640484" y="3.386939" z="2.199975" />
+      <bsCentre x="0" y="0" z="-0.06580353" />
+      <bsRadius value="4.855588" />
+      <hdTextureDist value="20" />
+      <name>agu_back_walls003</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_back_walls003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.020198" y="-9.388075" z="-3.479365" />
+      <bbMax x="12.299609" y="4.049499" z="3.142383" />
+      <bsCentre x="5.1397057" y="-2.6692877" z="-0.16849113" />
+      <bsRadius value="10.36186" />
+      <hdTextureDist value="20" />
+      <name>agu_beams003</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_beams003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-12.323002" y="-5.906699" z="-3.479365" />
+      <bbMax x="3.976423" y="9.388154" z="3.143282" />
+      <bsCentre x="-4.1732893" y="1.7407274" z="-0.16804147" />
+      <bsRadius value="11.65615" />
+      <hdTextureDist value="20" />
+      <name>jo_agu_beams033</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_agu_beams033</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.313761" y="-0.211825" z="-1.83911" />
+      <bbMax x="0.313919" y="0.211989" z="1.827829" />
+      <bsCentre x="0" y="0" z="-0.0056405067" />
+      <bsRadius value="1.872167" />
+      <hdTextureDist value="20" />
+      <name>agu_blr_ladder002</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_blr_ladder002</assetName>
+      <extensions>
+        <Item type="CExtensionDefLadder">
+          <name>agu_blr_ladder002</name>
+          <offsetPosition x="0.009521484" y="0.009521484" z="1.769722" />
+          <bottom x="0.009521484" y="0.009521484" z="-1.730278" />
+          <top x="0.009521484" y="0.009521484" z="1.769722" />
+          <normal x="0.3420197" y="0.9396928" z="0" />
+          <materialType>METAL_SOLID_LADDER</materialType>
+          <template>default</template>
+          <canGetOffAtTop value="True" />
+          <canGetOffAtBottom value="True" />
+        </Item>
+      </extensions>
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-14.557983" y="-12.043945" z="0" />
+      <bbMax x="14.557983" y="12.043945" z="15.354103" />
+      <bsCentre x="0" y="0" z="7.6770515" />
+      <bsRadius value="20.39433" />
+      <hdTextureDist value="5" />
+      <name>agu_boiler_lightbox</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_boiler_lightbox</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-20.428219" y="-18.535757" z="0" />
+      <bbMax x="20.428219" y="18.535757" z="17.879469" />
+      <bsCentre x="0" y="0" z="8.939734" />
+      <bsRadius value="28.99664" />
+      <hdTextureDist value="5" />
+      <name>agu_boiler_lightbox001</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_boiler_lightbox001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.153228" y="-0.974206" z="-1.849168" />
+      <bbMax x="2.089647" y="0.8067" z="1.846255" />
+      <bsCentre x="-0.031790495" y="-0.08375299" z="-0.0014564991" />
+      <bsRadius value="2.950837" />
+      <hdTextureDist value="5" />
+      <name>agu_boiler_refblocker_001</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_boiler_refblocker_001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.476801" y="-1.284989" z="-1.524911" />
+      <bbMax x="0.576799" y="1.247424" z="1.522509" />
+      <bsCentre x="0.04999897" y="-0.018782496" z="-0.0012010336" />
+      <bsRadius value="2.049997" />
+      <hdTextureDist value="5" />
+      <name>agu_boiler_refblocker_002</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_boiler_refblocker_002</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.476801" y="-1.284989" z="-1.524911" />
+      <bbMax x="0.576799" y="1.247424" z="1.522509" />
+      <bsCentre x="0.04999897" y="-0.018782496" z="-0.0012010336" />
+      <bsRadius value="2.049997" />
+      <hdTextureDist value="5" />
+      <name>agu_boiler_refblocker_003</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_boiler_refblocker_003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="30" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-11.114888" y="-6.642245" z="-5.819332" />
+      <bbMax x="11.313981" y="3.424684" z="12.778479" />
+      <bsCentre x="0.09954643" y="-1.6087804" z="3.4795732" />
+      <bsRadius value="15.41327" />
+      <hdTextureDist value="5" />
+      <name>agu_boiler_shad_proxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_boiler_shad_proxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="40" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.123086" y="-7.369738" z="-3.890085" />
+      <bbMax x="7.123264" y="7.369307" z="3.890088" />
+      <bsCentre x="0" y="-0.0002155304" z="0" />
+      <bsRadius value="10.96277" />
+      <hdTextureDist value="20" />
+      <name>agu_bolts003</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_bolts003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="40" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.20508" y="-7.081824" z="-3.880456" />
+      <bbMax x="6.205162" y="7.081721" z="3.880453" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.18396" />
+      <hdTextureDist value="5" />
+      <name>jo_agu_bolts004</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_agu_bolts004</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-10.256839" y="-7.515384" z="-2.713993" />
+      <bbMax x="10.257046" y="7.671722" z="2.713995" />
+      <bsCentre x="0.0001039505" y="0.07816887" z="0" />
+      <bsRadius value="13.04733" />
+      <hdTextureDist value="20" />
+      <name>agu_brackets002</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_brackets002</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-9.55231" y="-3.548884" z="-2.507227" />
+      <bbMax x="9.539944" y="3.553411" z="2.578737" />
+      <bsCentre x="-0.0061826706" y="0.002263546" z="0.035755157" />
+      <bsRadius value="10.4979" />
+      <hdTextureDist value="20" />
+      <name>agu_bricks002</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_bricks002</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-12.063334" y="-8.081451" z="-2.604036" />
+      <bbMax x="12.062401" y="8.092409" z="2.591701" />
+      <bsCentre x="-0.00046634674" y="0.005478859" z="-0.00616765" />
+      <bsRadius value="14.75331" />
+      <hdTextureDist value="20" />
+      <name>agu_bricks003</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_bricks003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.972258" y="-5.925184" z="-0.024015" />
+      <bbMax x="3.127051" y="5.917014" z="0.107192" />
+      <bsCentre x="-1.4226036" y="-0.004085064" z="0.0415885" />
+      <bsRadius value="7.467467" />
+      <hdTextureDist value="20" />
+      <name>agu_catwalk</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_catwalk</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-9.394889" y="-7.786127" z="-2.950569" />
+      <bbMax x="8.482132" y="6.441178" z="2.541963" />
+      <bsCentre x="-0.45637798" y="-0.67247486" z="-0.20430303" />
+      <bsRadius value="11.74917" />
+      <hdTextureDist value="20" />
+      <name>jo_agu_chains003</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_agu_chains003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.756766" y="-1.616306" z="-4.392303" />
+      <bbMax x="1.49965" y="1.612616" z="5.706141" />
+      <bsCentre x="0.37144202" y="-0.0018450022" z="0.656919" />
+      <bsRadius value="5.419777" />
+      <hdTextureDist value="20" />
+      <name>agu_chimney002</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_chimney002</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.469401" y="-2.412978" z="-0.212149" />
+      <bbMax x="-1.353606" y="-0.919857" z="-0.194897" />
+      <bsCentre x="-1.9115034" y="-1.6664175" z="-0.203523" />
+      <bsRadius value="0.9320281" />
+      <hdTextureDist value="20" />
+      <name>agu_debris003</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_debris003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-12.41509" y="-9.372982" z="0.005351" />
+      <bbMax x="12.41503" y="9.373087" z="0.009559" />
+      <bsCentre x="0" y="0" z="0.0074549997" />
+      <bsRadius value="15.55595" />
+      <hdTextureDist value="20" />
+      <name>agu_floor003</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_floor003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="2.233265" y="-9.277384" z="-1.151101" />
+      <bbMax x="9.85358" y="0.712928" z="1.151083" />
+      <bsCentre x="6.0434227" y="-4.282228" z="0" />
+      <bsRadius value="6.38701" />
+      <hdTextureDist value="20" />
+      <name>agu_frames028</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_frames028</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.156612" y="-3.126993" z="-2.418253" />
+      <bbMax x="6.231731" y="2.639884" z="3.444766" />
+      <bsCentre x="-0.4624405" y="-0.24355435" z="0.51325655" />
+      <bsRadius value="7.856202" />
+      <hdTextureDist value="20" />
+      <name>jo_agu_hoists003</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_agu_hoists003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.616255" y="-2.130785" z="-0.557101" />
+      <bbMax x="5.980693" y="3.325984" z="1.667463" />
+      <bsCentre x="0.18221903" y="0.5975995" z="0.555181" />
+      <bsRadius value="6.504118" />
+      <hdTextureDist value="20" />
+      <name>jo_agu_hoists004</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_agu_hoists004</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-12.159938" y="-9.336547" z="-2.562145" />
+      <bbMax x="12.159805" y="9.36351" z="2.562148" />
+      <bsCentre x="0" y="0.013482094" z="0" />
+      <bsRadius value="15.55153" />
+      <hdTextureDist value="20" />
+      <name>agu_int_pulleys01</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_int_pulleys01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-11.312164" y="-8.764113" z="-3.282266" />
+      <bbMax x="11.192205" y="8.68479" z="3.282265" />
+      <bsCentre x="-0.05997944" y="-0.03966236" z="0" />
+      <bsRadius value="14.61167" />
+      <hdTextureDist value="20" />
+      <name>jo_agu_pipes007</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_agu_pipes007</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-12.30753" y="-9.443481" z="-5.01447" />
+      <bbMax x="12.429276" y="9.439211" z="4.990778" />
+      <bsCentre x="0.06087303" y="-0.0021352768" z="-0.0118460655" />
+      <bsRadius value="16.3445" />
+      <hdTextureDist value="20" />
+      <name>agu_rafters003</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_rafters003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-12.761372" y="-9.376372" z="-1.219629" />
+      <bbMax x="11.8877" y="9.376595" z="1.985775" />
+      <bsCentre x="-0.43683624" y="0.000111579895" z="0.38307297" />
+      <bsRadius value="15.5686" />
+      <hdTextureDist value="20" />
+      <name>agu_roof003</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_roof003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.250045" y="-3.495983" z="-3.475452" />
+      <bbMax x="17.393934" y="13.934237" z="1.390991" />
+      <bsCentre x="5.571944" y="5.2191267" z="-1.0422306" />
+      <bsRadius value="14.88735" />
+      <hdTextureDist value="20" />
+      <name>agu_shuttersopen</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>agu_boiler_int</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_shuttersopen</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-12.542661" y="-9.445381" z="-3.629332" />
+      <bbMax x="12.356989" y="9.300689" z="3.414973" />
+      <bsCentre x="-0.09283543" y="-0.07234573" z="-0.10717964" />
+      <bsRadius value="15.97678" />
+      <hdTextureDist value="20" />
+      <name>agu_walls003</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_walls003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.846509" y="-4.929692" z="-2.375122" />
+      <bbMax x="3.830499" y="4.929801" z="2.368482" />
+      <bsCentre x="-0.008005142" y="0" z="-0.0033199787" />
+      <bsRadius value="6.682961" />
+      <hdTextureDist value="20" />
+      <name>agu_wires005</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_wires005</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.740208" y="-1.662483" z="-0.64572" />
+      <bbMax x="0.740111" y="1.648555" z="0.645718" />
+      <bsCentre x="0" y="-0.0069639683" z="0" />
+      <bsRadius value="1.924976" />
+      <hdTextureDist value="15" />
+      <name>agu_wires006</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_wires006</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.571944" y="-6.731526" z="-2.793653" />
+      <bbMax x="5.571906" y="6.731768" z="2.798159" />
+      <bsCentre x="0" y="0.00012111664" z="0.0022530556" />
+      <bsRadius value="9.174885" />
+      <hdTextureDist value="20" />
+      <name>agu_wires007</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_wires007</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.817466" y="-6.787894" z="-1.532562" />
+      <bbMax x="5.817253" y="6.788068" z="2.083743" />
+      <bsCentre x="-0.000106334686" y="0" z="0.27559054" />
+      <bsRadius value="9.120733" />
+      <hdTextureDist value="20" />
+      <name>agu_wires008</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_wires008</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- agu_shuttersopen -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.250045" y="-3.495983" z="-3.475452" />
+      <bbMax x="17.393934" y="13.934237" z="1.390991" />
+      <bsCentre x="5.571944" y="5.2191267" z="-1.0422306" />
+      <bsRadius value="14.88735" />
+      <hdTextureDist value="20" />
+      <name>agu_shuttersopen</name>
+      <textureDictionary>agu_boiler_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>agu_boiler_int</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>agu_shuttersopen</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

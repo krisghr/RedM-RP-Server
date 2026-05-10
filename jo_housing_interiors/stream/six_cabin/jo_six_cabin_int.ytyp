@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_six_cabin_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_six_cabin_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_six_cabin_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_six_cabin_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.884708" y="-1.085135" z="-2.888872" />
+      <bbMax x="0.872144" y="1.081151" z="2.888863" />
+      <bsCentre x="-0.0062820315" y="-0.0019919872" z="0" />
+      <bsRadius value="3.207863" />
+      <hdTextureDist value="5" />
+      <name>six_cabin_int_chimney</name>
+      <textureDictionary>six_cabin_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>six_cabin_int_chimney</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.945656" y="-4.564102" z="-3.329482" />
+      <bbMax x="6.041169" y="6.222873" z="-3.072256" />
+      <bsCentre x="0.047756672" y="0.82938576" z="-3.200869" />
+      <bsRadius value="8.063948" />
+      <hdTextureDist value="5" />
+      <name>six_cabin_int_floor</name>
+      <textureDictionary>six_cabin_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>six_cabin_int_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.452475" y="-0.630328" z="-0.133268" />
+      <bbMax x="0.735076" y="0.697208" z="0.423022" />
+      <bsCentre x="0.1413005" y="0.033439994" z="0.14487702" />
+      <bsRadius value="0.9330177" />
+      <hdTextureDist value="50" />
+      <name>six_cabin_int_fp_rack</name>
+      <textureDictionary>six_cabin_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>six_cabin_int_fp_rack</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.852266" y="-5.469949" z="-1.376338" />
+      <bbMax x="6.10839" y="5.286318" z="4.166832" />
+      <bsCentre x="0.12806177" y="-0.09181547" z="1.395247" />
+      <bsRadius value="8.507075" />
+      <hdTextureDist value="5" />
+      <name>six_cabin_int_logs</name>
+      <textureDictionary>six_cabin_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>six_cabin_int_logs</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000800" />
+      <lodDist value="25" />
+      <flags value="2048" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.283924" y="-4.370008" z="-3.117084" />
+      <bbMax x="5.978183" y="6.800173" z="2.648825" />
+      <bsCentre x="-0.15287066" y="1.2150826" z="-0.23412943" />
+      <bsRadius value="8.780346" />
+      <hdTextureDist value="62.5" />
+      <name>six_cabin_int_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>six_cabin_int_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.91835" y="-5.34307" z="-1.660405" />
+      <bbMax x="5.918352" y="5.343115" z="1.660416" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="8.144476" />
+      <hdTextureDist value="5" />
+      <name>six_cabin_int_walls</name>
+      <textureDictionary>six_cabin_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>six_cabin_int_walls</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.159964" y="-3.675721" z="-0.861395" />
+      <bbMax x="4.369236" y="3.67568" z="3.293432" />
+      <bsCentre x="-0.39536428" y="0" z="1.2160186" />
+      <bsRadius value="6.366148" />
+      <hdTextureDist value="5" />
+      <name>six_cabin_int_windows</name>
+      <textureDictionary>six_cabin_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>six_cabin_int_windows</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.211339" y="-5.185363" z="0" />
+      <bbMax x="6.211339" y="5.185363" z="6.106781" />
+      <bsCentre x="0" y="0" z="3.0533905" />
+      <bsRadius value="8.648232" />
+      <hdTextureDist value="5" />
+      <name>six_cabin_lightbox</name>
+      <textureDictionary>qJfpyEA_0x3C2254C5</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>six_cabin_lightbox</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

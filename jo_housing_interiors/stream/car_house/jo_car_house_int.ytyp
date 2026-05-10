@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_car_house_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_car_house_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_car_house_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_car_house_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.043792" y="-0.027362" z="0" />
+      <bbMax x="0.043792" y="0.027362" z="0.033019" />
+      <bsCentre x="0" y="0" z="0.0165095" />
+      <bsRadius value="0.05421238" />
+      <hdTextureDist value="5.72" />
+      <name>car_int_fireplc_lights_holder</name>
+      <textureDictionary>car_01</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>car_int_fireplc_lights_holder</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020002000" />
+      <lodDist value="65" />
+      <flags value="536879104" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.511263" y="-4.666534" z="-3.231941" />
+      <bbMax x="5.588667" y="4.640071" z="3.203897" />
+      <bsCentre x="0.03870201" y="-0.013231754" z="-0.014022112" />
+      <bsRadius value="7.925297" />
+      <hdTextureDist value="5" />
+      <name>car_int_house_refle_proxy</name>
+      <textureDictionary>car_01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>car_int_house_refle_proxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="65" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.439466" y="-4.630525" z="-3.243285" />
+      <bbMax x="5.558269" y="4.613733" z="3.179461" />
+      <bsCentre x="0.059401512" y="-0.008396149" z="-0.03191209" />
+      <bsRadius value="7.868579" />
+      <hdTextureDist value="5" />
+      <name>car_int_house_sprxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>car_int_house_sprxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="65" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.45855" y="-2.733782" z="-3.225889" />
+      <bbMax x="5.45855" y="2.733782" z="3.22589" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="6.904759" />
+      <hdTextureDist value="9.28" />
+      <name>jo_car_int_livingrm_details01</name>
+      <textureDictionary>car_01</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_car_int_livingrm_details01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="65" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.483485" y="-4.675868" z="-3.366721" />
+      <bbMax x="5.585086" y="4.623529" z="3.115053" />
+      <bsCentre x="0.050800323" y="-0.026169777" z="-0.12583399" />
+      <bsRadius value="7.921576" />
+      <hdTextureDist value="12.29" />
+      <name>car_int_shell</name>
+      <textureDictionary>car_01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>car_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.549923" y="-2.808743" z="-1.928894" />
+      <bbMax x="0.984444" y="2.660577" z="1.28892" />
+      <bsCentre x="-2.2827394" y="-0.07408285" z="-0.31998706" />
+      <bsRadius value="4.554276" />
+      <hdTextureDist value="11.23" />
+      <name>jo_car_int_upperflr_details01</name>
+      <textureDictionary>car_01</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_car_int_upperflr_details01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="50" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.43903" y="-2.662029" z="0" />
+      <bbMax x="5.43903" y="2.662029" z="6.256387" />
+      <bsCentre x="0" y="0" z="3.1281936" />
+      <bsRadius value="6.815794" />
+      <hdTextureDist value="5" />
+      <name>car_lightholder_01</name>
+      <textureDictionary>car_01</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>car_lightholder_01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="50" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.130758" y="-1.804166" z="0" />
+      <bbMax x="3.130758" y="1.804166" z="3.328155" />
+      <bsCentre x="0" y="0" z="1.6640775" />
+      <bsRadius value="3.978167" />
+      <hdTextureDist value="5" />
+      <name>car_lightholder_02</name>
+      <textureDictionary>car_01</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>car_lightholder_02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="50" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.24573" y="-2.723937" z="-2.805198" />
+      <bbMax x="8.154604" y="2.723937" z="3.378389" />
+      <bsCentre x="2.4544368" y="0" z="0.28659558" />
+      <bsRadius value="7.033557" />
+      <hdTextureDist value="5" />
+      <name>car_lightholder_03</name>
+      <textureDictionary>car_01</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>car_lightholder_03</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <name>jo_roc_house_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef"> <!-- roc_house_lightbox002 -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-11.630231" y="-11.45299" z="0" />
+      <bbMax x="11.630231" y="11.45299" z="7.735852" />
+      <bsCentre x="0" y="0" z="3.867926" />
+      <bsRadius value="16.77481" />
+      <hdTextureDist value="5" />
+      <name>roc_house_lightbox002</name>
+      <textureDictionary>roc_house_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>roc_house_lightbox002</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- roc_house_lightbox003 -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-15.065476" y="-14.835883" z="0" />
+      <bbMax x="15.065476" y="14.835883" z="13.849647" />
+      <bsCentre x="0" y="0" z="6.9248233" />
+      <bsRadius value="22.24916" />
+      <hdTextureDist value="5" />
+      <name>roc_house_lightbox003</name>
+      <textureDictionary>roc_house_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>roc_house_lightbox003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- roc_house_lightbox01 -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-9.014282" y="-7.559692" z="0" />
+      <bbMax x="9.014282" y="7.559692" z="10.815178" />
+      <bsCentre x="0" y="0" z="5.407589" />
+      <bsRadius value="12.9479" />
+      <hdTextureDist value="5" />
+      <name>roc_house_lightbox01</name>
+      <textureDictionary>roc_house_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>roc_house_lightbox01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- roc_hse_int_beams -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="12" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.109991" y="-4.947766" z="-1.380917" />
+      <bbMax x="5.075931" y="4.97963" z="1.380912" />
+      <bsCentre x="-0.017029762" y="0.015932083" z="0" />
+      <bsRadius value="7.244548" />
+      <hdTextureDist value="17.14" />
+      <name>roc_hse_int_beams</name>
+      <textureDictionary>roc_house_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>roc_hse_int_beams</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- roc_hse_int_reflection -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-11.033464" y="-8.760827" z="-1.590027" />
+      <bbMax x="2.462439" y="0.172387" z="4.05222" />
+      <bsCentre x="-4.285513" y="-4.29422" z="1.2310964" />
+      <bsRadius value="8.569958" />
+      <hdTextureDist value="7.5" />
+      <name>roc_hse_int_reflection</name>
+      <textureDictionary>roc_house_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>roc_hse_int_reflection</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- roc_hse_int_shell_bed01 -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.429762" y="-2.879635" z="-1.766908" />
+      <bbMax x="2.458647" y="2.958292" z="1.779732" />
+      <bsCentre x="0.014442444" y="0.039328337" z="0.00641191" />
+      <bsRadius value="4.199898" />
+      <hdTextureDist value="12.5" />
+      <name>roc_hse_int_shell_bed01</name>
+      <textureDictionary>roc_house_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>roc_hse_int_shell_bed01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- roc_hse_int_shell_bed02 -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.442945" y="-2.840405" z="-1.774797" />
+      <bbMax x="2.47596" y="2.775779" z="1.771843" />
+      <bsCentre x="0.016507626" y="-0.03231287" z="-0.0014770031" />
+      <bsRadius value="4.132669" />
+      <hdTextureDist value="7.5" />
+      <name>roc_hse_int_shell_bed02</name>
+      <textureDictionary>roc_house_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>roc_hse_int_shell_bed02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- roc_hse_int_shell_main -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.553129" y="-2.933116" z="-3.273223" />
+      <bbMax x="2.196479" y="2.991515" z="2.564389" />
+      <bsCentre x="-2.1783252" y="0.0291996" z="-0.35441685" />
+      <bsRadius value="6.036029" />
+      <hdTextureDist value="12.5" />
+      <name>roc_hse_int_shell_main</name>
+      <textureDictionary>roc_house_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>roc_hse_int_shell_main</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_roc_hse_col -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.553129" y="-2.933116" z="-3.273223" />
+      <bbMax x="2.196479" y="2.991515" z="2.564389" />
+      <bsCentre x="-2.1783252" y="0.0291996" z="-0.35441685" />
+      <bsRadius value="6.036029" />
+      <hdTextureDist value="12.5" />
+      <name>jo_roc_hse_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_roc_hse_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_roc_hse_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- roc_hse_main_details01 -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.113207" y="-4.999352" z="-2.860827" />
+      <bbMax x="5.113383" y="4.991515" z="2.848764" />
+      <bsCentre x="0" y="-0.003918171" z="-0.006031513" />
+      <bsRadius value="7.697402" />
+      <hdTextureDist value="10" />
+      <name>roc_hse_main_details01</name>
+      <textureDictionary>roc_house_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>roc_hse_main_details01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- roc_hse_main_details02 -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.125656" y="-5.010551" z="-1.503342" />
+      <bbMax x="5.126013" y="4.945613" z="4.258697" />
+      <bsCentre x="0.0001783371" y="-0.032469273" z="1.3776776" />
+      <bsRadius value="7.704268" />
+      <hdTextureDist value="10" />
+      <name>roc_hse_main_details02</name>
+      <textureDictionary>roc_house_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>roc_hse_main_details02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- roc_hse_main_fireplace -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.890056" y="-0.98093" z="-2.717701" />
+      <bbMax x="1.051683" y="1.100077" z="2.805179" />
+      <bsCentre x="0.08081347" y="0.05957353" z="0.04373908" />
+      <bsRadius value="3.106571" />
+      <hdTextureDist value="10" />
+      <name>roc_hse_main_fireplace</name>
+      <textureDictionary>roc_house_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>roc_hse_main_fireplace</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- roc_hse_shadowproxy -->
+      <loadFlags value="0x0000000000000800" />
+      <lodDist value="25" />
+      <flags value="2048" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.525331" y="-5.785606" z="-3.313774" />
+      <bbMax x="7.037888" y="5.772486" z="2.571036" />
+      <bsCentre x="0.2562785" y="-0.006559849" z="-0.37136889" />
+      <bsRadius value="9.383248" />
+      <hdTextureDist value="12.5" />
+      <name>roc_hse_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>roc_hse_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- roc_light_parent -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.077875" y="-0.078937" z="0" />
+      <bbMax x="0.077878" y="0.078939" z="0.132751" />
+      <bsCentre x="0" y="0" z="0.066374" />
+      <bsRadius value="0.1292357" />
+      <hdTextureDist value="10" />
+      <name>roc_light_parent</name>
+      <textureDictionary>roc_house_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>roc_light_parent</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

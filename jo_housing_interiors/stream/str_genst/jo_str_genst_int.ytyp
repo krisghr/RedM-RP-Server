@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_str_genst_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_str_genst_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_str_genst_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_str_genst_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000002000" />
+      <lodDist value="13" />
+      <flags value="8192" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.57992" y="-4.764297" z="-0.000253" />
+      <bbMax x="2.838511" y="4.321499" z="3.877167" />
+      <bsCentre x="-0.3707044" y="-0.22139883" z="1.938457" />
+      <bsRadius value="5.890296" />
+      <hdTextureDist value="5" />
+      <name>genst_int_decals_01</name>
+      <textureDictionary>str_genst_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>genst_int_decals_01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.281985" y="-0.651062" z="0.000332" />
+      <bbMax x="0.280503" y="0.567876" z="1.179949" />
+      <bsCentre x="-0.00074100494" y="-0.041593015" z="0.5901405" />
+      <bsRadius value="0.8935462" />
+      <hdTextureDist value="5" />
+      <name>str_genst_counter_ph</name>
+      <textureDictionary>str_genst_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_genst_counter_ph</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.591298" y="-2.476892" z="-0.535099" />
+      <bbMax x="4.195683" y="6.732089" z="4.280478" />
+      <bsCentre x="0.80219245" y="2.1275983" z="1.8726895" />
+      <bsRadius value="6.20601" />
+      <hdTextureDist value="7.09" />
+      <name>str_genst_int_counter</name>
+      <textureDictionary>str_genst_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_genst_int_counter</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.315794" y="-3.498427" z="-1.466355" />
+      <bbMax x="3.145858" y="5.092429" z="1.729224" />
+      <bsCentre x="-0.08496809" y="0.79700136" z="0.13143456" />
+      <bsRadius value="5.607305" />
+      <hdTextureDist value="5" />
+      <name>jo_str_genst_int_lower_brick</name>
+      <textureDictionary>str_genst_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_str_genst_int_lower_brick</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="18" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.146622" y="-4.392671" z="-1.524909" />
+      <bbMax x="3.077575" y="4.285103" z="1.770545" />
+      <bsCentre x="-0.034523487" y="-0.053783894" z="0.12281799" />
+      <bsRadius value="5.588032" />
+      <hdTextureDist value="5" />
+      <name>jo_str_genst_int_lower01</name>
+      <textureDictionary>str_genst_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_str_genst_int_lower01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.458164" y="-3.683995" z="-3.598499" />
+      <bbMax x="2.857652" y="5.324202" z="-0.316025" />
+      <bsCentre x="-0.300256" y="0.8201034" z="-1.957262" />
+      <bsRadius value="5.740466" />
+      <hdTextureDist value="12.53" />
+      <name>str_genst_int_ref_proxy_lower</name>
+      <textureDictionary>str_genst_int_refproxy</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_genst_int_ref_proxy_lower</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.421865" y="-3.683995" z="-0.350735" />
+      <bbMax x="3.02432" y="5.543498" z="5.053423" />
+      <bsCentre x="-0.19877243" y="0.92975163" z="2.351344" />
+      <bsRadius value="6.243093" />
+      <hdTextureDist value="12.53" />
+      <name>str_genst_int_ref_proxy_upper</name>
+      <textureDictionary>str_genst_int_refproxy</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_genst_int_ref_proxy_upper</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="45" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.151385" y="-4.462657" z="-3.278298" />
+      <bbMax x="3.62451" y="4.570377" z="5.426354" />
+      <bsCentre x="0.23656249" y="0.05385971" z="1.074028" />
+      <bsRadius value="7.128805" />
+      <hdTextureDist value="5" />
+      <name>str_genst_int_shadow_proxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_genst_int_shadow_proxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="45" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.363284" y="-4.547619" z="-5.96251" />
+      <bbMax x="3.236366" y="4.547619" z="2.784381" />
+      <bsCentre x="-0.06345892" y="0" z="-1.5890646" />
+      <bsRadius value="7.120162" />
+      <hdTextureDist value="12.5" />
+      <name>jo_str_genst_int_shell001</name>
+      <textureDictionary>str_genst_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_str_genst_int_shell001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.028075" y="-0.293198" z="-1.577687" />
+      <bbMax x="0.028075" y="0.293195" z="1.577687" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="1.604945" />
+      <hdTextureDist value="5" />
+      <name>str_genst_ladder</name>
+      <textureDictionary>str_genst_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_genst_ladder</assetName>
+      <extensions>
+        <Item type="CExtensionDefLadder">
+          <name>str_genst_ladder</name>
+          <offsetPosition x="0.0003709793" y="0.000813961" z="1.658536" />
+          <bottom x="0.0003709793" y="0.000813961" z="-1.3414639" />
+          <top x="0.0003709793" y="0.000813961" z="1.658536" />
+          <normal x="-1" y="0" z="0" />
+          <materialType>METAL_SOLID_LADDER</materialType>
+          <template>default</template>
+          <canGetOffAtTop value="True" />
+          <canGetOffAtBottom value="True" />
+        </Item>
+      </extensions>
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.721163" y="-4.486746" z="-3.964697" />
+      <bbMax x="2.515199" y="4.387372" z="1.260118" />
+      <bsCentre x="-0.60298204" y="-0.04968691" z="-1.3522894" />
+      <bsRadius value="6.019569" />
+      <hdTextureDist value="7.5" />
+      <name>jo_str_genst_main_02</name>
+      <textureDictionary>str_genst_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_str_genst_main_02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020002000" />
+      <lodDist value="18" />
+      <flags value="536879104" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.809167" y="-0.144729" z="-0.74996" />
+      <bbMax x="0.809167" y="0" z="0.74996" />
+      <bsCentre x="0" y="-0.0723645" z="0" />
+      <bsRadius value="1.105635" />
+      <hdTextureDist value="5" />
+      <name>str_genst_reflblocker001</name>
+      <textureDictionary>str_genst_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_genst_reflblocker001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="25" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.631943" y="-4.442976" z="-4.195842" />
+      <bbMax x="3.394636" y="4.301104" z="0" />
+      <bsCentre x="-0.118653536" y="-0.0709362" z="-2.097921" />
+      <bsRadius value="5.988256" />
+      <hdTextureDist value="13.38" />
+      <name>strgenst_lightboxlower</name>
+      <textureDictionary>BjUfFHA_0x94C52783</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>strgenst_lightboxlower</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="25" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.428836" y="-4.303855" z="0" />
+      <bbMax x="2.938216" y="4.611528" z="5.925317" />
+      <bsCentre x="-0.24531007" y="0.15383625" z="2.9626584" />
+      <bsRadius value="6.227615" />
+      <hdTextureDist value="15.03" />
+      <name>strgenst_lightboxupper</name>
+      <textureDictionary>BjUfFHA_0x94C52783</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>strgenst_lightboxupper</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

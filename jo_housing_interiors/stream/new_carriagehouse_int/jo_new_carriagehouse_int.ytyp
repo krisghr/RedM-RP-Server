@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.088069" y="-1.098733" z="-0.002254" />
+      <bbMax x="2.586312" y="1.554847" z="2.197746" />
+      <bsCentre x="1.2491215" y="0.22805703" z="1.097746" />
+      <bsRadius value="2.181387" />
+      <hdTextureDist value="8.620571" />
+      <name>new_carriage_int_doors</name>
+      <textureDictionary>new_carriagehouse_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_carriage_int_doors</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-9.047159" y="-14.918855" z="-0.078205" />
+      <bbMax x="8.877401" y="14.994209" z="0.079328" />
+      <bsCentre x="-0.08487892" y="0.03767681" z="0.0005614981" />
+      <bsRadius value="17.43636" />
+      <hdTextureDist value="22.53" />
+      <name>new_carriage_int_floor</name>
+      <textureDictionary>new_carriagehouse_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_carriage_int_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.000788" y="-0.386481" z="-0.488603" />
+      <bbMax x="0.000788" y="0.386481" z="0.488603" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="0.6229776" />
+      <hdTextureDist value="29.77" />
+      <name>new_carriage_int_glass</name>
+      <textureDictionary>new_carriagehouse_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_carriage_int_glass</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="25" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.743877" y="-14.881808" z="-7.224272" />
+      <bbMax x="8.771375" y="14.865782" z="0.070538" />
+      <bsCentre x="0.013748169" y="-0.008013725" z="-3.5768669" />
+      <bsRadius value="17.64169" />
+      <hdTextureDist value="5" />
+      <name>new_carriage_int_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_carriage_int_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-9.232566" y="-15.090183" z="-4.655958" />
+      <bbMax x="9.232566" y="15.090183" z="2.67064" />
+      <bsCentre x="0" y="0" z="-0.9926591" />
+      <bsRadius value="18.06581" />
+      <hdTextureDist value="22.7" />
+      <name>new_carriage_int_shell</name>
+      <textureDictionary>new_carriagehouse_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>new_carriage_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-9.232566" y="-15.090183" z="-4.655958" />
+      <bbMax x="9.232566" y="15.090183" z="2.67064" />
+      <bsCentre x="0" y="0" z="-0.9926591" />
+      <bsRadius value="18.06581" />
+      <hdTextureDist value="22.7" />
+      <name>jo_new_carriage_int_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_new_carriage_int_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_new_carriage_int_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <name>jo_new_carriagehouse_int</name>
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

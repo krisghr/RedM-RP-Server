@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <name>jo_pro_worker_house_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef"> <!-- pro_frame01 -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.423293" y="-4.894601" z="0.5313" />
+      <bbMax x="3.409589" y="4.775826" z="2.281059" />
+      <bsCentre x="-0.00685215" y="-0.059387207" z="1.4061794" />
+      <bsRadius value="5.984712" />
+      <hdTextureDist value="13.18134" />
+      <name>pro_frame01</name>
+      <textureDictionary>pro_workhouseint</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>pro_frame01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- pro_house_shadowproxy -->
+      <loadFlags value="0x0000000000000800" />
+      <lodDist value="25" />
+      <flags value="2048" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.393715" y="-4.873004" z="-2.316286" />
+      <bbMax x="3.374346" y="4.942161" z="2.359761" />
+      <bsCentre x="-0.009684563" y="0.034578323" z="0.021737576" />
+      <bsRadius value="6.40331" />
+      <hdTextureDist value="11.97" />
+      <name>pro_house_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>pro_house_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- pro_work_int_frames -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.190176" y="-4.354928" z="-1.158557" />
+      <bbMax x="6.702923" y="5.489014" z="1.264176" />
+      <bsCentre x="3.2563734" y="0.5670433" z="0.052809477" />
+      <bsRadius value="6.129593" />
+      <hdTextureDist value="14.35" />
+      <name>pro_work_int_frames</name>
+      <textureDictionary>pro_workhouseint</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>pro_work_int_frames</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- pro_worker_lightbox -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.946167" y="-5.780579" z="0" />
+      <bbMax x="4.946167" y="5.780579" z="8.554848" />
+      <bsCentre x="0" y="0" z="4.277424" />
+      <bsRadius value="8.727887" />
+      <hdTextureDist value="5" />
+      <name>pro_worker_lightbox</name>
+      <textureDictionary>pro_workhouseint</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>pro_worker_lightbox</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- pro_wrkr_floor01 -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.09021" y="-5.304953" z="-0.0002" />
+      <bbMax x="4.090425" y="5.30495" z="0.000189" />
+      <bsCentre x="0.0001077652" y="0" z="0" />
+      <bsRadius value="6.698747" />
+      <hdTextureDist value="11.7" />
+      <name>pro_wrkr_floor01</name>
+      <textureDictionary>julzrmhc_0xc6a2c598</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>pro_wrkr_floor01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- pro_wrkr_shell01 -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.445946" y="-4.934593" z="-2.332922" />
+      <bbMax x="3.456377" y="4.942225" z="2.294192" />
+      <bsCentre x="0.0052154064" y="0.003815651" z="-0.019364834" />
+      <bsRadius value="6.453754" />
+      <hdTextureDist value="11.89" />
+      <name>pro_wrkr_shell01</name>
+      <textureDictionary>julzrmhc_0xc6a2c598</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>pro_wrkr_shell01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- pro_wrkr_shell01 -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.445946" y="-4.934593" z="-2.332922" />
+      <bbMax x="3.456377" y="4.942225" z="2.294192" />
+      <bsCentre x="0.0052154064" y="0.003815651" z="-0.019364834" />
+      <bsRadius value="6.453754" />
+      <hdTextureDist value="11.89" />
+      <name>jo_pro_wrkr_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_pro_wrkr_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_pro_wrkr_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

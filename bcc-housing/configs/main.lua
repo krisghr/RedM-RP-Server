@@ -3,7 +3,7 @@ Config = {
     defaultlang = 'en_lang',
     -----------------------------------------------------
 
-    DevMode = false,               -- False on live server
+    DevMode = true,               -- False on live server
     DevModeCommand = "HousingDev", -- This command need to be sent after restarting the resource
     -----------------------------------------------------
 

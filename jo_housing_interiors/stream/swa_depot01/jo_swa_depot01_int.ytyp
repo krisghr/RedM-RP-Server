@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_swa_depot01_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_swa_depot01_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_swa_depot01_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_swa_depot01_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.820983" y="-6.482557" z="-3.056834" />
+      <bbMax x="8.820983" y="6.482557" z="3.056834" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="11.36563" />
+      <hdTextureDist value="5" />
+      <name>swa_depot01_lightbox01</name>
+      <textureDictionary>swa_depot01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>swa_depot01_lightbox01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.835476" y="-5.758306" z="-2.715315" />
+      <bbMax x="7.835476" y="5.758307" z="2.715316" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.09583" />
+      <hdTextureDist value="5" />
+      <name>swa_depot01_lightbox02</name>
+      <textureDictionary>swa_depot01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>swa_depot01_lightbox02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="80" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.878088" y="-4.750397" z="-3.189991" />
+      <bbMax x="7.329886" y="4.331473" z="2.218258" />
+      <bsCentre x="-0.27410126" y="-0.20946217" z="-0.48586655" />
+      <bsRadius value="9.260291" />
+      <hdTextureDist value="5" />
+      <name>swa_depot01_shadow_proxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>swa_depot01_shadow_proxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.850433" y="-1.483397" z="-1.693692" />
+      <bbMax x="2.850433" y="1.483397" z="1.693692" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="3.632359" />
+      <hdTextureDist value="13.8" />
+      <name>swa_int_closet_decals</name>
+      <textureDictionary>swa_depot01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>swa_int_closet_decals</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.744226" y="-1.427508" z="-1.661118" />
+      <bbMax x="2.744227" y="1.427508" z="2.794231" />
+      <bsCentre x="0" y="0" z="0.56655645" />
+      <bsRadius value="3.811967" />
+      <hdTextureDist value="10.23" />
+      <name>jo_swa_int_closet_details</name>
+      <textureDictionary>swa_depot01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_swa_int_closet_details</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.2821" y="-3.872827" z="-1.915611" />
+      <bbMax x="4.78505" y="3.764769" z="3.463632" />
+      <bsCentre x="-0.74852514" y="-0.054028988" z="0.7740104" />
+      <bsRadius value="7.24139" />
+      <hdTextureDist value="13.8" />
+      <name>swa_int_main_decals02</name>
+      <textureDictionary>swa_depot01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>swa_int_main_decals02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.550065" y="-3.862164" z="-2.737774" />
+      <bbMax x="7.550066" y="5.071548" z="2.737774" />
+      <bsCentre x="0" y="0.604692" z="0" />
+      <bsRadius value="9.18976" />
+      <hdTextureDist value="13.49" />
+      <name>jo_swa_int_main_details</name>
+      <textureDictionary>swa_depot01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_swa_int_main_details</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.671318" y="-1.635503" z="-1.58191" />
+      <bbMax x="2.817981" y="4.540138" z="1.726528" />
+      <bsCentre x="0.073331356" y="1.4523175" z="0.07230902" />
+      <bsRadius value="4.450188" />
+      <hdTextureDist value="13.8" />
+      <name>swa_int_office_decals01</name>
+      <textureDictionary>swa_depot01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>swa_int_office_decals01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.630717" y="-1.579853" z="-1.604444" />
+      <bbMax x="2.931892" y="4.475467" z="1.643038" />
+      <bsCentre x="0.15058732" y="1.4478071" z="0.019297004" />
+      <bsRadius value="4.420285" />
+      <hdTextureDist value="10.23" />
+      <name>jo_swa_int_office_details</name>
+      <textureDictionary>swa_depot01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_swa_int_office_details</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="80" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.556135" y="-4.506694" z="-2.714928" />
+      <bbMax x="7.556135" y="4.506694" z="2.714928" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="9.207405" />
+      <hdTextureDist value="13.8" />
+      <name>swa_int_shell</name>
+      <textureDictionary>swa_depot01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>swa_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="80" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.000219" y="-0.543853" z="-0.195763" />
+      <bbMax x="0.000219" y="0.543853" z="0.195763" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="0.5780132" />
+      <hdTextureDist value="13.8" />
+      <name>swa_int_shell_amv</name>
+      <textureDictionary>swa_depot01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>swa_int_shell_amv</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>
