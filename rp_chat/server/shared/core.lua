@@ -18,6 +18,10 @@ function RPChat.Trim(str)
 end
 
 function RPChat.GetCharacterName(src)
+    local state = Player(src) and Player(src).state
+    if state and type(state.maskedAlias) == "string" and state.maskedAlias ~= "" then
+        return state.maskedAlias
+    end
     local User = VORPcore.getUser(src)
     if not User then return GetPlayerName(src) end
 

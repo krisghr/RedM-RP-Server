@@ -2,6 +2,10 @@ local VORPcore = exports.vorp_core:GetCore()
 local typingStates = {}
 
 local function GetCharacterName(src)
+    local playerState = Player(src) and Player(src).state
+    if playerState and playerState.maskedAlias then
+        return playerState.maskedAlias
+    end
     local User = VORPcore.getUser(src)
     if not User then return GetPlayerName(src) end
 
