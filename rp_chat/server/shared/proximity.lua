@@ -133,6 +133,11 @@ function RPChat.SendProximityMessage(src, range, prefix, message, mode)
                     text = RPChat.BuildNpcMeMessage(message.playerName, message.npcName, message.message, math.floor(255 * brightness), math.floor(140 * brightness), math.floor(60 * brightness))
                 elseif mode == "npcdo" then
                     text = RPChat.BuildNpcDoMessage(message.playerName, message.npcName, message.message, math.floor(255 * brightness), math.floor(140 * brightness), math.floor(60 * brightness))
+                elseif mode == "cme" then
+                    text = {
+                        template = '<span style="color: rgb(255,0,0)">(( COMBAT )) * {0} {1}</span>',
+                        args = { charName, message }
+                    }
                 else
                     local r, g, b = math.floor(255 * brightness), math.floor(255 * brightness), math.floor(255 * brightness)
                     local lastChar = message:sub(-1)

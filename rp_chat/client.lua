@@ -21,6 +21,10 @@ Citizen.CreateThread(function()
         {name = "message", help = "What can be seen/heard/noticed"}
     })
 
+    TriggerEvent("chat:addSuggestion", "/cme", "Combat emote in red text.", {
+        {name = "message", help = "Combat action/emote text"}
+    })
+
     TriggerEvent("chat:addSuggestion", "/b", "Local OOC message.", {
         {name = "message", help = "Out-of-character message"}
     })
