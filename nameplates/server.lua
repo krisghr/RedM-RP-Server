@@ -34,7 +34,8 @@ RegisterNetEvent("player_names:requestNames", function()
         names[id] = {
             id = id,
             name = GetCharacterName(id),
-            isTyping = typingStates[id] == true
+            isTyping = typingStates[id] == true,
+            isEditor = (Player(id) and Player(id).state and Player(id).state.editorModeActive) == true
         }
     end
 

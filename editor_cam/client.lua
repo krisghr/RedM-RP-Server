@@ -172,6 +172,8 @@ local function StartEditorCam()
 
     editorActive = true
 
+    LocalPlayer.state:set("editorModeActive", true, true)
+
     print("[EDITOR_CAM] Enabled")
 end
 
@@ -187,6 +189,8 @@ local function StopEditorCam()
     FreezeEntityPosition(ped, false)
 
     editorActive = false
+
+    LocalPlayer.state:set("editorModeActive", false, true)
 
     print("[EDITOR_CAM] Disabled")
 end

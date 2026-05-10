@@ -250,6 +250,11 @@ CreateThread(function()
                         if onScreen then
                             local displayText = name
                             local isTyping = data and data.isTyping == true
+                            local isEditor = data and data.isEditor == true
+
+                            if isEditor then
+                                displayText = displayText .. " (Editor)"
+                            end
 
                             if showIds then
                                 displayText = "[" .. serverId .. "] " .. name
