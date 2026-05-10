@@ -1,0 +1,594 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_bee_house_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_bee_house_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_bee_house_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bee_house_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.175489" y="-4.190138" z="-2.030921" />
+      <bbMax x="3.822867" y="7.304447" z="0.785483" />
+      <bsCentre x="-1.176311" y="1.5571547" z="-0.62271905" />
+      <bsRadius value="7.746366" />
+      <hdTextureDist value="10" />
+      <name>bee_attic_detail01_tnt</name>
+      <textureDictionary>bee_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_attic_detail01_tnt</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.590094" y="-2.965525" z="-1.504348" />
+      <bbMax x="2.737987" y="4.058479" z="1.504348" />
+      <bsCentre x="-0.9260535" y="0.5464771" z="0" />
+      <bsRadius value="5.29362" />
+      <hdTextureDist value="7.5" />
+      <name>bee_bath_detail01_tnt</name>
+      <textureDictionary>bee_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_bath_detail01_tnt</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.885432" y="-3.98361" z="-2.467575" />
+      <bbMax x="3.884138" y="3.971308" z="2.440246" />
+      <bsCentre x="-0.0006468296" y="-0.006150961" z="-0.013664484" />
+      <bsRadius value="6.077286" />
+      <hdTextureDist value="7.5" />
+      <name>bee_bedmaster_detail01</name>
+      <textureDictionary>bee_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_bedmaster_detail01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.245532" y="-8.897551" z="0" />
+      <bbMax x="6.699963" y="8.897551" z="6.726763" />
+      <bsCentre x="-0.77278423" y="0" z="3.3633814" />
+      <bsRadius value="12.09631" />
+      <hdTextureDist value="5" />
+      <name>bee_house_lightbox001</name>
+      <textureDictionary>nAcGJCA_0x948D4ED0</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_house_lightbox001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.268333" y="-9.500136" z="0" />
+      <bbMax x="7.153717" y="9.500136" z="7.182333" />
+      <bsCentre x="-0.5573082" y="0" z="3.5911665" />
+      <bsRadius value="12.75182" />
+      <hdTextureDist value="5" />
+      <name>bee_house_lightbox002</name>
+      <textureDictionary>nAcGJCA_0x948D4ED0</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_house_lightbox002</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.242994" y="-9.683965" z="0" />
+      <bbMax x="7.292142" y="9.683965" z="7.321311" />
+      <bsCentre x="-0.4754262" y="0" z="3.6606555" />
+      <bsRadius value="12.94275" />
+      <hdTextureDist value="5" />
+      <name>bee_house_lightbox003</name>
+      <textureDictionary>nAcGJCA_0x948D4ED0</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_house_lightbox003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.403284" y="-10.152427" z="0" />
+      <bbMax x="7.644899" y="10.152427" z="7.675479" />
+      <bsCentre x="-0.37919235" y="0" z="3.8377395" />
+      <bsRadius value="13.49763" />
+      <hdTextureDist value="5" />
+      <name>bee_house_lightbox004</name>
+      <textureDictionary>nAcGJCA_0x948D4ED0</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_house_lightbox004</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.29469" y="-10.64355" z="0" />
+      <bbMax x="8.014722" y="10.64355" z="8.046781" />
+      <bsCentre x="-0.13998413" y="0" z="4.0233903" />
+      <bsRadius value="13.999" />
+      <hdTextureDist value="5" />
+      <name>bee_house_lightbox005</name>
+      <textureDictionary>nAcGJCA_0x948D4ED0</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_house_lightbox005</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.402433" y="-11.158432" z="0" />
+      <bbMax x="8.402433" y="11.158432" z="8.436044" />
+      <bsCentre x="0" y="0" z="4.218022" />
+      <bsRadius value="14.5912" />
+      <hdTextureDist value="5" />
+      <name>bee_house_lightbox006</name>
+      <textureDictionary>nAcGJCA_0x948D4ED0</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_house_lightbox006</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.402433" y="-11.158432" z="0" />
+      <bbMax x="8.402433" y="11.158432" z="8.436044" />
+      <bsCentre x="0" y="0" z="4.218022" />
+      <bsRadius value="14.5912" />
+      <hdTextureDist value="5" />
+      <name>bee_house_lightbox006</name>
+      <textureDictionary>nAcGJCA_0x948D4ED0</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_house_lightbox006</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.402433" y="-11.158432" z="0" />
+      <bbMax x="8.402433" y="11.158432" z="8.436044" />
+      <bsCentre x="0" y="0" z="4.218022" />
+      <bsRadius value="14.5912" />
+      <hdTextureDist value="5" />
+      <name>bee_house_lightbox006</name>
+      <textureDictionary>nAcGJCA_0x948D4ED0</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_house_lightbox006</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020002000" />
+      <lodDist value="100" />
+      <flags value="536879104" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.170576" y="-8.47961" z="-2.910597" />
+      <bbMax x="5.947471" y="8.47961" z="2.856488" />
+      <bsCentre x="-1.1115522" y="0" z="-0.027054548" />
+      <bsRadius value="11.40388" />
+      <hdTextureDist value="12.5" />
+      <name>bee_house_refl_a</name>
+      <textureDictionary>bee_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_house_refl_a</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.133091" y="-8.47961" z="-2.91059" />
+      <bbMax x="-2.372901" y="-3.442838" z="0.0927" />
+      <bsCentre x="-5.252996" y="-5.961224" z="-1.408945" />
+      <bsRadius value="4.110007" />
+      <hdTextureDist value="5" />
+      <name>bee_house_refl_c</name>
+      <textureDictionary>bee_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_house_refl_c</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.044596" y="2.153772" z="-2.91059" />
+      <bbMax x="-2.32231" y="8.471384" z="0.218815" />
+      <bsCentre x="-5.1834526" y="5.312578" z="-1.3458874" />
+      <bsRadius value="4.540098" />
+      <hdTextureDist value="5" />
+      <name>bee_house_refl_e</name>
+      <textureDictionary>bee_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_house_refl_e</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.122574" y="-4.278535" z="0.075325" />
+      <bbMax x="-2.474784" y="7.663222" z="2.910597" />
+      <bsCentre x="-5.298679" y="1.6923437" z="1.492961" />
+      <bsRadius value="6.755403" />
+      <hdTextureDist value="5" />
+      <name>bee_house_refl_f</name>
+      <textureDictionary>bee_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_house_refl_f</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="25" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.991377" y="-8.371748" z="-2.955822" />
+      <bbMax x="5.915528" y="8.364717" z="3.026392" />
+      <bsCentre x="-1.0379248" y="-0.0035152435" z="0.035284996" />
+      <bsRadius value="11.28382" />
+      <hdTextureDist value="12.5" />
+      <name>bee_house_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_house_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.13031" y="-8.543015" z="-0.147472" />
+      <bbMax x="5.917955" y="8.43638" z="3.044297" />
+      <bsCentre x="-1.1061773" y="-0.05331707" z="1.4484124" />
+      <bsRadius value="11.13374" />
+      <hdTextureDist value="12.5" />
+      <name>bee_int_floor_tnt</name>
+      <textureDictionary>bee_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_int_floor_tnt</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.096893" y="-8.398775" z="-2.640122" />
+      <bbMax x="5.96117" y="8.26767" z="2.638215" />
+      <bsCentre x="-1.0678616" y="-0.06555271" z="-0.0009534359" />
+      <bsRadius value="11.21673" />
+      <hdTextureDist value="12.5" />
+      <name>bee_int_frames</name>
+      <textureDictionary>bee_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_int_frames</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="2" />
+      <bbMin x="-0.078036" y="-0.293186" z="-1.762284" />
+      <bbMax x="0.078033" y="0.293186" z="1.389386" />
+      <bsCentre x="0" y="0" z="-0.18644905" />
+      <bsRadius value="1.604775" />
+      <hdTextureDist value="12.5" />
+      <name>bee_int_ladder</name>
+      <textureDictionary>bee_house_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_int_ladder</assetName>
+      <extensions>
+        <Item type="CExtensionDefLadder">
+          <name>bee_int_ladder</name>
+          <offsetPosition x="-0.0088636875" y="0.006287575" z="1.300299" />
+          <bottom x="-0.0088636875" y="0.006287575" z="-1.699701" />
+          <top x="-0.0088636875" y="0.006287575" z="1.300299" />
+          <normal x="0.9848075" y="0.17364979" z="0" />
+          <materialType>WOODEN_LADDER</materialType>
+          <template>default</template>
+          <canGetOffAtTop value="True" />
+          <canGetOffAtBottom value="True" />
+        </Item>
+      </extensions>
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.153614" y="-8.396037" z="-2.908465" />
+      <bbMax x="6.00123" y="8.509097" z="2.846645" />
+      <bsCentre x="-1.0761919" y="0.05653" z="-0.030910015" />
+      <bsRadius value="11.39369" />
+      <hdTextureDist value="12.5" />
+      <name>bee_int_shell_tnt</name>
+      <textureDictionary>bee_house_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_int_shell_tnt</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.779611" y="-3.265503" z="-1.490702" />
+      <bbMax x="2.975754" y="4.582035" z="1.528533" />
+      <bsCentre x="-0.9019284" y="0.65826607" z="0.018915534" />
+      <bsRadius value="5.719382" />
+      <hdTextureDist value="7.5" />
+      <name>bee_kit_detail01</name>
+      <textureDictionary>bee_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_kit_detail01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.516634" y="-0.561541" z="-2.76756" />
+      <bbMax x="1.518029" y="0.597227" z="2.7042" />
+      <bsCentre x="0.00069749355" y="0.017842948" z="-0.031680107" />
+      <bsRadius value="3.181669" />
+      <hdTextureDist value="7.5" />
+      <name>bee_living_chimney</name>
+      <textureDictionary>bee_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_living_chimney</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.557289" y="-7.290977" z="-3.002754" />
+      <bbMax x="6.185073" y="8.326554" z="2.862378" />
+      <bsCentre x="-1.1861081" y="0.5177884" z="-0.070188046" />
+      <bsRadius value="11.13153" />
+      <hdTextureDist value="20.31" />
+      <name>bee_living_detail01_tnt</name>
+      <textureDictionary>bee_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_living_detail01_tnt</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.926346" y="-3.069993" z="-2.510732" />
+      <bbMax x="2.926346" y="3.069994" z="2.510732" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.928705" />
+      <hdTextureDist value="5" />
+      <name>bee_masterrm_wall_refl_hd</name>
+      <textureDictionary>bee_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_masterrm_wall_refl_hd</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.910541" y="-2.132245" z="-1.547178" />
+      <bbMax x="2.910542" y="2.132244" z="1.547178" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="3.925746" />
+      <hdTextureDist value="5" />
+      <name>bee_sonroom_wall_refl_hd</name>
+      <textureDictionary>bee_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_sonroom_wall_refl_hd</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

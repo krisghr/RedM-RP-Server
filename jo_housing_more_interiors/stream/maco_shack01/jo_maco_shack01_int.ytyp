@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_maco_shack01_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_maco_shack01_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_maco_shack01_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_maco_shack01_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.741161" y="-4.580698" z="-1.450141" />
+      <bbMax x="2.835924" y="4.50545" z="3.134997" />
+      <bsCentre x="0.0473814" y="-0.03762436" z="0.84242797" />
+      <bsRadius value="5.802703" />
+      <hdTextureDist value="5" />
+      <name>maco_shack01_int_beams</name>
+      <textureDictionary>maco_shack01_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>maco_shack01_int_beams</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.762646" y="-4.413953" z="-2.394093" />
+      <bbMax x="2.660345" y="4.483784" z="1.927595" />
+      <bsCentre x="-0.05115056" y="0.034915924" z="-0.23324895" />
+      <bsRadius value="5.64038" />
+      <hdTextureDist value="12.32" />
+      <name>maco_shack01_int_boards</name>
+      <textureDictionary>maco_shack01_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>maco_shack01_int_boards</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.695943" y="-4.390356" z="-0.221783" />
+      <bbMax x="2.695924" y="4.420337" z="0.221786" />
+      <bsCentre x="0" y="0.014990807" z="0" />
+      <bsRadius value="5.169558" />
+      <hdTextureDist value="12.32" />
+      <name>maco_shack01_int_floor</name>
+      <textureDictionary>maco_shack01_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>maco_shack01_int_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="33" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.791679" y="-4.539854" z="-2.144113" />
+      <bbMax x="2.779789" y="4.44443" z="2.309498" />
+      <bsCentre x="-0.0059449673" y="-0.047712326" z="0.08269262" />
+      <bsRadius value="5.735705" />
+      <hdTextureDist value="5" />
+      <name>maco_shack01_int_shadw_proxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>maco_shack01_int_shadw_proxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.819611" y="-4.598666" z="-1.315156" />
+      <bbMax x="2.844399" y="4.542195" z="3.124364" />
+      <bsCentre x="0.012393951" y="-0.028235435" z="0.90460396" />
+      <bsRadius value="5.816909" />
+      <hdTextureDist value="5" />
+      <name>maco_shack01_int_shell</name>
+      <textureDictionary>maco_shack01_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>maco_shack01_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.431489" y="-4.823726" z="0" />
+      <bbMax x="3.431489" y="4.823726" z="4.979703" />
+      <bsCentre x="0" y="0" z="2.4898515" />
+      <bsRadius value="6.422057" />
+      <hdTextureDist value="5" />
+      <name>macro_shack01_lightbox</name>
+      <textureDictionary>OIUhvGA_0x8B063044</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>macro_shack01_lightbox</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

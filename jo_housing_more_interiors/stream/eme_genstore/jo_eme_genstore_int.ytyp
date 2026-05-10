@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_eme_genstore_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_eme_genstore_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_eme_genstore_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_eme_genstore_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.452738" y="-3.080907" z="-1.559606" />
+      <bbMax x="3.463006" y="3.072121" z="-1.5213" />
+      <bsCentre x="0.0051338673" y="-0.0043931007" z="-1.540453" />
+      <bsRadius value="4.62841" />
+      <hdTextureDist value="11.17" />
+      <name>eme_gensint_02</name>
+      <textureDictionary>eme_genstore_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>eme_gensint_02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.538238" y="-3.105846" z="-1.560393" />
+      <bbMax x="3.517315" y="3.148618" z="1.552459" />
+      <bsCentre x="-0.010461569" y="0.021386147" z="-0.0039669275" />
+      <bsRadius value="4.9646" />
+      <hdTextureDist value="9.74" />
+      <name>eme_genstore_int_extension</name>
+      <textureDictionary>eme_genstore_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>eme_genstore_int_extension</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.731084" y="-3.724361" z="-0.03503" />
+      <bbMax x="3.730985" y="3.724392" z="0" />
+      <bsCentre x="0" y="0" z="-0.017515" />
+      <bsRadius value="5.271803" />
+      <hdTextureDist value="10.28928" />
+      <name>eme_genstore_int_floorstore</name>
+      <textureDictionary>eme_genstore_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>eme_genstore_int_floorstore</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="10" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.611029" y="-0.639818" z="-0.050753" />
+      <bbMax x="0.611131" y="0.639865" z="0.044479" />
+      <bsCentre x="0" y="0" z="-0.003137" />
+      <bsRadius value="0.8860493" />
+      <hdTextureDist value="5.884859" />
+      <name>eme_genstore_int_skylight</name>
+      <textureDictionary>eme_genstore_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>eme_genstore_int_skylight</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.710728" y="-3.716713" z="-2.549251" />
+      <bbMax x="3.71075" y="3.716731" z="2.547547" />
+      <bsCentre x="0" y="0" z="-0.000852108" />
+      <bsRadius value="5.837632" />
+      <hdTextureDist value="10.26" />
+      <name>eme_genstore_int_storebeams</name>
+      <textureDictionary>eme_genstore_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>eme_genstore_int_storebeams</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.782516" y="-4.457745" z="-2.0783" />
+      <bbMax x="6.62423" y="2.889989" z="0.097258" />
+      <bsCentre x="2.920857" y="-0.7838781" z="-0.99052095" />
+      <bsRadius value="5.328746" />
+      <hdTextureDist value="13.39886" />
+      <name>eme_genstore_int_storeroof</name>
+      <textureDictionary>eme_genstore_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>eme_genstore_int_storeroof</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.648579" y="-3.610847" z="-2.489349" />
+      <bbMax x="3.673588" y="3.800814" z="0.540144" />
+      <bsCentre x="0.012504578" y="0.09498358" z="-0.97460246" />
+      <bsRadius value="5.42505" />
+      <hdTextureDist value="11.19" />
+      <name>eme_storewalls</name>
+      <textureDictionary>eme_genstore_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>eme_storewalls</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.648579" y="-3.610847" z="-2.489349" />
+      <bbMax x="3.673588" y="3.800814" z="0.540144" />
+      <bsCentre x="0.012504578" y="0.09498358" z="-0.97460246" />
+      <bsRadius value="5.42505" />
+      <hdTextureDist value="11.19" />
+      <name>eme_genstoreext</name>
+      <textureDictionary>eme_01_</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>eme_genstoreext</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

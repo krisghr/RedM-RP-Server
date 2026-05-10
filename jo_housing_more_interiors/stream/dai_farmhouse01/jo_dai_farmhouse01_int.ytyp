@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_dai_farmhouse01_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_dai_farmhouse01_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_dai_farmhouse01_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_dai_farmhouse01_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="25" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.765401" y="-4.997337" z="-1.713126" />
+      <bbMax x="6.683536" y="4.987211" z="1.71425" />
+      <bsCentre x="-0.040932655" y="-0.00506258" z="0.0005619526" />
+      <bsRadius value="8.548568" />
+      <hdTextureDist value="5" />
+      <name>dai_farmhouse_int_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>dai_farmhouse_int_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.70664" y="-7.112246" z="0" />
+      <bbMax x="8.70664" y="7.112246" z="10.160351" />
+      <bsCentre x="0" y="0" z="5.0801754" />
+      <bsRadius value="12.33685" />
+      <hdTextureDist value="5" />
+      <name>dai_farmhouse_lightbox01</name>
+      <textureDictionary>dai_farmhouse01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>dai_farmhouse_lightbox01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.175176" y="-7.018458" z="0" />
+      <bbMax x="8.175176" y="7.018458" z="8.065756" />
+      <bsCentre x="0" y="0" z="4.032878" />
+      <bsRadius value="11.50462" />
+      <hdTextureDist value="5" />
+      <name>dai_farmhouse_lightbox02</name>
+      <textureDictionary>dai_farmhouse01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>dai_farmhouse_lightbox02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.378382" y="-7.080983" z="0" />
+      <bbMax x="8.378382" y="7.080983" z="9.722674" />
+      <bsCentre x="0" y="0" z="4.861337" />
+      <bsRadius value="11.99876" />
+      <hdTextureDist value="5" />
+      <name>dai_farmhouse_lightbox03</name>
+      <textureDictionary>dai_farmhouse01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>dai_farmhouse_lightbox03</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.383209" y="-1.769465" z="-0.948295" />
+      <bbMax x="3.383209" y="1.769466" z="1.731054" />
+      <bsCentre x="0" y="0" z="0.39137948" />
+      <bsRadius value="4.046213" />
+      <hdTextureDist value="9.21" />
+      <name>dai_int_main_bedl_det01</name>
+      <textureDictionary>dai_farmhouse01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>dai_int_main_bedl_det01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.659446" y="-1.250373" z="-1.214549" />
+      <bbMax x="3.543046" y="1.303802" z="2.001401" />
+      <bsCentre x="0.9417999" y="0.026714444" z="0.39342606" />
+      <bsRadius value="3.314063" />
+      <hdTextureDist value="9.19" />
+      <name>dai_int_main_bedl_stuff01</name>
+      <textureDictionary>dai_farmhouse01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>dai_int_main_bedl_stuff01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.290754" y="-1.769465" z="-0.945968" />
+      <bbMax x="3.290754" y="1.769466" z="1.735883" />
+      <bsCentre x="0" y="0" z="0.39495748" />
+      <bsRadius value="3.969654" />
+      <hdTextureDist value="9.15" />
+      <name>dai_int_main_bedr_det01</name>
+      <textureDictionary>dai_farmhouse01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>dai_int_main_bedr_det01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.657822" y="-3.227936" z="-1.727691" />
+      <bbMax x="2.657822" y="3.227936" z="1.727691" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.524213" />
+      <hdTextureDist value="9.19" />
+      <name>dai_int_main_det01</name>
+      <textureDictionary>dai_farmhouse01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>dai_int_main_det01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.253446" y="-3.22617" z="-1.742636" />
+      <bbMax x="2.253446" y="3.22617" z="1.742636" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.303832" />
+      <hdTextureDist value="8.94" />
+      <name>dai_int_main_det02</name>
+      <textureDictionary>dai_farmhouse01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>dai_int_main_det02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="60" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.962059" y="-2.718034" z="-1.632974" />
+      <bbMax x="0.340794" y="3.213177" z="1.632974" />
+      <bsCentre x="-2.3106325" y="0.24757147" z="0" />
+      <bsRadius value="4.300172" />
+      <hdTextureDist value="11.33" />
+      <name>jo_dai_int_main_stuff01</name>
+      <textureDictionary>dai_farmhouse01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_dai_int_main_stuff01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.763455" y="-5.000085" z="-0.422103" />
+      <bbMax x="6.763455" y="5.000114" z="0.52313" />
+      <bsCentre x="0" y="0" z="0.050513506" />
+      <bsRadius value="8.424292" />
+      <hdTextureDist value="13.43" />
+      <name>dai_int_shell_ceiling</name>
+      <textureDictionary>dai_farmhouse01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>dai_int_shell_ceiling</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.732212" y="-5.027275" z="-0.034043" />
+      <bbMax x="6.847778" y="4.986333" z="0.065825" />
+      <bsCentre x="0.057783127" y="-0.020471096" z="0.015891" />
+      <bsRadius value="8.436505" />
+      <hdTextureDist value="13.5" />
+      <name>dai_int_shell_floor</name>
+      <textureDictionary>dai_farmhouse01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>dai_int_shell_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.815928" y="-5.111476" z="-1.788991" />
+      <bbMax x="6.813373" y="5.088019" z="1.788594" />
+      <bsCentre x="-0.0012774467" y="-0.011728287" z="-0.00019848347" />
+      <bsRadius value="8.697509" />
+      <hdTextureDist value="13.53" />
+      <name>dai_int_shell_walls</name>
+      <textureDictionary>dai_farmhouse01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>dai_int_shell_walls</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

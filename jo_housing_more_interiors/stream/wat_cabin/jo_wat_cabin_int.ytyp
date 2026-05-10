@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_wat_cabin_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_wat_cabin_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_wat_cabin_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_wat_cabin_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="10" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.048577" y="-2.185971" z="-0.045514" />
+      <bbMax x="2.384947" y="3.402712" z="0.045515" />
+      <bsCentre x="-0.331815" y="0.60837054" z="0" />
+      <bsRadius value="3.89759" />
+      <hdTextureDist value="5" />
+      <name>wat_base_floor</name>
+      <textureDictionary>wat_cabin_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>wat_base_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.177744" y="-4.882306" z="-0.308756" />
+      <bbMax x="4.177717" y="4.882257" z="0.308753" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="6.433151" />
+      <hdTextureDist value="12.5" />
+      <name>wat_base001</name>
+      <textureDictionary>wat_cabin_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>wat_base001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.070473" y="-2.311615" z="-1.530785" />
+      <bbMax x="2.467323" y="3.40405" z="1.530793" />
+      <bsCentre x="-0.30157495" y="0.54621744" z="0" />
+      <bsRadius value="4.263486" />
+      <hdTextureDist value="12.5" />
+      <name>wat_basement</name>
+      <textureDictionary>wat_cabin_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>wat_basement</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="25" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.961757" y="-6.272467" z="-4.459033" />
+      <bbMax x="4.96174" y="7.36492" z="4.39112" />
+      <bsCentre x="0" y="0.5462265" z="-0.033956528" />
+      <bsRadius value="9.523384" />
+      <hdTextureDist value="5" />
+      <name>wat_cabin_int_shadow_proxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>wat_cabin_int_shadow_proxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.979462" y="-8.109849" z="0" />
+      <bbMax x="7.979462" y="8.109849" z="23.36471" />
+      <bsCentre x="0" y="0" z="11.682355" />
+      <bsRadius value="16.30702" />
+      <hdTextureDist value="5" />
+      <name>wat_cabin_lightbox_back</name>
+      <textureDictionary>BOfCVNA_0xA9FCAD6E</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>wat_cabin_lightbox_back</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.406221" y="-7.527241" z="0" />
+      <bbMax x="7.406221" y="7.527241" z="21.6862" />
+      <bsCentre x="0" y="0" z="10.8431" />
+      <bsRadius value="15.13553" />
+      <hdTextureDist value="5" />
+      <name>wat_cabin_lightbox_basement</name>
+      <textureDictionary>BOfCVNA_0xA9FCAD6E</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>wat_cabin_lightbox_basement</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.276429" y="-4.98463" z="-0.1336" />
+      <bbMax x="4.083462" y="4.984579" z="0.13359" />
+      <bsCentre x="-0.09648323" y="0" z="0" />
+      <bsRadius value="6.506618" />
+      <hdTextureDist value="12.5" />
+      <name>wat_floor005</name>
+      <textureDictionary>wat_cabin_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>wat_floor005</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="60" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.96279" y="-1.681475" z="-1.99003" />
+      <bbMax x="0.875275" y="1.025525" z="1.99002" />
+      <bsCentre x="-0.0437575" y="-0.32797503" z="0" />
+      <bsRadius value="2.576195" />
+      <hdTextureDist value="30" />
+      <name>wat_int_fireplace001</name>
+      <textureDictionary>wat_cabin_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>wat_int_fireplace001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.861336" y="-6.132188" z="-2.777151" />
+      <bbMax x="4.861381" y="6.145231" z="2.784364" />
+      <bsCentre x="0" y="0.006521225" z="0.0036063194" />
+      <bsRadius value="8.309583" />
+      <hdTextureDist value="12.5" />
+      <name>wat_int_shell</name>
+      <textureDictionary>wat_cabin_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>wat_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.392604" y="-5.102456" z="-2.740961" />
+      <bbMax x="4.392708" y="5.102503" z="2.726317" />
+      <bsCentre x="0" y="0" z="-0.007322073" />
+      <bsRadius value="7.266602" />
+      <hdTextureDist value="12.5" />
+      <name>jo_wat_int_structure01</name>
+      <textureDictionary>wat_cabin_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_wat_int_structure01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.895301" y="-2.609458" z="-2.242396" />
+      <bbMax x="2.895184" y="2.609481" z="2.215406" />
+      <bsCentre x="0" y="0" z="-0.013495207" />
+      <bsRadius value="4.489962" />
+      <hdTextureDist value="12.5" />
+      <name>wat_int_structure02</name>
+      <textureDictionary>wat_cabin_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>wat_int_structure02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.80933" y="-6.145227" z="-2.784366" />
+      <bbMax x="3.618701" y="3.798365" z="2.775862" />
+      <bsCentre x="-0.5953145" y="-1.1734309" z="-0.004251957" />
+      <bsRadius value="7.085599" />
+      <hdTextureDist value="12.5" />
+      <name>wat_int_structure03</name>
+      <textureDictionary>wat_cabin_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>wat_int_structure03</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="10" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.028045" y="-0.293237" z="-1.886535" />
+      <bbMax x="0.028107" y="0.293155" z="1.301629" />
+      <bsCentre x="0" y="0" z="-0.29245305" />
+      <bsRadius value="1.621064" />
+      <hdTextureDist value="5" />
+      <name>wat_ladder</name>
+      <textureDictionary>wat_cabin_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>wat_ladder</assetName>
+      <extensions>
+        <Item type="CExtensionDefLadder">
+          <name>wat_ladder</name>
+          <offsetPosition x="0.00036621094" y="0.0007324219" z="1.263794" />
+          <bottom x="0.00036621094" y="0.0007324219" z="-1.486206" />
+          <top x="0.00036621094" y="0.0007324219" z="1.263794" />
+          <normal x="-1" y="0" z="0" />
+          <materialType>METAL_SOLID_LADDER</materialType>
+          <template>default</template>
+          <canGetOffAtTop value="True" />
+          <canGetOffAtBottom value="True" />
+        </Item>
+      </extensions>
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.111943" y="-2.305557" z="-1.58062" />
+      <bbMax x="2.467728" y="3.38805" z="1.580612" />
+      <bsCentre x="-0.32210755" y="0.54124665" z="0" />
+      <bsRadius value="4.287869" />
+      <hdTextureDist value="12.5" />
+      <name>wat_structure01</name>
+      <textureDictionary>wat_cabin_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>wat_structure01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="60" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.614691" y="-2.079634" z="-0.017562" />
+      <bbMax x="2.64424" y="2.028362" z="0.017564" />
+      <bsCentre x="0.014774561" y="-0.025635958" z="0" />
+      <bsRadius value="3.336661" />
+      <hdTextureDist value="30" />
+      <name>wat_floorbase001</name>
+      <textureDictionary>wat_cabin_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>wat_floorbase001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.964733" y="-2.106001" z="-0.081574" />
+      <bbMax x="2.677809" y="3.78753" z="0.102669" />
+      <bsCentre x="-0.14346194" y="0.8407645" z="0.010547496" />
+      <bsRadius value="4.080623" />
+      <hdTextureDist value="7.5" />
+      <name>wat_floor004</name>
+      <textureDictionary>wat_cabin_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>wat_floor004</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

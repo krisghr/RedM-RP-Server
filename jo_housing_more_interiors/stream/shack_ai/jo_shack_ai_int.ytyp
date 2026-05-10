@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <name>jo_shack_ai_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef"> <!-- shack_ai_int_chimney -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.170202" y="-0.611172" z="-2.854083" />
+      <bbMax x="1.073371" y="1.325414" z="2.991519" />
+      <bsCentre x="-0.048415422" y="0.35712093" z="0.06871796" />
+      <bsRadius value="3.277005" />
+      <hdTextureDist value="10" />
+      <name>shack_ai_int_chimney</name>
+      <textureDictionary>shack_ai_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>shack_ai_int_chimney</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- shack_ai_int_floor -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.701583" y="-3.282249" z="-0.119172" />
+      <bbMax x="4.701667" y="3.274302" z="0.119174" />
+      <bsCentre x="0" y="-0.003973484" z="0" />
+      <bsRadius value="5.732937" />
+      <hdTextureDist value="13" />
+      <name>shack_ai_int_floor</name>
+      <textureDictionary>shack_ai_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>shack_ai_int_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_shack_ai_int_furniture_empty -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.035581" y="-4.784852" z="-2.686984" />
+      <bbMax x="3.105685" y="4.59947" z="-0.106235" />
+      <bsCentre x="0.035051823" y="-0.092690945" z="-1.3966095" />
+      <bsRadius value="5.754149" />
+      <hdTextureDist value="10" />
+      <name>jo_shack_ai_int_furniture_empty</name>
+      <textureDictionary>shack_ai_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_shack_ai_int_furniture_empty</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- shack_ai_int_sdw_prxy -->
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="25" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.717567" y="-3.364005" z="-2.769918" />
+      <bbMax x="4.919729" y="3.33752" z="2.902516" />
+      <bsCentre x="0.10108137" y="-0.013242722" z="0.06629896" />
+      <bsRadius value="6.51852" />
+      <hdTextureDist value="5" />
+      <name>shack_ai_int_sdw_prxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>shack_ai_int_sdw_prxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- shack_ai_int_shell -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-9.621632" y="-2.106681" z="-3.128409" />
+      <bbMax x="0.323364" y="4.844395" z="2.526918" />
+      <bsCentre x="-4.6491337" y="1.3688571" z="-0.3007455" />
+      <bsRadius value="6.693339" />
+      <hdTextureDist value="13" />
+      <name>shack_ai_int_shell</name>
+      <textureDictionary>shack_ai_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>shack_ai_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_shack_ai_col -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-9.621632" y="-2.106681" z="-3.128409" />
+      <bbMax x="0.323364" y="4.844395" z="2.526918" />
+      <bsCentre x="-4.6491337" y="1.3688571" z="-0.3007455" />
+      <bsRadius value="6.693339" />
+      <hdTextureDist value="13" />
+      <name>jo_shack_ai_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_shack_ai_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_shack_ai_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- shack_ai_lightbox -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.327593" y="-3.715139" z="0" />
+      <bbMax x="5.327593" y="3.715139" z="5.906422" />
+      <bsCentre x="0" y="0" z="2.953211" />
+      <bsRadius value="7.134911" />
+      <hdTextureDist value="5" />
+      <name>shack_ai_lightbox</name>
+      <textureDictionary>umcvsrla_0x24608cee</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>shack_ai_lightbox</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- shack_ai_wincustom -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.439809" y="-3.296764" z="-0.740371" />
+      <bbMax x="3.439642" y="3.296933" z="0.740371" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.821729" />
+      <hdTextureDist value="10" />
+      <name>shack_ai_wincustom</name>
+      <textureDictionary>shack_ai_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>shack_ai_wincustom</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

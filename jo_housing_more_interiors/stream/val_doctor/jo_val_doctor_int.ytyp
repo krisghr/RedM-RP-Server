@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_val_doctor_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_val_doctor_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_val_doctor_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_val_doctor_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="13" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.437807" y="-5.67324" z="-0.188201" />
+      <bbMax x="4.437811" y="5.673273" z="0.037126" />
+      <bsCentre x="0" y="0" z="-0.075537495" />
+      <bsRadius value="7.203658" />
+      <hdTextureDist value="9.5" />
+      <name>val_doc_backroom_decal01</name>
+      <textureDictionary>val_doctor_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>val_doc_backroom_decal01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="16" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.37535" y="-4.215042" z="-1.594581" />
+      <bbMax x="5.353206" y="4.214996" z="1.627679" />
+      <bsCentre x="-0.011072159" y="0" z="0.016548991" />
+      <bsRadius value="7.009822" />
+      <hdTextureDist value="9.5" />
+      <name>jo_val_doc_backroom_details01</name>
+      <textureDictionary>val_doctor_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_val_doc_backroom_details01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.5" y="-6.2" z="-0.1" />
+      <bbMax x="2.7" y="2.2" z="3.2" />
+      <bsCentre x="-1.4000001" y="-2" z="1.55" />
+      <bsRadius value="6.096925" />
+      <hdTextureDist value="5" />
+      <name>val_doc_backroom_lights</name>
+      <textureDictionary>fVzCmRA_0xB6A1DA15</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>val_doc_backroom_lights</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.440435" y="-3.892445" z="-0.038634" />
+      <bbMax x="4.440456" y="3.892473" z="0.038644" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="5.905107" />
+      <hdTextureDist value="9.5" />
+      <name>val_doc_frontroom_decal01</name>
+      <textureDictionary>val_doctor_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>val_doc_frontroom_decal01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="50" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.453941" y="-3.848997" z="-1.541924" />
+      <bbMax x="4.564542" y="3.205153" z="1.541932" />
+      <bsCentre x="0.055300236" y="-0.32192206" z="0" />
+      <bsRadius value="5.928833" />
+      <hdTextureDist value="9.5" />
+      <name>jo_val_doc_frontroom_detail</name>
+      <textureDictionary>val_doctor_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_val_doc_frontroom_detail</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.882008" y="-6.495587" z="-0.174555" />
+      <bbMax x="5.360449" y="9.415723" z="3.083483" />
+      <bsCentre x="-0.26077986" y="1.4600682" z="1.454464" />
+      <bsRadius value="9.876454" />
+      <hdTextureDist value="17.5" />
+      <name>jo_val_doc_int_shell</name>
+      <textureDictionary>val_doctor_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_val_doc_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.684855" y="-2.48382" z="-1.555648" />
+      <bbMax x="2.661356" y="2.551689" z="1.555648" />
+      <bsCentre x="-0.011749506" y="0.033934593" z="0" />
+      <bsRadius value="3.98806" />
+      <hdTextureDist value="20" />
+      <name>jo_val_doc_middleroom_det_dec</name>
+      <textureDictionary>val_doctor_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_val_doc_middleroom_det_dec</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="25" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.374666" y="-7.249566" z="-1.582499" />
+      <bbMax x="5.338002" y="7.248892" z="1.650661" />
+      <bsCentre x="-0.018332005" y="-0.00033712387" z="0.034080982" />
+      <bsRadius value="9.157236" />
+      <hdTextureDist value="5" />
+      <name>val_doctor_int_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>val_doctor_int_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

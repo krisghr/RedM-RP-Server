@@ -1,3 +1,4 @@
+print('chat script loaded')
 local isRDR = not TerraingridActivate and true or false
 
 local chatInputActive = false

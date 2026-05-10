@@ -1,0 +1,769 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_bra_cornmill_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_bra_cornmill_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_bra_cornmill_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bra_cornmill_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.184275" y="-2.108804" z="-1.391553" />
+      <bbMax x="2.184275" y="2.108804" z="1.391553" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="3.33984" />
+      <hdTextureDist value="7.5" />
+      <name>bra_cornmill_int_corncrib</name>
+      <textureDictionary>bra_cornmill_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_cornmill_int_corncrib</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.936984" y="-9.622843" z="-2.139414" />
+      <bbMax x="7.936983" y="9.625162" z="2.141239" />
+      <bsCentre x="0" y="0.001159668" z="0.0009124279" />
+      <bsRadius value="12.65694" />
+      <hdTextureDist value="22.54" />
+      <name>bra_cornmill_int_floor</name>
+      <textureDictionary>bra_cornmill_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_cornmill_int_floor</assetName>
+      <extensions>
+        <Item type="CExtensionDefStairs">
+          <name>yuetfBA_0x833A19C5</name>
+          <offsetPosition x="-4.216009" y="-6.4553823" z="-2.0685048" />
+          <bottom x="-4.216009" y="-6.4553823" z="-2.0685048" />
+          <top x="-5.706848" y="-6.4553823" z="-0.86682594" />
+          <boundMin x="-6.056862" y="-7.4652634" z="-2.098505" />
+          <boundMax x="-4.166008" y="-5.4455013" z="-0.86682594" />
+          <steps itemType="CExtensionDefStep">
+            <Item>
+              <position x="-4.216009" y="-6.4553823" z="-1.8684809" />
+              <width value="2.004761" />
+              <depth value="0.291118" />
+              <height value="0.200024" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="-4.5071273" y="-6.4553823" z="-1.668458" />
+              <width value="2.004761" />
+              <depth value="0.299793" />
+              <height value="0.200024" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="-4.80692" y="-6.4553823" z="-1.467747" />
+              <width value="2.004761" />
+              <depth value="0.299903" />
+              <height value="0.20071" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="-5.106823" y="-6.4553823" z="-1.267159" />
+              <width value="2.004761" />
+              <depth value="0.300233" />
+              <height value="0.200588" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="-5.407056" y="-6.4553823" z="-1.0669599" />
+              <width value="2.004761" />
+              <depth value="0.299792" />
+              <height value="0.200199" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="-5.706848" y="-6.4553823" z="-0.86682594" />
+              <width value="2.004761" />
+              <depth value="0.350014" />
+              <height value="0.200134" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+          </steps>
+        </Item>
+        <Item type="CExtensionDefStairs">
+          <name>nxtXGRA_0x9513BD78</name>
+          <offsetPosition x="-6.068465" y="-8.65418" z="-0.66683996" />
+          <bottom x="-6.068465" y="-8.65418" z="-0.66683996" />
+          <top x="-2.463443" y="-8.656197" z="1.9330401" />
+          <boundMin x="-6.118465" y="-9.628056" z="-0.6968399" />
+          <boundMax x="-2.106539" y="-7.680303" z="1.9330401" />
+          <steps itemType="CExtensionDefStep">
+            <Item>
+              <position x="-6.068465" y="-8.65418" z="-0.46685398" />
+              <width value="1.932753" />
+              <depth value="0.311495" />
+              <height value="0.199986" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="-5.75697" y="-8.654187" z="-0.26686895" />
+              <width value="1.932753" />
+              <depth value="0.300669" />
+              <height value="0.199986" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="-5.456302" y="-8.654196" z="-0.066997886" />
+              <width value="1.932753" />
+              <depth value="0.300565" />
+              <height value="0.199871" />
+              <forward x="0.9999999" y="-0.00049199996" z="0" />
+              <right x="0.00049199996" y="0.9999999" z="0" />
+            </Item>
+            <Item>
+              <position x="-5.155737" y="-8.654344" z="0.13324308" />
+              <width value="1.932753" />
+              <depth value="0.309133" />
+              <height value="0.200241" />
+              <forward x="0.99999976" y="-0.0007869998" z="0" />
+              <right x="0.0007869998" y="0.99999976" z="0" />
+            </Item>
+            <Item>
+              <position x="-4.846604" y="-8.654587" z="0.3329811" />
+              <width value="1.932753" />
+              <depth value="0.29891" />
+              <height value="0.199738" />
+              <forward x="0.99999917" y="-0.0012890003" z="0" />
+              <right x="0.0012890003" y="0.99999917" z="0" />
+            </Item>
+            <Item>
+              <position x="-4.547694" y="-8.654972" z="0.5330851" />
+              <width value="1.932753" />
+              <depth value="0.289571" />
+              <height value="0.200104" />
+              <forward x="0.9999999" y="0.00047399994" z="0" />
+              <right x="-0.00047399994" y="0.9999999" z="0" />
+            </Item>
+            <Item>
+              <position x="-4.258123" y="-8.654835" z="0.733062" />
+              <width value="1.932753" />
+              <depth value="0.294836" />
+              <height value="0.199977" />
+              <forward x="1" y="-0.000162" z="0" />
+              <right x="0.000162" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="-3.9632869" y="-8.654882" z="0.93319297" />
+              <width value="1.932753" />
+              <depth value="0.299903" />
+              <height value="0.20013" />
+              <forward x="1" y="-0.000162" z="0" />
+              <right x="0.000162" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="-3.6633842" y="-8.654931" z="1.1330712" />
+              <width value="1.932753" />
+              <depth value="0.309903" />
+              <height value="0.199879" />
+              <forward x="0.99999976" y="-0.00069899985" z="0" />
+              <right x="0.00069899985" y="0.99999976" z="0" />
+            </Item>
+            <Item>
+              <position x="-3.353481" y="-8.655148" z="1.333087" />
+              <width value="1.932753" />
+              <depth value="0.305411" />
+              <height value="0.200016" />
+              <forward x="1" y="-0.000219" z="0" />
+              <right x="0.000219" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="-3.0480702" y="-8.655214" z="1.533195" />
+              <width value="1.932753" />
+              <depth value="0.289903" />
+              <height value="0.200108" />
+              <forward x="0.99999875" y="-0.0015949997" z="0" />
+              <right x="0.0015949997" y="0.99999875" z="0" />
+            </Item>
+            <Item>
+              <position x="-2.758167" y="-8.655677" z="1.7325621" />
+              <width value="1.932753" />
+              <depth value="0.294725" />
+              <height value="0.199368" />
+              <forward x="0.99999845" y="-0.0017640009" z="0" />
+              <right x="0.0017630009" y="0.99999845" z="0" />
+            </Item>
+            <Item>
+              <position x="-2.463443" y="-8.656197" z="1.9330401" />
+              <width value="1.932753" />
+              <depth value="0.355412" />
+              <height value="0.200478" />
+              <forward x="0.99999887" y="0.0015349998" z="0" />
+              <right x="-0.0015349998" y="0.99999887" z="0" />
+            </Item>
+          </steps>
+        </Item>
+        <Item type="CExtensionDefStairs">
+          <name>mIEyDRA_0x55EA3F82</name>
+          <offsetPosition x="4.208209" y="6.4577007" z="-2.0680358" />
+          <bottom x="4.208209" y="6.4577007" z="-2.0680358" />
+          <top x="5.703129" y="6.4577007" z="-0.86635697" />
+          <boundMin x="4.158209" y="5.4478197" z="-2.0980358" />
+          <boundMax x="6.056864" y="7.467581" z="-0.86635697" />
+          <steps itemType="CExtensionDefStep">
+            <Item>
+              <position x="4.208209" y="6.4577007" z="-1.868012" />
+              <width value="2.004761" />
+              <depth value="0.298921" />
+              <height value="0.200024" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="4.50713" y="6.4577007" z="-1.667988" />
+              <width value="2.004761" />
+              <depth value="0.299" />
+              <height value="0.200024" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="4.80613" y="6.4577007" z="-1.467278" />
+              <width value="2.004761" />
+              <depth value="0.299" />
+              <height value="0.20071" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="5.105129" y="6.4577007" z="-1.26669" />
+              <width value="2.004761" />
+              <depth value="0.299" />
+              <height value="0.200588" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="5.404129" y="6.4577007" z="-1.0664909" />
+              <width value="2.004761" />
+              <depth value="0.299" />
+              <height value="0.200199" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="5.703129" y="6.4577007" z="-0.86635697" />
+              <width value="2.004761" />
+              <depth value="0.353735" />
+              <height value="0.200134" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+          </steps>
+        </Item>
+        <Item type="CExtensionDefStairs">
+          <name>EgBMmGA_0x204A53E7</name>
+          <offsetPosition x="6.0572658" y="8.656497" z="-0.66637087" />
+          <bottom x="6.0572658" y="8.656497" z="-0.66637087" />
+          <top x="2.443441" y="8.658552" z="1.9335091" />
+          <boundMin x="2.1063619" y="7.68262" z="-0.69637096" />
+          <boundMax x="6.107267" y="9.630373" z="1.9335091" />
+          <steps itemType="CExtensionDefStep">
+            <Item>
+              <position x="6.0572658" y="8.656497" z="-0.4663849" />
+              <width value="1.932753" />
+              <depth value="0.300293" />
+              <height value="0.199986" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="5.756973" y="8.656506" z="-0.26639998" />
+              <width value="1.932753" />
+              <depth value="0.300675" />
+              <height value="0.199986" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="5.456298" y="8.656514" z="-0.06652796" />
+              <width value="1.932753" />
+              <depth value="0.300563" />
+              <height value="0.199871" />
+              <forward x="-0.9999999" y="0.00049199996" z="0" />
+              <right x="-0.00049199996" y="-0.9999999" z="0" />
+            </Item>
+            <Item>
+              <position x="5.155735" y="8.656662" z="0.133713" />
+              <width value="1.932753" />
+              <depth value="0.299133" />
+              <height value="0.200241" />
+              <forward x="-0.99999976" y="0.0007869998" z="0" />
+              <right x="-0.0007869998" y="-0.99999976" z="0" />
+            </Item>
+            <Item>
+              <position x="4.8566017" y="8.656898" z="0.33345008" />
+              <width value="1.932753" />
+              <depth value="0.29891" />
+              <height value="0.199738" />
+              <forward x="-0.99999917" y="0.0012830002" z="0" />
+              <right x="-0.0012830002" y="-0.99999917" z="0" />
+            </Item>
+            <Item>
+              <position x="4.557692" y="8.657281" z="0.5335541" />
+              <width value="1.932753" />
+              <depth value="0.299572" />
+              <height value="0.200103" />
+              <forward x="-0.9999999" y="-0.00042999993" z="0" />
+              <right x="0.00042999993" y="-0.9999999" z="0" />
+            </Item>
+            <Item>
+              <position x="4.25812" y="8.657152" z="0.733531" />
+              <width value="1.932753" />
+              <depth value="0.294835" />
+              <height value="0.199978" />
+              <forward x="-1" y="0.000168" z="0" />
+              <right x="-0.000168" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="3.963285" y="8.657202" z="0.9336622" />
+              <width value="1.932753" />
+              <depth value="0.299903" />
+              <height value="0.200131" />
+              <forward x="-1" y="0.000162" z="0" />
+              <right x="-0.000162" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="3.6633818" y="8.65725" z="1.1335411" />
+              <width value="1.932753" />
+              <depth value="0.309903" />
+              <height value="0.199878" />
+              <forward x="-0.99999976" y="0.00069899985" z="0" />
+              <right x="-0.00069899985" y="-0.99999976" z="0" />
+            </Item>
+            <Item>
+              <position x="3.353479" y="8.657467" z="1.3335571" />
+              <width value="1.932753" />
+              <depth value="0.305411" />
+              <height value="0.200016" />
+              <forward x="-1" y="0.000219" z="0" />
+              <right x="-0.000219" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="3.0480678" y="8.657534" z="1.5336652" />
+              <width value="1.932753" />
+              <depth value="0.299903" />
+              <height value="0.200108" />
+              <forward x="-0.99999875" y="0.0015959997" z="0" />
+              <right x="-0.0015959997" y="-0.99999875" z="0" />
+            </Item>
+            <Item>
+              <position x="2.748165" y="8.658012" z="1.733032" />
+              <width value="1.932753" />
+              <depth value="0.304724" />
+              <height value="0.199367" />
+              <forward x="-0.99999845" y="0.0017710008" z="0" />
+              <right x="-0.0017710008" y="-0.99999845" z="0" />
+            </Item>
+            <Item>
+              <position x="2.443441" y="8.658552" z="1.9335091" />
+              <width value="1.932753" />
+              <depth value="0.335412" />
+              <height value="0.200478" />
+              <forward x="-0.9999985" y="-0.0017289992" z="0" />
+              <right x="0.0017289992" y="-0.9999985" z="0" />
+            </Item>
+          </steps>
+        </Item>
+        <Item type="CExtensionDefStairs">
+          <name>FfJHrHA_0x7213F7D5</name>
+          <offsetPosition x="0.0032240003" y="6.4988627" z="-2.0685048" />
+          <bottom x="0.0032240003" y="6.45351" z="-2.0685048" />
+          <top x="0.0032240003" y="5.55402" z="-1.267159" />
+          <boundMin x="-0.90117604" y="5.253788" z="-2.098505" />
+          <boundMax x="0.907623" y="6.527395" z="-1.267159" />
+          <steps itemType="CExtensionDefStep">
+            <Item>
+              <position x="0.0032240003" y="6.45351" z="-1.8684809" />
+              <width value="1.793799" />
+              <depth value="0.299793" />
+              <height value="0.200024" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="0.0032240003" y="6.1537156" z="-1.668458" />
+              <width value="1.793799" />
+              <depth value="0.299793" />
+              <height value="0.200024" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="0.0032240003" y="5.853923" z="-1.467747" />
+              <width value="1.793799" />
+              <depth value="0.299903" />
+              <height value="0.20071" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="0.0032240003" y="5.55402" z="-1.267159" />
+              <width value="1.793799" />
+              <depth value="0.300232" />
+              <height value="0.200588" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+          </steps>
+        </Item>
+        <Item type="CExtensionDefStairs">
+          <name>FXEZRTA_0x3FD11350</name>
+          <offsetPosition x="0.0032369941" y="-4.9664774" z="-2.0685048" />
+          <bottom x="0.0032369941" y="-4.921284" z="-2.0685048" />
+          <top x="0.0032379925" y="-4.0217953" z="-1.267159" />
+          <boundMin x="-0.90116197" y="-4.995009" z="-2.098505" />
+          <boundMax x="0.90763795" y="-3.721561" z="-1.267159" />
+          <steps itemType="CExtensionDefStep">
+            <Item>
+              <position x="0.0032369941" y="-4.921284" z="-1.8684809" />
+              <width value="1.793799" />
+              <depth value="0.299793" />
+              <height value="0.200024" />
+              <forward x="0" y="1" z="0" />
+              <right x="-1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="0.0032379925" y="-4.62149" z="-1.668458" />
+              <width value="1.793799" />
+              <depth value="0.299793" />
+              <height value="0.200024" />
+              <forward x="0" y="1" z="0" />
+              <right x="-1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="0.0032379925" y="-4.321697" z="-1.467747" />
+              <width value="1.793799" />
+              <depth value="0.299902" />
+              <height value="0.20071" />
+              <forward x="0" y="1" z="0" />
+              <right x="-1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="0.0032379925" y="-4.0217953" z="-1.267159" />
+              <width value="1.793799" />
+              <depth value="0.300233" />
+              <height value="0.200588" />
+              <forward x="0" y="1" z="0" />
+              <right x="-1" y="0" z="0" />
+            </Item>
+          </steps>
+        </Item>
+      </extensions>
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.009033" y="-9.621964" z="-4.90935" />
+      <bbMax x="8.025884" y="9.620996" z="4.909349" />
+      <bsCentre x="0.008424759" y="-0.00048351288" z="0" />
+      <bsRadius value="13.45192" />
+      <hdTextureDist value="22.52" />
+      <name>jo_bra_cornmill_int_frame</name>
+      <textureDictionary>bra_cornmill_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bra_cornmill_int_frame</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.9245" y="-9.664125" z="-4.1545" />
+      <bbMax x="7.9245" y="9.55543" z="0.972602" />
+      <bsCentre x="0" y="-0.054347992" z="-1.590949" />
+      <bsRadius value="12.71681" />
+      <hdTextureDist value="19.07" />
+      <name>bra_cornmill_int_frame001</name>
+      <textureDictionary>bra_cornmill_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_cornmill_int_frame001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.958446" y="-5.707277" z="-0.576726" />
+      <bbMax x="1.969488" y="5.707277" z="0.576726" />
+      <bsCentre x="0.005521059" y="0" z="0" />
+      <bsRadius value="6.063232" />
+      <hdTextureDist value="11.03" />
+      <name>bra_cornmill_int_platform</name>
+      <textureDictionary>bra_cornmill_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_cornmill_int_platform</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.773471" y="-9.552668" z="-1.063816" />
+      <bbMax x="4.773471" y="9.552668" z="1.063817" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.73178" />
+      <hdTextureDist value="22.52" />
+      <name>bra_cornmill_int_ropes1</name>
+      <textureDictionary>bra_cornmill_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_cornmill_int_ropes1</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.160668" y="-0.224119" z="-0.569062" />
+      <bbMax x="0.160668" y="0.224119" z="0.569062" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="0.6323568" />
+      <hdTextureDist value="22.52" />
+      <name>bra_cornmill_int_ropes2</name>
+      <textureDictionary>bra_cornmill_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_cornmill_int_ropes2</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.160668" y="-0.224119" z="-0.569062" />
+      <bbMax x="0.160668" y="0.224119" z="0.569062" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="0.6323568" />
+      <hdTextureDist value="22.52" />
+      <name>bra_cornmill_int_ropes3</name>
+      <textureDictionary>bra_cornmill_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_cornmill_int_ropes3</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.160668" y="-0.224119" z="-0.569062" />
+      <bbMax x="0.160668" y="0.224119" z="0.569634" />
+      <bsCentre x="0" y="0" z="0.0002859831" />
+      <bsRadius value="0.6326141" />
+      <hdTextureDist value="22.52" />
+      <name>bra_cornmill_int_ropes4</name>
+      <textureDictionary>bra_cornmill_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_cornmill_int_ropes4</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.160668" y="-0.224119" z="-0.569062" />
+      <bbMax x="0.160668" y="0.224119" z="0.569062" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="0.6323568" />
+      <hdTextureDist value="22.52" />
+      <name>bra_cornmill_int_ropes6</name>
+      <textureDictionary>bra_cornmill_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_cornmill_int_ropes6</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="25" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.006161" y="-9.636002" z="-4.880002" />
+      <bbMax x="7.994892" y="9.64951" z="4.94626" />
+      <bsCentre x="-0.005634308" y="0.0067539215" z="0.03312874" />
+      <bsRadius value="13.45846" />
+      <hdTextureDist value="5" />
+      <name>bra_cornmill_int_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_cornmill_int_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.924637" y="-9.53754" z="-4.8791" />
+      <bbMax x="7.924637" y="9.53754" z="4.879099" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="13.32555" />
+      <hdTextureDist value="12.5" />
+      <name>jo_bra_cornmill_int_shell</name>
+      <textureDictionary>bra_cornmill_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bra_cornmill_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-10.13777" y="-10.500515" z="0" />
+      <bbMax x="10.13777" y="10.500515" z="10.958718" />
+      <bsCentre x="0" y="0" z="5.479359" />
+      <bsRadius value="15.59034" />
+      <hdTextureDist value="5" />
+      <name>bra_cornmill_lightboxmain</name>
+      <textureDictionary>bra_cornmill_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_cornmill_lightboxmain</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-9.31682" y="-10.252321" z="0" />
+      <bbMax x="9.31682" y="10.252321" z="10.882351" />
+      <bsCentre x="0" y="0" z="5.4411755" />
+      <bsRadius value="14.88354" />
+      <hdTextureDist value="5" />
+      <name>bra_cornmill_lightboxupper</name>
+      <textureDictionary>bra_cornmill_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_cornmill_lightboxupper</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

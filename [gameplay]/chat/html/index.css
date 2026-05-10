@@ -40,7 +40,8 @@
   width: 38%;
   height: 22%;
   max-width: 1000px;
-  background-color: red!important;
+  background-color: transparent;
+  background: transparent;
   border-radius: 4px;
 }
 
@@ -82,7 +83,7 @@
   display: flex;
   align-items: stretch;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: transparent;
   border-radius: 3px;
 }
 
@@ -126,7 +127,7 @@ input:focus {
   padding-left: 1.4%;
   box-sizing: border-box;
   color: white;
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: transparent;
   width: 100%;
 }
 
@@ -159,16 +160,4 @@ em {
 
 .hidden.animated {
   transition: opacity 1s;
-}
-
-#app,
-.chat-window,
-.chat-input,
-.chat-input > div.input,
-.suggestions {
-  background: transparent !important;
-  background-color: transparent !important;
-  box-shadow: none !important;
-  border: 0 !important;
-  outline: none !important;
 }

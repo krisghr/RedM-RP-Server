@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_ben_shack_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_ben_shack_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_ben_shack_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_ben_shack_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="80" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.992492" y="-4.153211" z="-1.589776" />
+      <bbMax x="2.098151" y="3.824433" z="2.35263" />
+      <bsCentre x="0.052829504" y="-0.16438913" z="0.38142693" />
+      <bsRadius value="4.896905" />
+      <hdTextureDist value="500" />
+      <name>jo_ben_01_int_details</name>
+      <textureDictionary>ben_shack_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_ben_01_int_details</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="80" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.027457" y="-3.965907" z="-1.852976" />
+      <bbMax x="2.027025" y="3.966007" z="1.987888" />
+      <bsCentre x="-0.00021600723" y="0" z="0.06745601" />
+      <bsRadius value="4.85042" />
+      <hdTextureDist value="500" />
+      <name>ben_01_int_shell</name>
+      <textureDictionary>ben_shack_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ben_01_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="30" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.051688" y="-4.026983" z="-2.004032" />
+      <bbMax x="2.089051" y="3.97376" z="2.021523" />
+      <bsCentre x="0.018681526" y="-0.026611328" z="0.008745432" />
+      <bsRadius value="4.933627" />
+      <hdTextureDist value="5" />
+      <name>ben_shack_int_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ben_shack_int_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

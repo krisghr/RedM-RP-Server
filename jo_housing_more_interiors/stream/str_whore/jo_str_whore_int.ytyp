@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <name>jo_str_whore_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef"> <!-- jo_str_whore_col -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_str_whore_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_str_whore_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_str_whore_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- str_04_main_detail -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="27" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.406696" y="-4.638061" z="-3.249336" />
+      <bbMax x="6.490763" y="4.648069" z="0.216079" />
+      <bsCentre x="0.5420337" y="0.005003929" z="-1.5166285" />
+      <bsRadius value="7.74259" />
+      <hdTextureDist value="10" />
+      <name>str_04_main_detail</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_04_main_detail</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_str_04_mainroom -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="45" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.14292" y="-4.762005" z="-4.219428" />
+      <bbMax x="6.687168" y="5.000343" z="-0.574915" />
+      <bsCentre x="0.7721238" y="0.119169235" z="-2.3971715" />
+      <bsRadius value="7.882526" />
+      <hdTextureDist value="25" />
+      <name>jo_str_04_mainroom</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_str_04_mainroom</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_str_04_whr_shell -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="45" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.796153" y="-4.878163" z="-4.324399" />
+      <bbMax x="6.885191" y="4.964235" z="4.034879" />
+      <bsCentre x="0.54451895" y="0.043035984" z="-0.14476013" />
+      <bsRadius value="9.049403" />
+      <hdTextureDist value="25" />
+      <name>jo_str_04_whr_shell</name>
+      <textureDictionary>str_whore_int_shell_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_str_04_whr_shell</assetName>
+      <extensions>
+        <Item type="CExtensionDefStairs">
+          <name>yuetfBA_0x833A19C5</name>
+          <offsetPosition x="1.396345" y="-1.759379" z="-4.015265" />
+          <bottom x="1.396345" y="-1.759379" z="-4.015265" />
+          <top x="1.396345" y="-2.336978" z="-3.4204211" />
+          <boundMin x="0.516758" y="-2.686077" z="-4.045265" />
+          <boundMax x="2.275931" y="-1.7093791" z="-3.4204211" />
+          <steps itemType="qbgDfAA_0xA15F529D">
+            <Item>
+              <position x="1.396345" y="-1.759379" z="-3.817127" />
+              <width value="1.744174" />
+              <depth value="0.285429" />
+              <height value="0.198138" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="1.396345" y="-2.044809" z="-3.618989" />
+              <width value="1.744174" />
+              <depth value="0.29217" />
+              <height value="0.198138" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="1.396345" y="-2.336978" z="-3.4204211" />
+              <width value="1.744174" />
+              <depth value="0.349098" />
+              <height value="0.198567" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+          </steps>
+        </Item>
+        <Item type="CExtensionDefStairs">
+          <name>nxtXGRA_0x9513BD78</name>
+          <offsetPosition x="0.33278203" y="-3.804532" z="-3.210556" />
+          <bottom x="0.013942003" y="-3.804532" z="-3.210556" />
+          <top x="-3.599886" y="-3.804532" z="-0.61408806" />
+          <boundMin x="-3.8953876" y="-4.6717362" z="-3.240556" />
+          <boundMax x="0.36131406" y="-2.9373271" z="-0.61408806" />
+          <steps itemType="qbgDfAA_0xA15F529D">
+            <Item>
+              <position x="0.013942003" y="-3.804532" z="-3.012419" />
+              <width value="1.719408" />
+              <depth value="0.305429" />
+              <height value="0.198137" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="-0.29148698" y="-3.804532" z="-2.814282" />
+              <width value="1.719408" />
+              <depth value="0.305429" />
+              <height value="0.198137" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="-0.59691596" y="-3.804532" z="-2.615913" />
+              <width value="1.719408" />
+              <depth value="0.297852" />
+              <height value="0.198368" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="-0.894768" y="-3.804532" z="-2.4138832" />
+              <width value="1.719408" />
+              <depth value="0.297145" />
+              <height value="0.202031" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.191913" y="-3.804532" z="-2.216498" />
+              <width value="1.719408" />
+              <depth value="0.295971" />
+              <height value="0.197385" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.487883" y="-3.804532" z="-2.018361" />
+              <width value="1.719408" />
+              <depth value="0.305429" />
+              <height value="0.198137" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.793312" y="-3.804532" z="-1.819793" />
+              <width value="1.719408" />
+              <depth value="0.285839" />
+              <height value="0.198568" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="-2.0791512" y="-3.804532" z="-1.6179621" />
+              <width value="1.719408" />
+              <depth value="0.309158" />
+              <height value="0.201831" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="-2.388309" y="-3.804532" z="-1.417316" />
+              <width value="1.719408" />
+              <depth value="0.299137" />
+              <height value="0.200645" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="-2.687446" y="-3.804532" z="-1.2191792" />
+              <width value="1.719408" />
+              <depth value="0.305429" />
+              <height value="0.198137" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="-2.992876" y="-3.804532" z="-1.0208111" />
+              <width value="1.719408" />
+              <depth value="0.297852" />
+              <height value="0.198368" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="-3.2907267" y="-3.804532" z="-0.81898093" />
+              <width value="1.719408" />
+              <depth value="0.309159" />
+              <height value="0.20183" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+            <Item>
+              <position x="-3.599886" y="-3.804532" z="-0.61408806" />
+              <width value="1.719408" />
+              <depth value="0.295502" />
+              <height value="0.204893" />
+              <forward x="-1" y="0" z="0" />
+              <right x="0" y="-1" z="0" />
+            </Item>
+          </steps>
+        </Item>
+      </extensions>
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- str_bedroom_mirror -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="11" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.093259" y="0" z="-0.108057" />
+      <bbMax x="0.093259" y="0" z="0.108058" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="0.1427363" />
+      <hdTextureDist value="5" />
+      <name>str_bedroom_mirror</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_bedroom_mirror</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- str_whore_bdrm1_bits -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="17" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.326989" y="-1.891037" z="-0.994961" />
+      <bbMax x="3.091524" y="1.834414" z="2.366845" />
+      <bsCentre x="0.38226748" y="-0.028311491" z="0.68594193" />
+      <bsRadius value="3.692594" />
+      <hdTextureDist value="11.5" />
+      <name>str_whore_bdrm1_bits</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_whore_bdrm1_bits</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- str_whore_int_ref_proxy_b -->
+      <loadFlags value="0x0000000000002004" />
+      <lodDist value="12" />
+      <flags value="8196" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.303581" y="-4.863711" z="-0.461006" />
+      <bbMax x="0.12877" y="0.846182" z="4.135602" />
+      <bsCentre x="-3.0874057" y="-2.0087645" z="1.8372982" />
+      <bsRadius value="4.876136" />
+      <hdTextureDist value="8" />
+      <name>str_whore_int_ref_proxy_b</name>
+      <textureDictionary>gnzyTNA_0x356CC9A7</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_whore_int_ref_proxy_b</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- str_whore_int_ref_proxy_d -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="25" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.423954" y="-2.849247" z="-2.249519" />
+      <bbMax x="3.423954" y="2.849247" z="2.249519" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.990191" />
+      <hdTextureDist value="5" />
+      <name>str_whore_int_ref_proxy_d</name>
+      <textureDictionary>gnzyTNA_0x356CC9A7</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_whore_int_ref_proxy_d</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- str_whore_int_ref_proxy_e -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="28" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="0.02784" y="-4.878152" z="-0.39321" />
+      <bbMax x="6.224136" y="-0.187755" z="4.092324" />
+      <bsCentre x="3.1259878" y="-2.5329535" z="1.8495569" />
+      <bsRadius value="4.486477" />
+      <hdTextureDist value="5" />
+      <name>str_whore_int_ref_proxy_e</name>
+      <textureDictionary>gnzyTNA_0x356CC9A7</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_whore_int_ref_proxy_e</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_str_whr_bath_wins -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.562165" y="-1.141032" z="-1.320105" />
+      <bbMax x="2.551447" y="1.318916" z="1.285852" />
+      <bsCentre x="-0.0053589344" y="0.08894205" z="-0.017126441" />
+      <bsRadius value="3.122154" />
+      <hdTextureDist value="12" />
+      <name>jo_str_whr_bath_wins</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_str_whr_bath_wins</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_str_whr_bedroom1_trim -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.411308" y="-1.950094" z="-1.20804" />
+      <bbMax x="2.752539" y="2.049056" z="1.202623" />
+      <bsCentre x="-0.32938457" y="0.049481034" z="-0.002708435" />
+      <bsRadius value="3.866442" />
+      <hdTextureDist value="15" />
+      <name>jo_str_whr_bedroom1_trim</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_str_whr_bedroom1_trim</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- str_whr_bedroom2_mirror -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="13" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.749482" y="-0.000576" z="-0.790132" />
+      <bbMax x="0.749304" y="0.002518" z="0.791718" />
+      <bsCentre x="0" y="0.000971" z="0.0007930398" />
+      <bsRadius value="1.089566" />
+      <hdTextureDist value="8.13" />
+      <name>str_whr_bedroom2_mirror</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_whr_bedroom2_mirror</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_str_whr_bedroom2_trim -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="22" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.074246" y="-2.490146" z="-1.207548" />
+      <bbMax x="3.085752" y="3.284528" z="3.258222" />
+      <bsCentre x="0.0057530403" y="0.39719105" z="1.0253371" />
+      <bsRadius value="4.775865" />
+      <hdTextureDist value="15" />
+      <name>jo_str_whr_bedroom2_trim</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_str_whr_bedroom2_trim</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- str_whr_int_decals1 -->
+      <loadFlags value="0x0000000000002004" />
+      <lodDist value="15" />
+      <flags value="8196" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.137717" y="-4.72604" z="-1.742332" />
+      <bbMax x="6.137717" y="4.72604" z="1.742332" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="7.939946" />
+      <hdTextureDist value="10" />
+      <name>str_whr_int_decals1</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_whr_int_decals1</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- str_whr_int_decals2 -->
+      <loadFlags value="0x0000000000002004" />
+      <lodDist value="9.5" />
+      <flags value="8196" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.157068" y="-2.415209" z="-2.308039" />
+      <bbMax x="3.279562" y="2.442552" z="2.29564" />
+      <bsCentre x="0.06124711" y="0.013671637" z="-0.0061995983" />
+      <bsRadius value="4.642787" />
+      <hdTextureDist value="7" />
+      <name>str_whr_int_decals2</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_whr_int_decals2</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- str_whr_int_decals3 -->
+      <loadFlags value="0x0000000000002004" />
+      <lodDist value="11" />
+      <flags value="8196" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.082265" y="-2.522682" z="-2.278385" />
+      <bbMax x="3.082265" y="2.522682" z="2.278385" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.588607" />
+      <hdTextureDist value="7.5" />
+      <name>str_whr_int_decals3</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_whr_int_decals3</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- str_whr_int_decals4 -->
+      <loadFlags value="0x0000000000002004" />
+      <lodDist value="13" />
+      <flags value="8196" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.870043" y="-1.973237" z="-1.931243" />
+      <bbMax x="2.870043" y="1.973238" z="2.094605" />
+      <bsCentre x="0" y="0" z="0.08168101" />
+      <bsRadius value="4.02277" />
+      <hdTextureDist value="8" />
+      <name>str_whr_int_decals4</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_whr_int_decals4</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- str_whr_int_decals5 -->
+      <loadFlags value="0x0000000000002004" />
+      <lodDist value="11" />
+      <flags value="8196" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.150154" y="-2.765694" z="-1.212703" />
+      <bbMax x="3.150154" y="2.765694" z="1.212704" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.36385" />
+      <hdTextureDist value="7.5" />
+      <name>str_whr_int_decals5</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_whr_int_decals5</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- str_whr_int_ref_proxy_a -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="35" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.937407" y="-4.939255" z="-4.103924" />
+      <bbMax x="6.293943" y="4.939255" z="0.821941" />
+      <bsCentre x="0.17826796" y="0" z="-1.6409914" />
+      <bsRadius value="8.237946" />
+      <hdTextureDist value="5" />
+      <name>str_whr_int_ref_proxy_a</name>
+      <textureDictionary>gnzyTNA_0x356CC9A7</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_whr_int_ref_proxy_a</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- str_whr_int_shadow_proxy -->
+      <loadFlags value="0x0000000000000800" />
+      <lodDist value="45" />
+      <flags value="2048" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.842491" y="-4.856695" z="-4.313251" />
+      <bbMax x="6.759805" y="4.807108" z="4.086699" />
+      <bsCentre x="0.45865726" y="-0.024793625" z="-0.113276005" />
+      <bsRadius value="8.982846" />
+      <hdTextureDist value="10" />
+      <name>str_whr_int_shadow_proxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_whr_int_shadow_proxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- str_whr_lightbox001 -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="75" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.348365" y="-5.594239" z="0" />
+      <bbMax x="7.348365" y="5.594239" z="8.983969" />
+      <bsCentre x="0" y="0" z="4.4919844" />
+      <bsRadius value="10.26995" />
+      <hdTextureDist value="5" />
+      <name>str_whr_lightbox001</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_whr_lightbox001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- str_whr_lightbox002 -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="75" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.992799" y="-5.499422" z="0" />
+      <bbMax x="6.992799" y="5.499422" z="8.675812" />
+      <bsCentre x="0" y="0" z="4.337906" />
+      <bsRadius value="9.89749" />
+      <hdTextureDist value="5" />
+      <name>str_whr_lightbox002</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_whr_lightbox002</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- str_whr_lightbox003 -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="75" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.206139" y="-5.570535" z="0" />
+      <bbMax x="7.206139" y="5.570535" z="9.244717" />
+      <bsCentre x="0" y="0" z="4.6223583" />
+      <bsRadius value="10.21399" />
+      <hdTextureDist value="5" />
+      <name>str_whr_lightbox003</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_whr_lightbox003</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- str_whr_lightbox004 -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="75" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.419478" y="-5.54683" z="0" />
+      <bbMax x="7.419478" y="5.54683" z="8.983969" />
+      <bsCentre x="0" y="0" z="4.4919844" />
+      <bsRadius value="10.29533" />
+      <hdTextureDist value="5" />
+      <name>str_whr_lightbox004</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_whr_lightbox004</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- str_whr_lightbox005 -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="75" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.993745" y="-5.976155" z="0" />
+      <bbMax x="7.993745" y="5.976155" z="9.679328" />
+      <bsCentre x="0" y="0" z="4.839664" />
+      <bsRadius value="11.09219" />
+      <hdTextureDist value="5" />
+      <name>str_whr_lightbox005</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_whr_lightbox005</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- str_whr_taxidermys_02 -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.876878" y="-1.478291" z="-0.96235" />
+      <bbMax x="0.883486" y="1.478291" z="1.374033" />
+      <bsCentre x="0.0033040047" y="0" z="0.20584142" />
+      <bsRadius value="2.0796" />
+      <hdTextureDist value="15" />
+      <name>str_whr_taxidermys_02</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>str_whr_taxidermys_02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_strw_whr_bannister -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="40" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.123206" y="-2.985174" z="-1.414531" />
+      <bbMax x="3.123205" y="2.936018" z="2.914017" />
+      <bsCentre x="0" y="-0.024577856" z="0.749743" />
+      <bsRadius value="4.817014" />
+      <hdTextureDist value="15" />
+      <name>jo_strw_whr_bannister</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_strw_whr_bannister</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_strw_whr_bath_details -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="18" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.39123" y="0.049388" z="-0.664602" />
+      <bbMax x="5.675471" y="3.739656" z="2.629713" />
+      <bsCentre x="2.6421204" y="1.8945221" z="0.98255557" />
+      <bsRadius value="3.913932" />
+      <hdTextureDist value="11" />
+      <name>jo_strw_whr_bath_details</name>
+      <textureDictionary>str_whore_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_strw_whr_bath_details</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

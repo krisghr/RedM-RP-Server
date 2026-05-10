@@ -1,0 +1,648 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_bra_mansion_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_bra_mansion_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_bra_mansion_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bra_mansion_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.923192" y="-2.852788" z="-1.692833" />
+      <bbMax x="4.091595" y="14.03686" z="2.152534" />
+      <bsCentre x="0.08420181" y="5.5920362" z="0.22985053" />
+      <bsRadius value="9.543111" />
+      <hdTextureDist value="17.5" />
+      <name>bra_man_int_br_a_d_shell</name>
+      <textureDictionary>bra_man_int_txd_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_man_int_br_a_d_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.313389" y="-8.549568" z="-1.898855" />
+      <bbMax x="4.313404" y="8.549591" z="1.898857" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="9.762497" />
+      <hdTextureDist value="15" />
+      <name>bra_man_int_br_b_c_shell</name>
+      <textureDictionary>bra_man_int_txd_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_man_int_br_b_c_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-11.275259" y="-8.713941" z="-4.233709" />
+      <bbMax x="11.275229" y="8.713827" z="4.233706" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="14.86564" />
+      <hdTextureDist value="35.03" />
+      <name>bra_man_int_fl</name>
+      <textureDictionary>bra_man_int_txd_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_man_int_fl</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.882977" y="-3.223656" z="-1.496614" />
+      <bbMax x="3.882972" y="2.903948" z="1.933875" />
+      <bsCentre x="0" y="-0.15985394" z="0.21863055" />
+      <bsRadius value="5.235116" />
+      <hdTextureDist value="17.5" />
+      <name>bra_man_int_kitch_shell</name>
+      <textureDictionary>bra_man_int_txd_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_man_int_kitch_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.835077" y="-3.89005" z="-1.989645" />
+      <bbMax x="4.509243" y="13.121071" z="2.010954" />
+      <bsCentre x="0.3370831" y="4.61551" z="0.010654449" />
+      <bsRadius value="9.682596" />
+      <hdTextureDist value="15" />
+      <name>bra_man_int_libr_parlor_shell</name>
+      <textureDictionary>bra_man_int_txd_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_man_int_libr_parlor_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.730164" y="-8.672661" z="-4.193041" />
+      <bbMax x="2.460449" y="-3.221069" z="4.038618" />
+      <bsCentre x="-0.13485765" y="-5.946865" z="-0.07721138" />
+      <bsRadius value="5.577242" />
+      <hdTextureDist value="5" />
+      <name>bra_man_int_ref_temp_backup</name>
+      <textureDictionary>bra_mansion_int_ref</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_man_int_ref_temp_backup</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000800" />
+      <lodDist value="50" />
+      <flags value="2048" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-11.236485" y="-9.015428" z="-1.223158" />
+      <bbMax x="11.33079" y="8.695369" z="8.524456" />
+      <bsCentre x="0.04715252" y="-0.16002941" z="3.650649" />
+      <bsRadius value="15.14901" />
+      <hdTextureDist value="10" />
+      <name>bra_man_int_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_man_int_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.716443" y="-0.103482" z="-1.218724" />
+      <bbMax x="2.716432" y="0.103394" z="1.21872" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="2.979096" />
+      <hdTextureDist value="10" />
+      <name>bra_man_kitchlower_frame_07</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_man_kitchlower_frame_07</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="70" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="0.21521" y="-8.617977" z="-1.895318" />
+      <bbMax x="6.287082" y="8.831837" z="1.895321" />
+      <bsCentre x="3.251146" y="0.10692978" z="0" />
+      <bsRadius value="9.430437" />
+      <hdTextureDist value="17.5" />
+      <name>bra_man_lower_frame_01</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_man_lower_frame_01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.358099" y="-1.141479" z="-1.746915" />
+      <bbMax x="4.333576" y="1.348476" z="1.770391" />
+      <bsCentre x="-0.012261391" y="0.10349846" z="0.011737943" />
+      <bsRadius value="4.850684" />
+      <hdTextureDist value="12.5" />
+      <name>bra_man_lower_frame_03</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_man_lower_frame_03</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.809514" y="-6.151233" z="-1.570386" />
+      <bbMax x="2.926901" y="6.111704" z="2.035654" />
+      <bsCentre x="0.05869341" y="-0.019764423" z="0.23263395" />
+      <bsRadius value="7.00517" />
+      <hdTextureDist value="15" />
+      <name>bra_man_upper_frame_01</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_man_upper_frame_01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.104193" y="-4.120105" z="-1.787774" />
+      <bbMax x="4.146729" y="4.167426" z="2.08262" />
+      <bsCentre x="0.02126789" y="0.02366066" z="0.14742291" />
+      <bsRadius value="6.159157" />
+      <hdTextureDist value="10" />
+      <name>bra_manint_br_a</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_manint_br_a</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.361811" y="-4.070609" z="-1.773858" />
+      <bbMax x="4.337897" y="4.3487" z="2.058891" />
+      <bsCentre x="-0.011957169" y="0.13904572" z="0.1425165" />
+      <bsRadius value="6.349403" />
+      <hdTextureDist value="17.5" />
+      <name>jo_bra_manint_br_b001</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bra_manint_br_b001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.096157" y="-3.298994" z="-1.556861" />
+      <bbMax x="1.090456" y="-2.170274" z="1.574662" />
+      <bsCentre x="-0.0028504133" y="-2.734634" z="0.008900523" />
+      <bsRadius value="1.991339" />
+      <hdTextureDist value="7.5" />
+      <name>jo_bra_manint_br_b_props</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bra_manint_br_b_props</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.308026" y="-3.306664" z="-1.763738" />
+      <bbMax x="4.427496" y="3.063221" z="1.737515" />
+      <bsCentre x="0.05973482" y="-0.121721506" z="-0.013111472" />
+      <bsRadius value="5.682067" />
+      <hdTextureDist value="17.5" />
+      <name>bra_manint_br_c</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_manint_br_c</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.125433" y="-3.354637" z="-1.727582" />
+      <bbMax x="4.228585" y="3.137496" z="2.027189" />
+      <bsCentre x="0.05157566" y="-0.10857034" z="0.14980352" />
+      <bsRadius value="5.613281" />
+      <hdTextureDist value="17.5" />
+      <name>bra_manint_br_d</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_manint_br_d</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.861359" y="-4.495807" z="-1.893798" />
+      <bbMax x="4.299757" y="4.928917" z="2.191389" />
+      <bsCentre x="0.21919894" y="0.21655512" z="0.14879549" />
+      <bsRadius value="6.559687" />
+      <hdTextureDist value="17.5" />
+      <name>bra_manint_dining</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_manint_dining</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="99" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="1.209791" y="-8.624907" z="-2.935932" />
+      <bbMax x="6.37536" y="8.589405" z="1.19615" />
+      <bsCentre x="3.7925756" y="-0.01775074" z="-0.8698909" />
+      <bsRadius value="9.220761" />
+      <hdTextureDist value="15" />
+      <name>jo_bra_manint_floor01</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_bra_manint_floor01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.071785" y="-4.231712" z="-2.033152" />
+      <bbMax x="4.559181" y="3.94335" z="2.238226" />
+      <bsCentre x="0.24369812" y="-0.14418077" z="0.10253692" />
+      <bsRadius value="6.316049" />
+      <hdTextureDist value="15" />
+      <name>bra_manint_library</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_manint_library</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.347374" y="-4.72998" z="-1.900788" />
+      <bbMax x="4.202521" y="4.810143" z="1.890324" />
+      <bsCentre x="-0.072426796" y="0.0400815" z="-0.0052319765" />
+      <bsRadius value="6.679955" />
+      <hdTextureDist value="17.5" />
+      <name>bra_manint_parlor001</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_manint_parlor001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.181377" y="-1.053991" z="-1.688198" />
+      <bbMax x="4.158576" y="0.934607" z="2.076193" />
+      <bsCentre x="-0.0114007" y="-0.059691966" z="0.1939975" />
+      <bsRadius value="4.681879" />
+      <hdTextureDist value="15" />
+      <name>bra_manint_sidehall</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_manint_sidehall</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="99" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.557356" y="-2.845053" z="-3.968154" />
+      <bbMax x="2.725511" y="2.802226" z="0.428696" />
+      <bsCentre x="0.0840776" y="-0.021413565" z="-1.7697289" />
+      <bsRadius value="4.447829" />
+      <hdTextureDist value="10" />
+      <name>bra_manint_stairs</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_manint_stairs</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.583277" y="-2.868924" z="-3.794308" />
+      <bbMax x="2.749785" y="2.822004" z="0.443956" />
+      <bsCentre x="0.0832541" y="-0.023459911" z="-1.6751759" />
+      <bsRadius value="4.438217" />
+      <hdTextureDist value="10" />
+      <name>bra_manint_stairs_floor</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_manint_stairs_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.547126" y="-1.429881" z="-3.918024" />
+      <bbMax x="1.389099" y="2.482957" z="1.433024" />
+      <bsCentre x="-0.5790136" y="0.526538" z="-1.2425001" />
+      <bsRadius value="3.854798" />
+      <hdTextureDist value="10" />
+      <name>bra_manint_stairs_rails</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_manint_stairs_rails</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.52177" y="-4.981249" z="-2.025156" />
+      <bbMax x="2.685099" y="8.923634" z="1.989148" />
+      <bsCentre x="0.08166456" y="1.9711924" z="-0.01800394" />
+      <bsRadius value="7.690446" />
+      <hdTextureDist value="17.5" />
+      <name>bra_manint_wallls02</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_manint_wallls02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="99" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.595405" y="-1.778383" z="-5.802293" />
+      <bbMax x="2.595403" y="4.096028" z="2.814044" />
+      <bsCentre x="0" y="1.1588223" z="-1.4941244" />
+      <bsRadius value="5.824398" />
+      <hdTextureDist value="17.5" />
+      <name>bra_manint_wallls02low</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bra_manint_wallls02low</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.883018" y="-2.877284" z="-1.497118" />
+      <bbMax x="3.883013" y="2.702663" z="1.928671" />
+      <bsCentre x="0" y="-0.08731055" z="0.21577644" />
+      <bsRadius value="5.078954" />
+      <hdTextureDist value="17.5" />
+      <name>bramanint_kitch01</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bramanint_kitch01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000004" />
+      <lodDist value="25" />
+      <flags value="4" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.213653" y="-2.820142" z="-0.967291" />
+      <bbMax x="4.122991" y="2.379327" z="2.402459" />
+      <bsCentre x="1.4546691" y="-0.22040749" z="0.717584" />
+      <bsRadius value="4.088688" />
+      <hdTextureDist value="12.5" />
+      <name>bramanint_kitch03</name>
+      <textureDictionary>bra_man_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bramanint_kitch03</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_brb_dockhouse_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_brb_dockhouse_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_brb_dockhouse_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_brb_dockhouse_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.477642" y="-0.822183" z="-1.886111" />
+      <bbMax x="2.477642" y="0.822183" z="1.886111" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="3.220576" />
+      <hdTextureDist value="5" />
+      <name>brb_dockhouse_int_ceiling</name>
+      <textureDictionary>brb_dockhouse_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>brb_dockhouse_int_ceiling</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.479743" y="-1.854931" z="-0.079827" />
+      <bbMax x="2.479743" y="1.854931" z="0.079827" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="3.097784" />
+      <hdTextureDist value="32.5" />
+      <name>brb_dockhouse_int_floor</name>
+      <textureDictionary>brb_dockhouse_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>brb_dockhouse_int_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.502586" y="-1.906684" z="-2.27142" />
+      <bbMax x="2.502586" y="1.906684" z="2.27142" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="3.880429" />
+      <hdTextureDist value="32.5" />
+      <name>brb_dockhouse_int_walls</name>
+      <textureDictionary>brb_dockhouse_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>brb_dockhouse_int_walls</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

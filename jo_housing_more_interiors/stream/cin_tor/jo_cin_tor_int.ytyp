@@ -1,0 +1,465 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_cin_tor_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_cin_tor_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_cin_tor_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_cin_tor_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.870122" y="-10.323918" z="-0.001091" />
+      <bbMax x="4.872756" y="10.319752" z="1.208413" />
+      <bsCentre x="0.0013170242" y="-0.0020837784" z="0.603661" />
+      <bsRadius value="11.42965" />
+      <hdTextureDist value="17.02" />
+      <name>cin_tor_beams</name>
+      <textureDictionary>cin_tor_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cin_tor_beams</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.099379" y="-10.349906" z="-2.250163" />
+      <bbMax x="5.62462" y="10.34959" z="2.25017" />
+      <bsCentre x="0.76262045" y="-0.00015735626" z="0" />
+      <bsRadius value="11.65417" />
+      <hdTextureDist value="18.99" />
+      <name>cin_tor_decals</name>
+      <textureDictionary>cin_tor_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cin_tor_decals</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.628487" y="-4.015808" z="-1.517186" />
+      <bbMax x="1.628142" y="4.015795" z="1.517185" />
+      <bsCentre x="-0.00017249584" y="0" z="0" />
+      <bsRadius value="4.591288" />
+      <hdTextureDist value="18.99" />
+      <name>cin_tor_decals2</name>
+      <textureDictionary>cin_tor_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cin_tor_decals2</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.712944" y="-10.310332" z="-0.060984" />
+      <bbMax x="5.712815" y="10.311818" z="0.005178" />
+      <bsCentre x="0" y="0.0007429123" z="-0.027903002" />
+      <bsRadius value="11.78798" />
+      <hdTextureDist value="16.82" />
+      <name>cin_tor_floor</name>
+      <textureDictionary>cin_tor_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cin_tor_floor</assetName>
+      <extensions>
+        <Item type="CExtensionDefStairs">
+          <name>UBeSfBA_0x0A722757</name>
+          <offsetPosition x="-2.9658203" y="6.2407227" z="-7.9493103" />
+          <bottom x="-2673.7026" y="-2691.3647" z="3.0277328" />
+          <top x="-2675.8486" y="-2692.374" z="4.7921524" />
+          <boundMin x="-2676.7446" y="-2922.5708" z="-7.979309" />
+          <boundMax x="-2.9348145" y="235.47021" z="4.7921524" />
+          <steps itemType="CExtensionDefStep">
+            <Item>
+              <position x="-2673.7026" y="-2691.3647" z="3.2183456" />
+              <width value="2.134785" />
+              <depth value="0.266462" />
+              <height value="0.190613" />
+              <forward x="-0.909747" y="-0.415163" z="0" />
+              <right x="0.415163" y="-0.909747" z="0" />
+              </Item>
+            <Item>
+              <position x="-2673.941" y="-2691.4844" z="3.4089584" />
+              <width value="2.134785" />
+              <depth value="0.306312" />
+              <height value="0.190613" />
+              <forward x="-0.90744275" y="-0.4201759" z="0" />
+              <right x="0.4201759" y="-0.90744275" z="0" />
+              </Item>
+            <Item>
+              <position x="-2674.2173" y="-2691.6162" z="3.604515" />
+              <width value="2.134785" />
+              <depth value="0.299028" />
+              <height value="0.195557" />
+              <forward x="-0.9074908" y="-0.4200719" z="0" />
+              <right x="0.4200719" y="-0.9074908" z="0" />
+              </Item>
+            <Item>
+              <position x="-2674.4888" y="-2691.7417" z="3.7975845" />
+              <width value="2.134785" />
+              <depth value="0.300642" />
+              <height value="0.193069" />
+              <forward x="-0.90746623" y="-0.4201251" z="0" />
+              <right x="0.4201251" y="-0.90746623" z="0" />
+              </Item>
+            <Item>
+              <position x="-2674.7612" y="-2691.8687" z="3.990654" />
+              <width value="2.134785" />
+              <depth value="0.29951" />
+              <height value="0.193069" />
+              <forward x="-0.90744776" y="-0.4201649" z="0" />
+              <right x="0.4201649" y="-0.90744776" z="0" />
+              </Item>
+            <Item>
+              <position x="-2675.033" y="-2691.9946" z="4.183754" />
+              <width value="2.134785" />
+              <depth value="0.300026" />
+              <height value="0.1931" />
+              <forward x="-0.9074634" y="-0.42013118" z="0" />
+              <right x="0.42013118" y="-0.9074634" z="0" />
+              </Item>
+            <Item>
+              <position x="-2675.3054" y="-2692.12" z="4.3768463" />
+              <width value="2.134785" />
+              <depth value="0.299716" />
+              <height value="0.193092" />
+              <forward x="-0.9074709" y="-0.42011493" z="0" />
+              <right x="0.42011493" y="-0.9074709" z="0" />
+              </Item>
+            <Item>
+              <position x="-2675.5771" y="-2692.2466" z="4.5699387" />
+              <width value="2.134785" />
+              <depth value="0.299743" />
+              <height value="0.193092" />
+              <forward x="-0.90743476" y="-0.4201929" z="0" />
+              <right x="0.4201929" y="-0.90743476" z="0" />
+              </Item>
+            <Item>
+              <position x="-2675.8486" y="-2692.374" z="4.7921524" />
+              <width value="2.134785" />
+              <depth value="0.299743" />
+              <height value="0.222214" />
+              <forward x="-0.90746903" y="-0.42011902" z="0" />
+              <right x="0.42011902" y="-0.90746903" z="0" />
+              </Item>
+            </steps>
+          </Item>
+        <Item type="CExtensionDefStairs">
+          <name>eJWFqDA_0xF44FFB13</name>
+          <offsetPosition x="-4.5507812" y="0.81933594" z="-10.947098" />
+          <bottom x="-2675.0405" y="-2685.8774" z="0.02748108" />
+          <top x="-2673.2798" y="-2689.6777" z="3.005165" />
+          <boundMin x="-2676.368" y="-2907.588" z="-10.977097" />
+          <boundMax x="-4.52124" y="218.23877" z="3.005165" />
+          <steps itemType="CExtensionDefStep">
+            <Item>
+              <position x="-2675.0405" y="-2685.8774" z="0.22055817" />
+              <width value="2.133725" />
+              <depth value="0.300066" />
+              <height value="0.193077" />
+              <forward x="0.420156" y="-0.907452" z="0" />
+              <right x="0.907452" y="0.420156" z="0" />
+              </Item>
+            <Item>
+              <position x="-2674.9138" y="-2686.1494" z="0.41363525" />
+              <width value="2.133725" />
+              <depth value="0.299809" />
+              <height value="0.193077" />
+              <forward x="0.4200029" y="-0.90752274" z="0" />
+              <right x="0.90752274" y="0.4200029" z="0" />
+              </Item>
+            <Item>
+              <position x="-2674.7876" y="-2686.4214" z="0.6067352" />
+              <width value="2.133725" />
+              <depth value="0.299161" />
+              <height value="0.1931" />
+              <forward x="0.4201909" y="-0.9074358" z="0" />
+              <right x="0.9074358" y="0.4201909" z="0" />
+              </Item>
+            <Item>
+              <position x="-2674.662" y="-2686.6929" z="0.79981995" />
+              <width value="2.133725" />
+              <depth value="0.300278" />
+              <height value="0.193085" />
+              <forward x="0.42012104" y="-0.9074681" z="0" />
+              <right x="0.9074681" y="0.42012104" z="0" />
+              </Item>
+            <Item>
+              <position x="-2674.536" y="-2686.9653" z="0.9929199" />
+              <width value="2.133725" />
+              <depth value="0.300454" />
+              <height value="0.1931" />
+              <forward x="0.42015395" y="-0.9074529" z="0" />
+              <right x="0.9074529" y="0.42015395" z="0" />
+              </Item>
+            <Item>
+              <position x="-2674.4082" y="-2687.2373" z="1.2151337" />
+              <width value="2.133725" />
+              <depth value="0.317963" />
+              <height value="0.222214" />
+              <forward x="0.42015395" y="-0.9074529" z="0" />
+              <right x="0.9074529" y="0.42015395" z="0" />
+              </Item>
+            <Item>
+              <position x="-2674.2893" y="-2687.5322" z="1.4313507" />
+              <width value="2.133725" />
+              <depth value="0.266602" />
+              <height value="0.216217" />
+              <forward x="0.41523305" y="-0.9097151" z="0" />
+              <right x="0.9097151" y="0.41523305" z="0" />
+              </Item>
+            <Item>
+              <position x="-2674.1687" y="-2687.77" z="1.6217957" />
+              <width value="2.133725" />
+              <depth value="0.304691" />
+              <height value="0.190445" />
+              <forward x="0.4200512" y="-0.9075004" z="0" />
+              <right x="0.9075004" y="0.4200512" z="0" />
+              </Item>
+            <Item>
+              <position x="-2674.0383" y="-2688.0454" z="1.8175354" />
+              <width value="2.133725" />
+              <depth value="0.30038" />
+              <height value="0.19574" />
+              <forward x="0.42024" y="-0.907413" z="0" />
+              <right x="0.907413" y="0.42024" z="0" />
+              </Item>
+            <Item>
+              <position x="-2673.9119" y="-2688.3179" z="2.0105896" />
+              <width value="2.133725" />
+              <depth value="0.300772" />
+              <height value="0.193054" />
+              <forward x="0.42015922" y="-0.90745044" z="0" />
+              <right x="0.90745044" y="0.42015922" z="0" />
+              </Item>
+            <Item>
+              <position x="-2673.7856" y="-2688.5908" z="2.2036667" />
+              <width value="2.133725" />
+              <depth value="0.299289" />
+              <height value="0.193077" />
+              <forward x="0.42020306" y="-0.9074301" z="0" />
+              <right x="0.9074301" y="0.42020306" z="0" />
+              </Item>
+            <Item>
+              <position x="-2673.6597" y="-2688.8623" z="2.396759" />
+              <width value="2.133725" />
+              <depth value="0.299989" />
+              <height value="0.193092" />
+              <forward x="0.42006093" y="-0.90749586" z="0" />
+              <right x="0.90749586" y="0.42006093" z="0" />
+              </Item>
+            <Item>
+              <position x="-2673.533" y="-2689.1343" z="2.5898514" />
+              <width value="2.133725" />
+              <depth value="0.300329" />
+              <height value="0.193092" />
+              <forward x="0.420076" y="-0.907489" z="0" />
+              <right x="0.907489" y="0.420076" z="0" />
+              </Item>
+            <Item>
+              <position x="-2673.4067" y="-2689.4067" z="2.7829437" />
+              <width value="2.133725" />
+              <depth value="0.299207" />
+              <height value="0.193092" />
+              <forward x="0.4201231" y="-0.9074672" z="0" />
+              <right x="0.9074672" y="0.4201231" z="0" />
+              </Item>
+            <Item>
+              <position x="-2673.2798" y="-2689.6777" z="3.005165" />
+              <width value="2.133725" />
+              <depth value="0.299207" />
+              <height value="0.222221" />
+              <forward x="0.420212" y="-0.907426" z="0" />
+              <right x="0.907426" y="0.420212" z="0" />
+              </Item>
+            </steps>
+          </Item>
+        </extensions>
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="30" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.734708" y="-10.354034" z="-2.303772" />
+      <bbMax x="5.735768" y="10.336209" z="2.495171" />
+      <bsCentre x="0.0005302429" y="-0.00891304" z="0.09569955" />
+      <bsRadius value="12.06946" />
+      <hdTextureDist value="5" />
+      <name>cin_tor_int_shadow_proxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cin_tor_int_shadow_proxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.208468" y="-13.580803" z="0" />
+      <bbMax x="8.208468" y="13.580803" z="9.25333" />
+      <bsCentre x="0" y="0" z="4.626665" />
+      <bsRadius value="16.52946" />
+      <hdTextureDist value="5" />
+      <name>cin_tor_lightbox002</name>
+      <textureDictionary>cin_tor_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cin_tor_lightbox002</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.049072" y="-11.662598" z="0" />
+      <bbMax x="7.049072" y="11.662598" z="7.946354" />
+      <bsCentre x="0" y="0" z="3.973177" />
+      <bsRadius value="14.19478" />
+      <hdTextureDist value="5" />
+      <name>cin_tor_lightbox01</name>
+      <textureDictionary>cin_tor_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cin_tor_lightbox01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.886431" y="-10.504526" z="-2.266834" />
+      <bbMax x="5.712815" y="10.310407" z="5.226464" />
+      <bsCentre x="-0.5868082" y="-0.09705925" z="1.4798148" />
+      <bsRadius value="12.72941" />
+      <hdTextureDist value="16.84" />
+      <name>cin_tor_shell</name>
+      <textureDictionary>cin_tor_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cin_tor_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.893342" y="-3.301485" z="-3.33371" />
+      <bbMax x="1.893432" y="3.301698" z="3.333711" />
+      <bsCentre x="0" y="0.000106334686" z="0" />
+      <bsRadius value="5.05955" />
+      <hdTextureDist value="16.84" />
+      <name>cin_tor_shell_dec</name>
+      <textureDictionary>cin_tor_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cin_tor_shell_dec</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    <Item type="CBaseArchetypeDef"> 
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.595377" y="-0.153564" z="-0.979326" />
+      <bbMax x="0.595443" y="0.153384" z="0.979329" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="1.156352" />
+      <hdTextureDist value="16.84" />
+      <name>cin_tor_window_frame</name>
+      <textureDictionary>cin_tor_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cin_tor_window_frame</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+      </Item>
+    </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

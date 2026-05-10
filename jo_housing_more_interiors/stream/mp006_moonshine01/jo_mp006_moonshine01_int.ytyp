@@ -1,0 +1,898 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_mp006_moonshine01_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_mp006_moonshine01_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_mp006_moonshine01_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_mp006_moonshine01_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="50" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.134845" y="-12.389565" z="-0.423029" />
+      <bbMax x="13.273246" y="0.0923" z="0.565789" />
+      <bsCentre x="6.5692005" y="-6.1486325" z="0.07137999" />
+      <bsRadius value="9.172671" />
+      <hdTextureDist value="5" />
+      <name>mp006_lampwall_loc1</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>mp006_moonshine01_int</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_lampwall_loc1</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="50" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-11.03772" y="-7.867397" z="-2.006066" />
+      <bbMax x="11.03772" y="7.867398" z="2.006066" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="13.70224" />
+      <hdTextureDist value="25" />
+      <name>mp006_msh_int_bar_bricks</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_msh_int_bar_bricks</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-14.279797" y="-7.033647" z="-0.208805" />
+      <bbMax x="9.735699" y="8.984524" z="3.88414" />
+      <bsCentre x="-2.272049" y="0.9754386" z="1.8376676" />
+      <bsRadius value="14.57805" />
+      <hdTextureDist value="15" />
+      <name>mp006_msh_int_bar_decal01</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_msh_int_bar_decal01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-9.115965" y="-2.511617" z="-2.123225" />
+      <bbMax x="13.293818" y="-0.268276" z="3.82878" />
+      <bsCentre x="2.0889263" y="-1.3899465" z="0.8527775" />
+      <bsRadius value="11.6475" />
+      <hdTextureDist value="15" />
+      <name>mp006_msh_int_bar_l1_08</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>mp006_moonshine01_int</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_msh_int_bar_l1_08</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.304194" y="-6.384805" z="-0.451786" />
+      <bbMax x="13.094576" y="3.652422" z="3.701817" />
+      <bsCentre x="2.3951902" y="-1.3661914" z="1.6250155" />
+      <bsRadius value="11.99902" />
+      <hdTextureDist value="15" />
+      <name>mp006_msh_int_bar_l1_09</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>mp006_moonshine01_int</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_msh_int_bar_l1_09</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-10.97079" y="-7.319199" z="-0.033206" />
+      <bbMax x="11.356205" y="9.164259" z="0.495234" />
+      <bsCentre x="0.19270802" y="0.9225297" z="0.231014" />
+      <bsRadius value="13.87875" />
+      <hdTextureDist value="15" />
+      <name>mp006_msh_int_bar_l1_flr2</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>mp006_moonshine01_int</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_msh_int_bar_l1_flr2</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-11.272862" y="-6.238651" z="-2.114245" />
+      <bbMax x="10.839954" y="8.492738" z="2.114245" />
+      <bsCentre x="-0.2164545" y="1.1270432" z="0" />
+      <bsRadius value="13.45242" />
+      <hdTextureDist value="15" />
+      <name>mp006_msh_int_bar_thm_hu07</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>mp006_moonshine01_int</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_msh_int_bar_thm_hu07</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.686533" y="-5.284602" z="-0.367654" />
+      <bbMax x="0.123743" y="5.307786" z="4.192092" />
+      <bsCentre x="-0.281395" y="0.011591911" z="1.9122189" />
+      <bsRadius value="5.780279" />
+      <hdTextureDist value="15" />
+      <name>mp006_msh_int_bar_wall01</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>mp006_moonshine01_int</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_msh_int_bar_wall01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.140549" y="-1.85777" z="-0.249185" />
+      <bbMax x="2.140549" y="-1.088984" z="0.235853" />
+      <bsCentre x="0" y="-1.473377" z="-0.0066660047" />
+      <bsRadius value="2.188269" />
+      <hdTextureDist value="15" />
+      <name>mp006_msh_int_decal_01</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_msh_int_decal_01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.140549" y="-0.383583" z="-0.242094" />
+      <bbMax x="2.140549" y="0.383583" z="0.242094" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="2.18808" />
+      <hdTextureDist value="15" />
+      <name>mp006_msh_int_steps</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_msh_int_steps</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.084591" y="-7.587513" z="-1.380537" />
+      <bbMax x="3.046549" y="3.835495" z="1.457721" />
+      <bsCentre x="-0.019021034" y="-1.876009" z="0.03859198" />
+      <bsRadius value="6.635731" />
+      <hdTextureDist value="8" />
+      <name>mp006_mshine_int_beams001</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_mshine_int_beams001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.843289" y="-1.740156" z="-2.089536" />
+      <bbMax x="1.88855" y="1.820008" z="2.25555" />
+      <bsCentre x="0.022630572" y="0.039925933" z="0.0830071" />
+      <bsRadius value="3.371986" />
+      <hdTextureDist value="7.53" />
+      <name>jo_mp006_mshine_int_brdtls</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_mp006_mshine_int_brdtls</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="50" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-11.243622" y="-13.618424" z="-2.24775" />
+      <bbMax x="11.243622" y="13.618425" z="1.887188" />
+      <bsCentre x="0" y="0" z="-0.18028092" />
+      <bsRadius value="17.78075" />
+      <hdTextureDist value="25" />
+      <name>mp006_mshine_int_btmshell</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_mshine_int_btmshell</assetName>
+      <extensions>
+        <Item type="CExtensionDefStairs">
+          <name>mIEyDRA_0x55EA3F82</name>
+          <offsetPosition x="-2.313981" y="-1.4331918" z="-1.9508849" />
+          <bottom x="-2.313981" y="-1.4331927" z="-2.081781" />
+          <top x="-2.3316731" y="-0.9443574" z="-1.6580421" />
+          <boundMin x="-4.392127" y="-1.4832549" z="-2.089281" />
+          <boundMax x="-0.24602199" y="-0.70114994" z="-1.6580421" />
+          <steps itemType="CExtensionDefStep">
+            <Item>
+              <position x="-2.313981" y="-1.4331927" z="-1.9508849" />
+              <width value="4.120875" />
+              <depth value="0.246217" />
+              <height value="0.130896" />
+              <forward x="0" y="1" z="0" />
+              <right x="-1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="-2.315906" y="-1.1869836" z="-1.8199891" />
+              <width value="4.120875" />
+              <depth value="0.243138" />
+              <height value="0.130896" />
+              <forward x="0" y="1" z="0" />
+              <right x="-1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="-2.3316731" y="-0.9443574" z="-1.6580421" />
+              <width value="4.120875" />
+              <depth value="0.243138" />
+              <height value="0.161946" />
+              <forward x="0.00071199983" y="0.99999976" z="0" />
+              <right x="-0.99999976" y="0.00071199983" z="0" />
+            </Item>
+          </steps>
+        </Item>
+      </extensions>
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.081367" y="-4.930762" z="-2.066961" />
+      <bbMax x="3.081366" y="4.930762" z="-2.018165" />
+      <bsCentre x="0" y="0" z="-2.042563" />
+      <bsRadius value="5.81445" />
+      <hdTextureDist value="10" />
+      <name>mp006_mshine_int_entdtls</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_mshine_int_entdtls</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.082703" y="-1.170795" z="-1.576524" />
+      <bbMax x="1.124556" y="1.024273" z="1.719309" />
+      <bsCentre x="0.020926476" y="-0.07326102" z="0.071392536" />
+      <bsRadius value="2.266762" />
+      <hdTextureDist value="7.53" />
+      <name>mp006_mshine_int_fyr_dtls</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_mshine_int_fyr_dtls</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.023371" y="-2.470403" z="-1.448685" />
+      <bbMax x="1.069914" y="2.470404" z="1.448685" />
+      <bsCentre x="0.02327156" y="0" z="0" />
+      <bsRadius value="3.049105" />
+      <hdTextureDist value="7.53" />
+      <name>mp006_mshine_int_fyrdetails</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_mshine_int_fyrdetails</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000800" />
+      <lodDist value="100" />
+      <flags value="2048" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-12.333648" y="-21.8511" z="-4.533585" />
+      <bbMax x="11.862116" y="6.190287" z="7.789822" />
+      <bsCentre x="-0.23576641" y="-7.830407" z="1.6281185" />
+      <bsRadius value="19.51679" />
+      <hdTextureDist value="50" />
+      <name>mp006_mshine_int_lightblocker</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_mshine_int_lightblocker</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.170092" y="-13.946043" z="0" />
+      <bbMax x="5.669897" y="8.857471" z="5.793408" />
+      <bsCentre x="0.24990225" y="-2.5442858" z="2.896704" />
+      <bsRadius value="12.9525" />
+      <hdTextureDist value="5" />
+      <name>mp006_mshine_int_lights_005</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_mshine_int_lights_005</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.216892" y="-5.42548" z="0" />
+      <bbMax x="3.216892" y="5.42548" z="7.052155" />
+      <bsCentre x="0" y="0" z="3.5260775" />
+      <bsRadius value="7.226164" />
+      <hdTextureDist value="5" />
+      <name>mp006_mshine_int_lights_02</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_mshine_int_lights_02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.026642" y="-7.369514" z="0" />
+      <bbMax x="2.026642" y="3.635072" z="10.331883" />
+      <bsCentre x="0" y="-1.8672209" z="5.1659417" />
+      <bsRadius value="7.814695" />
+      <hdTextureDist value="5" />
+      <name>mp006_mshine_int_lights_03</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_mshine_int_lights_03</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.822026" y="-7.612261" z="0" />
+      <bbMax x="3.094838" y="4.834732" z="3.162254" />
+      <bsCentre x="0.13640594" y="-1.3887644" z="1.581127" />
+      <bsRadius value="7.06995" />
+      <hdTextureDist value="5" />
+      <name>mp006_mshine_int_lights_04</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_mshine_int_lights_04</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.033499" y="-4.996733" z="-2.092941" />
+      <bbMax x="3.082869" y="4.996732" z="2.09766" />
+      <bsCentre x="0.024685144" y="0" z="0.0023596287" />
+      <bsRadius value="6.221745" />
+      <hdTextureDist value="12.5" />
+      <name>jo_mp006_mshine_int_liv_dtls</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_mp006_mshine_int_liv_dtls</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.081004" y="-7.559088" z="-1.983173" />
+      <bbMax x="2.24553" y="2.79972" z="2.804797" />
+      <bsCentre x="0.08226299" y="-2.379684" z="0.41081202" />
+      <bsRadius value="6.102222" />
+      <hdTextureDist value="12.5" />
+      <name>mp006_mshine_int_stairs</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_mshine_int_stairs</assetName>
+      <extensions>
+        <Item type="CExtensionDefStairs">
+          <name>yuetfBA_0x833A19C5</name>
+          <offsetPosition x="-1.0564499" y="0.71174216" z="0.37264705" />
+          <bottom x="-1.0564499" y="0.71174216" z="0.17190301" />
+          <top x="-1.076808" y="-0.6890719" z="1.774652" />
+          <boundMin x="-1.794673" y="-0.89612496" z="0.16440308" />
+          <boundMax x="-0.33108497" y="0.761744" z="1.774652" />
+          <steps itemType="CExtensionDefStep">
+            <Item>
+              <position x="-1.0564499" y="0.71174216" z="0.37264597" />
+              <width value="1.435729" />
+              <depth value="0.200152" />
+              <height value="0.200744" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.0564499" y="0.51159" z="0.57339" />
+              <width value="1.435729" />
+              <depth value="0.198363" />
+              <height value="0.200744" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.0564289" y="0.31322718" z="0.773284" />
+              <width value="1.435729" />
+              <depth value="0.202959" />
+              <height value="0.199894" />
+              <forward x="-0.000115" y="-1" z="0" />
+              <right x="1" y="-0.000115" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.0564499" y="0.110268116" z="0.972801" />
+              <width value="1.435729" />
+              <depth value="0.192885" />
+              <height value="0.199517" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.056421" y="-0.082617044" z="1.175413" />
+              <width value="1.435729" />
+              <depth value="0.20407" />
+              <height value="0.202612" />
+              <forward x="-0.000159" y="-1" z="0" />
+              <right x="1" y="-0.000159" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.056386" y="-0.2866869" z="1.376957" />
+              <width value="1.435729" />
+              <depth value="0.196337" />
+              <height value="0.201544" />
+              <forward x="-0.000352" y="-1" z="0" />
+              <right x="1" y="-0.000352" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.0564499" y="-0.48302484" z="1.5752621" />
+              <width value="1.435729" />
+              <depth value="0.20705" />
+              <height value="0.198305" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.076808" y="-0.6890719" z="1.774652" />
+              <width value="1.435729" />
+              <depth value="0.20705" />
+              <height value="0.19939" />
+              <forward x="0" y="-1" z="0" />
+              <right x="1" y="0" z="0" />
+            </Item>
+          </steps>
+        </Item>
+        <Item type="CExtensionDefStairs">
+          <name>nxtXGRA_0x9513BD78</name>
+          <offsetPosition x="0.762264" y="-0.8826549" z="-1.2246999" />
+          <bottom x="0.762264" y="-0.88265395" z="-1.426354" />
+          <top x="0.74417114" y="0.5261121" z="0.17311299" />
+          <boundMin x="-0.029938936" y="-0.932655" z="-1.433854" />
+          <boundMax x="1.5411088" y="0.72923017" z="0.17311299" />
+          <steps itemType="CExtensionDefStep">
+            <Item>
+              <position x="0.762264" y="-0.88265395" z="-1.2246989" />
+              <width value="1.542691" />
+              <depth value="0.206652" />
+              <height value="0.201655" />
+              <forward x="0" y="1" z="0" />
+              <right x="-1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="0.76029515" y="-0.67601097" z="-1.023044" />
+              <width value="1.542691" />
+              <depth value="0.199888" />
+              <height value="0.201655" />
+              <forward x="-0.000306" y="1" z="0" />
+              <right x="-1" y="-0.000306" z="0" />
+            </Item>
+            <Item>
+              <position x="0.76025414" y="-0.47612405" z="-0.823043" />
+              <width value="1.542691" />
+              <depth value="0.193541" />
+              <height value="0.200001" />
+              <forward x="0" y="1" z="0" />
+              <right x="-1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="0.75276995" y="-0.282727" z="-0.62487495" />
+              <width value="1.542691" />
+              <depth value="0.209863" />
+              <height value="0.198169" />
+              <forward x="0" y="1" z="0" />
+              <right x="-1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="0.75818896" y="-0.07293391" z="-0.4230441" />
+              <width value="1.542691" />
+              <depth value="0.197462" />
+              <height value="0.201831" />
+              <forward x="0" y="1" z="0" />
+              <right x="-1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="0.7488911" y="0.12430906" z="-0.22304296" />
+              <width value="1.542691" />
+              <depth value="0.198845" />
+              <height value="0.2" />
+              <forward x="0" y="1" z="0" />
+              <right x="-1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="0.74140596" y="0.32301307" z="-0.023042917" />
+              <width value="1.542691" />
+              <depth value="0.203118" />
+              <height value="0.2" />
+              <forward x="0" y="1" z="0" />
+              <right x="-1" y="0" z="0" />
+            </Item>
+            <Item>
+              <position x="0.74417114" y="0.5261121" z="0.17311299" />
+              <width value="1.542691" />
+              <depth value="0.203118" />
+              <height value="0.196156" />
+              <forward x="0" y="1" z="0" />
+              <right x="-1" y="0" z="0" />
+            </Item>
+          </steps>
+        </Item>
+      </extensions>
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.072235" y="-6.098095" z="-1.827197" />
+      <bbMax x="3.085334" y="5.289813" z="1.369059" />
+      <bsCentre x="0.0065493584" y="-0.40414095" z="-0.229069" />
+      <bsRadius value="6.667386" />
+      <hdTextureDist value="12.5" />
+      <name>jo_mp006_mshine_int_storage001</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_mp006_mshine_int_storage001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.915836" y="-3.587143" z="-5.284033" />
+      <bbMax x="1.877127" y="3.139079" z="4.389522" />
+      <bsCentre x="-0.019354463" y="-0.22403193" z="-0.44725513" />
+      <bsRadius value="6.188827" />
+      <hdTextureDist value="12.5" />
+      <name>mp006_mshine_int_strsdtl</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_mshine_int_strsdtl</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.196221" y="-8.806129" z="-1.099764" />
+      <bbMax x="1.041871" y="1.246597" z="5.472224" />
+      <bsCentre x="-2.077175" y="-3.779766" z="2.1862302" />
+      <bsRadius value="6.76687" />
+      <hdTextureDist value="12.5" />
+      <name>mp006_mshine_int_up_details001</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_mshine_int_up_details001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.02127" y="-4.972277" z="-3.528006" />
+      <bbMax x="7.032937" y="5.001433" z="3.319555" />
+      <bsCentre x="1.0058336" y="0.014577866" z="-0.104225636" />
+      <bsRadius value="8.539144" />
+      <hdTextureDist value="7.53" />
+      <name>mp006_mshine_int_up_shell</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_mshine_int_up_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.378703" y="-1.174765" z="0" />
+      <bbMax x="0.982953" y="1.014079" z="0.000431" />
+      <bsCentre x="-0.19787502" y="-0.08034301" z="0.000172" />
+      <bsRadius value="1.610004" />
+      <hdTextureDist value="12.5" />
+      <name>mp006_mshine_int_wall_005</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>mp006_moonshine01_int</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_mshine_int_wall_005</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-11.914414" y="-7.046079" z="0" />
+      <bbMax x="11.914414" y="7.046079" z="4.326475" />
+      <bsCentre x="0" y="0" z="2.1632376" />
+      <bsRadius value="14.01" />
+      <hdTextureDist value="5" />
+      <name>mp006_mshine_lights_loc001</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mp006_mshine_lights_loc001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.264458" y="-1.153844" z="-1.209056" />
+      <bbMax x="0.264458" y="1.21048" z="1.293651" />
+      <bsCentre x="0" y="0.028318048" z="0.042297482" />
+      <bsRadius value="1.741646" />
+      <hdTextureDist value="8" />
+      <name>jo_mp006_mshine_int_shelfwall01</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>mp006_moonshine01_int</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_mp006_mshine_int_shelfwall01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.264458" y="-1.229268" z="-1.407707" />
+      <bbMax x="0.264458" y="1.229268" z="1.407707" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="1.887505" />
+      <hdTextureDist value="8" />
+      <name>jo_mp006_mshine_int_shelfwall02</name>
+      <textureDictionary>mp006_moonshine_interior_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>mp006_moonshine01_int</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_mp006_mshine_int_shelfwall02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_lnn_lonnie_shack_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_lnn_lonnie_shack_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_lnn_lonnie_shack_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_lnn_lonnie_shack_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="25" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="1617.271" y="-366.55597" z="74.53517" />
+      <bbMax x="1626.7158" y="-359.41913" z="79.38449" />
+      <bsCentre x="1621.9934" y="-362.98755" z="76.95983" />
+      <bsRadius value="6.396388" />
+      <hdTextureDist value="5" />
+      <name>jo_inn_lonnie_shack_int_shadwprxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_inn_lonnie_shack_int_shadwprxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.751714" y="-3.531367" z="-2.098005" />
+      <bbMax x="0.000944" y="3.531334" z="0.868279" />
+      <bsCentre x="-2.375385" y="0" z="-0.61486304" />
+      <bsRadius value="4.507448" />
+      <hdTextureDist value="7.5" />
+      <name>lnn_house01_brbeams</name>
+      <textureDictionary>lnn_house_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lnn_house01_brbeams</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.01057" y="-2.604177" z="-0.481888" />
+      <bbMax x="1.989631" y="2.601746" z="0.895312" />
+      <bsCentre x="-0.010469437" y="-0.0012154579" z="0.20671201" />
+      <bsRadius value="3.354099" />
+      <hdTextureDist value="7.5" />
+      <name>lnn_house01_brblankets</name>
+      <textureDictionary>lnn_house_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lnn_house01_brblankets</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.714278" y="-0.972532" z="-2.257026" />
+      <bbMax x="-0.060229" y="0.984627" z="2.328196" />
+      <bsCentre x="-0.3872535" y="0.006047547" z="0.035585165" />
+      <bsRadius value="2.514086" />
+      <hdTextureDist value="7.5" />
+      <name>lnn_house01_brfireplace</name>
+      <textureDictionary>lnn_house_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lnn_house01_brfireplace</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="40" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.409176" y="-0.978574" z="-2.291558" />
+      <bbMax x="0.40915" y="0.978585" z="2.291548" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="2.525123" />
+      <hdTextureDist value="7.5" />
+      <name>lnn_house01_fireplace</name>
+      <textureDictionary>lnn_house_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lnn_house01_fireplace</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.741882" y="-3.527389" z="-0.115637" />
+      <bbMax x="4.780756" y="3.575961" z="0.055734" />
+      <bsCentre x="0.019437313" y="0.024286032" z="-0.029951498" />
+      <bsRadius value="5.940699" />
+      <hdTextureDist value="12.5" />
+      <name>lnn_house01_floor</name>
+      <textureDictionary>lnn_house_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lnn_house01_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="0.127771" y="-3.521051" z="-2.188768" />
+      <bbMax x="4.751657" y="3.530979" z="0.909146" />
+      <bsCentre x="2.439714" y="0.004963875" z="-0.6398109" />
+      <bsRadius value="4.491896" />
+      <hdTextureDist value="7.5" />
+      <name>lnn_house01_frbeams</name>
+      <textureDictionary>lnn_house_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lnn_house01_frbeams</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.17132" y="-3.518113" z="-2.213572" />
+      <bbMax x="0.076441" y="3.518109" z="2.213576" />
+      <bsCentre x="-0.0474395" y="0" z="0" />
+      <bsRadius value="4.158408" />
+      <hdTextureDist value="7.5" />
+      <name>lnn_house01_medianwall</name>
+      <textureDictionary>lnn_house_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lnn_house01_medianwall</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.950576" y="-3.504998" z="-0.637583" />
+      <bbMax x="1.568619" y="3.505044" z="1.191224" />
+      <bsCentre x="-0.19097841" y="0" z="0.27682048" />
+      <bsRadius value="4.027094" />
+      <hdTextureDist value="7.5" />
+      <name>lnn_house01_props</name>
+      <textureDictionary>lnn_house_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lnn_house01_props</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.364346" y="-3.52339" z="-0.892128" />
+      <bbMax x="2.364318" y="3.523392" z="0.892131" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.335925" />
+      <hdTextureDist value="7.5" />
+      <name>lnn_house01_roof01</name>
+      <textureDictionary>lnn_house_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lnn_house01_roof01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.372421" y="-3.525358" z="-0.87497" />
+      <bbMax x="2.372437" y="3.525374" z="0.869219" />
+      <bsCentre x="0" y="0" z="-0.0028755069" />
+      <bsRadius value="4.337876" />
+      <hdTextureDist value="7.5" />
+      <name>lnn_house01_roof02</name>
+      <textureDictionary>lnn_house_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lnn_house01_roof02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.375854" y="-3.550974" z="-2.274386" />
+      <bbMax x="2.375983" y="3.550955" z="2.274392" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.840163" />
+      <hdTextureDist value="12.5" />
+      <name>lnn_house_boards</name>
+      <textureDictionary>lnn_house_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lnn_house_boards</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.443132" y="-3.554032" z="-2.349039" />
+      <bbMax x="2.443098" y="3.554009" z="2.349041" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.910994" />
+      <hdTextureDist value="12.5" />
+      <name>lnn_house_brboards</name>
+      <textureDictionary>lnn_house_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lnn_house_brboards</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.780762" y="-3.579681" z="-2.381142" />
+      <bbMax x="4.78064" y="3.579651" z="2.369756" />
+      <bsCentre x="0" y="0" z="-0.005692959" />
+      <bsRadius value="6.427431" />
+      <hdTextureDist value="12.5" />
+      <name>lnn_int_shell</name>
+      <textureDictionary>lnn_house_int_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lnn_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

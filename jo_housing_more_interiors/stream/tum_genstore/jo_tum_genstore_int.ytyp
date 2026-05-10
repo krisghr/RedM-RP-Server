@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_tum_genstore_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_tum_genstore_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_tum_genstore_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_tum_genstore_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="50" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.273821" y="-3.273576" z="-1.784119" />
+      <bbMax x="6.244634" y="3.277601" z="1.807816" />
+      <bsCentre x="-0.014593124" y="0.0020124912" z="0.011848569" />
+      <bsRadius value="7.289233" />
+      <hdTextureDist value="12.5" />
+      <name>jo_tum_02_genstore_int_shell</name>
+      <textureDictionary>tum_genstore_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_tum_02_genstore_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.706532" y="-0.529644" z="-0.294918" />
+      <bbMax x="2.559791" y="1.928671" z="0.273527" />
+      <bsCentre x="0.92662954" y="0.69951344" z="-0.010695517" />
+      <bsRadius value="2.063693" />
+      <hdTextureDist value="7.79" />
+      <name>tum_gen_dressrm_decal_hdrefl</name>
+      <textureDictionary>tum_genstore_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>tum_gen_dressrm_decal_hdrefl</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.696054" y="-1.292343" z="-1.705096" />
+      <bbMax x="1.640366" y="1.205802" z="1.63132" />
+      <bsCentre x="-0.027843952" y="-0.04327047" z="-0.036888003" />
+      <bsRadius value="2.669461" />
+      <hdTextureDist value="7.79" />
+      <name>jo_tum_gen_dressrm_walls_hdrefl</name>
+      <textureDictionary>tum_genstore_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_tum_gen_dressrm_walls_hdrefl</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="25" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.581064" y="-5.269799" z="0" />
+      <bbMax x="6.581064" y="5.269799" z="6.613853" />
+      <bsCentre x="0" y="0" z="3.3069265" />
+      <bsRadius value="9.056321" />
+      <hdTextureDist value="16.74" />
+      <name>tum_gen_lightdummy_02</name>
+      <textureDictionary>tum_genstore_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>tum_gen_lightdummy_02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.970664" y="-3.15947" z="-1.71244" />
+      <bbMax x="5.247716" y="2.853188" z="1.687446" />
+      <bsCentre x="-0.36147404" y="-0.15314102" z="-0.012496948" />
+      <bsRadius value="6.587172" />
+      <hdTextureDist value="7" />
+      <name>jo_tum_genstore_int_detail</name>
+      <textureDictionary>tum_genstore_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_tum_genstore_int_detail</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.07303" y="-3.841995" z="0" />
+      <bbMax x="7.07303" y="3.841995" z="4.67619" />
+      <bsCentre x="0" y="0" z="2.338095" />
+      <bsRadius value="8.381847" />
+      <hdTextureDist value="5" />
+      <name>tum_genstore_lightbox</name>
+      <textureDictionary>tum_genstore_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>tum_genstore_lightbox</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="45" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.268433" y="-1.713794" z="-0.061478" />
+      <bbMax x="6.304683" y="1.79597" z="6.639926" />
+      <bsCentre x="0.018125057" y="0.041087985" z="3.2892241" />
+      <bsRadius value="7.336731" />
+      <hdTextureDist value="5" />
+      <name>tum_genstore_ref_proxy</name>
+      <textureDictionary>WgMOwOA_0x9DFC96B6</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>tum_genstore_ref_proxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="60" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-9.562132" y="-1.767113" z="0.083551" />
+      <bbMax x="6.205136" y="1.787427" z="6.477726" />
+      <bsCentre x="-1.6784983" y="0.010156989" z="3.2806385" />
+      <bsRadius value="8.6909" />
+      <hdTextureDist value="5" />
+      <name>tum_genstore_shadow_proxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>tum_genstore_shadow_proxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

@@ -1,0 +1,650 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_che_cabin1_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_che_cabin1_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_che_cabin1_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_che_cabin1_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.474939" y="-2.15752" z="-2.772469" />
+      <bbMax x="2.474939" y="2.106395" z="0.171608" />
+      <bsCentre x="0" y="-0.025562525" z="-1.3004305" />
+      <bsRadius value="3.582941" />
+      <hdTextureDist value="7.5" />
+      <name>che_cabin1_bed01_walls</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_bed01_walls</assetName>
+      <extensions>
+        <Item type="CExtensionDefLadder">
+          <name>che_cabin1_bed01_walls</name>
+          <offsetPosition x="-0.97024536" y="-2.0063477" z="0.09655762" />
+          <bottom x="-0.97024536" y="-2.0063477" z="-2.1534424" />
+          <top x="-0.97024536" y="-2.0063477" z="0.09655762" />
+          <normal x="0.33516788" y="-0.94215846" z="0" />
+          <materialType>WOODEN_LADDER</materialType>
+          <template>default_nobehind</template>
+          <canGetOffAtTop value="True" />
+          <canGetOffAtBottom value="True" />
+        </Item>
+      </extensions>
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.935193" y="-2.953023" z="-1.617928" />
+      <bbMax x="2.880063" y="2.979442" z="1.326149" />
+      <bsCentre x="-0.027565002" y="0.013209343" z="-0.14588952" />
+      <bsRadius value="4.406783" />
+      <hdTextureDist value="19.13" />
+      <name>jo_che_cabin1_bed02_walls</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_che_cabin1_bed02_walls</assetName>
+      <extensions>
+        <Item type="CExtensionDefLadder">
+          <name>jo_che_cabin1_bed02_walls</name>
+          <offsetPosition x="1.3807983" y="-0.07470703" z="1.2452393" />
+          <bottom x="1.3807983" y="-0.07470703" z="-1.0047607" />
+          <top x="1.3807983" y="-0.07470703" z="1.2452393" />
+          <normal x="0.34430516" y="-0.9388578" z="0" />
+          <materialType>WOODEN_LADDER</materialType>
+          <template>default_nobehind</template>
+          <canGetOffAtTop value="True" />
+          <canGetOffAtBottom value="True" />
+        </Item>
+      </extensions>
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.46766" y="-1.867996" z="-0.81301" />
+      <bbMax x="4.456139" y="1.86816" z="0.695413" />
+      <bsCentre x="-0.005760193" y="0" z="-0.058798492" />
+      <bsRadius value="4.89562" />
+      <hdTextureDist value="7.5" />
+      <name>jo_che_cabin1_curtains01</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_che_cabin1_curtains01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="30" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.479899" y="-2.684382" z="-0.696523" />
+      <bbMax x="0.479907" y="2.684347" z="0.696534" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="2.814475" />
+      <hdTextureDist value="7.5" />
+      <name>che_cabin1_curtains02</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_curtains02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.691876" y="-1.306965" z="-0.696523" />
+      <bbMax x="1.691857" y="1.307101" z="0.696534" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="2.248533" />
+      <hdTextureDist value="7.5" />
+      <name>che_cabin1_curtains03</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_curtains03</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.572218" y="-2.884461" z="-0.842337" />
+      <bbMax x="0.57222" y="2.884342" z="0.842357" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="3.058881" />
+      <hdTextureDist value="7.5" />
+      <name>che_cabin1_frames01</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_frames01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="10" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.605319" y="-0.386617" z="-0.842337" />
+      <bbMax x="0.605325" y="0.386668" z="0.842357" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="1.107003" />
+      <hdTextureDist value="5" />
+      <name>che_cabin1_frames04</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_frames04</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.382124" y="-7.732041" z="-3.040442" />
+      <bbMax x="9.347313" y="7.648747" z="3.282173" />
+      <bsCentre x="1.4825945" y="-0.041646957" z="0.120865345" />
+      <bsRadius value="11.44508" />
+      <hdTextureDist value="7.5" />
+      <name>che_cabin1_int_shell</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.509531" y="-0.660636" z="-2.814448" />
+      <bbMax x="1.509477" y="0.659766" z="2.814402" />
+      <bsCentre x="0" y="-0.0004349947" z="0" />
+      <bsRadius value="3.261205" />
+      <hdTextureDist value="7.5" />
+      <name>che_cabin1_mainrm_details</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_mainrm_details</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.016425" y="-4.661764" z="-1.736339" />
+      <bbMax x="5.449848" y="4.847257" z="1.736337" />
+      <bsCentre x="0.21671152" y="0.092746735" z="0" />
+      <bsRadius value="7.280519" />
+      <hdTextureDist value="7.5" />
+      <name>che_cabin1_mainrm_supports</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_mainrm_supports</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.074911" y="-3.623118" z="-1.735698" />
+      <bbMax x="3.111207" y="3.636095" z="1.698183" />
+      <bsCentre x="0.018147945" y="0.0064885616" z="-0.018757582" />
+      <bsRadius value="5.068426" />
+      <hdTextureDist value="7.5" />
+      <name>che_cabin1_mainrm_supports001</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_mainrm_supports001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.997926" y="-3.651643" z="-1.713315" />
+      <bbMax x="1.997907" y="3.653694" z="1.713222" />
+      <bsCentre x="0" y="0.0010254383" z="0" />
+      <bsRadius value="4.502105" />
+      <hdTextureDist value="7.5" />
+      <name>che_cabin1_panrm_details91</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_panrm_details91</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.092306" y="-2.934138" z="-1.652552" />
+      <bbMax x="3.092281" y="2.914656" z="1.652525" />
+      <bsCentre x="0" y="-0.009741068" z="0" />
+      <bsRadius value="4.565661" />
+      <hdTextureDist value="17.96" />
+      <name>che_cabin1_panrm_details92</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_panrm_details92</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.072155" y="-2.956557" z="-3.087411" />
+      <bbMax x="3.082451" y="4.122594" z="3.087387" />
+      <bsCentre x="0.005147934" y="0.58301854" z="0" />
+      <bsRadius value="5.615196" />
+      <hdTextureDist value="7.5" />
+      <name>che_cabin1_panrm_details95</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_panrm_details95</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.12307" y="-3.646584" z="-2.032059" />
+      <bbMax x="3.086368" y="3.64542" z="1.640298" />
+      <bsCentre x="-0.01835084" y="-0.00058197975" z="-0.19588041" />
+      <bsRadius value="5.128758" />
+      <hdTextureDist value="7.5" />
+      <name>che_cabin1_panrm_details96</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_panrm_details96</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.746486" y="-3.647826" z="-3.120953" />
+      <bbMax x="1.942335" y="3.647733" z="3.120863" />
+      <bsCentre x="-0.9020755" y="0" z="0" />
+      <bsRadius value="5.580057" />
+      <hdTextureDist value="7.5" />
+      <name>che_cabin1_panrm_details97</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_panrm_details97</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.844931" y="-4.818753" z="-2.966134" />
+      <bbMax x="5.090955" y="4.478462" z="3.286606" />
+      <bsCentre x="0.123012066" y="-0.17014551" z="0.16023588" />
+      <bsRadius value="7.487603" />
+      <hdTextureDist value="7.5" />
+      <name>che_cabin1_panrm_details98</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_panrm_details98</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="10" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.717188" y="-2.649166" z="-1.446847" />
+      <bbMax x="2.717159" y="2.649248" z="1.446827" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.061363" />
+      <hdTextureDist value="5" />
+      <name>che_cabin1_panrm_details99</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_panrm_details99</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="25" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.457044" y="-7.753036" z="-3.081522" />
+      <bbMax x="9.42042" y="7.701515" z="3.357986" />
+      <bsCentre x="1.481688" y="-0.025760174" z="0.138232" />
+      <bsRadius value="11.53694" />
+      <hdTextureDist value="5" />
+      <name>che_cabin1_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.947017" y="-0.699949" z="-3.064955" />
+      <bbMax x="0.947036" y="0.699713" z="3.064928" />
+      <bsCentre x="0" y="-0.0001180172" z="0" />
+      <bsRadius value="3.283365" />
+      <hdTextureDist value="7.5" />
+      <name>che_cabin1_smokestack</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_smokestack</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.04496" y="-2.890246" z="-0.30774" />
+      <bbMax x="6.30559" y="3.714189" z="3.037133" />
+      <bsCentre x="1.1303148" y="0.41197157" z="1.3646965" />
+      <bsRadius value="6.362794" />
+      <hdTextureDist value="17.96" />
+      <name>che_cabin1_walls</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_walls</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.011376" y="-1.576675" z="-1.504579" />
+      <bbMax x="4.01137" y="1.576668" z="1.50458" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.565169" />
+      <hdTextureDist value="17.96" />
+      <name>che_cabin1_walls_mud</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_walls_mud</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.905873" y="-7.685806" z="-0.11696" />
+      <bbMax x="7.90587" y="7.685883" z="0.116974" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="11.02673" />
+      <hdTextureDist value="12.5" />
+      <name>che_cabin_floor</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="15" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.175446" y="-3.523193" z="0" />
+      <bbMax x="4.175446" y="3.523193" z="6.852997" />
+      <bsCentre x="0" y="0" z="3.4264984" />
+      <bsRadius value="6.448886" />
+      <hdTextureDist value="20.41" />
+      <name>che_cabin_lightbox001</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin_lightbox001</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.953949" y="-7.555664" z="0" />
+      <bbMax x="8.953949" y="7.555664" z="12.428345" />
+      <bsCentre x="0" y="0" z="6.2141724" />
+      <bsRadius value="13.26187" />
+      <hdTextureDist value="5" />
+      <name>che_cabin_lightbox02</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin_lightbox02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.857109" y="-1.471767" z="-0.842337" />
+      <bbMax x="1.857121" y="1.471911" z="0.814165" />
+      <bsCentre x="0" y="0" z="-0.014086008" />
+      <bsRadius value="2.510216" />
+      <hdTextureDist value="7.5" />
+      <name>che_int_frames02</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_int_frames02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="15" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.223113" y="-4.8275" z="-1.641922" />
+      <bbMax x="5.223131" y="4.827374" z="1.646077" />
+      <bsCentre x="0" y="0" z="0.0020775795" />
+      <bsRadius value="7.299855" />
+      <hdTextureDist value="7.5" />
+      <name>che_cabin1_int_intact</name>
+      <textureDictionary>che_cabin1_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>che_cabin1_int_intact</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

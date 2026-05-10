@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <name>jo_rho_gunsmith_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef"> <!-- jo_rho_gnsmth_00_details_empty -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="18" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.656681" y="-5.695364" z="-0.877419" />
+      <bbMax x="4.757786" y="1.648288" z="2.072724" />
+      <bsCentre x="1.0505524" y="-2.023538" z="0.59765255" />
+      <bsRadius value="5.422336" />
+      <hdTextureDist value="12.57" />
+      <name>jo_rho_gnsmth_00_details_empty</name>
+      <textureDictionary>rho_gunsmith_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_rho_gnsmth_00_details_empty</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- rho_gnsmth_01_glass -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="16" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.724144" y="-0.359536" z="-2.498512" />
+      <bbMax x="-0.916291" y="-0.3595" z="-1.762055" />
+      <bsCentre x="-2.3202176" y="-0.359518" z="-2.1302836" />
+      <bsRadius value="1.451414" />
+      <hdTextureDist value="13.44" />
+      <name>rho_gnsmth_01_glass</name>
+      <textureDictionary>rho_gunsmith_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rho_gnsmth_01_glass</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_rho_gnsmth_01_shell_with_col -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="35" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.659733" y="-3.492553" z="-4.382198" />
+      <bbMax x="3.619022" y="6.022125" z="4.011499" />
+      <bsCentre x="-2.0203552" y="1.264786" z="-0.18534946" />
+      <bsRadius value="8.488132" />
+      <hdTextureDist value="15.09" />
+      <name>jo_rho_gnsmth_01_shell_with_col</name>
+      <textureDictionary>rho_gunsmith_int_shell</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_rho_gnsmth_01_shell_with_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_rho_gnsmth_01_shell_with_col</assetName>
+      <extensions>
+        <Item type="CExtensionDefStairs">
+          <name>fmbzczda_0x833a19c5</name>
+          <offsetPosition x="-2.387207" y="-0.680542" z="-4.228447" />
+          <bottom x="-2.387085" y="-0.680542" z="-4.4284286" />
+          <top x="0.21264648" y="-0.680542" z="-1.6284561" />
+          <boundMin x="-2.4371338" y="-1.336792" z="-4.4359283" />
+          <boundMax x="0.6123047" y="-0.024291992" z="-1.4284592" />
+          <steps itemType="CExtensionDefStep">
+            <Item>
+              <position x="-2.387085" y="-0.680542" z="-4.228447" />
+              <width value="1.297485" />
+              <depth value="0.192017" />
+              <height value="0.199982" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="-2.1950684" y="-0.680542" z="-4.0284653" />
+              <width value="1.297485" />
+              <depth value="0.207886" />
+              <height value="0.199982" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.9871826" y="-0.680542" z="-3.828453" />
+              <width value="1.297485" />
+              <depth value="0.194458" />
+              <height value="0.200012" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.7927246" y="-0.680542" z="-3.628456" />
+              <width value="1.297485" />
+              <depth value="0.195557" />
+              <height value="0.199997" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.597168" y="-0.680542" z="-3.453453" />
+              <width value="1.297485" />
+              <depth value="0.210083" />
+              <height value="0.175003" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.387085" y="-0.680542" z="-3.253456" />
+              <width value="1.297485" />
+              <depth value="0.177856" />
+              <height value="0.199997" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="-1.2092285" y="-0.680542" z="-3.0284653" />
+              <width value="1.297485" />
+              <depth value="0.213135" />
+              <height value="0.224991" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="-0.99609375" y="-0.680542" z="-2.828453" />
+              <width value="1.297485" />
+              <depth value="0.197998" />
+              <height value="0.200012" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="-0.7980957" y="-0.680542" z="-2.628456" />
+              <width value="1.297485" />
+              <depth value="0.20105" />
+              <height value="0.199997" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="-0.5970459" y="-0.680542" z="-2.4284592" />
+              <width value="1.297485" />
+              <depth value="0.209961" />
+              <height value="0.199997" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="-0.38708496" y="-0.680542" z="-2.228447" />
+              <width value="1.297485" />
+              <depth value="0.192261" />
+              <height value="0.200012" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="-0.19482422" y="-0.680542" z="-2.0284653" />
+              <width value="1.297485" />
+              <depth value="0.207642" />
+              <height value="0.199982" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="0.012817383" y="-0.680542" z="-1.8284531" />
+              <width value="1.297485" />
+              <depth value="0.199829" />
+              <height value="0.200012" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="0.21264648" y="-0.680542" z="-1.6284561" />
+              <width value="1.297485" />
+              <depth value="0.199829" />
+              <height value="0.199997" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+            <Item>
+              <position x="0.4124756" y="-0.680542" z="-1.4284592" />
+              <width value="1.297485" />
+              <depth value="0.199829" />
+              <height value="0.199997" />
+              <forward x="1" y="0" z="0" />
+              <right x="0" y="1" z="0" />
+            </Item>
+          </steps>
+        </Item>
+      </extensions>
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- rho_gun_00_dc -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="13" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.974665" y="-3.431971" z="-1.249817" />
+      <bbMax x="3.60485" y="4.323669" z="1.787794" />
+      <bsCentre x="-0.18490744" y="0.44584894" z="0.2689885" />
+      <bsRadius value="5.630854" />
+      <hdTextureDist value="10.98" />
+      <name>rho_gun_00_dc</name>
+      <textureDictionary>rho_gunsmith_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rho_gun_00_dc</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- rho_gun_01_stairs_dc -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="8" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.310769" y="-1.398941" z="-1.460263" />
+      <bbMax x="2.361983" y="1.399058" z="1.457033" />
+      <bsCentre x="0.02560711" y="0" z="-0.0016150475" />
+      <bsRadius value="3.089257" />
+      <hdTextureDist value="7.78" />
+      <name>rho_gun_01_stairs_dc</name>
+      <textureDictionary>rho_gunsmith_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rho_gun_01_stairs_dc</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- rho_gunsmith_int_shadowproxy -->
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="35" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.133492" y="-5.110327" z="-0.100275" />
+      <bbMax x="1.49272" y="6.220812" z="9.468102" />
+      <bsCentre x="-2.820386" y="0.55524254" z="4.6839137" />
+      <bsRadius value="8.578463" />
+      <hdTextureDist value="5" />
+      <name>rho_gunsmith_int_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rho_gunsmith_int_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_rho_gunsmith_shop_empty -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="26" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.79817" y="-4.748913" z="-1.25663" />
+      <bbMax x="4.555372" y="3.09015" z="4.270081" />
+      <bsCentre x="-0.121398926" y="-0.82938147" z="1.5067255" />
+      <bsRadius value="6.698586" />
+      <hdTextureDist value="14.06" />
+      <name>jo_rho_gunsmith_shop_empty</name>
+      <textureDictionary>rho_gunsmith_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_rho_gunsmith_shop_empty</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- rhogunsmith_lightbox -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="25" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.938565" y="-5.887692" z="0" />
+      <bbMax x="6.938565" y="5.887692" z="8.25247" />
+      <bsCentre x="0" y="0" z="4.126235" />
+      <bsRadius value="9.991717" />
+      <hdTextureDist value="11.92" />
+      <name>rhogunsmith_lightbox</name>
+      <textureDictionary>rho_gunsmith_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rhogunsmith_lightbox</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- rhogunsmith_lightboxbasment -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="25" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.610168" y="-3.867249" z="0" />
+      <bbMax x="2.610168" y="3.867249" z="4.490979" />
+      <bsCentre x="0" y="0" z="2.2454896" />
+      <bsRadius value="5.177916" />
+      <hdTextureDist value="11.92" />
+      <name>rhogunsmith_lightboxbasment</name>
+      <textureDictionary>rho_gunsmith_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rhogunsmith_lightboxbasment</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- rhogunsmith_lightboxfireplace -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="25" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.012654" y="-6.799107" z="0" />
+      <bbMax x="8.012654" y="6.799107" z="9.529952" />
+      <bsCentre x="0" y="0" z="4.764976" />
+      <bsRadius value="11.53843" />
+      <hdTextureDist value="11.92" />
+      <name>rhogunsmith_lightboxfireplace</name>
+      <textureDictionary>rho_gunsmith_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rhogunsmith_lightboxfireplace</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

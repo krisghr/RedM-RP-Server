@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <name>jo_rdl_house_01_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef"> <!-- rdl_house_01_int_shd_proxy -->
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="35" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.727039" y="-2.611697" z="-2.246983" />
+      <bbMax x="2.727039" y="2.611697" z="2.246983" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="4.393932" />
+      <hdTextureDist value="5" />
+      <name>rdl_house_01_int_shd_proxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rdl_house_01_int_shd_proxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- rdl_house_01_lightbox -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.947461" y="-2.783349" z="0" />
+      <bbMax x="2.947461" y="2.783349" z="4.73957" />
+      <bsCentre x="0" y="0" z="2.369785" />
+      <bsRadius value="4.695789" />
+      <hdTextureDist value="5" />
+      <name>rdl_house_01_lightbox</name>
+      <textureDictionary>rdl_house01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rdl_house_01_lightbox</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- rdl_house01_int_ceiling -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.59523" y="-2.487444" z="-1.38295" />
+      <bbMax x="1.930793" y="2.654501" z="0.728852" />
+      <bsCentre x="-0.83221865" y="0.08352852" z="-0.32704902" />
+      <bsRadius value="3.919064" />
+      <hdTextureDist value="32.5" />
+      <name>rdl_house01_int_ceiling</name>
+      <textureDictionary>rdl_house01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rdl_house01_int_ceiling</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- rdl_house01_int_floor -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.655416" y="-2.533808" z="-0.101683" />
+      <bbMax x="2.6489" y="2.529194" z="0.101683" />
+      <bsCentre x="-0.0032579899" y="-0.0023069382" z="0" />
+      <bsRadius value="3.667803" />
+      <hdTextureDist value="32.5" />
+      <name>rdl_house01_int_floor</name>
+      <textureDictionary>rdl_house01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rdl_house01_int_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- rdl_house01_int_shell -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.853458" y="-1.621136" z="-1.386353" />
+      <bbMax x="3.592395" y="3.61582" z="1.74716" />
+      <bsCentre x="0.86946857" y="0.9973419" z="0.18040347" />
+      <bsRadius value="4.08968" />
+      <hdTextureDist value="32.5" />
+      <name>rdl_house01_int_shell</name>
+      <textureDictionary>rdl_house01_txd</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rdl_house01_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_rdl_house01_col -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.853458" y="-1.621136" z="-1.386353" />
+      <bbMax x="3.592395" y="3.61582" z="1.74716" />
+      <bsCentre x="0.86946857" y="0.9973419" z="0.18040347" />
+      <bsRadius value="4.08968" />
+      <hdTextureDist value="32.5" />
+      <name>jo_rdl_house01_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_rdl_house01_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_rdl_house01_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

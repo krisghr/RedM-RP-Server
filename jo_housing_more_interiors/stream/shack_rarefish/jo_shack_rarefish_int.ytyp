@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <name>jo_shack_rarefish_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef"> <!-- jo_shack_rarefish_col -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_shack_rarefish_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_shack_rarefish_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_shack_rarefish_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- shack_rarefish_ext_frames -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.588324" y="-0.019322" z="-1.11487" />
+      <bbMax x="0.588036" y="0.019392" z="1.114864" />
+      <bsCentre x="-0.00014400482" y="0" z="0" />
+      <bsRadius value="1.260658" />
+      <hdTextureDist value="5" />
+      <name>shack_rarefish_ext_frames</name>
+      <textureDictionary>shack_rarefish_ext_frames</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>shack_rarefish_ext_frames</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- jo_shack_rarefish_int_fire -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.677786" y="-3.251861" z="-1.71703" />
+      <bbMax x="5.295668" y="1.111089" z="1.717036" />
+      <bsCentre x="2.308941" y="-1.0703859" z="0" />
+      <bsRadius value="4.077693" />
+      <hdTextureDist value="11.89" />
+      <name>jo_shack_rarefish_int_fire</name>
+      <textureDictionary>shack_rarefish_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_shack_rarefish_int_fire</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- shack_rarefish_int_floor -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.09021" y="-5.304953" z="-0.059845" />
+      <bbMax x="4.090425" y="5.30495" z="0.008322" />
+      <bsCentre x="0.0001077652" y="0" z="-0.0257615" />
+      <bsRadius value="6.698834" />
+      <hdTextureDist value="11.7" />
+      <name>shack_rarefish_int_floor</name>
+      <textureDictionary>shack_rarefish_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>shack_rarefish_int_floor</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- shack_rarefish_int_frame01 -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="20" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.423293" y="-4.998702" z="-2.281335" />
+      <bbMax x="3.41133" y="4.775826" z="2.301328" />
+      <bsCentre x="-0.0059814453" y="-0.1114378" z="0.009996414" />
+      <bsRadius value="6.38855" />
+      <hdTextureDist value="13.19" />
+      <name>shack_rarefish_int_frame01</name>
+      <textureDictionary>shack_rarefish_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>shack_rarefish_int_frame01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- shack_rarefish_int_frames -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.102122" y="-2.554842" z="-1.158557" />
+      <bbMax x="6.701029" y="5.48295" z="1.264176" />
+      <bsCentre x="3.2994533" y="1.4640541" z="0.052809477" />
+      <bsRadius value="5.402745" />
+      <hdTextureDist value="14.35" />
+      <name>shack_rarefish_int_frames</name>
+      <textureDictionary>shack_rarefish_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>shack_rarefish_int_frames</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- shack_rarefish_int_lightbox1 -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.946167" y="-5.780579" z="0" />
+      <bbMax x="4.946167" y="5.780579" z="8.554848" />
+      <bsCentre x="0" y="0" z="4.277424" />
+      <bsRadius value="8.727887" />
+      <hdTextureDist value="5" />
+      <name>shack_rarefish_int_lightbox1</name>
+      <textureDictionary>shack_rarefish_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>shack_rarefish_int_lightbox1</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- shack_rarefish_int_lightbox2 -->
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.401175" y="-9.34295" z="0" />
+      <bbMax x="8.401175" y="9.34295" z="12.113877" />
+      <bsCentre x="0" y="0" z="6.0569386" />
+      <bsRadius value="13.94837" />
+      <hdTextureDist value="5" />
+      <name>shack_rarefish_int_lightbox2</name>
+      <textureDictionary>shack_rarefish_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>shack_rarefish_int_lightbox2</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- shack_rarefish_int_shadowproxy -->
+      <loadFlags value="0x0000000000000800" />
+      <lodDist value="25" />
+      <flags value="2048" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.533769" y="-4.929596" z="-1.715769" />
+      <bbMax x="1.072429" y="6.055206" z="3.071807" />
+      <bsCentre x="-3.23067" y="0.5628052" z="0.6780188" />
+      <bsRadius value="7.376541" />
+      <hdTextureDist value="11.97" />
+      <name>shack_rarefish_int_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>shack_rarefish_int_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef"> <!-- shack_rarefish_int_shell -->
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.445946" y="-4.934593" z="-2.543036" />
+      <bbMax x="3.487932" y="4.942224" z="2.292071" />
+      <bsCentre x="0.020992994" y="0.003815651" z="-0.12548256" />
+      <bsRadius value="6.500163" />
+      <hdTextureDist value="11.89" />
+      <name>shack_rarefish_int_shell</name>
+      <textureDictionary>shack_rarefish_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>shack_rarefish_int_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

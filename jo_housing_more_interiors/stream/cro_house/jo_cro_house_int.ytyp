@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CMapTypes>
+  <extensions />
+  <name>jo_cro_house_int</name>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0" y="-5.0" z="-3.0" />
+      <bbMax x="5.0" y="5.0" z="3.0" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="10.0" />
+      <hdTextureDist value="25" />
+      <name>jo_cro_house_col</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>jo_cro_house_col</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_cro_house_col</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000800" />
+      <lodDist value="25" />
+      <flags value="536872960" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.071231" y="-5.722815" z="-3.201375" />
+      <bbMax x="6.071231" y="5.722815" z="3.201375" />
+      <bsCentre x="0" y="0" z="0" />
+      <bsRadius value="8.9364" />
+      <hdTextureDist value="5" />
+      <name>cro_house_int_shadowproxy</name>
+      <textureDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cro_house_int_shadowproxy</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.546393" y="-2.371189" z="-2.536489" />
+      <bbMax x="2.300675" y="2.580816" z="2.536747" />
+      <bsCentre x="-0.122859" y="0.104813576" z="0.00012898445" />
+      <bsRadius value="4.294012" />
+      <hdTextureDist value="8.71" />
+      <name>cro_hse_bed1_details</name>
+      <textureDictionary>cro_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cro_hse_bed1_details</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.121231" y="-2.338118" z="-2.536608" />
+      <bbMax x="2.370024" y="2.633619" z="2.536632" />
+      <bsCentre x="0.124396324" y="0.14775038" z="0" />
+      <bsRadius value="4.202003" />
+      <hdTextureDist value="5" />
+      <name>jo_cro_hse_bed2_details</name>
+      <textureDictionary>cro_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_cro_hse_bed2_details</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.295398" y="-2.48849" z="-2.536619" />
+      <bbMax x="1.279564" y="2.488512" z="2.536624" />
+      <bsCentre x="-0.007916927" y="0" z="0" />
+      <bsRadius value="3.77951" />
+      <hdTextureDist value="6" />
+      <name>jo_cro_hse_hall_details</name>
+      <textureDictionary>cro_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_cro_hse_hall_details</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="25" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.379065" y="-3.157566" z="-1.202838" />
+      <bbMax x="2.372561" y="3.153205" z="1.202808" />
+      <bsCentre x="-0.0032520294" y="-0.0021805763" z="0" />
+      <bsRadius value="4.12889" />
+      <hdTextureDist value="5" />
+      <name>jo_cro_hse_kitch_details</name>
+      <textureDictionary>cro_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_cro_hse_kitch_details</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.410076" y="-3.207933" z="0" />
+      <bbMax x="2.410076" y="3.207933" z="3.922151" />
+      <bsCentre x="0" y="0" z="1.9610755" />
+      <bsRadius value="4.465996" />
+      <hdTextureDist value="5" />
+      <name>cro_hse_lightholder_00</name>
+      <textureDictionary>cro_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cro_hse_lightholder_00</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.421081" y="-2.465101" z="0" />
+      <bbMax x="2.421081" y="2.465101" z="6.443597" />
+      <bsCentre x="0" y="0" z="3.2217984" />
+      <bsRadius value="4.724229" />
+      <hdTextureDist value="5" />
+      <name>cro_hse_lightholder_01</name>
+      <textureDictionary>cro_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cro_hse_lightholder_01</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.238053" y="-2.476106" z="0" />
+      <bbMax x="1.238053" y="2.476106" z="6.66598" />
+      <bsCentre x="0" y="0" z="3.33299" />
+      <bsRadius value="4.332747" />
+      <hdTextureDist value="5" />
+      <name>cro_hse_lightholder_02</name>
+      <textureDictionary>cro_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cro_hse_lightholder_02</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000020000000" />
+      <lodDist value="100" />
+      <flags value="536870912" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.2395" y="-2.525628" z="0" />
+      <bbMax x="2.2395" y="2.525628" z="6.579339" />
+      <bsCentre x="0" y="0" z="3.2896695" />
+      <bsRadius value="4.713394" />
+      <hdTextureDist value="5" />
+      <name>cro_hse_lightholder_03</name>
+      <textureDictionary>cro_house_int</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cro_hse_lightholder_03</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0x0000000000000000" />
+      <lodDist value="100" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.939393" y="-7.586261" z="-3.202397" />
+      <bbMax x="6.309962" y="4.001106" z="3.202404" />
+      <bsCentre x="0.18528461" y="-1.7925777" z="0" />
+      <bsRadius value="9.018526" />
+      <hdTextureDist value="15.23" />
+      <name>jo_cro_hse_shell</name>
+      <textureDictionary>PwGzhkA_0x57A27940</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>jo_cro_hse_shell</assetName>
+      <extensions />
+      <guid value="0x0000000000000000" />
+      <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <txdRelationships />
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>
