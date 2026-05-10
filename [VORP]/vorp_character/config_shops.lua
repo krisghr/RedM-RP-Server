@@ -61,6 +61,7 @@ ConfigShops.Locations = {
             { type = SHOP_TYPES.CLOTHING, label = "Clothing Store", input = 0xC7B5340A }, -- enter key
             { type = SHOP_TYPES.HAIR,     label = "Hair Store",     input = 0xD9D0E1C0 },
             { type = SHOP_TYPES.MAKEUP,   label = "Makeup Store",   input = 0x9959A6F0 }, -- C key -- space key
+            { type = SHOP_TYPES.SECONDCHANCE, label = "Second Chance", input = 0xA1ABB953 }, -- G key
 
         },
         DrawLight = false,                                -- if you need a light in the store put true
