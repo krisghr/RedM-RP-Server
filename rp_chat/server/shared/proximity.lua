@@ -57,7 +57,11 @@ end
 
 function RPChat.BuildNpcDoMessage(playerName, npcName, message, r, g, b)
     local text = RPChat.BuildDoMessage(npcName, message, r, g, b)
-    text.template = text.template:gsub('%(%( {%d+} %)%)', '(( {' .. (#text.args) .. '}, played by {' .. (#text.args + 1) .. '}. ))')
+    local playerNameIndex = #text.args
+    text.template = text.template:gsub(
+        '%(%( {%d+} %)%)',
+        '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')">(( Played by {' .. playerNameIndex .. '}. ))</span>'
+    )
     table.insert(text.args, playerName)
     return text
 end
