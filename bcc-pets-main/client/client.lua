@@ -1,6 +1,7 @@
 local recentlySpawned = 0
 local currentPetPed = nil
 local ActivePets = {}
+local ActivePetModes = {}
 local sleep = 500
 local SellPrice = 0
 
@@ -89,6 +90,97 @@ function FollowOwner(Pet, PlayerPedId, isInShop)
 	TaskFollowToOffsetOfEntity(Pet, PlayerPedId, 0.0, -1.5, 0.0, 1.0, -1,  Config.PetAttributes.FollowDistance * 100000000, 1, 1, 0, 0, 1)
 	if isInShop then
 		Citizen.InvokeNative(0x489FFCCCE7392B55, Pet, PlayerPedId)
+	end
+end
+
+function LeadOwner(Pet, PlayerPedId)
+	local playerCoords = GetEntityCoords(PlayerPedId)
+	local forward = GetEntityForwardVector(PlayerPedId)
+	local targetCoords = vector3(playerCoords.x + (forward.x * 4.0), playerCoords.y + (forward.y * 4.0), playerCoords.z)
+	local petCoords = GetEntityCoords(Pet)
+	local distToTarget = #(petCoords - targetCoords)
+	if distToTarget > 0 then
+		TaskGoToCoordAnyMeans(Pet, targetCoords.x, targetCoords.y, targetCoords.z, 3.0, 0, false, 0, 0.0)
+	end
+end
+
+local function StartPetScenarioWithFallback(petPed, scenarios)
+	for _, scenario in ipairs(scenarios) do
+		ClearPedTasksImmediately(petPed)
+		TaskStartScenarioInPlace(petPed, GetHashKey(scenario), -1, true, false, false, false)
+		Wait(250)
+		if IsPedUsingAnyScenario(petPed) then
+			return true
+		end
+	end
+	return false
+end
+
+local function GetClosestActivePet()
+	local playerCoords = GetEntityCoords(PlayerPedId())
+	local closestPet = nil
+	local closestDistance = nil
+
+	for _, pet in pairs(ActivePets) do
+		if DoesEntityExist(pet) then
+			local petCoords = GetEntityCoords(pet)
+			local dist = #(playerCoords - petCoords)
+			if closestDistance == nil or dist < closestDistance then
+				closestDistance = dist
+				closestPet = pet
+			end
+		end
+	end
+
+	return closestPet, closestDistance
+end
+
+local function HandlePetCommand(action)
+	local closestPet, distance = GetClosestActivePet()
+	if closestPet == nil then
+		VORPcore.NotifyRightTip(_U("NoPetNearby"), 4000)
+		return
+	end
+
+	if distance > 25.0 then
+		VORPcore.NotifyRightTip(_U("PetTooFar"), 4000)
+		return
+	end
+
+	ClearPedTasksImmediately(closestPet)
+	if action == "sit" then
+		FreezeEntityPosition(closestPet, false)
+		SetPedAsGroupMember(closestPet, GetPedGroupIndex(PlayerPedId()))
+		TaskStartScenarioInPlace(closestPet, GetHashKey("WORLD_ANIMAL_DOG_SITTING"), -1, true, false, false, false)
+		VORPcore.NotifyRightTip(_U("PetSit"), 4000)
+	elseif action == "stay" then
+		RemovePedFromGroup(closestPet)
+		TaskStandStill(closestPet, -1)
+		FreezeEntityPosition(closestPet, true)
+		VORPcore.NotifyRightTip(_U("PetStay"), 4000)
+	elseif action == "follow" then
+		FreezeEntityPosition(closestPet, false)
+		SetPedAsGroupMember(closestPet, GetPedGroupIndex(PlayerPedId()))
+		FollowOwner(closestPet, PlayerPedId(), false)
+		VORPcore.NotifyRightTip(_U("PetFollow"), 4000)
+	elseif action == "laydown" then
+		FreezeEntityPosition(closestPet, false)
+		SetPedAsGroupMember(closestPet, GetPedGroupIndex(PlayerPedId()))
+		local didLayDown = StartPetScenarioWithFallback(closestPet, {
+			"WORLD_ANIMAL_DOG_LYING_DOWN",
+			"WORLD_ANIMAL_DOG_SLEEPING_GROUND",
+			"WORLD_ANIMAL_DOG_SLEEPING"
+		})
+		if didLayDown then
+			VORPcore.NotifyRightTip(_U("PetLayDown"), 4000)
+		else
+			VORPcore.NotifyRightTip(_U("PetLayDownFailed"), 4000)
+		end
+	elseif action == "leadahead" then
+		FreezeEntityPosition(closestPet, false)
+		SetPedAsGroupMember(closestPet, GetPedGroupIndex(PlayerPedId()))
+		LeadOwner(closestPet, PlayerPedId())
+		VORPcore.NotifyRightTip(_U("PetLeadAhead"), 4000)
 	end
 end
 
@@ -369,6 +461,18 @@ end
 
 -- Threads
 CreateThread(function()
+	while true do
+		for _, pet in pairs(ActivePets) do
+			if DoesEntityExist(pet) and ActivePetModes[pet] == "leadahead" then
+				RemovePedFromGroup(pet)
+				LeadOwner(pet, PlayerPedId())
+			end
+		end
+		Wait(500)
+	end
+end)
+
+CreateThread(function()
 	for _, v in pairs(Config.Shops) do
 		if v.Blip.active then
 			local blip = VORPutils.Blips:SetBlip(v.Name, v.Blip.sprite, v.Blip.scale, v.Blip.coords.x, v.Blip.coords.y, v.Blip.coords.z)
@@ -423,6 +527,7 @@ end)
 
 RegisterNetEvent('bcc-pets:removedog', function (petid)
 	if ActivePets[petid] then
+		ActivePetModes[ActivePets[petid]] = nil
 		DeleteEntity(ActivePets[petid])
 	end
 end)
@@ -462,11 +567,39 @@ RegisterNetEvent('bcc-pets:openpetmenu', function()
 	CallPetMenu()
 end)
 
+RegisterCommand("sit", function()
+	HandlePetCommand("sit")
+end, false)
+
+RegisterCommand("stay", function()
+	HandlePetCommand("stay")
+end, false)
+
+RegisterCommand("followpet", function()
+	HandlePetCommand("follow")
+end, false)
+
+RegisterCommand("laydown", function()
+	HandlePetCommand("laydown")
+end, false)
+
+RegisterCommand("leadpet", function()
+	HandlePetCommand("leadahead")
+end, false)
+
+RegisterNetEvent("bcc-pets:client:chatcommand", function(action)
+	if action == "sit" or action == "stay" or action == "follow" or action == "laydown" or action == "leadahead" then
+		HandlePetCommand(action)
+	end
+end)
+
+
 AddEventHandler('onResourceStop', function(resourceName)
     if (GetCurrentResourceName() ~= resourceName) then
         return
     end
 	for k,_ in pairs(ActivePets) do
+		ActivePetModes[ActivePets[k]] = nil
 		DeleteEntity(ActivePets[k])
 	end
 end)

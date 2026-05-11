@@ -1,6 +1,6 @@
 Locales = {}
 
-function _(str, ...) -- Translate string
+local function Translate(str, ...) -- Translate string
 
 	if Locales[Config.Locale] ~= nil then
 
@@ -16,6 +16,10 @@ function _(str, ...) -- Translate string
 
 end
 
+function _(str, ...)
+	return Translate(str, ...)
+end
+
 function _U(str, ...) -- Translate string first char uppercase
-	return tostring(_(str, ...):gsub("^%l", string.upper))
+	return tostring(Translate(str, ...):gsub("^%l", string.upper))
 end

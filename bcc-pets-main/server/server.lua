@@ -162,3 +162,27 @@ if Config.PetMenu.active then
         TriggerClientEvent('bcc-pets:openpetmenu', source)
     end)
 end
+
+AddEventHandler('chatMessage', function(source, _, message)
+    if type(message) ~= "string" then
+        return
+    end
+
+    local normalized = message:lower():gsub("^%s+", ""):gsub("%s+$", "")
+    if normalized == "sit" or normalized == "sit." then
+        CancelEvent()
+        TriggerClientEvent("bcc-pets:client:chatcommand", source, "sit")
+    elseif normalized == "stay" or normalized == "stay." then
+        CancelEvent()
+        TriggerClientEvent("bcc-pets:client:chatcommand", source, "stay")
+    elseif normalized == "come" or normalized == "come." then
+        CancelEvent()
+        TriggerClientEvent("bcc-pets:client:chatcommand", source, "follow")
+    elseif normalized == "lay down" or normalized == "lay down." or normalized == "laydown" or normalized == "laydown." or normalized == "down" or normalized == "down." then
+        CancelEvent()
+        TriggerClientEvent("bcc-pets:client:chatcommand", source, "laydown")
+    elseif normalized == "lead" or normalized == "lead." or normalized == "walk ahead" or normalized == "walk ahead." then
+        CancelEvent()
+        TriggerClientEvent("bcc-pets:client:chatcommand", source, "leadahead")
+    end
+end)

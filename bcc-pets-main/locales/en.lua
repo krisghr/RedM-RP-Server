@@ -16,5 +16,12 @@ Locales['en'] = {
     IncorrectID = "Requires Person's ID #...",
     IssueTransferring = "There was an issue transferring the pet...",
     IssueBuying = "There was an issue buying the pet...",
-    SoldPet = "You sold your pet for $"
+    SoldPet = "You sold your pet for $",
+    NoPetNearby = "No active pet found nearby...",
+    PetTooFar = "Your pet is too far away...",
+    PetSit = "Your pet is now sitting.",
+    PetStay = "Your pet will stay here.",
+    PetFollow = "Your pet is following you.",
+    PetLayDown = "Your pet is lying down.",
+    PetLeadAhead = "Your pet is now walking ahead of you."
 }
