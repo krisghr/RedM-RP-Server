@@ -2,6 +2,7 @@ print("[RP_CHAT] server/main.lua loaded")
 
 AddEventHandler('playerDropped', function()
     local src = source
+    RPChat.ClearPlayerLanguage(src)
     local srcPed = GetPlayerPed(src)
     if not srcPed or srcPed == 0 then return end
 

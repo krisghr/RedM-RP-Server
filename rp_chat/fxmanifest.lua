@@ -25,5 +25,6 @@ server_scripts {
     'server/commands/npc.lua',
     'server/commands/pm.lua',
     'server/commands/id.lua',
+    'server/commands/language.lua',
     'server/main.lua'
 }

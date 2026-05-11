@@ -13,6 +13,8 @@ RPChat.RANGES = {
     farshout = 40.0
 }
 
+RPChat.PlayerLanguages = RPChat.PlayerLanguages or {}
+
 function RPChat.Trim(str)
     return (str or ""):gsub("^%s*(.-)%s*$", "%1")
 end
@@ -55,6 +57,34 @@ function RPChat.GetCharacterAccent(src)
     end
 
     return accentText, accentColor
+end
+
+function RPChat.SetPlayerLanguage(src, language)
+    src = tonumber(src)
+    if not src then return false end
+
+    language = RPChat.Trim(language)
+    if language == "" then
+        RPChat.PlayerLanguages[src] = nil
+        return false
+    end
+
+    RPChat.PlayerLanguages[src] = language
+    return true
+end
+
+function RPChat.GetPlayerLanguage(src)
+    src = tonumber(src)
+    if not src then return nil end
+
+    return RPChat.PlayerLanguages[src]
+end
+
+function RPChat.ClearPlayerLanguage(src)
+    src = tonumber(src)
+    if not src then return end
+
+    RPChat.PlayerLanguages[src] = nil
 end
 
 function RPChat.GetBrightness(distance, maxRange)
