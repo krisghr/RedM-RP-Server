@@ -28,4 +28,25 @@ Citizen.CreateThread(function()
     TriggerEvent("chat:addSuggestion", "/b", "Local OOC message.", {
         {name = "message", help = "Out-of-character message"}
     })
+TriggerEvent("chat:addSuggestion", "/setaccent", "Open accent customization UI.", {})
+end)
+
+RegisterCommand("setaccent", function()
+    SetNuiFocus(true, true)
+    SendNUIMessage({
+        action = "openAccentUI",
+        accentText = LocalPlayer.state.accentText or "",
+        accentColor = LocalPlayer.state.accentColor or "255,255,255"
+    })
+end, false)
+
+RegisterNUICallback("saveAccent", function(data, cb)
+    SetNuiFocus(false, false)
+    TriggerServerEvent("rp_chat:setAccent", data.accentText or "", data.accentColor or "255,255,255")
+    cb({ ok = true })
+end)
+
+RegisterNUICallback("cancelAccent", function(_, cb)
+    SetNuiFocus(false, false)
+    cb({ ok = true })
 end)

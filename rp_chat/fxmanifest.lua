@@ -6,6 +6,12 @@ version '0.1a'
 author 'Warhead'
 
 client_script 'client.lua'
+ui_page 'ui/index.html'
+
+files {
+    'ui/index.html'
+}
+
 server_scripts {
     'server/shared/core.lua',
     'server/shared/proximity.lua',

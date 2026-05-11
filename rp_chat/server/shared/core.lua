@@ -40,6 +40,23 @@ function RPChat.GetCharacterName(src)
     return fullName
 end
 
+function RPChat.GetCharacterAccent(src)
+    local state = Player(src) and Player(src).state
+    local accentText = state and state.accentText or ""
+    local accentColor = state and state.accentColor or "255,255,255"
+
+    accentText = RPChat.Trim(accentText)
+    if accentText == "" then
+        return nil, nil
+    end
+
+    if not tostring(accentColor):match('^%d+,%d+,%d+$') then
+        accentColor = "255,255,255"
+    end
+
+    return accentText, accentColor
+end
+
 function RPChat.GetBrightness(distance, maxRange)
     local t = distance / maxRange
 
@@ -102,11 +119,20 @@ function RPChat.AppendSlashFormatted(template, args, index, text, colorStyle)
     return template, index
 end
 
-function RPChat.BuildSpeechMessage(charName, verb, message, r, g, b, emoteR, emoteG, emoteB)
-    local template = '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')">{0} ' .. verb .. ', </span>'
+function RPChat.BuildSpeechMessage(charName, accentText, accentColor, verb, message, r, g, b, emoteR, emoteG, emoteB)
+    local template = '<span style="color: rgb(' .. r .. ',' .. g .. ',' .. b .. ')">{0}'
     local args = { charName }
 
     local index = 1
+
+    if accentText and accentText ~= "" then
+        template = template .. ' (<span style="color: rgb(' .. accentColor .. ')">{1}</span>)'
+        table.insert(args, accentText)
+        index = 2
+    end
+
+    template = template .. ' ' .. verb .. ', </span>'
+
     local pos = 1
 
     while true do

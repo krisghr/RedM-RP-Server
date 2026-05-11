@@ -77,6 +77,7 @@ function RPChat.SendTargetedProximityMessage(src, range, prefix, targetId, messa
 
     local srcCoords = GetEntityCoords(srcPed)
     local charName = RPChat.GetCharacterName(src)
+    local accentText, accentColor = RPChat.GetCharacterAccent(src)
     local targetName = RPChat.GetCharacterName(targetId)
 
     for _, playerId in ipairs(GetPlayers()) do
@@ -102,7 +103,7 @@ function RPChat.SendTargetedProximityMessage(src, range, prefix, targetId, messa
                 end
 
                 verb = verb .. " (to " .. targetName .. ")"
-                TriggerClientEvent('chat:addMessage', receiverId, RPChat.BuildSpeechMessage(charName, verb, message, r, g, b, emoteR, emoteG, emoteB))
+                TriggerClientEvent('chat:addMessage', receiverId, RPChat.BuildSpeechMessage(charName, accentText, accentColor, verb, message, r, g, b, emoteR, emoteG, emoteB))
             end
         end
     end
@@ -113,6 +114,7 @@ function RPChat.SendProximityMessage(src, range, prefix, message, mode)
     if not srcPed or srcPed == 0 then return end
     local srcCoords = GetEntityCoords(srcPed)
     local charName = RPChat.GetCharacterName(src)
+    local accentText, accentColor = RPChat.GetCharacterAccent(src)
 
     for _, playerId in ipairs(GetPlayers()) do
         local targetId = tonumber(playerId)
@@ -151,7 +153,7 @@ function RPChat.SendProximityMessage(src, range, prefix, message, mode)
                     else
                         verb = (lastChar == "?" and "asks") or (lastChar == "!" and "exclaims") or "states"
                     end
-                    text = RPChat.BuildSpeechMessage(charName, verb, message, r, g, b, math.floor(197 * brightness), math.floor(164 * brightness), math.floor(195 * brightness))
+                    text = RPChat.BuildSpeechMessage(charName, accentText, accentColor, verb, message, r, g, b, math.floor(197 * brightness), math.floor(164 * brightness), math.floor(195 * brightness))
                 end
                 TriggerClientEvent('chat:addMessage', targetId, text)
             end
