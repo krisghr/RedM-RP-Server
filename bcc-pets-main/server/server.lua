@@ -184,5 +184,8 @@ AddEventHandler('chatMessage', function(source, _, message)
     elseif normalized == "lead" or normalized == "lead." or normalized == "walk ahead" or normalized == "walk ahead." then
         CancelEvent()
         TriggerClientEvent("bcc-pets:client:chatcommand", source, "leadahead")
+    elseif normalized == "there" or normalized == "there." or normalized == "go there" or normalized == "go there." or normalized == "over there" or normalized == "over there." then
+        CancelEvent()
+        TriggerClientEvent("bcc-pets:client:chatcommand", source, "gothere")
     end
 end)

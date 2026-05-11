@@ -23,5 +23,6 @@ Locales['en'] = {
     PetStay = "Your pet will stay here.",
     PetFollow = "Your pet is following you.",
     PetLayDown = "Your pet is lying down.",
-    PetLeadAhead = "Your pet is now walking ahead of you."
+    PetLeadAhead = "Your pet is now walking ahead of you.",
+    PetGoThere = "Your pet is going to the location.",
 }

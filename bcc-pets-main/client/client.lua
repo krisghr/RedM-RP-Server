@@ -4,6 +4,12 @@ local ActivePets = {}
 local ActivePetModes = {}
 local sleep = 500
 local SellPrice = 0
+local targetSelectionActive = false
+local targetSelectionPet = nil
+local targetSelectionUntil = 0
+local targetSelectionTeleport = false
+local petMoveTarget = nil
+local petPlacementConfig = (Config and Config.PetPlacement) or {}
 
 -- MenuAPI
 TriggerEvent("menuapi:getData",function(call)
@@ -135,6 +141,65 @@ local function GetClosestActivePet()
 	return closestPet, closestDistance
 end
 
+
+local function TeleportPetToWaypoint()
+	local closestPet, distance = GetClosestActivePet()
+	if closestPet == nil then
+		VORPcore.NotifyRightTip(_U("NoPetNearby"), 4000)
+		return
+	end
+
+	if distance > 25.0 then
+		VORPcore.NotifyRightTip(_U("PetTooFar"), 4000)
+		return
+	end
+
+	ClearPedTasksImmediately(closestPet)
+	FreezeEntityPosition(closestPet, false)
+	RemovePedFromGroup(closestPet)
+	targetSelectionActive = true
+	targetSelectionPet = closestPet
+	targetSelectionTeleport = true
+	targetSelectionUntil = GetGameTimer() + (petPlacementConfig.selectionDurationMs or 15000)
+	VORPcore.NotifyRightTip("Aim at the ground and left click to place pet.", 5000)
+end
+
+local function RotationToDirection(rotation)
+	local rotZ = math.rad(rotation.z)
+	local rotX = math.rad(rotation.x)
+	local cosX = math.abs(math.cos(rotX))
+	return vector3(-math.sin(rotZ) * cosX, math.cos(rotZ) * cosX, math.sin(rotX))
+end
+
+local function RaycastFromCamera(maxDistance)
+	local camRot = GetGameplayCamRot(2)
+	local camCoord = GetGameplayCamCoord()
+	local direction = RotationToDirection(camRot)
+	local destination = camCoord + (direction * maxDistance)
+	local shapeTest = StartShapeTestRay(camCoord.x, camCoord.y, camCoord.z, destination.x, destination.y, destination.z, 17, PlayerPedId(), 7)
+	local _, hit, endCoords = GetShapeTestResult(shapeTest)
+	if hit == 1 then
+		return true, endCoords
+	end
+	return false, destination
+end
+
+local function FacePetRelativeToPlayer(petPed, faceAway)
+	local petCoords = GetEntityCoords(petPed)
+	local playerCoords = GetEntityCoords(PlayerPedId())
+	local directionX = playerCoords.x - petCoords.x
+	local directionY = playerCoords.y - petCoords.y
+	local heading = GetHeadingFromVector_2d(directionX, directionY)
+
+	if faceAway then
+		heading = (heading + 180.0) % 360.0
+	end
+
+	FreezeEntityPosition(petPed, true)
+	TaskStandStill(petPed, -1)
+	SetEntityHeading(petPed, heading)
+end
+
 local function HandlePetCommand(action)
 	local closestPet, distance = GetClosestActivePet()
 	if closestPet == nil then
@@ -181,8 +246,82 @@ local function HandlePetCommand(action)
 		SetPedAsGroupMember(closestPet, GetPedGroupIndex(PlayerPedId()))
 		LeadOwner(closestPet, PlayerPedId())
 		VORPcore.NotifyRightTip(_U("PetLeadAhead"), 4000)
+	elseif action == "faceme" then
+		FacePetRelativeToPlayer(closestPet, false)
+		VORPcore.NotifyRightTip("Pet is facing you.", 4000)
+	elseif action == "faceaway" then
+		FacePetRelativeToPlayer(closestPet, true)
+		VORPcore.NotifyRightTip("Pet is facing away from you.", 4000)
+	elseif action == "gothere" then
+		FreezeEntityPosition(closestPet, false)
+		RemovePedFromGroup(closestPet)
+		targetSelectionActive = true
+		targetSelectionPet = closestPet
+		targetSelectionTeleport = false
+		targetSelectionUntil = GetGameTimer() + (petPlacementConfig.selectionDurationMs or 15000)
+		VORPcore.NotifyRightTip("Aim at the ground and left click to set pet destination.", 5000)
 	end
 end
+
+CreateThread(function()
+	while true do
+		if not targetSelectionActive then
+			Wait(250)
+		else
+			Wait(0)
+			if targetSelectionPet == nil or not DoesEntityExist(targetSelectionPet) or GetGameTimer() > targetSelectionUntil then
+				targetSelectionActive = false
+				targetSelectionPet = nil
+				targetSelectionTeleport = false
+				VORPcore.NotifyRightTip("Pet placement cancelled.", 3000)
+			else
+				local hasHit, targetCoords = RaycastFromCamera(petPlacementConfig.maxSelectionDistance or 75.0)
+				DrawMarker(-1795314153, targetCoords.x, targetCoords.y, targetCoords.z + 0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, petPlacementConfig.markerScale or 0.35, petPlacementConfig.markerScale or 0.35, petPlacementConfig.markerScale or 0.35, 255, 170, 0, 200, false, true, 2, false, nil, nil, false)
+				if IsControlJustPressed(0, 0x07CE1E61) and hasHit then
+					ClearPedTasksImmediately(targetSelectionPet)
+					if targetSelectionTeleport then
+						FreezeEntityPosition(targetSelectionPet, false)
+						local foundGround, groundZ = GetGroundZAndNormalFor_3dCoord(targetCoords.x, targetCoords.y, targetCoords.z + 2.0)
+						local safeZ = (foundGround and groundZ or targetCoords.z) + 0.45
+						SetEntityCoordsNoOffset(targetSelectionPet, targetCoords.x, targetCoords.y, safeZ, false, false, true)
+						TaskStandStill(targetSelectionPet, -1)
+						FreezeEntityPosition(targetSelectionPet, true)
+						VORPcore.NotifyRightTip("Pet teleported to selected location.", 4000)
+					else
+						TaskGoToCoordAnyMeans(targetSelectionPet, targetCoords.x, targetCoords.y, targetCoords.z, 2.0, 0, false, 0, 0.0)
+						petMoveTarget = { pet = targetSelectionPet, coords = vector3(targetCoords.x, targetCoords.y, targetCoords.z) }
+						VORPcore.NotifyRightTip("Pet moving to selected location.", 4000)
+					end
+					targetSelectionActive = false
+					targetSelectionPet = nil
+					targetSelectionTeleport = false
+				end
+			end
+		end
+	end
+end)
+
+CreateThread(function()
+	while true do
+		if petMoveTarget == nil then
+			Wait(250)
+		else
+			Wait(250)
+			if not DoesEntityExist(petMoveTarget.pet) then
+				petMoveTarget = nil
+			else
+				local petCoords = GetEntityCoords(petMoveTarget.pet)
+				local distance = #(petCoords - petMoveTarget.coords)
+				if distance <= 1.5 then
+					ClearPedTasksImmediately(petMoveTarget.pet)
+					TaskStandStill(petMoveTarget.pet, -1)
+					FreezeEntityPosition(petMoveTarget.pet, true)
+					petMoveTarget = nil
+				end
+			end
+		end
+	end
+end)
 
 function SpawnAnimal(model, player, x, y, z, h, skin, PlayerPedId, isdead, isshop, petid)
 	currentPetPed = CreatePed(model, x, y, z, h, 1, 1 )
@@ -587,8 +726,24 @@ RegisterCommand("leadpet", function()
 	HandlePetCommand("leadahead")
 end, false)
 
+RegisterCommand("faceme", function()
+	HandlePetCommand("faceme")
+end, false)
+
+RegisterCommand("faceaway", function()
+	HandlePetCommand("faceaway")
+end, false)
+
+RegisterCommand("gothere", function()
+	HandlePetCommand("gothere")
+end, false)
+
+RegisterCommand(petPlacementConfig.command or "petplacement", function()
+	TeleportPetToWaypoint()
+end, false)
+
 RegisterNetEvent("bcc-pets:client:chatcommand", function(action)
-	if action == "sit" or action == "stay" or action == "follow" or action == "laydown" or action == "leadahead" then
+	if action == "sit" or action == "stay" or action == "follow" or action == "laydown" or action == "leadahead" or action == "faceme" or action == "faceaway" then
 		HandlePetCommand(action)
 	end
 end)
