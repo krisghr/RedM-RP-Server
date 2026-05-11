@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="-1223.429993" y="-1770.121216" z="-357.246422"/>
+	<streamingExtentsMax x="-409.022705" y="-964.307007" z="445.318855"/>
+	<entitiesExtentsMin x="-873.429993" y="-1420.121216" z="-7.246422"/>
+	<entitiesExtentsMax x="-759.022705" y="-1314.307007" z="95.318855"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>p_door_bla_doc_r_01x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-810.250000" y="-1366.486572" z="42.753578"/>
+			<rotation w="0.707107" x="0.000000" y="0.000000" z="-0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="60"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_win_blabarbershop_01x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-809.200012" y="-1370.121216" z="45.099724"/>
+			<rotation w="0.716315" x="0.000000" y="0.000000" z="-0.697777"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="60"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_win_blabarbershop_01x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-809.169983" y="-1365.274048" z="45.100975"/>
+			<rotation w="0.706253" x="0.000000" y="0.000000" z="-0.707960"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="60"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_win_blabarbershop_02x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-810.049988" y="-1366.528198" z="45.301491"/>
+			<rotation w="0.942379" x="0.000000" y="0.000000" z="-0.334548"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="60"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_win_blabarbershop_02x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-809.940002" y="-1367.681519" z="45.318855"/>
+			<rotation w="0.707107" x="0.000000" y="0.000000" z="-0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="60"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_win_blabarbershop_02x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-809.022705" y="-1368.290039" z="45.301491"/>
+			<rotation w="0.336976" x="0.000000" y="0.000000" z="-0.941513"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="60"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_win_blabarbershop_02x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-810.039978" y="-1366.535522" z="43.732994"/>
+			<rotation w="0.942379" x="0.000000" y="0.000000" z="-0.334548"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="60"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_win_blabarbershop_04x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-809.159973" y="-1365.281616" z="43.531227"/>
+			<rotation w="0.706253" x="0.000000" y="0.000000" z="-0.707960"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="60"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door_bla_doc_l_01x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-810.250000" y="-1367.497314" z="42.753609"/>
+			<rotation w="0.707107" x="0.000000" y="0.000000" z="-0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="60"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_win_blabarbershop_02x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-809.039978" y="-1368.281616" z="43.732994"/>
+			<rotation w="0.336976" x="0.000000" y="0.000000" z="-0.941513"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="60"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door04x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-823.429993" y="-1364.307007" z="42.754997"/>
+			<rotation w="0.707107" x="0.000000" y="0.000000" z="0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="60"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_win_blabarbershop_03x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-809.200012" y="-1370.118530" z="43.531227"/>
+			<rotation w="0.716315" x="0.000000" y="0.000000" z="-0.697777"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="60"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

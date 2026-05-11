@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="499"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-100.41584" y="-100.41584" z="-100.41584" />
+      <bbMax x="100.41584" y="100.41584" z="100.41584" />
+      <bsCentre x="0.0" y="0.0" z="0.0" />
+      <bsRadius value="173.92534" />
+      <hdTextureDist value="60.0"/>
+      <name>col_cabin_int_broken_lod</name>
+      <textureDictionary>bla_civic_endsum_txd</textureDictionary>
+      <physicsDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>col_cabin_int_broken_lod</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="15"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-100.41584" y="-100.41584" z="-100.41584" />
+      <bbMax x="100.41584" y="100.41584" z="100.41584" />
+      <bsCentre x="0.0" y="0.0" z="0.0" />
+      <bsRadius value="173.92534" />
+      <hdTextureDist value="60.0"/>
+      <name>col_cabin_int_broken</name>
+      <textureDictionary>bla_civic_endsum_txd</textureDictionary>
+      <physicsDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>col_cabin_int_broken</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="15"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-100.41584" y="-100.41584" z="-100.41584" />
+      <bbMax x="100.41584" y="100.41584" z="100.41584" />
+      <bsCentre x="0.0" y="0.0" z="0.0" />
+      <bsRadius value="173.92534" />
+      <hdTextureDist value="60.0"/>
+      <name>bla_civic_fman_decal01</name>
+      <textureDictionary>bla_civic_endsum_txd</textureDictionary>
+      <physicsDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bla_civic_fman_decal01</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="15"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-100.41584" y="-100.41584" z="-100.41584" />
+      <bbMax x="100.41584" y="100.41584" z="100.41584" />
+      <bsCentre x="0.0" y="0.0" z="0.0" />
+      <bsRadius value="173.92534" />
+      <hdTextureDist value="60.0"/>
+      <name>bla_civic_fman01</name>
+      <textureDictionary>bla_civic_endsum_txd</textureDictionary>
+      <physicsDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bla_civic_fman01</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="15"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-100.41584" y="-100.41584" z="-100.41584" />
+      <bbMax x="100.41584" y="100.41584" z="100.41584" />
+      <bsCentre x="0.0" y="0.0" z="0.0" />
+      <bsRadius value="173.92534" />
+      <hdTextureDist value="60.0"/>
+      <name>bla_civic_props_debris_00</name>
+      <textureDictionary>bla_civic_endsum_txd</textureDictionary>
+      <physicsDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bla_civic_props_debris_00</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="15"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-100.41584" y="-100.41584" z="-100.41584" />
+      <bbMax x="100.41584" y="100.41584" z="100.41584" />
+      <bsCentre x="0.0" y="0.0" z="0.0" />
+      <bsRadius value="173.92534" />
+      <hdTextureDist value="60.0"/>
+      <name>bla_civic_props_debris_01</name>
+      <textureDictionary>bla_civic_endsum_txd</textureDictionary>
+      <physicsDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bla_civic_props_debris_01</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="15"/>
+      <flags value="8192" />
+      <loadFlags value="0x0000000000002000" />
+      <specialAttribute value="0" />
+      <bbMin x="-100.41584" y="-100.41584" z="-100.41584" />
+      <bbMax x="100.41584" y="100.41584" z="100.41584" />
+      <bsCentre x="0.0" y="0.0" z="0.0" />
+      <bsRadius value="173.92534" />
+      <hdTextureDist value="60.0"/>
+      <name>bla_civic_props_debris_02</name>
+      <textureDictionary>bla_civic_endsum_txd</textureDictionary>
+      <physicsDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bla_civic_props_debris_02</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="15"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-100.41584" y="-100.41584" z="-100.41584" />
+      <bbMax x="100.41584" y="100.41584" z="100.41584" />
+      <bsCentre x="0.0" y="0.0" z="0.0" />
+      <bsRadius value="173.92534" />
+      <hdTextureDist value="60.0"/>
+      <name>bla_civic_props_debris_03</name>
+      <textureDictionary>bla_civic_endsum_txd</textureDictionary>
+      <physicsDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bla_civic_props_debris_03</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>bw_hedge</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

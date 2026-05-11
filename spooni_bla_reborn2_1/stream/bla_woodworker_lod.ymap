@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="-1276.795959" y="-1693.244141" z="-357.900906"/>
+	<streamingExtentsMax x="-469.752625" y="-889.553223" z="442.106129"/>
+	<entitiesExtentsMin x="-926.795959" y="-1343.244141" z="-7.900906"/>
+	<entitiesExtentsMax x="-819.752625" y="-1239.553223" z="92.106129"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>p_door_blk_carriage01x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-873.941345" y="-1293.244141" z="42.106129"/>
+			<rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="80"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door_blk_carriage01x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-869.752625" y="-1293.244141" z="42.106129"/>
+			<rotation w="0.000000" x="0.000000" y="0.000000" z="-1.000000"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="80"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door41x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-876.795959" y="-1289.553223" z="42.099094"/>
+			<rotation w="0.707107" x="0.000000" y="0.000000" z="-0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="80"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

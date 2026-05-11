@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="-1215.359985" y="-1750.085693" z="-357.248596"/>
+	<streamingExtentsMax x="-409.109985" y="-946.050049" z="450.744591"/>
+	<entitiesExtentsMin x="-865.359985" y="-1400.085693" z="-7.248596"/>
+	<entitiesExtentsMax x="-759.109985" y="-1296.050049" z="100.744591"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>p_doornbd39bx</archetypeName>
+			<flags value="1572865"/>
+			<position x="-811.359985" y="-1346.050049" z="42.751404"/>
+			<rotation w="0.923880" x="0.000000" y="0.000000" z="0.382682"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="60"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door51x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-809.109985" y="-1350.085693" z="46.959404"/>
+			<rotation w="0.707107" x="0.000000" y="0.000000" z="-0.707106"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="60"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door09x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-815.359985" y="-1349.876709" z="50.744591"/>
+			<rotation w="0.707107" x="0.000000" y="0.000000" z="-0.707106"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="60"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_doornbd39bx</archetypeName>
+			<flags value="1572865"/>
+			<position x="-809.799988" y="-1347.609985" z="42.751404"/>
+			<rotation w="0.382683" x="0.000000" y="0.000000" z="-0.923880"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="60"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="-1204.748596" y="-1810.929565" z="-356.084438"/>
+	<streamingExtentsMax x="-390.373108" y="-1007.615356" z="444.037624"/>
+	<entitiesExtentsMin x="-854.748596" y="-1460.929565" z="-6.084438"/>
+	<entitiesExtentsMax x="-740.373108" y="-1357.615356" z="94.037624"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>p_door02x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-790.373108" y="-1407.615356" z="43.915562"/>
+			<rotation w="0.992005" x="0.000000" y="0.000000" z="-0.126199"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="80"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door37x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-804.748596" y="-1410.929565" z="44.037624"/>
+			<rotation w="0.996195" x="0.000000" y="0.000000" z="-0.087152"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="80"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

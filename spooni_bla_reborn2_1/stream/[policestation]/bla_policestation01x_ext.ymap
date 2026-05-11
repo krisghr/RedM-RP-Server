@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<CMapData>
+    <flags value="2"/>
+    <contentFlags value="65"/>
+    <streamingExtentsMin x="-1176.353210" y="-1635.731934" z="-356.536350"/>
+    <streamingExtentsMax x="-376.353210" y="-835.731934" z="443.463650"/>
+    <entitiesExtentsMin x="-826.353210" y="-1285.731934" z="-6.536350"/>
+    <entitiesExtentsMax x="-726.353210" y="-1185.731934" z="93.463650"/>
+    <entities>
+        <Item type="CEntityDef">
+            <archetypeName>bla_policestation01x</archetypeName>
+            <flags value="1572897"/>
+            <position x="-776.353210" y="-1235.731934" z="43.463650"/>
+            <rotation w="0.707107" x="0.000000" y="0.000000" z="0.707107"/>
+            <scaleXY value="1"/>
+            <scaleZ value="1"/>
+            <parentIndex value="-1"/>
+            <lodDist value="850"/>
+            <childLodDist value="0"/>
+            <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+            <numChildren value="0"/>
+            <ambientOcclusionMultiplier value="255"/>
+            <artificialAmbientOcclusion value="255"/>
+        </Item>
+    </entities>
+</CMapData>

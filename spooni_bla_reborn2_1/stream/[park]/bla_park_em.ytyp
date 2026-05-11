@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CTimeArchetypeDef">
+   <loadFlags value="0x0000000000000000" />
+   <lodDist value="200" />
+   <flags value="0" />
+   <avoidanceflags value="0" />
+   <specialAttribute value="0" />
+   <bbMin x="-100.0" y="-100.0" z="-100.0" />
+   <bbMax x="100.0" y="100.0" z="100.0" />
+   <bsCentre x="0.0" y="0.0" z="0.0" />
+   <bsRadius value="95.20508" />
+   <hdTextureDist value="18.46" />
+   <name>col_cabin_int_details</name>
+   <textureDictionary>bla_park_em</textureDictionary>
+   <clipDictionary />
+   <drawableDictionary />
+   <physicsDictionary />
+   <assetType>ASSET_TYPE_DRAWABLE</assetType>
+   <assetName>col_cabin_int_details</assetName>
+   <extensions />
+   <guid value="0x0000000000000000" />
+   <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+   <timeFlags value="31457407" />
+  </Item>
+  </archetypes>
+  <name>bla_park_em</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

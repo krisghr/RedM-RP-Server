@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="-1210.122986" y="-1626.800049" z="-352.386799"/>
+	<streamingExtentsMax x="-410.122986" y="-826.800049" z="447.613201"/>
+	<entitiesExtentsMin x="-860.122986" y="-1276.800049" z="-2.386799"/>
+	<entitiesExtentsMax x="-760.122986" y="-1176.800049" z="97.613201"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>col_cabin_int_details</archetypeName>
+			<flags value="1572897"/>
+			<position x="-810.122986" y="-1226.800049" z="47.613201"/>
+			<rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="300"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

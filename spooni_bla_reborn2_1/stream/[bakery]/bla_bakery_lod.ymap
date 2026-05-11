@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="-1220.756958" y="-1707.079956" z="-357.340942"/>
+	<streamingExtentsMax x="-409.128967" y="-903.603271" z="450.510010"/>
+	<entitiesExtentsMin x="-870.756958" y="-1357.079956" z="-7.340942"/>
+	<entitiesExtentsMax x="-759.128967" y="-1253.603271" z="100.510010"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>p_curtainmansion02x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-809.470703" y="-1307.079956" z="42.730000"/>
+			<rotation w="0.707107" x="0.000000" y="0.000000" z="0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="70"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door_nbx_art01x_r</archetypeName>
+			<flags value="1572865"/>
+			<position x="-809.138000" y="-1305.182251" z="46.952057"/>
+			<rotation w="0.707107" x="0.000000" y="0.000000" z="0.707106"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="70"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door_nbx_art01x_l</archetypeName>
+			<flags value="1572865"/>
+			<position x="-809.128967" y="-1304.141235" z="46.952057"/>
+			<rotation w="0.707107" x="0.000000" y="0.000000" z="0.707106"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="70"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_doorscanwood02</archetypeName>
+			<flags value="1572865"/>
+			<position x="-809.40997" y="-1303.604271" z="42.663497"/>
+			<rotation w="0.707107" x="0.000000" y="0.000000" z="0.707106"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="70"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_doorscanwood02</archetypeName>
+			<flags value="1572865"/>
+			<position x="-809.40997" y="-1305.464257" z="42.663497"/>
+			<rotation w="0.707107" x="0.000000" y="0.000000" z="-0.707106"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="70"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_gnomeoillamp02x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-812.776245" y="-1306.287231" z="50.510010"/>
+			<rotation w="0.732772" x="0.000000" y="0.000000" z="0.680474"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="70"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_chandelier29x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-812.308533" y="-1305.640503" z="45.125999"/>
+			<rotation w="0.692924" x="0.000000" y="0.000000" z="-0.721011"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="70"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door15x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-820.756958" y="-1304.848267" z="42.659058"/>
+			<rotation w="0.707107" x="0.000000" y="0.000000" z="0.707106"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="70"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

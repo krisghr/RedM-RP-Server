@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapData>
+ <flags value="2" />
+ <contentFlags value="65" />
+ <streamingExtentsMin x="-1234.368" y="-1632.34" z="-357.51968" />
+ <streamingExtentsMax x="-410.23102" y="-803.19995" z="442.5379" />
+ <entitiesExtentsMin x="-884.368" y="-1282.34" z="-7.519699" />
+ <entitiesExtentsMax x="-760.231" y="-1153.2" z="92.537895" />
+ <entities>
+  <Item type="CEntityDef">
+   <archetypeName>col_cabin_int_damaged</archetypeName>
+   <flags value="1572897" />
+   <position x="-810.231" y="-1203.2" z="42.4803" />
+   <rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000" />
+   <scaleXY value="1" />
+   <scaleZ value="1" />
+   <parentIndex value="-1" />
+   <lodDist value="150" />
+   <childLodDist value="0" />
+   <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+   <numChildren value="0" />
+   <ambientOcclusionMultiplier value="255" />
+   <artificialAmbientOcclusion value="255" />
+  </Item>
+  <Item type="CEntityDef">
+   <archetypeName>col_cabin_int_corner</archetypeName>
+   <flags value="1572897" />
+   <position x="-810.231" y="-1203.2" z="42.4803" />
+   <rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000" />
+   <scaleXY value="1" />
+   <scaleZ value="1" />
+   <parentIndex value="-1" />
+   <lodDist value="150" />
+   <childLodDist value="0" />
+   <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+   <numChildren value="0" />
+   <ambientOcclusionMultiplier value="255" />
+   <artificialAmbientOcclusion value="255" />
+  </Item>
+  <Item type="CEntityDef">
+   <archetypeName>col_cabin_int_broken</archetypeName>
+   <flags value="1572897" />
+   <position x="-850.841" y="-1191.5" z="43.6188" />
+   <rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000" />
+   <scaleXY value="1" />
+   <scaleZ value="1" />
+   <parentIndex value="-1" />
+   <lodDist value="25" />
+   <childLodDist value="0" />
+   <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+   <numChildren value="0" />
+   <ambientOcclusionMultiplier value="255" />
+   <artificialAmbientOcclusion value="255" />
+  </Item>
+  <Item type="CEntityDef">
+   <archetypeName>bla_civic_fman_decal01</archetypeName>
+   <flags value="1572897" />
+   <position x="-817.847" y="-1189.43" z="43.1117" />
+   <rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000" />
+   <scaleXY value="1" />
+   <scaleZ value="1" />
+   <parentIndex value="-1" />
+   <lodDist value="25" />
+   <childLodDist value="0" />
+   <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+   <numChildren value="0" />
+   <ambientOcclusionMultiplier value="255" />
+   <artificialAmbientOcclusion value="255" />
+  </Item>
+  <Item type="CEntityDef">
+   <archetypeName>bla_civic_fman01</archetypeName>
+   <flags value="1572897" />
+   <position x="-815.943" y="-1230.36" z="43.5478" />
+   <rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000" />
+   <scaleXY value="1" />
+   <scaleZ value="1" />
+   <parentIndex value="-1" />
+   <lodDist value="25" />
+   <childLodDist value="0" />
+   <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+   <numChildren value="0" />
+   <ambientOcclusionMultiplier value="255" />
+   <artificialAmbientOcclusion value="255" />
+  </Item>
+  <Item type="CEntityDef">
+   <archetypeName>bla_civic_props_debris_00</archetypeName>
+   <flags value="1572897" />
+   <position x="-781.447" y="-1191.74" z="43.1091" />
+   <rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000" />
+   <scaleXY value="1" />
+   <scaleZ value="1" />
+   <parentIndex value="-1" />
+   <lodDist value="25" />
+   <childLodDist value="0" />
+   <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+   <numChildren value="0" />
+   <ambientOcclusionMultiplier value="255" />
+   <artificialAmbientOcclusion value="255" />
+  </Item>
+  <Item type="CEntityDef">
+   <archetypeName>bla_civic_props_debris_01</archetypeName>
+   <flags value="1572897" />
+   <position x="-850.881" y="-1191.54" z="43.4623" />
+   <rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000" />
+   <scaleXY value="1" />
+   <scaleZ value="1" />
+   <parentIndex value="-1" />
+   <lodDist value="25" />
+   <childLodDist value="0" />
+   <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+   <numChildren value="0" />
+   <ambientOcclusionMultiplier value="255" />
+   <artificialAmbientOcclusion value="255" />
+  </Item>
+  <Item type="CEntityDef">
+   <archetypeName>bla_civic_props_debris_02</archetypeName>
+   <flags value="1572897" />
+   <position x="-818.679" y="-1231.45" z="43.428" />
+   <rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000" />
+   <scaleXY value="1" />
+   <scaleZ value="1" />
+   <parentIndex value="-1" />
+   <lodDist value="25" />
+   <childLodDist value="0" />
+   <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+   <numChildren value="0" />
+   <ambientOcclusionMultiplier value="255" />
+   <artificialAmbientOcclusion value="255" />
+  </Item>
+  <Item type="CEntityDef">
+   <archetypeName>bla_civic_props_debris_03</archetypeName>
+   <flags value="1572897" />
+   <position x="-820.362" y="-1234.53" z="43.5473" />
+   <rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000" />
+   <scaleXY value="1" />
+   <scaleZ value="1" />
+   <parentIndex value="-1" />
+   <lodDist value="25" />
+   <childLodDist value="0" />
+   <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+   <numChildren value="0" />
+   <ambientOcclusionMultiplier value="255" />
+   <artificialAmbientOcclusion value="255" />
+  </Item>
+<Item type="CEntityDef">
+   <archetypeName>col_cabin_int_broken_lod</archetypeName>
+   <flags value="1572897" />
+   <position x="-834.368" y="-1232.34" z="42.5379" />
+   <rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000" />
+   <scaleXY value="1" />
+   <scaleZ value="1" />
+   <parentIndex value="-1" />
+   <lodDist value="500" />
+   <childLodDist value="0" />
+   <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+   <numChildren value="0" />
+   <ambientOcclusionMultiplier value="255" />
+   <artificialAmbientOcclusion value="255" />
+  </Item>
+ </entities>
+</CMapData>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="-1233.132324" y="-1814.462524" z="-357.132366"/>
+	<streamingExtentsMax x="-420.983093" y="-1011.535156" z="443.450932"/>
+	<entitiesExtentsMin x="-883.132324" y="-1464.462524" z="-7.132366"/>
+	<entitiesExtentsMax x="-770.983093" y="-1361.535156" z="93.450932"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>p_door41x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-829.676208" y="-1413.651001" z="43.100262"/>
+			<rotation w="0.087156" x="0.000000" y="0.000000" z="0.996195"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="70"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door04x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-820.983093" y="-1411.535156" z="43.450932"/>
+			<rotation w="0.087156" x="0.000000" y="0.000000" z="0.996195"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="70"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door41x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-833.132324" y="-1414.462524" z="42.867634"/>
+			<rotation w="0.087156" x="0.000000" y="0.000000" z="0.996195"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="70"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

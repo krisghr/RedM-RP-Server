@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.66657" y="-42.36647" z="-0.052138925" />
+      <bbMax x="54.11696" y="53.911465" z="4.011964" />
+      <bsCentre x="1.7251949" y="5.772497" z="1.9799125" />
+      <bsRadius value="71.17855" />
+      <hdTextureDist value="60.0"/>
+      <name>col_cabin_int_corner</name>
+      <textureDictionary>blapark_dec2</textureDictionary>
+      <physicsDictionary>col_cabin_int_corner</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>col_cabin_int_corner</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-55.476135" y="-45.562286" z="-0.46629274" />
+      <bbMax x="54.106747" y="52.14204" z="3.4581084" />
+      <bsCentre x="-0.6846943" y="3.289877" z="1.4959078" />
+      <bsRadius value="73.43355" />
+      <hdTextureDist value="60.0"/>
+      <name>col_cabin_int_damaged</name>
+      <textureDictionary>blapark_dec3</textureDictionary>
+      <physicsDictionary>col_cabin_int_damaged</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>col_cabin_int_damaged</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>blapark_dec</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>
