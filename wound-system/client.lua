@@ -6,18 +6,14 @@ local ignoreDamageUntil = 0
 local baseMaxHealth = nil
 local baseMaxStamina = Config.DefaultMaxStamina or 100
 
-local baseHealthRing = Config.DefaultRingPoints or 100
-local baseStaminaRing = Config.DefaultRingPoints or 100
-
+local baseHealthRing = nil
+local baseStaminaRing = nil
 local appliedHpReduction = 0
 local appliedStaminaReduction = 0
-
 local targetHealthRing = nil
 local targetStaminaRing = nil
 local targetHealthCore = nil
 local targetStaminaCore = nil
-local targetHpCap = nil
-local targetStaminaCap = nil
 
 local function debugPrint(msg)
     if Config.Debug then
@@ -34,19 +30,34 @@ local function debugDamageOutput(msg)
     TriggerEvent('chat:addMessage', { args = { '^6WoundDebug', msg } })
 end
 
-local function refreshBaselines(ped)
-    baseHealthRing = Config.DefaultRingPoints or 100
-    baseStaminaRing = Config.DefaultRingPoints or 100
 
-    if DoesEntityExist(ped) then
-        baseMaxHealth = baseMaxHealth or GetEntityMaxHealth(ped)
+local function setHealthSilently(ped, hp)
+    if type(DisablePedPainAudio) == 'function' then DisablePedPainAudio(ped, true) end
+    if type(StopPedSpeaking) == 'function' then StopPedSpeaking(ped, true) end
+    SetEntityHealth(ped, hp)
+    if type(StopCurrentPlayingAmbientSpeech) == 'function' then StopCurrentPlayingAmbientSpeech(ped) end
+    if type(DisablePedPainAudio) == 'function' then DisablePedPainAudio(ped, false) end
+end
+
+local function refreshRingBaselines(ped)
+    if baseHealthRing and baseStaminaRing then return end
+
+    local defaultRing = Config.DefaultRingPoints or 100
+    if type(GetAttributePoints) == 'function' and DoesEntityExist(ped) then
+        local hpRing = GetAttributePoints(ped, 0)
+        local stRing = GetAttributePoints(ped, 1)
+        baseHealthRing = (hpRing and hpRing > 0) and hpRing or defaultRing
+        baseStaminaRing = (stRing and stRing > 0) and stRing or defaultRing
+    else
+        baseHealthRing = defaultRing
+        baseStaminaRing = defaultRing
     end
 end
 
-local function computeTargets(ped)
-    refreshBaselines(ped)
+local function applyStatLimits(ped)
+    refreshRingBaselines(ped)
 
-    local minStatPercent = Config.MinimumStatPercent or 25
+    baseMaxHealth = baseMaxHealth or GetEntityMaxHealth(ped)
 
     targetHealthRing = math.floor(baseHealthRing * (1.0 - (appliedHpReduction / 100.0)))
     targetStaminaRing = math.floor(baseStaminaRing * (1.0 - (appliedStaminaReduction / 100.0)))
@@ -54,46 +65,36 @@ local function computeTargets(ped)
     targetHealthCore = math.floor(100 * (1.0 - (appliedHpReduction / 100.0)))
     targetStaminaCore = math.floor(100 * (1.0 - (appliedStaminaReduction / 100.0)))
 
-    targetHpCap = math.floor((baseMaxHealth or GetEntityMaxHealth(ped)) * (1.0 - (appliedHpReduction / 100.0)))
-    targetStaminaCap = math.floor(baseMaxStamina * (1.0 - (appliedStaminaReduction / 100.0)))
+    local hpCap = math.floor(baseMaxHealth * (1.0 - (appliedHpReduction / 100.0)))
+    local staminaCap = math.floor(baseMaxStamina * (1.0 - (appliedStaminaReduction / 100.0)))
 
-    local minHpCap = math.floor((baseMaxHealth or GetEntityMaxHealth(ped)) * (minStatPercent / 100.0))
-    local minStaminaCap = math.floor(baseMaxStamina * (minStatPercent / 100.0))
+    local minStat = math.floor((Config.MinimumStatPercent or 25))
+    local minHp = math.floor(baseMaxHealth * (minStat / 100.0))
+    local minStamina = math.floor(baseMaxStamina * (minStat / 100.0))
+    local minHealthRing = math.floor(baseHealthRing * (minStat / 100.0))
+    local minStaminaRing = math.floor(baseStaminaRing * (minStat / 100.0))
 
-    targetHealthRing = math.max(minStatPercent, targetHealthRing)
-    targetStaminaRing = math.max(minStatPercent, targetStaminaRing)
-    targetHealthCore = math.max(minStatPercent, targetHealthCore)
-    targetStaminaCore = math.max(minStatPercent, targetStaminaCore)
-    targetHpCap = math.max(minHpCap, targetHpCap)
-    targetStaminaCap = math.max(minStaminaCap, targetStaminaCap)
-end
+    targetHealthRing = math.max(minHealthRing, targetHealthRing)
+    targetStaminaRing = math.max(minStaminaRing, targetStaminaRing)
+    targetHealthCore = math.max(minStat, targetHealthCore)
+    targetStaminaCore = math.max(minStat, targetStaminaCore)
+    hpCap = math.max(minHp, hpCap)
+    staminaCap = math.max(minStamina, staminaCap)
 
-local function applyStatLimits(ped)
-    if not DoesEntityExist(ped) then return end
-    computeTargets(ped)
-
-    -- Hard HP cap
-    SetEntityMaxHealth(ped, targetHpCap)
-    if type(SetPedMaxHealth) == 'function' then
-        SetPedMaxHealth(ped, targetHpCap)
+    SetEntityMaxHealth(ped, hpCap)
+    if type(SetPedMaxHealth) == 'function' then SetPedMaxHealth(ped, hpCap) end
+    if GetEntityHealth(ped) > hpCap then
+        ignoreDamageUntil = GetGameTimer() + 3500
+        setHealthSilently(ped, hpCap)
     end
 
-    local currentHp = GetEntityHealth(ped)
-    if currentHp > targetHpCap then
-        ignoreDamageUntil = GetGameTimer() + 1200
-        SetEntityHealth(ped, targetHpCap)
-    end
+    Citizen.InvokeNative(0xC3D4B754C0E86B9E, PlayerId(), staminaCap)
 
-    -- Stamina cap
-    Citizen.InvokeNative(0xC3D4B754C0E86B9E, PlayerId(), targetStaminaCap)
-
-    -- Core values (affect stamina runtime in many RedM setups)
     if type(SetAttributeCoreValue) == 'function' then
         SetAttributeCoreValue(ped, 0, targetHealthCore)
         SetAttributeCoreValue(ped, 1, targetStaminaCore)
     end
 
-    -- Ring UI values
     if type(SetAttributePoints) == 'function' then
         SetAttributePoints(ped, 0, targetHealthRing)
         SetAttributePoints(ped, 1, targetStaminaRing)
@@ -264,7 +265,7 @@ CreateThread(function()
     local ped = PlayerPedId()
     prevHealth = GetEntityHealth(ped)
     baseMaxHealth = GetEntityMaxHealth(ped)
-    refreshBaselines(ped)
+    refreshRingBaselines(ped)
 
     while true do
         Wait(Config.DamagePollMs)
@@ -276,7 +277,6 @@ CreateThread(function()
                     prevHealth = hp
                     goto continue
                 end
-
                 local damageAmount = prevHealth - hp
                 local category, causeHash, attackerType, weaponHash = detectDamageCategory(ped, damageAmount)
                 if category == "gunshot" or category == "shotgun" then markRecentGunshot(3500) end
@@ -314,57 +314,23 @@ CreateThread(function()
     end
 end)
 
--- Reapply loop: handles /heal, revive scripts, passive regen over cap, and external resets.
 CreateThread(function()
     while true do
-        Wait(750)
+        Wait(1500)
         local ped = PlayerPedId()
-        if DoesEntityExist(ped) and not IsEntityDead(ped) then
-            if appliedHpReduction > 0 or appliedStaminaReduction > 0 then
-                computeTargets(ped)
-
-                local hpRing = type(GetAttributePoints) == 'function' and GetAttributePoints(ped, 0) or targetHealthRing
-                local staminaRing = type(GetAttributePoints) == 'function' and GetAttributePoints(ped, 1) or targetStaminaRing
-                local healthCore = type(GetAttributeCoreValue) == 'function' and GetAttributeCoreValue(ped, 0) or targetHealthCore
-                local staminaCore = type(GetAttributeCoreValue) == 'function' and GetAttributeCoreValue(ped, 1) or targetStaminaCore
-                local currentHp = GetEntityHealth(ped)
-                local maxHpNow = GetEntityMaxHealth(ped)
-
-                local needsReapply =
-                    hpRing ~= targetHealthRing
-                    or staminaRing ~= targetStaminaRing
-                    or healthCore ~= targetHealthCore
-                    or staminaCore ~= targetStaminaCore
-                    or maxHpNow ~= targetHpCap
-                    or currentHp > targetHpCap
-
-                if needsReapply then
-                    applyStatLimits(ped)
-                    debugPrint("re-applied wound stat limits")
-                end
-            else
-                -- No wounds/penalties: restore to full baseline.
-                targetHealthRing = baseHealthRing
-                targetStaminaRing = baseStaminaRing
-                targetHealthCore = 100
-                targetStaminaCore = 100
-
-                if baseMaxHealth then
-                    SetEntityMaxHealth(ped, baseMaxHealth)
-                    if type(SetPedMaxHealth) == 'function' then
-                        SetPedMaxHealth(ped, baseMaxHealth)
-                    end
-                end
-                Citizen.InvokeNative(0xC3D4B754C0E86B9E, PlayerId(), baseMaxStamina)
-
-                if type(SetAttributeCoreValue) == 'function' then
-                    SetAttributeCoreValue(ped, 0, 100)
-                    SetAttributeCoreValue(ped, 1, 100)
-                end
-                if type(SetAttributePoints) == 'function' then
-                    SetAttributePoints(ped, 0, baseHealthRing)
-                    SetAttributePoints(ped, 1, baseStaminaRing)
-                end
+        if DoesEntityExist(ped) and not IsEntityDead(ped) and type(GetAttributePoints) == 'function' then
+            local hpRing = GetAttributePoints(ped, 0)
+            local staminaRing = GetAttributePoints(ped, 1)
+            local expectedHp = targetHealthRing or baseHealthRing
+            local expectedStamina = targetStaminaRing or baseStaminaRing
+            local healthCore = type(GetAttributeCoreValue) == 'function' and GetAttributeCoreValue(ped, 0) or targetHealthCore
+            local staminaCore = type(GetAttributeCoreValue) == 'function' and GetAttributeCoreValue(ped, 1) or targetStaminaCore
+            local needsReapply = hpRing ~= expectedHp or staminaRing ~= expectedStamina
+                or (targetHealthCore and healthCore ~= targetHealthCore)
+                or (targetStaminaCore and staminaCore ~= targetStaminaCore)
+            if needsReapply then
+                applyStatLimits(ped)
+                debugPrint('re-applied wound ring limits after external reset/heal')
             end
         end
     end
@@ -379,24 +345,15 @@ local function printWoundStats()
     local ped = PlayerPedId()
     if not DoesEntityExist(ped) then return end
 
-    computeTargets(ped)
+    refreshRingBaselines(ped)
 
     local currentHp = GetEntityHealth(ped)
     local maxHp = GetEntityMaxHealth(ped)
     local hpRing = type(GetAttributePoints) == 'function' and GetAttributePoints(ped, 0) or 'n/a'
     local staminaRing = type(GetAttributePoints) == 'function' and GetAttributePoints(ped, 1) or 'n/a'
-    local hpCore = type(GetAttributeCoreValue) == 'function' and GetAttributeCoreValue(ped, 0) or 'n/a'
-    local stCore = type(GetAttributeCoreValue) == 'function' and GetAttributeCoreValue(ped, 1) or 'n/a'
 
-    local msg = ('HP: %s/%s (cap:%s) | StaminaCap:%s | HRing: %s/%s | SRing: %s/%s | HCore:%s Tgt:%s | SCore:%s Tgt:%s | Reductions HP%%:%s ST%%:%s')
-        :format(
-            currentHp, maxHp, tostring(targetHpCap), tostring(targetStaminaCap),
-            tostring(hpRing), tostring(baseHealthRing),
-            tostring(staminaRing), tostring(baseStaminaRing),
-            tostring(hpCore), tostring(targetHealthCore),
-            tostring(stCore), tostring(targetStaminaCore),
-            appliedHpReduction, appliedStaminaReduction
-        )
+    local msg = ('HP: %s/%s | Stamina Ring: %s/%s | HP Ring: %s/%s | Reductions HP%%:%s ST%%:%s')
+        :format(currentHp, maxHp, tostring(staminaRing), tostring(baseStaminaRing), tostring(hpRing), tostring(baseHealthRing), appliedHpReduction, appliedStaminaReduction)
 
     print(('[rp_wounds:stats] %s'):format(msg))
     notify(msg)
@@ -416,13 +373,9 @@ RegisterNetEvent('rp_wounds:client:applyPenalties', function(data)
     appliedHpReduction = math.max(0, math.min(Config.MaxTotalReductionPercent, data.hpReduction or data.hpPercent or 0))
     appliedStaminaReduction = math.max(0, math.min(Config.MaxTotalReductionPercent, data.staminaReduction or data.staminaPercent or 0))
 
+    refreshRingBaselines(ped)
     applyStatLimits(ped)
 
-    debugPrint(("penalties applied: hp%%=%s stamina%%=%s hpCap=%s staminaCap=%s healthRing=%s staminaRing=%s healthCore=%s staminaCore=%s")
-        :format(
-            appliedHpReduction, appliedStaminaReduction,
-            tostring(targetHpCap), tostring(targetStaminaCap),
-            tostring(targetHealthRing), tostring(targetStaminaRing),
-            tostring(targetHealthCore), tostring(targetStaminaCore)
-        ))
+    debugPrint(("penalties applied (rings+cores): hp%%=%s stamina%%=%s healthRing=%s staminaRing=%s")
+        :format(appliedHpReduction, appliedStaminaReduction, tostring(targetHealthRing), tostring(targetStaminaRing)))
 end)

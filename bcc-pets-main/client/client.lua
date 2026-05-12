@@ -102,10 +102,12 @@ end
 function LeadOwner(Pet, PlayerPedId)
 	local playerCoords = GetEntityCoords(PlayerPedId)
 	local forward = GetEntityForwardVector(PlayerPedId)
-	local targetCoords = vector3(playerCoords.x + (forward.x * 4.0), playerCoords.y + (forward.y * 4.0), playerCoords.z)
+	local desiredLeadDistance = 6.0 -- keep pet in the 4-8 meter lead band
+	local targetCoords = vector3(playerCoords.x + (forward.x * desiredLeadDistance), playerCoords.y + (forward.y * desiredLeadDistance), playerCoords.z)
 	local petCoords = GetEntityCoords(Pet)
 	local distToTarget = #(petCoords - targetCoords)
-	if distToTarget > 0 then
+
+	if distToTarget > 1.25 then
 		TaskGoToCoordAnyMeans(Pet, targetCoords.x, targetCoords.y, targetCoords.z, 3.0, 0, false, 0, 0.0)
 	end
 end
@@ -213,6 +215,9 @@ local function HandlePetCommand(action)
 	end
 
 	ClearPedTasksImmediately(closestPet)
+	if action ~= "leadahead" then
+		ActivePetModes[closestPet] = nil
+	end
 	if action == "sit" then
 		FreezeEntityPosition(closestPet, false)
 		SetPedAsGroupMember(closestPet, GetPedGroupIndex(PlayerPedId()))
@@ -243,7 +248,8 @@ local function HandlePetCommand(action)
 		end
 	elseif action == "leadahead" then
 		FreezeEntityPosition(closestPet, false)
-		SetPedAsGroupMember(closestPet, GetPedGroupIndex(PlayerPedId()))
+		RemovePedFromGroup(closestPet)
+		ActivePetModes[closestPet] = "leadahead"
 		LeadOwner(closestPet, PlayerPedId())
 		VORPcore.NotifyRightTip(_U("PetLeadAhead"), 4000)
 	elseif action == "faceme" then

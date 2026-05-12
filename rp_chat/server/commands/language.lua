@@ -69,6 +69,21 @@ function RPChat.SendLanguageTargeted(src, range, prefix, targetId, message)
     end
 end
 
+local function HandleLanguageProximity(src, range, prefix, rawCommand, commandLength)
+    local message = rawCommand:sub(commandLength):gsub("^%s+", "")
+    if message == "" then return end
+    RPChat.SendLanguageProximity(src, range, prefix, message)
+end
+
+local function HandleLanguageTargeted(src, range, prefix, args)
+    local targetId = tonumber(args[1])
+    if not targetId then return end
+    table.remove(args, 1)
+    local message = table.concat(args, " ")
+    if message == "" then return end
+    RPChat.SendLanguageTargeted(src, range, prefix, targetId, message)
+end
+
 RegisterCommand("setlanguage", function(src, args)
     src = tonumber(src); if not src then return end
     local language = RPChat.Trim(table.concat(args or {}, " ")):sub(1, 40)
@@ -89,6 +104,57 @@ RegisterCommand("autolang", function(src)
 end, false)
 
 RegisterCommand("lang", function(src, args, rawCommand)
-    local message = rawCommand:sub(6):gsub("^%s+", ""); if message == "" then return end
-    RPChat.SendLanguageProximity(src, RPChat.RANGES.normal, "Normal", message)
+    HandleLanguageProximity(src, RPChat.RANGES.normal, "Normal", rawCommand, 6)
+end, false)
+
+RegisterCommand("langlow", function(src, args, rawCommand)
+    HandleLanguageProximity(src, RPChat.RANGES.low, "Low", rawCommand, 9)
+end, false)
+
+RegisterCommand("langl", function(src, args, rawCommand)
+    HandleLanguageProximity(src, RPChat.RANGES.low, "Low", rawCommand, 7)
+end, false)
+
+RegisterCommand("langlower", function(src, args, rawCommand)
+    HandleLanguageProximity(src, RPChat.RANGES.lower, "Lower", rawCommand, 11)
+end, false)
+
+RegisterCommand("langlw", function(src, args, rawCommand)
+    HandleLanguageProximity(src, RPChat.RANGES.lower, "Lower", rawCommand, 8)
+end, false)
+
+RegisterCommand("langshout", function(src, args, rawCommand)
+    HandleLanguageProximity(src, RPChat.RANGES.shout, "Shout", rawCommand, 11)
+end, false)
+
+RegisterCommand("langsh", function(src, args, rawCommand)
+    HandleLanguageProximity(src, RPChat.RANGES.shout, "Shout", rawCommand, 8)
+end, false)
+
+RegisterCommand("langto", function(src, args)
+    HandleLanguageTargeted(src, RPChat.RANGES.normal, "To", args)
+end, false)
+
+RegisterCommand("langlowto", function(src, args)
+    HandleLanguageTargeted(src, RPChat.RANGES.low, "LowTo", args)
+end, false)
+
+RegisterCommand("langlt", function(src, args)
+    HandleLanguageTargeted(src, RPChat.RANGES.low, "LowTo", args)
+end, false)
+
+RegisterCommand("langlowerto", function(src, args)
+    HandleLanguageTargeted(src, RPChat.RANGES.lower, "LowerTo", args)
+end, false)
+
+RegisterCommand("langlwt", function(src, args)
+    HandleLanguageTargeted(src, RPChat.RANGES.lower, "LowerTo", args)
+end, false)
+
+RegisterCommand("langshoutto", function(src, args)
+    HandleLanguageTargeted(src, RPChat.RANGES.shout, "ShoutTo", args)
+end, false)
+
+RegisterCommand("langsht", function(src, args)
+    HandleLanguageTargeted(src, RPChat.RANGES.shout, "ShoutTo", args)
 end, false)
