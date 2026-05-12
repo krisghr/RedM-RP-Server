@@ -10,5 +10,9 @@ AddEventHandler('chatMessage', function(src, name, message)
     end
 
     CancelEvent()
+    if RPChat.IsAutoLanguageEnabled(src) then
+        RPChat.SendLanguageProximity(src, RPChat.RANGES.normal, "Normal", message)
+        return
+    end
     RPChat.SendProximityMessage(src, RPChat.RANGES.normal, "Normal", message, "speech")
 end)

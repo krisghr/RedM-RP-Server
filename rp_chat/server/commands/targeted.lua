@@ -5,51 +5,46 @@ local function ParseToCommand(args)
     return targetId, table.concat(args, " ")
 end
 
-RegisterCommand("to", function(src, args)
+local function HandleTargeted(src, range, prefix, args)
     local targetId, message = ParseToCommand(args)
     if not targetId or message == "" then return end
-    RPChat.SendTargetedProximityMessage(src, RPChat.RANGES.normal, "To", targetId, message)
+
+    if RPChat.IsAutoLanguageEnabled(src) then
+        RPChat.SendLanguageTargeted(src, range, prefix, targetId, message)
+        return
+    end
+
+    RPChat.SendTargetedProximityMessage(src, range, prefix, targetId, message)
+end
+
+RegisterCommand("to", function(src, args)
+    HandleTargeted(src, RPChat.RANGES.normal, "To", args)
 end, false)
 
 RegisterCommand("t", function(src, args)
-    local targetId, message = ParseToCommand(args)
-    if not targetId or message == "" then return end
-    RPChat.SendTargetedProximityMessage(src, RPChat.RANGES.normal, "To", targetId, message)
+    HandleTargeted(src, RPChat.RANGES.normal, "To", args)
 end, false)
 
 RegisterCommand("lowto", function(src, args)
-    local targetId, message = ParseToCommand(args)
-    if not targetId or message == "" then return end
-    RPChat.SendTargetedProximityMessage(src, RPChat.RANGES.low, "LowTo", targetId, message)
+    HandleTargeted(src, RPChat.RANGES.low, "LowTo", args)
 end, false)
 
 RegisterCommand("lt", function(src, args)
-    local targetId, message = ParseToCommand(args)
-    if not targetId or message == "" then return end
-    RPChat.SendTargetedProximityMessage(src, RPChat.RANGES.low, "LowTo", targetId, message)
+    HandleTargeted(src, RPChat.RANGES.low, "LowTo", args)
 end, false)
 
 RegisterCommand("lowerto", function(src, args)
-    local targetId, message = ParseToCommand(args)
-    if not targetId or message == "" then return end
-    RPChat.SendTargetedProximityMessage(src, RPChat.RANGES.lower, "LowerTo", targetId, message)
+    HandleTargeted(src, RPChat.RANGES.lower, "LowerTo", args)
 end, false)
 
 RegisterCommand("lwto", function(src, args)
-    local targetId, message = ParseToCommand(args)
-    if not targetId or message == "" then return end
-    RPChat.SendTargetedProximityMessage(src, RPChat.RANGES.lower, "LowerTo", targetId, message)
+    HandleTargeted(src, RPChat.RANGES.lower, "LowerTo", args)
 end, false)
 
-
 RegisterCommand("shoutto", function(src, args)
-    local targetId, message = ParseToCommand(args)
-    if not targetId or message == "" then return end
-    RPChat.SendTargetedProximityMessage(src, RPChat.RANGES.shout, "ShoutTo", targetId, message)
+    HandleTargeted(src, RPChat.RANGES.shout, "ShoutTo", args)
 end, false)
 
 RegisterCommand("st", function(src, args)
-    local targetId, message = ParseToCommand(args)
-    if not targetId or message == "" then return end
-    RPChat.SendTargetedProximityMessage(src, RPChat.RANGES.shout, "ShoutTo", targetId, message)
+    HandleTargeted(src, RPChat.RANGES.shout, "ShoutTo", args)
 end, false)

@@ -14,6 +14,7 @@ RPChat.RANGES = {
 }
 
 RPChat.PlayerLanguages = RPChat.PlayerLanguages or {}
+RPChat.AutoLanguagePlayers = RPChat.AutoLanguagePlayers or {}
 
 function RPChat.Trim(str)
     return (str or ""):gsub("^%s*(.-)%s*$", "%1")
@@ -85,6 +86,24 @@ function RPChat.ClearPlayerLanguage(src)
     if not src then return end
 
     RPChat.PlayerLanguages[src] = nil
+end
+
+function RPChat.SetAutoLanguage(src, enabled)
+    src = tonumber(src)
+    if not src then return end
+    RPChat.AutoLanguagePlayers[src] = enabled == true
+end
+
+function RPChat.IsAutoLanguageEnabled(src)
+    src = tonumber(src)
+    if not src then return false end
+    return RPChat.AutoLanguagePlayers[src] == true
+end
+
+function RPChat.ClearAutoLanguage(src)
+    src = tonumber(src)
+    if not src then return end
+    RPChat.AutoLanguagePlayers[src] = nil
 end
 
 function RPChat.GetBrightness(distance, maxRange)
