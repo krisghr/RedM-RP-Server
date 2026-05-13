@@ -195,15 +195,14 @@ RegisterNetEvent('vorp:playerSpawn', function()
     SetPlayerRoutingBucket(_source, roomId)
 
     user.Source(_source)
-    local numCharacters <const> = user.Numofcharacters()
-    if numCharacters <= 0 then
-        return TriggerEvent("vorp_CreateNewCharacter", _source)
-    end
+    TriggerClientEvent("murphy_creator:OpenCharSelect", _source)
+    -- local numCharacters <const> = user.Numofcharacters()
+    -- if numCharacters <= 0 then
+    --     return TriggerEvent("vorp_CreateNewCharacter", _source)
+    -- end
 
-    local eventName <const> = tonumber(user._charperm) > 1 and "GoToSelectionMenu" or "SpawnUniqueCharacter"
-    TriggerEvent(("vorp_character:server:%s"):format(eventName), _source)
-    -- set the default density multipliers for the player
-    TriggerClientEvent("vorp_lib:Client:SetDefaultDensityMultiplier", _source, Config.Multipliers)
+    -- local eventName <const> = tonumber(user._charperm) > 1 and "GoToSelectionMenu" or "SpawnUniqueCharacter"
+    -- TriggerEvent(("vorp_character:server:%s"):format(eventName), _source)
 end)
 
 
