@@ -34,15 +34,20 @@
 
 /* CHAT WINDOW */
 .chat-window {
-  position: absolute;
-  top: 1.5%;
-  left: 0.8%;
-  width: 38%;
-  height: 22%;
-  max-width: 1000px;
-  background-color: transparent;
-  background: transparent;
-  border-radius: 4px;
+    --size: calc(((2.7vh * 1.2)) * 6);
+
+    position: absolute;
+    right: calc(2.77vh);
+    top: calc(50% - (var(--size) / 2));
+    height: var(--size) !important;
+
+    background: inherit !important;
+
+    text-align: right;
+
+    left: auto;
+
+    user-select: none;
 }
 
 /* CHAT MESSAGES */

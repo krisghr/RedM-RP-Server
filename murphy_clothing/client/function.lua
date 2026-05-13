@@ -1018,6 +1018,43 @@ RegisterCommand("undress", function()
     TriggerEvent("murphy:clothing:RemoveAllClothes", ped)
 end)
 
+-- Quick sleeve toggle/cycle for currently equipped shirt.
+RegisterCommand("rollsleeves", function()
+    local ped = PlayerPedId()
+    if IsPedDeadOrDying(ped, true) then return end
+
+    local category = "shirts_full"
+    local data = ClothesCache and ClothesCache[category]
+    if not data or not data.model or data.model == 0 then
+        TriggerEvent('murphy_notify:sendRight', "No shirt equipped.", 4000)
+        return
+    end
+
+    local gender = IsPedMale(ped) and "male" or "female"
+    local female = gender ~= "male"
+    local textureIndex = data.texture
+    if type(textureIndex) == "table" then
+        textureIndex = textureIndex.palette
+    end
+    textureIndex = tonumber(textureIndex) or 1
+
+    local asset = MURPHY_ASSETS[gender] and MURPHY_ASSETS[gender][category] and MURPHY_ASSETS[gender][category][tonumber(data.model)]
+    if not asset or not asset[textureIndex] then
+        TriggerEvent('murphy_notify:sendRight', "Sleeve states unavailable for this shirt.", 4000)
+        return
+    end
+
+    local hash = asset[textureIndex].hash
+    local stateCount = GetShopItemNumWearableStates(hash, female, true) or 0
+    if stateCount <= 1 then
+        TriggerEvent('murphy_notify:sendRight', "This shirt has no alternate sleeve state.", 4000)
+        return
+    end
+
+    Wearable[category] = ((Wearable[category] or 0) % stateCount) + 1
+    ChangeWearable(category, Wearable[category], ped)
+end, false)
+
 --- Reapply base MP body (baseskin) to the ped
 --- This function properly applies the stored bodies_upper and bodies_lower with their original albedo
 ---@param ped number Optional ped entity (defaults to PlayerPedId())
