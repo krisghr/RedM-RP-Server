@@ -5,7 +5,7 @@ rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aw
 lua54 'yes'
 
 name 'image_popup'
-author 'Codex'
+author 'Warhead'
 description 'Display a remote image URL in a fullscreen popup via NUI'
 
 ui_page 'ui/index.html'
