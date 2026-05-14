@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dlabs_trains</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+
+    <section id="boardContainer" style="display:none;">
+        <div id="emptyWatermark" style="display:none;">Empty</div>
+
+        <header id="boardHeader">
+            <h1 id="boardTitle"></h1>
+            <button type="button" id="editModeToggle" style="display:none;">Edit</button>
+            <button type="button" id="closeButton" aria-label="Close">×</button>
+        </header>
+
+        <div id="boardTableContainer">
+            <table id="boardTable">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Content</th>
+                        <th>Price</th>
+                        <th id="actionHeader" style="display:none;">Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="boardBody"></tbody>
+            </table>
+        </div>
+
+        <div id="editContainer" style="display:none;">
+            <button type="button" id="addRowButton">+ Add Row</button>
+        </div>
+    </section>
+
+    <div id="editFormOverlay" style="display:none;">
+        <div id="editForm">
+            <button type="button" id="closeEditButton" aria-label="Close">×</button>
+            <h3>add</h3>
+
+            <div id="dateContainer">
+                <label class="switch-row">
+                    <span id="repeatLabel">Repeat daily</span>
+                    <span class="switch">
+                        <input type="checkbox" id="repeatTime">
+                        <span class="switch-slider"></span>
+                    </span>
+                </label>
+
+                <label id="dateLabel" for="editMonth">Date:</label>
+                <div id="dateSelects">
+                    <select id="editMonth"><option value="">MM</option></select>
+                    <select id="editDay"><option value="">DD</option></select>
+                    <span id="dateYear" class="date-year"></span>
+                </div>
+
+                <label for="editTime">Time:</label>
+                <input type="time" id="editTime">
+            </div>
+
+            <label for="editContent">Content:</label>
+            <textarea id="editContent" placeholder="Enter content"></textarea>
+
+            <label for="editPrice">Price:</label>
+            <input type="text" id="editPrice" placeholder="Enter price">
+
+            <button type="button" id="saveButton">Save</button>
+        </div>
+    </div>
+
+    <div id="hud-old" class="hud-old" style="display:none;">
+        <div id="tachometer">
+            <div class="ii numbers-container">
+                <div><b><span class="num_1">0</span></b></div>
+                <div><b></b></div>
+                <div><b><span class="num_2">20</span></b></div>
+                <div><b></b></div>
+                <div><b><span class="num_3">40</span></b></div>
+                <div><b></b></div>
+                <div><b><span class="num_4">60</span></b></div>
+                <div><b></b></div>
+                <div><b><span class="num_5">80</span></b></div>
+                <div><b></b></div>
+                <div><b><span class="num_6">100</span></b></div>
+                <div><b></b></div>
+                <div><b><span class="num_7">120</span></b></div>
+            </div>
+            <div class="needle"></div>
+            <div id="textAboveNeedle" class="text-above-needle"></div>
+            <div class="pressure-bar">
+                <div id="pressureHudBar"></div>
+            </div>
+
+            <div class="coal-bar" id="coalBar">
+                <div class="coal-bar-cap coal-bar-cap--top"></div>
+                <div class="coal-bar-track">
+                    <div class="coal-bar-fill" id="coalHudBar"></div>
+                    <div class="coal-bar-glow" id="coalHudGlow"></div>
+                    <div class="coal-bar-ticks" aria-hidden="true">
+                        <span></span><span></span><span></span><span></span>
+                    </div>
+                </div>
+                <div class="coal-bar-cap coal-bar-cap--bottom"></div>
+            </div>
+
+            <svg class="hud-pipe" viewBox="0 0 360 360" preserveAspectRatio="xMidYMid meet">
+                <defs>
+                    <linearGradient id="hud-brass" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%"  stop-color="#e7c68a"/>
+                        <stop offset="55%" stop-color="#8a5a2b"/>
+                        <stop offset="100%" stop-color="#3a2410"/>
+                    </linearGradient>
+                    <linearGradient id="hud-brass-cap" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%"  stop-color="#d8a860"/>
+                        <stop offset="100%" stop-color="#3a2410"/>
+                    </linearGradient>
+                </defs>
+                <path class="hud-pipe-outline"
+                      d="M 28.9 53.3 A 197 197 0 0 1 331.1 53.3"
+                      stroke="#1a0f06" stroke-width="20"
+                      stroke-linecap="round" fill="none"/>
+                <path class="hud-pipe-brass"
+                      d="M 28.9 53.3 A 197 197 0 0 1 331.1 53.3"
+                      stroke-width="14"
+                      stroke-linecap="round" fill="none"/>
+                <path class="hud-pipe-liquid"
+                      d="M 28.9 53.3 A 197 197 0 0 1 331.1 53.3"
+                      stroke-width="6"
+                      stroke-linecap="round" fill="none"/>
+                <path id="hud-pipe-path" d="M 28.9 53.3 A 197 197 0 0 1 331.1 53.3" fill="none" stroke="none"/>
+                <g class="hud-pipe-bubbles">
+                    <circle class="hud-bubble" r="1.8" fill="rgba(255,255,255,0.85)">
+                        <animateMotion dur="2.4s" repeatCount="indefinite" begin="0s"   keyPoints="0;1" keyTimes="0;1" calcMode="linear">
+                            <mpath href="#hud-pipe-path"/>
+                        </animateMotion>
+                    </circle>
+                    <circle class="hud-bubble" r="1.4" fill="rgba(255,255,255,0.75)">
+                        <animateMotion dur="2.8s" repeatCount="indefinite" begin="0.6s" keyPoints="0;1" keyTimes="0;1" calcMode="linear">
+                            <mpath href="#hud-pipe-path"/>
+                        </animateMotion>
+                    </circle>
+                    <circle class="hud-bubble" r="2.0" fill="rgba(255,255,255,0.9)">
+                        <animateMotion dur="2.2s" repeatCount="indefinite" begin="1.1s" keyPoints="0;1" keyTimes="0;1" calcMode="linear">
+                            <mpath href="#hud-pipe-path"/>
+                        </animateMotion>
+                    </circle>
+                    <circle class="hud-bubble" r="1.6" fill="rgba(255,255,255,0.8)">
+                        <animateMotion dur="2.6s" repeatCount="indefinite" begin="1.7s" keyPoints="0;1" keyTimes="0;1" calcMode="linear">
+                            <mpath href="#hud-pipe-path"/>
+                        </animateMotion>
+                    </circle>
+                </g>
+                <circle cx="28.9"  cy="53.3" r="6" fill="url(#hud-brass-cap)" stroke="#1a0f06" stroke-width="1.5"/>
+                <circle cx="331.1" cy="53.3" r="6" fill="url(#hud-brass-cap)" stroke="#1a0f06" stroke-width="1.5"/>
+            </svg>
+
+            <div class="pin"><div class="inner"></div></div>
+        </div>
+
+        <div id="switch-hud" style="display:none;">
+            <div class="switch-side switch-left">
+                <button type="button" class="switch-btn" id="switch-btn-left" aria-label="Switch left">
+                    <svg class="switch-progress"><rect class="switch-progress-rect" pathLength="100"></rect></svg>
+                    <span class="switch-btn-content">
+                        <svg class="switch-arrow" viewBox="0 0 24 24"><path d="M14 6l-6 6 6 6V6z"/></svg>
+                        <span class="switch-dest" id="switch-left-dest">Left</span>
+                        <span class="switch-counter" style="display:none;"></span>
+                    </span>
+                </button>
+            </div>
+            <div class="switch-side switch-right">
+                <button type="button" class="switch-btn" id="switch-btn-right" aria-label="Switch right">
+                    <svg class="switch-progress"><rect class="switch-progress-rect" pathLength="100"></rect></svg>
+                    <span class="switch-btn-content">
+                        <span class="switch-counter" style="display:none;"></span>
+                        <span class="switch-dest" id="switch-right-dest">Right</span>
+                        <svg class="switch-arrow" viewBox="0 0 24 24"><path d="M10 6l6 6-6 6V6z"/></svg>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <aside id="nui-wrapper" style="display:none;">
+        <div id="train-info">
+            <h2 id="train-name">Train Name</h2>
+            <ul class="train-stats">
+                <li id="train-price"><label>Price:</label> <span>0</span></li>
+                <li id="train-speed"><label>Speed:</label> <span>0</span></li>
+                <li id="train-stash"><label>Stash:</label> <span>0</span></li>
+                <li id="train-size"><label>Size:</label>  <span>0</span></li>
+            </ul>
+            <input type="hidden" id="train-id" value="">
+        </div>
+
+        <div id="nav-row">
+            <button type="button" id="left-arrow" class="nav-btn" aria-label="Previous">
+                <svg viewBox="0 0 24 24"><path d="M15.5 5L8.5 12l7 7V5z"/></svg>
+            </button>
+            <button type="button" id="right-arrow" class="nav-btn" aria-label="Next">
+                <svg viewBox="0 0 24 24"><path d="M8.5 5l7 7-7 7V5z"/></svg>
+            </button>
+            <button type="button" id="camera-button" class="nav-btn nav-btn--wide" aria-label="Camera">
+                <svg viewBox="0 0 24 24"><path d="M9 3l-1.5 2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-3.5L15 3H9zm3 5a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg>
+            </button>
+        </div>
+
+        <button type="button" id="buy-button">Buy</button>
+        <button type="button" id="exit-button" aria-label="Close">×</button>
+    </aside>
+
+    <div id="nui-input-container" style="display:none;">
+        <button type="button" id="nui-closeButton" aria-label="Close">×</button>
+        <input type="text" id="nui-textInput" placeholder="Zadejte text">
+        <button type="button" id="nui-sendButton">Send</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

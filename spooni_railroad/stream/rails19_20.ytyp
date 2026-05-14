@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.0947266" y="-24.608208" z="-18.61987" />
+      <bbMax x="8.227783" y="32.55945" z="10.578331" />
+      <bsCentre x="1.5665283" y="3.9756203" z="-4.020769" />
+      <bsRadius value="32.780197" />
+      <hdTextureDist value="60" />
+      <name>rails019</name>
+      <textureDictionary>rails_textures</textureDictionary>
+      <physicsDictionary>rails019</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rails019</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.140869" y="-53.43335" z="-18.451096" />
+      <bbMax x="5.8952637" y="31.83899" z="2.8649292" />
+      <bsCentre x="0.37719727" y="-10.79718" z="-7.793083" />
+      <bsRadius value="44.293175" />
+      <hdTextureDist value="60.0"/>
+      <name>rails020</name>
+      <textureDictionary>rails_textures</textureDictionary>
+      <physicsDictionary>rails020</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rails020</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>rails19_20</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>
