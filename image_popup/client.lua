@@ -22,13 +22,9 @@ local function openResolved(finalUrl, title)
     SendNUIMessage({ action = 'open', title = title or 'Image Preview', url = finalUrl })
 end
 
-local function openPopup(url, title)
+local function showImage(url, title)
     if not isSafeUrl(url) then
-        TriggerEvent('chat:addMessage', {
-            color = { 255, 80, 80 },
-            args = { '^1Invalid image URL. Use an http(s) direct image or supported host link.' }
-        })
-        return
+        return false, 'Invalid image URL. Use an http(s) direct image or supported host link.'
     end
 
     -- Show original URL immediately (restores old Discord behavior).
@@ -39,6 +35,8 @@ local function openPopup(url, title)
     local requestId = requestCounter
     pendingRequests[requestId] = { sourceUrl = url, title = title or 'Image Preview' }
     TriggerServerEvent('image_popup:resolveUrl', requestId, url)
+
+    return true
 end
 
 RegisterNetEvent('image_popup:resolvedUrl', function(requestId, finalUrl)
@@ -56,6 +54,35 @@ RegisterNetEvent('image_popup:resolvedUrl', function(requestId, finalUrl)
     end
 end)
 
+-- Public API for dependency use
+exports('ShowImage', function(url, title)
+    return showImage(url, title)
+end)
+
+exports('HideImage', function()
+    if isOpen then
+        closePopup()
+        return true
+    end
+
+    return false
+end)
+
+RegisterNetEvent('image_popup:show', function(url, title)
+    local ok, err = showImage(url, title)
+    if not ok and err then
+        TriggerEvent('chat:addMessage', {
+            color = { 255, 80, 80 },
+            args = { ('^1%s'):format(err) }
+        })
+    end
+end)
+
+RegisterNetEvent('image_popup:hide', function()
+    if isOpen then closePopup() end
+end)
+
+-- Debug/testing commands
 RegisterCommand('showimg', function(_, args)
     local url = args[1]
     local title = table.concat(args, ' ', 2)
@@ -68,7 +95,13 @@ RegisterCommand('showimg', function(_, args)
         return
     end
 
-    openPopup(url, title ~= '' and title or nil)
+    local ok, err = showImage(url, title ~= '' and title or nil)
+    if not ok and err then
+        TriggerEvent('chat:addMessage', {
+            color = { 255, 80, 80 },
+            args = { ('^1%s'):format(err) }
+        })
+    end
 end, false)
 
 RegisterCommand('hideimg', function()
