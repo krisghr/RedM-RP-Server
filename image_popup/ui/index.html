@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'; img-src * data: blob: about:; connect-src https:;" />
+    <title>Image Popup</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="overlay" class="hidden">
+      <div id="card">
+        <div id="header">
+          <h2 id="title">Image Preview</h2>
+          <button id="closeBtn" aria-label="Close">×</button>
+        </div>
+        <div id="content">
+          <div id="loading" class="hidden">Loading image…</div>
+          <img id="image" class="hidden" alt="Remote image" />
+          <div id="error" class="hidden">Failed to load image URL.</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
