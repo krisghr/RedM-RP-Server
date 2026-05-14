@@ -1,16 +1,39 @@
 body { margin: 0; font-family: Arial, sans-serif; }
 .hidden { display: none !important; }
 #app { position: fixed; inset: 0; background: rgba(0,0,0,.6); display:flex; align-items:center; justify-content:center; }
-.panel { width: 1100px; background:#1c1c1c; color:#f1f1f1; padding:16px; border:1px solid #555; position:relative; }
+
+.panel {
+  height: 900px;
+ aspect-ratio: 636 / 900;
+  overflow: auto;
+  color:#f1f1f1;
+  padding:16px;
+  position:relative;
+
+  /* Default background for 1920x1080-ish displays */
+  background-image: url("examine-ui-background-636x900.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .header { font-size:28px; font-weight:700; margin-bottom:12px; }
 .content { display:flex; gap:16px; }
-.imageCol { width:500px; height:900px; background:#0f0f0f; border:1px solid #444; overflow:hidden; }
+.imageCol { width: 43%;
+  height: 47.6%; background:#0f0f0f; border:1px solid #444; overflow:hidden; }
 .imageCol img { width:100%; height:100%; object-fit:cover; }
 .rightCol { flex:1; display:flex; flex-direction:column; }
 .ageLine { font-size:22px; margin-bottom:12px; }
-.desc { white-space:pre-wrap; background:#111; border:1px solid #444; min-height:840px; padding:12px; }
+.desc { white-space:pre-wrap; background:#111; border:1px solid #444; min-height:600px; padding:12px; }
 label { display:flex; flex-direction:column; gap:6px; margin-bottom:10px; }
 input, textarea { background:#111; color:#fff; border:1px solid #444; padding:8px; }
 .actions { margin-top:8px; }
 button { background:#355b3a; border:none; color:#fff; padding:10px 16px; cursor:pointer; }
 .close { position:absolute; top:12px; right:12px; background:#6a2d2d; }
+
+/* High-res background on larger displays */
+@media (min-width: 2560px), (min-height: 1400px) {
+  .panel {
+    background-image: url("examine-ui-background-1054x1492.png");
+  }
+}

@@ -26,6 +26,80 @@ local function getIdentifier(src)
     return ids[1]
 end
 
+local function htmlEntityDecode(s)
+    if type(s) ~= 'string' then return s end
+    s = s:gsub('&amp;', '&')
+    s = s:gsub('&quot;', '"')
+    s = s:gsub('&#39;', "'")
+    s = s:gsub('&lt;', '<')
+    s = s:gsub('&gt;', '>')
+    return s
+end
+
+local function tryExtractOgImage(body)
+    if type(body) ~= 'string' then return nil end
+
+    local patterns = {
+        '<meta%s+property=["\']og:image["\']%s+content=["\']([^"\']+)["\']',
+        '<meta%s+content=["\']([^"\']+)["\']%s+property=["\']og:image["\']',
+        '<meta%s+name=["\']twitter:image["\']%s+content=["\']([^"\']+)["\']'
+    }
+
+    for _, p in ipairs(patterns) do
+        local hit = body:match(p)
+        if hit and hit:match('^https?://') then
+            return htmlEntityDecode(hit)
+        end
+    end
+
+    return nil
+end
+
+local function isDirectImageLike(url)
+    if type(url) ~= 'string' then return false end
+    if url:match('%.jpe?g([%?&#].*)?$') or url:match('%.png([%?&#].*)?$') or url:match('%.webp([%?&#].*)?$') or url:match('%.gif([%?&#].*)?$') or url:match('%.bmp([%?&#].*)?$') then
+        return true
+    end
+    if url:match('^https?://cdn%.discordapp%.com/attachments/') or url:match('^https?://media%.discordapp%.net/attachments/') then
+        return true
+    end
+    return false
+end
+
+local function resolveImgur(url)
+    local id = url:match('^https?://imgur%.com/([%w]+)$') or url:match('^https?://m%.imgur%.com/([%w]+)$')
+    if id then
+        return ('https://i.imgur.com/%s.jpg'):format(id)
+    end
+    return nil
+end
+
+local function resolveImageUrl(inputUrl)
+    if type(inputUrl) ~= 'string' or inputUrl == '' then return '' end
+
+    local resolved = resolveImgur(inputUrl) or inputUrl
+    if isDirectImageLike(resolved) then
+        return resolved
+    end
+
+    local p = promise.new()
+    PerformHttpRequest(resolved, function(statusCode, body)
+        local finalUrl = resolved
+        if statusCode and statusCode >= 200 and statusCode < 400 and type(body) == 'string' then
+            if body:find('<html', 1, true) or body:find('<meta', 1, true) then
+                local og = tryExtractOgImage(body)
+                if og then finalUrl = og end
+            end
+        end
+        p:resolve(finalUrl)
+    end, 'GET', '', {
+        ['User-Agent'] = 'Mozilla/5.0',
+        ['Accept'] = 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    })
+
+    return Citizen.Await(p)
+end
+
 RegisterNetEvent('character_attributes:save', function(payload)
     local src = source
     local identifier = getIdentifier(src)
@@ -41,6 +115,8 @@ RegisterNetEvent('character_attributes:save', function(payload)
         TriggerClientEvent('character_attributes:notify', src, '^1Name and age are required.')
         return
     end
+
+    imageUrl = resolveImageUrl(imageUrl)
 
     MySQL.update.await([[
         INSERT INTO character_attributes (owner_identifier, character_name, age, image_url, appearance_description)
@@ -62,6 +138,9 @@ RegisterNetEvent('character_attributes:getOwn', function(requestId)
 
     if identifier then
         data = MySQL.single.await('SELECT character_name, age, image_url, appearance_description FROM character_attributes WHERE owner_identifier = ? LIMIT 1', { identifier })
+        if data and data.image_url and data.image_url ~= '' then
+            data.image_url = resolveImageUrl(data.image_url)
+        end
     end
 
     TriggerClientEvent('character_attributes:response', src, requestId, data)
@@ -86,6 +165,10 @@ RegisterNetEvent('character_attributes:getByQuery', function(requestId, query)
 
     if not target then
         target = MySQL.single.await('SELECT character_name, age, image_url, appearance_description FROM character_attributes WHERE character_name = ? LIMIT 1', { query })
+    end
+
+    if target and target.image_url and target.image_url ~= '' then
+        target.image_url = resolveImageUrl(target.image_url)
     end
 
     TriggerClientEvent('character_attributes:response', src, requestId, target)
