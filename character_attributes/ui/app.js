@@ -1,5 +1,6 @@
 const app = document.getElementById('app');
 const title = document.getElementById('nameTitle');
+const panel = document.querySelector('.examine-panel');
 const image = document.getElementById('charImage');
 const ageLabel = document.getElementById('ageLabel');
 const descView = document.getElementById('descView');
@@ -34,6 +35,33 @@ function close() {
 
 document.getElementById('closeBtn').addEventListener('click', close);
 document.getElementById('viewCloseBtn').addEventListener('click', close);
+document.addEventListener('click', (e) => {
+  const viewCloseBtn = document.getElementById('viewCloseBtn');
+
+  if (app.classList.contains('hidden') || viewCloseBtn.classList.contains('hidden')) return;
+  if (!panel) return;
+
+  const panelRect = panel.getBoundingClientRect();
+  const btnRect = viewCloseBtn.getBoundingClientRect();
+
+  const rightInset = panelRect.width * 0.02;
+  const topInset = panelRect.height * 0.045;
+
+  const expectedLeft = panelRect.right - rightInset - btnRect.width;
+  const expectedRight = expectedLeft + btnRect.width;
+  const expectedTop = panelRect.top + topInset;
+  const expectedBottom = expectedTop + btnRect.height;
+
+  if (
+    e.clientX >= expectedLeft &&
+    e.clientX <= expectedRight &&
+    e.clientY >= expectedTop &&
+    e.clientY <= expectedBottom
+  ) {
+    close();
+  }
+});
+
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
 
 function packAppearance() {

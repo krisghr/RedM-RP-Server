@@ -47,7 +47,49 @@ body { margin: 0; font-family: "Chinese Rocks", Georgia, serif; }
 .description-text::-webkit-scrollbar { width: 6px; }
 .description-text::-webkit-scrollbar-thumb { background: rgba(180, 140, 80, 0.6); border-radius: 8px; }
 
-.close { position:absolute; right:2%; top:4.5%; height: 75px; width: 75px; background: white;}
+.close {
+  position: absolute;
+  right: 2%;
+  top: 4.5%;
+  width: 75px;
+  height: 75px;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  z-index: 20;
+  background: white;
+}
+
+/*
+  Resolution-tuned close-button anchoring for bordered-windowless.
+  Uses width breakpoints to approximate tested offsets:
+  1920 -> 2%, 1680 -> 10%, 1600 -> 15%, 1440 -> 20%.
+*/
+@media (max-width: 1919px) {
+  .close { right: 10%; }
+}
+
+@media (max-width: 1679px) {
+  .close { right: 15%; }
+}
+
+@media (max-width: 1599px) {
+  .close { right: 20%; }
+}
+
+/* Estimated values for additional common lower widths. */
+@media (max-width: 1439px) {
+  .close { right: 22%; }
+}
+
+@media (max-width: 1365px) {
+  .close { right: 25%; }
+}
+
+@media (max-width: 1279px) {
+  .close { right: 28%; }
+}
 
 .set-form { position:absolute; font-family: Georgia, serif; font-weight: 100; right:2%; top:8%; width:30%; max-height:88%; overflow:auto; background:rgba(20,20,20,.88); border:1px solid #5e4d35; padding:12px; text-transform:none; }
 .set-form label { display:flex; font-family: "Chinese Rocks", Georgia, serif; flex-direction:column; gap:4px; margin-bottom:8px; font-size:12px; color:#ccc3b6; }
