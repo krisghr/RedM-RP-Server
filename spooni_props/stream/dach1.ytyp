@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.744141" y="-4.95283127" z="-3.047363" />
+    <bbMax x="8.990234" y="3.543945" z="2.807129" />
+    <bsCentre x="0.123046875" y="-0.7044431" z="-0.120117068" />
+    <bsRadius value="10.2588787" />
+    <hdTextureDist value="100" />
+      <name>dach1</name>
+      <textureDictionary>dach1</textureDictionary>
+      <physicsDictionary>dach1</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>dach1</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22>0xAD1EED63</redm_loves_you_a68fd88a5afa0b22>
+    </Item>
+  </archetypes>
+  <name>dach1</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

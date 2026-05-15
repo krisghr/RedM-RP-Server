@@ -1,39 +1,58 @@
-body { margin: 0; font-family: Arial, sans-serif; }
+@font-face {
+	font-family: "Chinese Rocks";
+	src: url('CHINESER.TTF');
+}
+
+body { margin: 0; font-family: "Chinese Rocks", Georgia, serif; }
 .hidden { display: none !important; }
-#app { position: fixed; inset: 0; background: rgba(0,0,0,.6); display:flex; align-items:center; justify-content:center; }
 
-.panel {
-  height: 900px;
- aspect-ratio: 636 / 900;
-  overflow: auto;
-  color:#f1f1f1;
-  padding:16px;
-  position:relative;
+.examine-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.45);
+}
 
-  /* Default background for 1920x1080-ish displays */
-  background-image: url("examine-ui-background-636x900.png");
-  background-position: center center;
+.examine-panel {
+  position: relative;
+  width: min(94vw, 1294px);
+  aspect-ratio: 1294 / 1075;
+  background-image: url("examine-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Chinese Rocks", Georgia, serif;
+  color: #ccc3b6;
+  text-transform: uppercase;
 }
 
-.header { font-size:28px; font-weight:700; margin-bottom:12px; }
-.content { display:flex; gap:16px; }
-.imageCol { width: 43%;
-  height: 47.6%; background:#0f0f0f; border:1px solid #444; overflow:hidden; }
-.imageCol img { width:100%; height:100%; object-fit:cover; }
-.rightCol { flex:1; display:flex; flex-direction:column; }
-.ageLine { font-size:22px; margin-bottom:12px; }
-.desc { white-space:pre-wrap; background:#111; border:1px solid #444; min-height:600px; padding:12px; }
-label { display:flex; flex-direction:column; gap:6px; margin-bottom:10px; }
-input, textarea { background:#111; color:#fff; border:1px solid #444; padding:8px; }
-.actions { margin-top:8px; }
-button { background:#355b3a; border:none; color:#fff; padding:10px 16px; cursor:pointer; }
-.close { position:absolute; top:12px; right:12px; background:#6a2d2d; }
 
-/* High-res background on larger displays */
-@media (min-width: 2560px), (min-height: 1400px) {
-  .panel {
-    background-image: url("examine-ui-background-1054x1492.png");
-  }
-}
+.portrait { position: absolute; left: 4.2%; top: 16.3%; width: 29.8%; height: 43.4%; object-fit: cover; object-position: center; filter: sepia(0.25) contrast(1.05) brightness(0.9); }
+.character-name { position: absolute; left: 38.6%; top: 16.7%; width: 50.2%; font-size: clamp(18px, 2.5vw, 48px); letter-spacing: 4px; color: #ccc3b6; text-shadow: 2px 2px 2px #000; }
+.age-label { position:absolute; left: 38.6%; top: 23.5%; font-size: clamp(14px, 1.6vw, 28px); }
+.age-value { position: absolute; left: 44.1%; top: 26.5%; font-size: clamp(14px, 1.8vw, 30px); color: #ccc3b6; }
+
+.descriptor { position: absolute; font-size: clamp(12px, 1.5vw, 24px); color: #ccc3b6; letter-spacing: 1px; text-shadow: 1px 1px 2px #000; }
+.height { left: 48.2%; top: 37.8%; }
+.build { left: 48.2%; top: 42.9%; }
+.eyes { left: 48.2%; top: 48.5%; }
+.hair { left: 48.2%; top: 54.3%; }
+.complexion { left: 81.9%; top: 37.4%; }
+.facial-hair { left: 81.9%; top: 43.1%; }
+.marks { left: 70%; top: 52%; width: 22%; line-height: 1.35; }
+
+.description-text { position: absolute; left: 7.7%; top: 68.3%; width: 83%; height: 20%; font-family: Georgia, serif; font-size: clamp(12px, 1.3vw, 23px); line-height: 1.5; color: #ccc3b6; text-transform: none; overflow-y: auto; padding-right: 12px; }
+.description-text::-webkit-scrollbar { width: 6px; }
+.description-text::-webkit-scrollbar-thumb { background: rgba(180, 140, 80, 0.6); border-radius: 8px; }
+
+.close { position:absolute; right:2%; top:4.5%; height: 75px; width: 75px; background: white;}
+
+.set-form { position:absolute; font-family: Georgia, serif; font-weight: 100; right:2%; top:8%; width:30%; max-height:88%; overflow:auto; background:rgba(20,20,20,.88); border:1px solid #5e4d35; padding:12px; text-transform:none; }
+.set-form label { display:flex; font-family: "Chinese Rocks", Georgia, serif; flex-direction:column; gap:4px; margin-bottom:8px; font-size:12px; color:#ccc3b6; }
+.set-form input, .set-form textarea { background:#111; color:#fff; border:1px solid #66543b; padding:6px; font-family: Georgia, serif; }
+.set-actions { display:flex; gap:8px; }
+.set-actions button { background:#355b3a; border:none; color:#fff; padding:8px 10px; cursor:pointer; }
+.set-actions .close-alt { background:#6a2d2d; }
+

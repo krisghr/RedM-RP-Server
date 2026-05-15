@@ -19,8 +19,8 @@ files {
     'ui/index.html',
     'ui/style.css',
     'ui/app.js',
-    'ui/examine-ui-background-636x900.png',
-    'ui/examine-ui-background-1054x1492.png'
+    'ui/examine-bg.png',
+    'ui/CHINESER.TTF'
 }
 
 client_scripts {

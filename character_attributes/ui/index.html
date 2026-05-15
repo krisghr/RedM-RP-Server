@@ -1,4 +1,4 @@
-<!doctype html>
+!doctype html>
 <html>
 <head>
   <meta charset="utf-8" />
@@ -6,26 +6,42 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="app" class="hidden">
-    <div class="panel">
-      <div class="header" id="nameTitle">Character</div>
-      <div class="content">
-        <div class="imageCol">
-          <img id="charImage" alt="Character image" />
+  <div id="app" class="examine-overlay hidden">
+    <div class="examine-panel">
+      <img id="charImage" class="portrait" src="" alt="Character portrait" />
+
+      <div id="nameTitle" class="character-name">Character</div>
+      <div id="ageLabel" class="age-value">-</div>
+
+
+      <div id="heightValue" class="descriptor height">-</div>
+      <div id="buildValue" class="descriptor build">-</div>
+      <div id="eyesValue" class="descriptor eyes">-</div>
+      <div id="hairValue" class="descriptor hair">-</div>
+      <div id="complexionValue" class="descriptor complexion">-</div>
+      <div id="facialHairValue" class="descriptor facial-hair">-</div>
+      <div id="marksValue" class="descriptor marks">-</div>
+
+      <div id="descView" class="description-text">No description set.</div>
+
+      <form id="setForm" class="set-form hidden">
+        <label>Age<input id="age" type="text" maxlength="64" required /></label>
+        <label>Character Image URL<input id="imageUrl" type="url" maxlength="2000" placeholder="Must use imgbb." /></label>
+        <label>Height<input id="height" type="text" maxlength="60" placeholder="6'1\"" /></label>
+        <label>Build<input id="build" type="text" maxlength="60" placeholder="Lean" /></label>
+        <label>Eyes<input id="eyes" type="text" maxlength="60" placeholder="Blue" /></label>
+        <label>Hair<input id="hair" type="text" maxlength="60" placeholder="Dark Brown" /></label>
+        <label>Complexion<input id="complexion" type="text" maxlength="60" placeholder="Fair" /></label>
+        <label>Facial Hair<input id="facialHair" type="text" maxlength="60" placeholder="Light Beard" /></label>
+        <label>Marks<input id="marks" type="text" maxlength="120" placeholder="Scar on left cheek" /></label>
+        <label>Appearance Description<textarea id="appearanceDescription" rows="5" maxlength="3000"></textarea></label>
+        <div class="set-actions">
+          <button type="submit">Save</button>
+          <button id="closeBtn" type="button" class="close-alt">Close</button>
         </div>
-        <div class="rightCol">
-          <div class="ageLine">Age: <span id="ageLabel">-</span></div>
-          <div id="descView" class="desc"></div>
-          <form id="setForm" class="hidden">
-            <label>Name<input id="characterName" type="text" maxlength="120" required /></label>
-            <label>Age<input id="age" type="number" min="1" max="120" required /></label>
-            <label>Character Image URL<input id="imageUrl" type="url" maxlength="2000" placeholder="https://..." /></label>
-            <label>Appearance Description<textarea id="appearanceDescription" rows="10" maxlength="3000"></textarea></label>
-            <div class="actions"><button type="submit">Save</button></div>
-          </form>
-        </div>
-      </div>
-      <button id="closeBtn" class="close">Close</button>
+      </form>
+
+      <button id="viewCloseBtn" class="close"></button>
     </div>
   </div>
   <script src="app.js"></script>

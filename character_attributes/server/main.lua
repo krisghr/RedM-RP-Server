@@ -26,6 +26,34 @@ local function getIdentifier(src)
     return ids[1]
 end
 
+local VORPcore = nil
+pcall(function()
+    VORPcore = exports.vorp_core:GetCore()
+end)
+
+local function trim(str)
+    return (str or ""):gsub("^%s*(.-)%s*$", "%1")
+end
+
+local function getCharacterName(src)
+    if VORPcore and VORPcore.getUser then
+        local user = VORPcore.getUser(src)
+        if user then
+            local character = user.getUsedCharacter
+            if character then
+                local first = character.firstname or character.firstName or ""
+                local last = character.lastname or character.lastName or ""
+                local full = trim(first .. " " .. last)
+                if full ~= "" then
+                    return full
+                end
+            end
+        end
+    end
+
+    return GetPlayerName(src)
+end
+
 local function htmlEntityDecode(s)
     if type(s) ~= 'string' then return s end
     s = s:gsub('&amp;', '&')
@@ -141,6 +169,17 @@ RegisterNetEvent('character_attributes:getOwn', function(requestId)
         if data and data.image_url and data.image_url ~= '' then
             data.image_url = resolveImageUrl(data.image_url)
         end
+    end
+
+    if not data then
+        data = {
+            character_name = getCharacterName(src),
+            age = '',
+            image_url = '',
+            appearance_description = ''
+        }
+    elseif not data.character_name or data.character_name == '' then
+        data.character_name = getCharacterName(src)
     end
 
     TriggerClientEvent('character_attributes:response', src, requestId, data)
