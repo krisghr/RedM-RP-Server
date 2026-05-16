@@ -20,6 +20,7 @@ local roll = 0.0
 local fov = 70.0
 local minFov = 5.0
 local maxFov = 130.0
+local zoomStep = 1.0
 
 -- Movement keys
 local KEY_W = 0x8FD015D8
@@ -31,8 +32,8 @@ local KEY_Z = 0x26E9DC00
 local KEY_Q = 0xDE794E3E
 local KEY_E = 0xCEFD9220
 local KEY_BACKSPACE = 0x156F7119
-local KEY_LEFTBRACKET = 0x430593AA
-local KEY_RIGHTBRACKET = 0xA5BDCD3C
+local KEY_PAGEUP = 0x446258B6
+local KEY_PAGEDOWN = 0x3C3DD371
 
 -- UI toggle
 local KEY_TOGGLE_HELP = 0x24978A28 -- H
@@ -227,8 +228,8 @@ CreateThread(function()
             EnableControlAction(0, KEY_CTRL, true)
             EnableControlAction(0, KEY_BACKSPACE, true)
             EnableControlAction(0, KEY_TOGGLE_HELP, true)
-            EnableControlAction(0, KEY_LEFTBRACKET, true)
-            EnableControlAction(0, KEY_RIGHTBRACKET, true)
+            EnableControlAction(0, KEY_PAGEUP, true)
+            EnableControlAction(0, KEY_PAGEDOWN, true)
             EnableControlAction(0, MOUSE_X, true)
             EnableControlAction(0, MOUSE_Y, true)
             EnableControlAction(0, MOUSE_WHEEL_UP, true)
@@ -260,14 +261,9 @@ CreateThread(function()
                 DrawEditorHelpMenu()
             end
 
-            if IsDisabledControlJustPressed(0, KEY_LEFTBRACKET) then
-                camSpeed = math.max(minCamSpeed, camSpeed - camSpeedStep)
+            if IsDisabledControlJustPressed(0, PAGEUP) then
+                print("[EDITOR_CAM] Increasing speed")
             end
-
-            if IsDisabledControlJustPressed(0, KEY_RIGHTBRACKET) then
-                camSpeed = math.min(maxCamSpeed, camSpeed + camSpeedStep)
-            end
-
 
             local mouseX = GetDisabledControlNormal(0, MOUSE_X)
             local mouseY = GetDisabledControlNormal(0, MOUSE_Y)
@@ -325,14 +321,14 @@ CreateThread(function()
             -- Mouse wheel zoom
             -- Wheel up hash handles zoom in.
             if IsDisabledControlPressed(0, MOUSE_WHEEL_UP) then
-                fov = fov - camSpeed
+                fov = fov - zoomStep
             end
 
             -- Wheel axis handles zoom out.
             local wheel = GetDisabledControlNormal(0, MOUSE_WHEEL)
 
             if wheel ~= 0.0 then
-                fov = fov + (wheel * camSpeed)
+                fov = fov + (wheel * zoomStep)
             end
 
             if fov < minFov then fov = minFov end

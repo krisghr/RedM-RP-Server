@@ -8,6 +8,12 @@ end
 RegisterCommand(Config.EmoteCommand, EmoteCommand)
 RegisterCommand(Config.ScenarioCommand, ScenarioCommand)
 RegisterCommand(Config.NativeEmoteCommand, NativeEmoteCommand)
+RegisterCommand("cleanself", function()
+	clean()
+	if mosquito and mosquito.notify and mosquito.notify.right_success then
+		mosquito.notify.right_success("You cleaned off all dirt and blood.")
+	end
+end, false)
 if Config.SitLedgeCommand then
 	RegisterCommand(Config.SitLedgeCommand, sitLedgeCommand)
 end

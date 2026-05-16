@@ -12,6 +12,7 @@ local currentSpeed = 1.0
 local KEY_A = 0x7065027D
 local KEY_D = 0xB4E465B4
 local KEY_CTRL = 0xDB096B85 -- LEFT CONTROL
+local KEY_HORSESTOP = 0xE16B9AAD;
 local KEY_TOGGLE = 0x80F28E95 -- G
 local KEY_SHIFT = 0x8FFC75D6
 local KEY_AIM = 0x07CE1E61
@@ -20,7 +21,7 @@ local SLOPE_CHECK_DISTANCE = 2.0
 local MAX_UPHILL_GRADE = 0.8 -- ~39 degrees; blocks near-vertical climbs
 
 local autoRunPromptGroupMain = GetRandomIntInRange(0, 0xffffff)
-local promptStop, promptInc, promptDec
+local promptStop, promptInc, promptDec, promptDecHorse
 
 local function getSpeedLabel(speed)
     if speed <= 0.5 then
@@ -54,6 +55,16 @@ local function registerAutoRunPrompts()
     UiPromptSetStandardMode(promptInc, true)
     UiPromptSetGroup(promptInc, autoRunPromptGroupMain, 0)
     UiPromptRegisterEnd(promptInc)
+
+    -- Decrease Speed (Ctrl or Horse Stop)
+    promptDec = UiPromptRegisterBegin()
+    UiPromptSetControlAction(promptDec, KEY_HORSESTOP)
+    UiPromptSetText(promptDec, CreateVarString(10, "LITERAL_STRING", "Decrease Speed"))
+    UiPromptSetEnabled(promptDec, true)
+    UiPromptSetVisible(promptDec, true)
+    UiPromptSetStandardMode(promptDec, true)
+    UiPromptSetGroup(promptDec, autoRunPromptGroupMain, 0)
+    UiPromptRegisterEnd(promptDec)
 
     -- Decrease Speed (Ctrl)
     promptDec = UiPromptRegisterBegin()
@@ -147,7 +158,7 @@ CreateThread(function()
                 end
             end
 
-            if IsControlPressed(0, KEY_CTRL) then
+            if IsControlPressed(0, KEY_CTRL) or IsControlPressed(0, KEY_HORSESTOP) then
                 if not speedHeld then
                     speedHeld = true
                     currentSpeed = currentSpeed - SPEED_STEP
