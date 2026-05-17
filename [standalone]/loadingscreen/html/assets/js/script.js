@@ -1,10 +1,25 @@
+const loadingTips = [
+	"You can emote in dialog using asterisks!",
+	"You can use dialog in emotes too, just put the dialog in quotes!",
+	"Walk and talk using our /autorun feature!",
+	"Use /me for actions and /do for scene outcomes.",
+	"Stay in character, even when things go wrong.",
+	"Use /b only for essential out-of-character communication."
+];
+
+function setRandomTip() {
+	const tip = loadingTips[Math.floor(Math.random() * loadingTips.length)];
+	$(".tip-container").text(tip);
+}
+
+setRandomTip();
 
 $(".center h1").html(name)
 $(".center p").html(underName)
 $(".center span").html(desc)
 var serverInfo = null
 function loading(num) {
-	let current = parseInt($(".loading-bar p").text(), 10) || 0;
+	let current = parseInt($(".bar-percentage").text(), 10) || 0;
 	const step = 1;
 	const delay = 700 / Math.abs(num - current);
 
@@ -18,26 +33,27 @@ function loading(num) {
 		} else {
 			clearInterval(interval);
 		}
-		$(".loading-bar p").text(current + "%");
+		$(".bar-percentage").text(current + "%");
 	}, delay);
 
-	$(".loading-bar .line").width(num + "%");
+	const hiddenRight = Math.max(0, 100 - num);
+	$(".loading-bar .bar-full").css("clip-path", `inset(0 ${hiddenRight}% 0 0)`);
 }
 
-if (showStaffTeam) {
-	$(".panel.staffteam").show()
-	staff_team.forEach(function (user) {
-		$(".staff_team").append(`
-			<div class="staff">
-				<div class="info">
-					<img src="${user.image}" class="pfp">
-					<p>${user.name}</p>
-				</div>
-				<p class="status">${user.rank}</p>
-			</div>
-		`)
-	})
-}
+// if (showStaffTeam) {
+// 	$(".panel.staffteam").show()
+// 	staff_team.forEach(function (user) {
+// 		$(".staff_team").append(`
+// 			<div class="staff">
+// 				<div class="info">
+// 					<img src="${user.image}" class="pfp">
+// 					<p>${user.name}</p>
+// 				</div>
+// 				<p class="status">${user.rank}</p>
+// 			</div>
+// 		`)
+// 	})
+// }
 
 if (showPlayersList) {
 	$(".panel.playerlist").show()
@@ -88,6 +104,9 @@ $("a").on("click", function (e) {
 })
 
 if (theme == "orange") {
+	$("body").css("background-image", "url('assets/img/nrrp-loading-screen.png')")
+}
+if (theme == "nrrp") {
 	$("body").append(`<style>:root{--main:255, 150, 0;}</style>`)
 	$("body").css("background-image", "url('assets/img/orange.jpg')")
 	$(".winter").css("background", "linear-gradient(0deg, rgb(255 150 0 / 10%) 0%, rgba(255, 150, 0, 0.0) 100%)")
@@ -201,3 +220,68 @@ function setVolume(volume) {
 		background: `rgba(var(--main), ${(volume / 100) + 0.2})`
 	});
 }
+
+/* =========================
+   DEBUG: Loading Bar Tester
+   Use: open index.html?debugLoad=1
+   Optional:
+   - &speed=45      (ms between ticks, default 45)
+   - &pause=1200    (ms pause at 100% before restart, default 1200)
+   ========================= */
+(function debugLoadingBar() {
+	const params = new URLSearchParams(window.location.search);
+	if (params.get("debugLoad") !== "1") return;
+
+	const speed = Number(params.get("speed") || 45);
+	const pauseAtEnd = Number(params.get("pause") || 1200);
+
+	let fraction = 0;
+	let dir = 1; // 1 = fill up, -1 = drain down (optional visual check)
+
+	console.log("[loadscreen debug] enabled", { speed, pauseAtEnd });
+
+	function pushProgress(f) {
+		// Reuse your existing event path, exactly like RedM sends it
+		window.dispatchEvent(new MessageEvent("message", {
+			data: {
+				eventName: "loadProgress",
+				loadFraction: Math.max(0, Math.min(1, f))
+			}
+		}));
+	}
+
+	function loop() {
+		// step ~1%
+		fraction += 0.01 * dir;
+
+		if (fraction >= 1) {
+			fraction = 1;
+			pushProgress(fraction);
+			return setTimeout(() => {
+				// restart from 0 (or set dir=-1 if you want down animation check)
+				dir = 1;
+				fraction = 0;
+				loop();
+			}, pauseAtEnd);
+		}
+
+		if (fraction <= 0) {
+			fraction = 0;
+			dir = 1;
+		}
+
+		pushProgress(fraction);
+		setTimeout(loop, speed);
+	}
+
+	// quick keyboard helpers while previewing
+	window.addEventListener("keydown", (e) => {
+		if (e.key === "1") pushProgress(0.25);
+		if (e.key === "2") pushProgress(0.50);
+		if (e.key === "3") pushProgress(0.75);
+		if (e.key === "4") pushProgress(1.00);
+		if (e.key === "0") pushProgress(0.00);
+	});
+
+	loop();
+})();

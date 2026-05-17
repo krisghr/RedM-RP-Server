@@ -1,0 +1,6 @@
+import{c as n,d as s,a as r,b as c,s as t,e as i}from"./index.js";/**
+ * @license lucide-vue-next v0.469.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const h=n("LayersIcon",[["path",{d:"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z",key:"zw3jo"}],["path",{d:"M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12",key:"1wduqc"}],["path",{d:"M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17",key:"kqbvx6"}]]),d=["aria-checked"],k=s({__name:"Toggle",props:{modelValue:{type:Boolean}},emits:["update:modelValue"],setup(e,{emit:l}){const o=l;return(u,a)=>(r(),c("button",{type:"button",role:"switch","aria-checked":e.modelValue,onClick:a[0]||(a[0]=m=>o("update:modelValue",!e.modelValue)),class:t(["relative inline-flex w-9 h-5 rounded-full transition-colors shrink-0",e.modelValue?"bg-[var(--accent-color,#a82a2a)]":"bg-zinc-700"])},[i("span",{class:t(["absolute top-0.5 left-0.5 w-4 h-4 rounded-full transition-transform transition-colors shadow ring-1 ring-black/10",e.modelValue?"translate-x-4 bg-[rgb(var(--accent-on,255_255_255))]":"translate-x-0 bg-white"])},null,2)],10,d))}});export{h as L,k as _};

@@ -1,6 +1,6 @@
 <!--
 /*=================================================================*\
-/* By: 			|	Nevera Development  							|
+/* By: 			|	NRRP Development  							|
 /*=================================================================*/
 -->
 
@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 	<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
-	<title>Nevera - Loading Screen</title>
+	<title>NRRP - Loading Screen</title>
 	<script src="config.js"></script>
 
 </head>
@@ -40,16 +40,7 @@
 		<div class="list staff_team"></div>
 	</div>
 
-	<div class="panel right playerlist" style="display:none">
-		<h3>Players</h3>
-		<div class="list player_list"></div>
-	</div>
-
 	<div class="center">
-		<h1><strong>NEW</strong>ROANOKE</h1>
-		<p>Role<b>play</b></p>
-		<span>RedM Roleplay server featuring an extensive collection of custom scripts, maps, vehicles, unique weapons,
-			and much more.</span>
 		<ul class="social">
 			<li class="discord" style="display:none;"><a href="/"><i class="bi bi-discord"></i></a></li>
 			<li class="instagram" style="display:none;"><a href="/"><i class="bi bi-instagram"></i></a></li>
@@ -60,16 +51,16 @@
 			<li class="facebook" style="display:none;"><a href="/"><i class="bi bi-facebook"></i></a></li>
 			<li class="twitch" style="display:none;"><a href="/"><i class="bi bi-twitch"></i></a></li>
 			<li class="github" style="display:none;"><a href="/"><i class="bi bi-github"></i></a></li>
-
-
-
-
 		</ul>
 	</div>
+	<div class="tip-container">Loading tip...</div>
 	<div class="loading-bar">
-		<p>0%</p>
+		<div class="bar-percentage">0%</div>
 		<div class="bar">
-			<div class="line"></div>
+			<img class="bar-empty" src="assets/img/loading-bar-empty.png" alt="Loading bar empty">
+			<div class="bar-fill-clip">
+				<img class="bar-full" src="assets/img/loading-bar-full.png" alt="Loading bar full">
+			</div>
 		</div>
 	</div>
 	<div class="loading"></div>

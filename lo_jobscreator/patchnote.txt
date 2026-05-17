@@ -1,0 +1,16 @@
+<patchnote>
+1.0.1
+- Fix: interaction editor — the "Prop (object)" checkbox now stays checked after closing/reopening an interaction that already had a placed prop. Model, heading and zOffset are preserved on reload (regression from the slim-payload hydration path: only marker/ped/blip had the rawData fallback, prop was missing).
+
+1.0.0
+- VORP-only framework support (vorp_core + vorp_inventory); modules/editable/framework.lua is the bridge if you want to wire your own
+- Admin panel rewrite (Vue NUI): jobs, gangs, public actions, item creator, custom blips/peds/props/markers/vehicles, templates, backups, audit log, server config
+- Placement modes: raycast (mouse) + gizmo (3D drag/rotate, needs jo_libs)
+- Interaction types: stash, farm, sell, process, craft, shop, vehicle garage, stable, duty, boss menu, teleport, clothing store/wardrobe, phone, dispatch
+- Dispatch / witness using ox_lib's real dispatch UI (pinned notifs with accept/decline), customizable in modules/editable/client.lua
+- Internal Discord log module (no lo_logs dependency), internal usable-items system (eat/drink/shot/injection/horse stimulant)
+- Leveled console logger (Logger.trace/debug/info/warn/error, Config.LogLevel, /jc_loglevel <level>)
+- Add as many languages as you want: drop locales/<code>.json with a "language" key, a button appears in the panel
+- Exports for other resources (see DOCUMENTATION.md)
+- RedM-safe: native control hashes, no os on client, lo_keysMapper key system, broken-ped detection, long model timeouts for horses/wagons
+</patchnote>
