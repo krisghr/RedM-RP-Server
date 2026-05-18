@@ -55,7 +55,7 @@ Config.WitnessSonarOffset = 50                       -- Random GPS offset (m) so
 Config.WitnessSonarDuration = 120                    -- Max seconds the sonar GPS keeps pinging
 Config.WitnessSonarStopDistance = 15.0               -- Auto-stop sonar when the player gets this close (m)
 Config.PromptDistance = 2.0                          -- Max display distance for the built-in interaction prompt. Lower = player must be on the point.
-Config.Lang = 'fr'                                   -- Default locale, must match a file in locales/<lang>.json. Players-with-permission can override at runtime via the NUI preferences (saved server-side via KVP)
+Config.Lang = 'en'                                   -- Default locale, must match a file in locales/<lang>.json. Players-with-permission can override at runtime via the NUI preferences (saved server-side via KVP)
 Config.PermissionGroup = { 'admin' }                 -- Groups allowed to use the creator. String or table: 'admin' or { 'admin', 'moderator' }
 Config.ButtonPermissions = {
     -- Leave a list empty to inherit Config.PermissionGroup.

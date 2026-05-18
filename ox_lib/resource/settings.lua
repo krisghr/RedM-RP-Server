@@ -13,7 +13,8 @@ local function safeGetKvp(fn, key, default)
     local ok, result = pcall(fn, key)
 
     if not ok then
-        return DeleteResourceKvp(key)
+        DeleteResourceKvp(key)
+        return default
     end
 
     return result or default
@@ -99,7 +100,7 @@ RegisterCommand('ox_lib', function()
     ---@type boolean, string, string
     local notification_audio, notification_position, locale = table.unpack(input)
 
-    if set('locale', locale) then lib.setLocale(locale) end
+    if userLocales and set('locale', locale) then lib.setLocale(locale) end
 
     set('notification_position', notification_position)
     set('notification_audio', notification_audio)

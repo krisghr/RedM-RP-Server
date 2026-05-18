@@ -1,6 +1,13 @@
+--[[
+    https://github.com/overextended/ox_lib
+
+    This file is licensed under LGPL-3.0 or higher <https://www.gnu.org/licenses/lgpl-3.0.en.html>
+
+    Copyright © 2025 Linden <https://github.com/thelindat>
+]]
+
 ---@class TimerPrivateProps
 ---@field initialTime number the initial duration of the timer.
----@field onEnd? fun() cb function triggered when the timer finishes
 ---@field async? boolean wether the timer should run asynchronously or not
 ---@field startTime number the gametimer stamp of when the timer starts. changes when paused and played
 ---@field triggerOnEnd boolean set in the forceEnd method using the optional param. wether or not the onEnd function is triggered when force ending the timer early
@@ -10,13 +17,17 @@
 ---@class OxTimer : OxClass
 ---@field private private TimerPrivateProps
 ---@field start fun(self: self, async?: boolean) starts the timer
+---@field onEnd? fun() cb function triggered when the timer finishes
 ---@field forceEnd fun(self: self, triggerOnEnd: boolean) end timer early and optionally trigger the onEnd function still
 ---@field isPaused fun(self: self): boolean returns wether the timer is paused or not
 ---@field pause fun(self: self) pauses the timer until play method is called
 ---@field play fun(self: self) resumes the timer if paused
 ---@field getTimeLeft fun(self: self, format?: 'ms' | 's' | 'm' | 'h'): number | table returns the time left on the timer with the specified format rounded to 2 decimal places (miliseconds, seconds, minutes, hours). returns a table of all if not specified.
+---@field private new OxTimerConstructor
 local timer = lib.class('OxTimer')
 
+---@class OxTimerConstructor
+---@overload fun(self: OxTimer, time: number, onEnd: fun(self: OxTimer), async?: boolean): OxTimer
 ---@private
 ---@param time number
 ---@param onEnd fun(self: OxTimer)
@@ -26,58 +37,54 @@ function timer:constructor(time, onEnd, async)
     assert(onEnd == nil or type(onEnd) == "function", "onEnd must be a function or nil")
     assert(type(async) == "boolean" or async == nil, "async must be a boolean or nil")
 
+    self.onEnd = onEnd
     self.private.initialTime = time
     self.private.currentTimeLeft = time
     self.private.startTime = 0
     self.private.paused = false
-    self.private.onEnd = onEnd
     self.private.triggerOnEnd = true
 
     self:start(async)
 end
 
-function timer:start(async)
-    if self.private.startTime > 0 then return end
+---@protected
+function timer:run()
+    while self:isPaused() or self:getTimeLeft('ms') > 0 do
+        Wait(0)
+    end
 
-    self.private.startTime = GetGameTimer()
-
-    local function tick()
-        while self:getTimeLeft('ms') > 0 do
-            while self:isPaused() do
-                Wait(0)
-            end
-            Wait(0)
-        end
+    if self.private.triggerOnEnd then
         self:onEnd()
     end
 
-    if async then
-        Citizen.CreateThreadNow(function()
-            tick()
-        end)
-    else
-        tick()
-    end
+    self.private.triggerOnEnd = true
 end
 
-function timer:onEnd()
-    if self:getTimeLeft('ms') > 0 then return end
+function timer:start(async)
+    if self.private.startTime > 0 then error('Cannot start a timer that is already running') end
 
-    if self.private.triggerOnEnd and self.private.onEnd then
-        self.private:onEnd()
-    end
+    self.private.startTime = GetGameTimer()
+
+    if not async then return self:run() end
+
+    Citizen.CreateThreadNow(function()
+        self:run()
+    end)
 end
 
 function timer:forceEnd(triggerOnEnd)
     if self:getTimeLeft('ms') <= 0 then return end
-    self.private.triggerOnEnd = triggerOnEnd
+
     self.private.paused = false
     self.private.currentTimeLeft = 0
+    self.private.triggerOnEnd = triggerOnEnd
+
     Wait(0)
 end
 
 function timer:pause()
     if self.private.paused then return end
+
     self.private.currentTimeLeft = self:getTimeLeft('ms') --[[@as number]]
     self.private.paused = true
 end
@@ -101,7 +108,9 @@ function timer:restart(async)
 end
 
 function timer:getTimeLeft(format)
-    local ms = self.private.currentTimeLeft - (GetGameTimer() - self.private.startTime)
+    local ms = self.private.paused
+        and self.private.currentTimeLeft
+        or self.private.currentTimeLeft - (GetGameTimer() - self.private.startTime)
 
     local roundedfloat = function(value)
         return tonumber(string.format('%.2f', value))

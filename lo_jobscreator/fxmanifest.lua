@@ -23,7 +23,7 @@ lua54 'yes'
 ui_page 'web/build/index.html'
 
 shared_scripts {
-    -- '@ox_lib/init.lua', -- Uncomment if you want to use ox_lib's progress / menus providers
+    '@ox_lib/init.lua', -- Uncomment if you want to use ox_lib's progress / menus providers
     -- comment to disable VORP Lib progress provider.
     '@vorp_lib/import.lua',
     -- Uncomment to enable jo_libs menu/input provider (also uncomment the

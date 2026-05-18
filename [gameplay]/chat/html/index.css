@@ -57,12 +57,12 @@
   margin: 1%;
   overflow-x: hidden;
   overflow-y: hidden;
-  font-size: 1.25vh;
+
 }
 
 /* MESSAGE LINE */
 .msg {
-  font-size: 1.25vh;
+
   line-height: 1.45;
   margin-bottom: 0.25vh;
 }

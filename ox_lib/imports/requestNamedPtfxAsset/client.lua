@@ -1,7 +1,15 @@
+--[[
+    https://github.com/overextended/ox_lib
+
+    This file is licensed under LGPL-3.0 or higher <https://www.gnu.org/licenses/lgpl-3.0.en.html>
+
+    Copyright © 2025 Linden <https://github.com/thelindat>
+]]
+
 ---Load a named particle effect. When called from a thread, it will yield until it has loaded.
 ---@param ptFxName string
----@param timeout number? Number of ticks to wait for the particle effect to load. Default is 500.
----@return string? ptFxName
+---@param timeout number? Approximate milliseconds to wait for the particle effect to load. Default is 10000.
+---@return string ptFxName
 function lib.requestNamedPtfxAsset(ptFxName, timeout)
     if HasNamedPtfxAssetLoaded(ptFxName) then return ptFxName end
 
@@ -9,23 +17,7 @@ function lib.requestNamedPtfxAsset(ptFxName, timeout)
         error(("expected ptFxName to have type 'string' (received %s)"):format(type(ptFxName)))
     end
 
-    RequestNamedPtfxAsset(ptFxName)
-
-    if coroutine.running() then
-        timeout = tonumber(timeout) or 500
-
-        for _ = 1, timeout do
-            if HasNamedPtfxAssetLoaded(ptFxName) then
-                return ptFxName
-            end
-
-            Wait(0)
-        end
-
-        print(("failed to load ptFxName '%s' after %s ticks"):format(ptFxName, timeout))
-    end
-
-    return ptFxName
+    return lib.streamingRequest(RequestNamedPtfxAsset, HasNamedPtfxAssetLoaded, 'ptFxName', ptFxName, timeout)
 end
 
 return lib.requestNamedPtfxAsset

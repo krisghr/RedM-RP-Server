@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.12963867" y="-0.1303711" z="-0.0005984027" />
+      <bbMax x="0.12915044" y="0.13183591" z="0.0005984027" />
+      <bsCentre x="-0.00024411827" y="0.000732407" z="0.0" />
+      <bsRadius value="0.18420488" />
+      <hdTextureDist value="60.0"/>
+      <name>lace</name>
+      <textureDictionary>lace</textureDictionary>
+      <physicsDictionary>lace</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lace_ytyp</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>lace</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

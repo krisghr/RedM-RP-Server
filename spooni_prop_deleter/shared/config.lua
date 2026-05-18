@@ -7,7 +7,7 @@ local glm = require "glm"
 
 Config.Zones = {
     {
-        name = "Test Zone 1", -- name of the zone
+        name = "Joseph's Cabin", -- name of the zone
         thickness = 30, -- height
         point = glm.polygon.new(
             {
@@ -99,25 +99,75 @@ Config.Zones = {
         }
     },
     {
-        name = "Test Zone 2", -- name of the zone
+        name = "Blackwater Statue Dais", -- name of the zone
         thickness = 30, -- height
         point = glm.polygon.new(
             {
-                vec3(-2423.80224609375, -2453.997802734375, 59.17021560668945),
-                vec3(-2419.6220703125, -2452.68408203125, 59.17019653320312),
-                vec3(-2418.694091796875, -2458.322509765625, 59.17019271850586),
-                vec3(-2423.198974609375, -2458.956787109375, 59.17021560668945),
+                vec3(-859.8827, -1176.3994, 43.5842),
+                vec3(-841.6609, -1176.5769, 43.5867),
+                vec3(-841.2790, -1206.4816, 43.5835),
+                vec3(-859.8848, -1206.4889, 43.5738),
             }
         ),
         outerZone = nil, -- defines the outer zone. if nil, then it is generated automatically.
         outerZoneDistance = 200.0, -- size of the distance from the outer zone
         deleteAll = false, -- deletes all objects in the zone. 
         objects = { -- objects in the list will be deleted.
-            {
-                model = `p_haypile02x`,
-                coords = vec3(-2421.014404, -2455.576416, 59.151508),
-                distance = 2.0
-            },
+	{
+		model = `p_hitchpostbla01x`,
+		coords = vec3(-853.510010,-1191.017090,44.277756),
+		distance = 0.1,
+	},
+	{
+		model = `s_ind1_redrope01x`,
+		coords = vec3(-853.502197,-1189.754150,45.156445),
+		distance = 0.1,
+	},
+	{
+		model = `p_hitchpostbla01x`,
+		coords = vec3(-853.510010,-1188.496826,44.277756),
+		distance = 0.1,
+	},
+	{
+		model = `p_hitchpostbla01x`,
+		coords = vec3(-853.510010,-1191.982056,44.277756),
+		distance = 0.1,
+	},
+	{
+		model = `p_hitchpostbla01x`,
+		coords = vec3(-853.510010,-1194.497925,44.277756),
+		distance = 0.1,
+	},
+	{
+		model = `s_ind1_redrope01x`,
+		coords = vec3(-853.502197,-1193.236084,45.156445),
+		distance = 0.1,
+	},
+	{
+		model = `p_hitchpostbla01x`,
+		coords = vec3(-848.256042,-1194.497925,44.277756),
+		distance = 0.1,
+	},
+	{
+		model = `s_ind1_redrope01x`,
+		coords = vec3(-848.251160,-1193.236084,45.156445),
+		distance = 0.1,
+	},
+	{
+		model = `p_hitchpostbla01x`,
+		coords = vec3(-848.258667,-1191.982056,44.277756),
+		distance = 0.1,
+	},
+	{
+		model = `p_hitchpostbla01x`,
+		coords = vec3(-848.286072,-1191.017090,44.277756),
+		distance = 0.1,
+	},
+	{
+		model = `p_hitchpostbla01x`,
+		coords = vec3(-848.285339,-1188.496826,44.277756),
+		distance = 0.1,
+	},
         },
     },
     {

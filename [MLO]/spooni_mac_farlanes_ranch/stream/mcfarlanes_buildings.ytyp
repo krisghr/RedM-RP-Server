@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="399" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="30.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>mcfarlanes_ext</name>
+      <textureDictionary>mcfarlanes_ext</textureDictionary>
+      <physicsDictionary>mcfarlanes_ext</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mcfarlanes_ext</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+        <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="399" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="40.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>mcfarlanes_int1</name>
+      <textureDictionary>mcfarlanes_int1</textureDictionary>
+      <physicsDictionary>mcfarlanes_int1</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mcfarlanes_int1</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+        <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="399" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="40.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>mcfarlanes_int2</name>
+      <textureDictionary>mcfarlanes_int1</textureDictionary>
+      <physicsDictionary>mcfarlanes_int2</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mcfarlanes_int2</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+        <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="399" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="40.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>mfr_01_traindep2</name>
+      <textureDictionary>mfr_01_traindep2</textureDictionary>
+      <physicsDictionary>mfr_01_traindep2</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mfr_01_traindep2</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+        <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="399" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="40.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>mfr_04_bnkhouse2</name>
+      <textureDictionary>mfr_04_bnkhouse2</textureDictionary>
+      <physicsDictionary>mfr_04_bnkhouse2</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mfr_04_bnkhouse2</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+        <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="399" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="40.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>mfr_04_bunkhouse1</name>
+      <textureDictionary>mfr_04_bunkhouse1</textureDictionary>
+      <physicsDictionary>mfr_04_bunkhouse1</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mfr_04_bunkhouse1</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+        <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="399" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="40.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>mfr_04_bunkhouse1_2</name>
+      <textureDictionary>mfr_04_cottage3</textureDictionary>
+      <physicsDictionary>mfr_04_bunkhouse1_2</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mfr_04_bunkhouse1_2</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+        <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="399" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="40.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>mfr_04_cottage2</name>
+      <textureDictionary>mfr_04_cottage2</textureDictionary>
+      <physicsDictionary>mfr_04_cottage2</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mfr_04_cottage2</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+        <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="399" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="40.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>mfr_04_cottage3</name>
+      <textureDictionary>mfr_04_cottage3</textureDictionary>
+      <physicsDictionary>mfr_04_cottage3</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mfr_04_cottage3</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>mcfarlanes_buildings</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

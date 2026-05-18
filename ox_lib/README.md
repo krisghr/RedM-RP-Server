@@ -1,22 +1,30 @@
-<div align='center'><h1><a href='https://overextended.github.io/docs/'>Documentation</a></h3></div>
-<br>
+# ox_lib
 
-## Lua Library for FiveM
+A FiveM library and resource implementing reusable modules, methods, and UI elements.
 
-FXServer provides its own system for including files, which we use to load this resource in the fxmanifest via
+![](https://img.shields.io/github/downloads/overextended/ox_lib/total?logo=github)
+![](https://img.shields.io/github/downloads/overextended/ox_lib/latest/total?logo=github)
+![](https://img.shields.io/github/contributors/overextended/ox_lib?logo=github)
+![](https://img.shields.io/github/v/release/overextended/ox_lib?logo=github)
 
-```lua
-shared_script '@ox_lib/init.lua'
-```
+For guidelines to contributing to the project, and to see our Contributor License Agreement, see [CONTRIBUTING.md](./CONTRIBUTING.md)
 
-### server.cfg
+For additional legal notices, refer to [NOTICE.md](./NOTICE.md).
 
-```
-add_ace resource.ox_lib command.add_ace allow
-add_ace resource.ox_lib command.remove_ace allow
-add_ace resource.ox_lib command.add_principal allow
-add_ace resource.ox_lib command.remove_principal allow
-```
 
-## License
-<a href='https://www.gnu.org/licenses/lgpl-3.0.en.html'>LGPL-3.0-or-later</a>
+## 📚 Documentation
+
+https://overextended.dev/ox_lib
+
+## 💾 Download
+
+https://github.com/overextended/ox_lib/releases/latest/download/ox_lib.zip
+
+## 📦 npm package
+
+https://www.npmjs.com/package/@overextended/ox_lib
+
+## 🖥️ Lua Language Server
+
+- Install [Lua Language Server](https://luals.github.io/#install) to ease development with annotations, type checking, diagnostics, and more.
+- Download [fivem-lls-addon](https://github.com/overextended/fivem-lls-addon) to add support for native declarations and other platform-specific functionality.

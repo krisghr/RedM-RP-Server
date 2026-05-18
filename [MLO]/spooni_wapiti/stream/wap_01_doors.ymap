@@ -1,0 +1,324 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="40.019989" y="1835.969971" z="-152.429993"/>
+	<streamingExtentsMax x="842.040009" y="2639.219971" z="647.580002"/>
+	<entitiesExtentsMin x="350.019989" y="2085.969971" z="157.570007"/>
+	<entitiesExtentsMax x="552.040009" y="2389.219971" z="297.580002"/>
+	<entities>
+		<!-- Doctor -->
+		<Item type="CEntityDef">
+			<archetypeName>p_door01x</archetypeName>
+			<flags value="1572865"/>
+			<position x="440.459991" y="2239.219971" z="247.550003"/>
+			<rotation w="0.366501" x="0.000000" y="-0.000000" z="-0.930418"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door01x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.470796" />
+					<nuskEbA_0xA0CF3C8D value="1.470796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door01x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>wapiti-door1</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door02x</archetypeName>
+			<flags value="1572865"/>
+			<position x="440.019989" y="2236.010009" z="247.580002"/>
+			<rotation w="0.917060" x="0.000000" y="-0.000000" z="-0.398749"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door02x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.470796" />
+					<nuskEbA_0xA0CF3C8D value="1.470796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door02x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>wapiti-door2</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door02x</archetypeName>
+			<flags value="1572865"/>
+			<position x="442.040009" y="2238.120117" z="247.580002"/>
+			<rotation w="0.917060" x="0.000000" y="-0.000000" z="-0.398749"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door02x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.450796" />
+					<nuskEbA_0xA0CF3C8D value="1.450796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door02x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>wapiti-door3</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<!-- General Store -->
+		<Item type="CEntityDef">
+			<archetypeName>p_door02x</archetypeName>
+			<flags value="1572865"/>
+			<position x="433.089996" y="2196.290039" z="245.817398"/>
+			<rotation w="0.132220" x="0.000000" y="0.000000" z="0.991220"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door02x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.450796" />
+					<nuskEbA_0xA0CF3C8D value="1.450796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door02x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>wapiti-door4</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<!-- Stable -->
+		<Item type="CEntityDef">
+			<archetypeName>p_door_barn02</archetypeName>
+			<flags value="1572865"/>
+			<position x="418.440002" y="2233.540039" z="253.580002"/>
+			<rotation w="0.321398" x="0.000000" y="0.000000" z="0.946944"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door_barn02</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.450796" />
+					<nuskEbA_0xA0CF3C8D value="1.450796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door_barn02</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>wapiti-door5</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door_barn02</archetypeName>
+			<flags value="1572865"/>
+			<position x="414.880005" y="2230.850098" z="253.580002"/>
+			<rotation w="0.945519" x="0.000000" y="0.000000" z="-0.325568"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door_barn02</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.450796" />
+					<nuskEbA_0xA0CF3C8D value="1.450796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door_barn02</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>wapiti-door6</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<!-- Stable Gates -->
+		<Item type="CEntityDef">
+			<archetypeName>p_barnanimalgate02x</archetypeName>
+			<flags value="1572865"/>
+			<position x="411.538788" y="2238.563721" z="253.669189"/>
+			<rotation w="0.402018" x="0.000000" y="0.000000" z="-0.915632"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="300"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_barnanimalgate02x</archetypeName>
+			<flags value="1572865"/>
+			<position x="412.743134" y="2236.951172" z="253.736328"/>
+			<rotation w="0.398819" x="0.000000" y="0.000000" z="-0.917029"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="300"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_barnanimalgate02x</archetypeName>
+			<flags value="1572865"/>
+			<position x="410.260681" y="2240.067627" z="253.676086"/>
+			<rotation w="0.441571" x="0.002312" y="0.004698" z="-0.897211"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="300"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

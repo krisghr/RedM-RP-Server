@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-10.949221" y="-8.354493" z="-3.455078" />
+      <bbMax x="9.146974" y="8.354493" z="3.445801" />
+      <bsCentre x="-0.9011235" y="0.0" z="-0.0046384335" />
+      <bsRadius value="13.515449" />
+      <hdTextureDist value="60.0"/>
+      <name>net1</name>
+      <textureDictionary>net1</textureDictionary>
+      <physicsDictionary>test</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>net1</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>net1</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

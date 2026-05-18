@@ -1,14 +1,27 @@
----@class RadialMenuItem
----@field id string
+--[[
+    https://github.com/overextended/ox_lib
+
+    This file is licensed under LGPL-3.0 or higher <https://www.gnu.org/licenses/lgpl-3.0.en.html>
+
+    Copyright © 2025 Linden <https://github.com/thelindat>
+]]
+
+---@class RadialItem
 ---@field icon string | {[1]: IconProp, [2]: string};
 ---@field label string
 ---@field menu? string
 ---@field onSelect? fun(currentMenu: string | nil, itemIndex: number) | string
 ---@field [string] any
+---@field keepOpen? boolean
+---@field iconWidth? number
+---@field iconHeight? number
+
+---@class RadialMenuItem: RadialItem
+---@field id string
 
 ---@class RadialMenuProps
 ---@field id string
----@field items RadialMenuItem[]
+---@field items RadialItem[]
 ---@field [string] any
 
 local isOpen = false
@@ -188,7 +201,6 @@ function lib.clearRadialItems()
     if isOpen then
         refreshRadial()
     end
-    
 end
 
 RegisterNUICallback('radialClick', function(index, cb)
@@ -209,7 +221,7 @@ RegisterNUICallback('radialClick', function(index, cb)
     if item.menu then
         menuHistory[#menuHistory + 1] = { id = currentRadial and currentRadial.id, option = item.menu }
         showRadial(item.menu)
-    else
+    elseif not item.keepOpen then
         lib.hideRadial()
     end
 
@@ -294,12 +306,10 @@ end
 
 lib.addKeybind({
     name = 'ox_lib-radial',
-    description = 'Open radial menu',
-    hash = 0xCEE12B50,
+    description = locale('open_radial_menu'),
+    defaultKey = 'z',
     onPressed = function()
         if isDisabled then return end
-
-        if not LocalPlayer.state.isLoggedIn then return end
 
         if isOpen then
             return lib.hideRadial()
@@ -321,25 +331,15 @@ lib.addKeybind({
 
         while isOpen do
             DisablePlayerFiring(cache.playerId, true)
-            DisableControlAction(0, 0xD2047988, true)
-            DisableControlAction(0, 0xE4130778, true)
-            DisableControlAction(0, 0xBFF476F9, true)
-            DisableControlAction(0, 0x482560EE, true)
-            DisableControlAction(0, 0xA987235F, true)
-            DisableControlAction(0, 0xC13A6564, true)
-            DisableControlAction(0, 0xF84FA74F, true)
-            DisableControlAction(0, 0xF8982F00, true)
-            DisableControlAction(0, 0xB2F377E8, true)
-            DisableControlAction(0, 0xADEAF48C, true)
-            DisableControlAction(0, 0x4A903C11, true)
-            DisableControlAction(0, 0xD82E0BD2, true)
-            DisableControlAction(0, 0x9720FCEE, true)
-            DisableControlAction(0, 0x3D99EEC6, true)
-            DisableControlAction(0, 0xB6F3E4FE, true)
+            DisableControlAction(0, 1, true)
+            DisableControlAction(0, 2, true)
+            DisableControlAction(0, 142, true)
+            DisableControlAction(2, 199, true)
+            DisableControlAction(2, 200, true)
             Wait(0)
         end
     end,
-    onReleased = lib.hideRadial,
+    -- onReleased = lib.hideRadial,
 })
 
 AddEventHandler('onClientResourceStop', function(resource)
