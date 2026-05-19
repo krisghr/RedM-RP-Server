@@ -1,6 +1,26 @@
 local RESOURCE_NAME = GetCurrentResourceName()
 local CELLS_FILE = 'data/cells.json'
 local CellsState = {}
+local Core <const> = exports.vorp_core:GetCore()
+
+AddEventHandler("onResourceStart", function(resourceName)
+    if resourceName ~= RESOURCE_NAME then return end
+
+    Wait(5000)
+
+    for _, playerSource in ipairs(GetPlayers()) do
+        local _source = tonumber(playerSource)
+        local user <const> = Core.getUser(_source)
+        if not user then
+            print(("[JOB DEBUG] src=%s user=nil"):format(_source))
+        else
+            local character <const> = user.getUsedCharacter
+            local job <const> = character.job
+            local grade <const> = character.jobGrade
+            print(("[JOB DEBUG] src=%s job=%s grade=%s"):format(_source, tostring(job), tostring(grade)))
+        end
+    end
+end)
 
 function Notify(source, message)
     if not source or source == 0 then
@@ -53,34 +73,44 @@ local function HasAdminBypass(source)
     return false
 end
 
--- lo_jobscreator adapter -----------------------------------------------------
--- This resource does not create jobs. It checks lo_jobscreator duty state for
--- the exact job names configured in Config.AllowedJobs.
---
--- To link your job: add the technical lo_jobscreator job name to
--- Config.AllowedJobs, then make sure officers are toggled on duty for that job.
+-- job adapter ---------------------------------------------------------------
+-- This resource does not create jobs.
+-- It reads the player's current job/jobGrade from vorp_core character data
+-- and compares job name against Config.AllowedJobs.
+local function GetPlayerJobData(source)
+    local user = Core.getUser(source)
+    if not user then
+        return nil, nil
+    end
+
+    local character = user.getUsedCharacter
+    if type(character) == 'function' then
+        character = character(user)
+    end
+
+    if not character then
+        return nil, nil
+    end
+
+    return character.job, character.jobGrade
+end
+
+local function GetPlayerGradeFromVorp(source)
+    local _, jobGrade = GetPlayerJobData(source)
+    return jobGrade
+end
+
 function GetPlayerJobFromLoJobsCreator(source)
     if not Config.UseLoJobsCreator then
         return nil
     end
 
-    if GetResourceState('lo_jobscreator') ~= 'started' then
-        Debug('lo_jobscreator is not started; job access check failed.')
-        return nil
+    local jobName = GetPlayerJobData(source)
+    if jobName and jobName ~= '' then
+        return jobName
     end
 
-    for _, jobName in ipairs(Config.AllowedJobs or {}) do
-        local ok, isOnDuty = pcall(function()
-            return exports.lo_jobscreator:IsDutyActive(source, jobName)
-        end)
-
-        if ok and isOnDuty then
-            return jobName
-        elseif not ok then
-            Log(('lo_jobscreator IsDutyActive check failed for job "%s": %s'):format(jobName, tostring(isOnDuty)))
-        end
-    end
-
+    Debug('Could not resolve player job from vorp_core.')
     return nil
 end
 
@@ -137,7 +167,21 @@ function HasPoliceAccess(source)
     if jobName then
         for _, allowedJob in ipairs(Config.AllowedJobs or {}) do
             if jobName == allowedJob then
-                return true
+                if Config.RequireDutyForPoliceAccess then
+                    if GetResourceState('lo_jobscreator') ~= 'started' then
+                        return false
+                    end
+
+                    local ok, isOnDuty = pcall(function()
+                        return exports.lo_jobscreator:IsDutyActive(source, allowedJob)
+                    end)
+
+                    if ok and isOnDuty then
+                        return true
+                    end
+                else
+                    return true
+                end
             end
         end
     end
@@ -150,7 +194,13 @@ local function CheckPoliceAccess(source, commandName)
         return true
     end
 
-    Log(('Unauthorized %s attempt by %s (%s)'):format(commandName, GetPlayerName(source) or 'unknown', GetIdentifier(source) or 'no identifier'))
+    Log(('Unauthorized %s attempt by %s (%s) [job=%s grade=%s]'):format(
+        commandName,
+        GetPlayerName(source) or 'unknown',
+        GetIdentifier(source) or 'no identifier',
+        tostring(GetPlayerJobFromLoJobsCreator(source) or 'none'),
+        tostring(GetPlayerGradeFromVorp(source) or 'none')
+    ))
     Notify(source, 'You are not authorized to use police cell commands.')
     return false
 end
@@ -177,7 +227,6 @@ end
 local function NewDefaultCellState(cellId)
     return {
         id = tonumber(cellId),
-        locked = false,
         occupied = false,
         prisonerName = nil,
         prisonerServerId = nil,
@@ -248,7 +297,6 @@ function LoadCells()
         end
 
         state.id = tonumber(cell.id)
-        state.locked = state.locked and true or false
         state.occupied = state.occupied and true or false
         CellsState[key] = state
     end
@@ -344,20 +392,6 @@ local function TeleportPlayer(target, coords)
     TriggerClientEvent('nrrp-police:client:teleport', target, Vector4ToTable(coords))
 end
 
-function SetCellLocked(cellId, locked)
-    local cellConfig = GetCellConfig(cellId)
-    local state = GetCellState(cellId)
-    if not cellConfig or not state then
-        return false, 'Invalid cell ID.'
-    end
-
-    state.locked = locked and true or false
-    SaveCells()
-    TriggerClientEvent('nrrp-police:client:setDoorLocked', -1, tonumber(cellId), state.locked)
-    Log(('Cell %s door %s'):format(cellId, state.locked and 'locked' or 'unlocked'))
-    return true
-end
-
 function JailPlayer(source, target, cellId, durationArg, reason)
     local cellConfig = GetCellConfig(cellId)
     local state = GetCellState(cellId)
@@ -387,7 +421,6 @@ function JailPlayer(source, target, cellId, durationArg, reason)
         status = Config.DefaultIndefiniteLabels[duration.label] or Config.DefaultIndefiniteLabels.indefinite or 'Indefinite hold'
     end
 
-    state.locked = true
     state.occupied = true
     state.prisonerName = targetName
     state.prisonerServerId = target
@@ -403,7 +436,6 @@ function JailPlayer(source, target, cellId, durationArg, reason)
 
     TeleportPlayer(target, cellConfig.jailCoords)
     SaveCells()
-    TriggerClientEvent('nrrp-police:client:setDoorLocked', -1, tonumber(cellId), true)
 
     Notify(source, ('%s jailed in %s. Detention: %s.'):format(targetName, cellConfig.label, duration.label))
     Notify(target, ('You have been placed in %s. Reason: %s'):format(cellConfig.label, reason))
@@ -437,9 +469,7 @@ function ReleaseCell(source, cellId, automatic)
     end
 
     ClearOccupancy(state)
-    state.locked = false
     SaveCells()
-    TriggerClientEvent('nrrp-police:client:setDoorLocked', -1, tonumber(cellId), false)
 
     if not automatic then
         Notify(source, ('%s released from %s.'):format(prisonerName, cellConfig.label))
@@ -454,7 +484,6 @@ local function ShowCells(source)
         local state = GetCellState(cell.id) or NewDefaultCellState(cell.id)
         local prisonerSource = GetOnlinePrisonerSource(state)
         local occupancy = state.occupied and 'Occupied' or 'Empty'
-        local locked = state.locked and 'Locked' or 'Unlocked'
         local detention = state.detentionType or 'N/A'
         local release = state.detentionType == 'timed' and FormatTime(state.releaseAt) or 'N/A'
         local prisoner = state.prisonerName or 'None'
@@ -464,7 +493,7 @@ local function ShowCells(source)
         local assignedBy = state.assignedBy or 'N/A'
         local notes = state.notes or 'N/A'
 
-        Notify(source, ('Cell %s: %s | %s | %s | Prisoner: %s (Server ID: %s) | Reason: %s | Status: %s | Type: %s | Release: %s | Assigned by: %s | Notes: %s'):format(cell.id, cell.label, locked, occupancy, prisoner, serverId, reason, status, detention, release, assignedBy, notes))
+        Notify(source, ('Cell %s: %s | %s | Prisoner: %s (Server ID: %s) | Reason: %s | Status: %s | Type: %s | Release: %s | Assigned by: %s | Notes: %s'):format(cell.id, cell.label, occupancy, prisoner, serverId, reason, status, detention, release, assignedBy, notes))
     end
 end
 
@@ -584,26 +613,6 @@ RegisterCommand('cellstatus', function(source, args)
     Log(('Cell status: cell %s set to "%s" by %s'):format(cellId, status, source == 0 and 'Console' or (GetPlayerName(source) or 'Unknown officer')))
 end, false)
 
-RegisterCommand('cell', function(source, args)
-    if not CheckPoliceAccess(source, '/cell') then
-        return
-    end
-
-    local action = args[1] and args[1]:lower() or nil
-    local cellId = tonumber(args[2])
-    if action ~= 'lock' and action ~= 'unlock' then
-        Notify(source, 'Usage: /cell lock [cellId] or /cell unlock [cellId]')
-        return
-    end
-
-    local ok, errorMessage = SetCellLocked(cellId, action == 'lock')
-    if not ok then
-        Notify(source, errorMessage or 'Invalid cell ID.')
-        return
-    end
-
-    Notify(source, ('Cell %s %s.'):format(cellId, action == 'lock' and 'locked' or 'unlocked'))
-end, false)
 
 RegisterCommand('jailcell', function(source, args)
     if not CheckPoliceAccess(source, '/jailcell') then
@@ -684,24 +693,13 @@ RegisterCommand('sentencecell', function(source, args)
     Log(('Sentence update: cell %s set to %s by %s. Status/reason: %s'):format(cellId, durationArg, source == 0 and 'Console' or (GetPlayerName(source) or 'Unknown officer'), status))
 end, false)
 
-RegisterNetEvent('nrrp-police:server:requestDoorSync', function()
-    local source = source
-    local doorStates = {}
 
-    for cellId, state in pairs(CellsState) do
-        doorStates[cellId] = state.locked and true or false
-    end
 
-    TriggerClientEvent('nrrp-police:client:syncDoorStates', source, doorStates)
-end)
 
 CreateThread(function()
     LoadCells()
     Log('Resource started and cell state loaded.')
 
-    for cellId, state in pairs(CellsState) do
-        TriggerClientEvent('nrrp-police:client:setDoorLocked', -1, tonumber(cellId), state.locked and true or false)
-    end
 end)
 
 CreateThread(function()

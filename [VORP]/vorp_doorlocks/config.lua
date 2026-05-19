@@ -37,8 +37,8 @@ Config.Permissions = {
         valentine_sheriff = 2, -- job name + grade if grade is 0 then anything above 0 has permissions if frade is 2 then anything above 2 has permissions
         -- Can add as many jobs as you wish
     },
-    PoliceDoors = {
-        blackwater_police = 2,
+    PoliceDoors2 = {
+        blackwater_sheriff = 2,
     },
     -- medic
     Doctor = {
@@ -196,12 +196,48 @@ Config.Doors = {
         Pos = vector3(-760.2456665039062, -1237.0382080078125, 43.47168350219726),
         Name = "Holding Cell",
         DoorState = 1,
-        Permissions = Config.Permissions.PoliceDoors,
+        Permissions = Config.Permissions.PoliceDoors2,
         BreakAble = Config.Lockpicks.location.lockpick,
         Difficulty = 3,
         Alert = true,
     },
-
+    [3345148909]  = {
+        Pos = vector3(-763.8624267578125, -1230.0262451171875, 34.45209121704101),
+        Name = "Blackwater Prison",
+        DoorState = 1,
+        Permissions = Config.Permissions.PoliceDoors2,
+        BreakAble = Config.Lockpicks.location.lockpick,
+        Difficulty = 3,
+        Alert = true,
+    },
+    [862966537]  = {
+        Pos = vector3(-762.223388671875, -1236.6749267578125, 34.46994400024414),
+        Name = "Cell 001",
+        DoorState = 0,
+        Permissions = Config.Permissions.PoliceDoors2,
+        BreakAble = Config.Lockpicks.location.lockpick,
+        Difficulty = 3,
+        Alert = true,
+    },
+    [482376326]  = {
+        Pos = vector3(-762.2208251953125, -1239.677490234375, 34.46994400024414),
+        Name = "Cell 002",
+        DoorState = 0,
+        Permissions = Config.Permissions.PoliceDoors2,
+        BreakAble = Config.Lockpicks.location.lockpick,
+        Difficulty = 3,
+        Alert = true,
+    },
+    [1297284923]  = {
+        Pos = vector3(-762.21923828125, -1242.674072265625, 34.46994400024414),
+        Name = "Cell 003",
+        DoorState = 0,
+        Permissions = Config.Permissions.PoliceDoors2,
+        BreakAble = Config.Lockpicks.location.lockpick,
+        Difficulty = 3,
+        Alert = true,
+    },
+    
     -- Rhodes Sheriff Doors
     -- Doors ID
     [349074475]  = {

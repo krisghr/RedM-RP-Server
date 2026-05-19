@@ -1,6 +1,6 @@
 Config = {}
 
-Config.Debug = false
+Config.Debug = true
 Config.UseLoJobsCreator = true
 
 -- Optional fallback: if true, players in these lo_jobscreator job types can use
@@ -13,7 +13,7 @@ Config.AllowedJobTypes = {
 
 Config.AllowedJobs = {
     'valentine_sheriff',
-    'blackwater_police',
+    'blackwater_sheriff',
     'saint_denis_police',
     'us_marshal'
 }
@@ -21,6 +21,7 @@ Config.AllowedJobs = {
 -- Add full identifiers here for development/testing access bypasses.
 -- Examples: 'license:xxxxxxxx', 'steam:110000xxxxxxxxx', 'fivem:123456'
 Config.AdminIdentifiers = {}
+
 
 Config.DefaultIndefiniteLabels = {
     indefinite = 'Pending trial',
@@ -40,23 +41,19 @@ Config.Stations = {
     }
 }
 
--- Replace these placeholder coordinates and door hashes with your server's actual cells.
+-- Replace these placeholder coordinates with your server's actual cells.
 Config.Cells = {
     {
         id = 1,
-        station = 'valentine',
-        label = 'Valentine Cell 1',
-        doorHash = nil,
-        doorCoords = vector3(0.0, 0.0, 0.0),
-        jailCoords = vector4(0.0, 0.0, 0.0, 0.0),
-        releaseCoords = vector4(0.0, 0.0, 0.0, 0.0)
+        station = 'blackwater',
+        label = 'Blackwater Jail',
+        jailCoords = vector4(-766.9160, -1232.6421, 35.5071, 181.1303),
+        releaseCoords = vector4(-762.1951, -1229.3816, 35.5071, 270.5755)
     },
     {
         id = 2,
         station = 'valentine',
         label = 'Valentine Cell 2',
-        doorHash = nil,
-        doorCoords = vector3(0.0, 0.0, 0.0),
         jailCoords = vector4(0.0, 0.0, 0.0, 0.0),
         releaseCoords = vector4(0.0, 0.0, 0.0, 0.0)
     }
