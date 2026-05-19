@@ -1,7 +1,15 @@
+local isJailUiOpen = false
+
 local function Debug(message)
     if Config.Debug then
         print(('[nrrp-police][client] %s'):format(message))
     end
+end
+
+local function SetUiOpen(state)
+    isJailUiOpen = state
+    SetNuiFocus(state, state)
+    SetNuiFocusKeepInput(false)
 end
 
 RegisterNetEvent('nrrp-police:client:teleport', function(coords)
@@ -26,4 +34,35 @@ RegisterNetEvent('nrrp-police:client:teleport', function(coords)
     SetEntityCoords(ped, x + 0.0, y + 0.0, z + 0.0, false, false, false, true)
     SetEntityHeading(ped, w + 0.0)
     Debug(('Teleported to %.2f %.2f %.2f'):format(x, y, z))
+end)
+
+RegisterNetEvent('nrrp-police:client:openJailUi', function(payload)
+    print('[nrrp-police][client] received openJailUi')
+    print(json.encode(payload))
+
+    SetUiOpen(true)
+
+    SendNUIMessage({
+        action = 'openJailUi',
+        payload = payload or {}
+    })
+end)
+
+RegisterNUICallback('submitJailForm', function(data, cb)
+    TriggerServerEvent('nrrp-police:server:submitJailForm', data)
+    cb({ ok = true })
+end)
+
+RegisterNUICallback('closeJailUi', function(_, cb)
+    SetUiOpen(false)
+    cb({ ok = true })
+end)
+
+RegisterNetEvent('nrrp-police:client:closeJailUi', function()
+    if not isJailUiOpen then
+        return
+    end
+
+    SetUiOpen(false)
+    SendNUIMessage({ action = 'closeJailUi' })
 end)

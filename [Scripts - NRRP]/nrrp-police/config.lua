@@ -29,6 +29,15 @@ Config.DefaultIndefiniteLabels = {
     manual = 'Manual record'
 }
 
+
+-- Optional per-station jail permissions for UI location filtering.
+-- If a station key is missing or has an empty list, any allowed police job can use that location.
+Config.StationPermissions = {
+    valentine = { 'valentine_sheriff', 'us_marshal' },
+    blackwater = { 'blackwater_sheriff', 'us_marshal' },
+    saint_denis = { 'saint_denis_police', 'us_marshal' }
+}
+
 Config.Stations = {
     valentine = {
         label = 'Valentine Sheriff Office'

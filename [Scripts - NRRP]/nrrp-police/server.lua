@@ -205,6 +205,40 @@ local function CheckPoliceAccess(source, commandName)
     return false
 end
 
+local function GetStationForCell(cell)
+    if not cell then
+        return nil
+    end
+
+    return cell.station and tostring(cell.station) or nil
+end
+
+local function CanUseCellForJob(source, cell)
+    local station = GetStationForCell(cell)
+    if not station then
+        return true
+    end
+
+    local permissions = Config.StationPermissions or {}
+    local allowedJobs = permissions[station]
+    if type(allowedJobs) ~= 'table' or #allowedJobs == 0 then
+        return true
+    end
+
+    local jobName = GetPlayerJobFromLoJobsCreator(source)
+    if not jobName then
+        return false
+    end
+
+    for _, allowedJob in ipairs(allowedJobs) do
+        if jobName == allowedJob then
+            return true
+        end
+    end
+
+    return false
+end
+
 function GetCellConfig(cellId)
     local wantedId = tonumber(cellId)
     if not wantedId then
@@ -614,25 +648,74 @@ RegisterCommand('cellstatus', function(source, args)
 end, false)
 
 
-RegisterCommand('jailcell', function(source, args)
+local function BuildJailUiPayload(source)
+    local locations = {}
+
+    for _, cell in ipairs(Config.Cells or {}) do
+        if CanUseCellForJob(source, cell) then
+            locations[#locations + 1] = {
+                id = tonumber(cell.id),
+                station = GetStationForCell(cell),
+                label = cell.label or ('Cell %s'):format(tostring(cell.id))
+            }
+        end
+    end
+
+    return {
+        locations = locations
+    }
+end
+
+RegisterNetEvent('nrrp-police:server:submitJailForm', function(data)
+    local source = source
+    if not CheckPoliceAccess(source, 'Jail form submission') then
+        return
+    end
+
+ if type(data) ~= 'table' then
+        Notify(source, 'Invalid jail form submission.')
+        return
+    end
+
+    local cellId = tonumber(data.cellId)
+    local target = tonumber(data.targetId)
+    local durationArg = tostring(data.duration or '')
+    local reason = tostring(data.reason or '')
+
+    if not cellId or not target or durationArg == '' then
+        Notify(source, 'Please fill out all jail form fields.')
+        return
+    end
+
+    local cellConfig = GetCellConfig(cellId)
+    if not cellConfig or not CanUseCellForJob(source, cellConfig) then
+        Notify(source, 'You are not allowed to use that jail location.')
+        return
+    end
+
+    JailPlayer(source, target, cellId, durationArg, reason)
+    TriggerClientEvent('nrrp-police:client:closeJailUi', source)
+end)
+
+RegisterCommand('jailcell', function(source, args, rawCommand)
+    print('[nrrp-police] /jailcell used by source:', source)
+
     if not CheckPoliceAccess(source, '/jailcell') then
+        print('[nrrp-police] /jailcell blocked: no police access')
         return
     end
 
-    local cellId = tonumber(args[1])
-    local target = tonumber(args[2])
-    local durationArg = args[3]
-    if not cellId or not target or not durationArg then
-        Notify(source, 'Usage: /jailcell [cellId] [targetServerId] [10m|2h|1d|indefinite|hold] [reason...]')
+    local payload = BuildJailUiPayload(source)
+    print('[nrrp-police] jail UI locations:', json.encode(payload))
+
+    if #payload.locations == 0 then
+        Notify(source, 'No jail locations are available for your job permissions.')
+        print('[nrrp-police] /jailcell blocked: no locations available')
         return
     end
 
-    local reasonParts = {}
-    for i = 4, #args do
-        reasonParts[#reasonParts + 1] = args[i]
-    end
-
-    JailPlayer(source, target, cellId, durationArg, table.concat(reasonParts, ' '))
+    print('[nrrp-police] opening jail UI')
+    TriggerClientEvent('nrrp-police:client:openJailUi', source, payload)
 end, false)
 
 RegisterCommand('releasecell', function(source, args)

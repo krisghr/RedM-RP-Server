@@ -1,12 +1,12 @@
 {
     "1": {
-        "locked": false,
         "occupied": false,
-        "id": 1
+        "id": 1,
+        "locked": false
     },
     "2": {
-        "locked": false,
         "occupied": false,
-        "id": 2
+        "id": 2,
+        "locked": false
     }
 }

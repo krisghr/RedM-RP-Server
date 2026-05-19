@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Police Jail Form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="panel" class="hidden">
+        <h2>Jail Booking</h2>
+
+        <label for="target">Prisoner ID / Name</label>
+        <input id="target" type="text" placeholder="Server ID (required) - Name optional" />
+
+        <label for="location">Jail Location</label>
+        <select id="location"></select>
+
+        <label for="duration">Detention Time: <span id="durationLabel">30m</span></label>
+        <input id="duration" type="range" min="0" max="73" value="0" />
+
+        <label for="reason">Reason</label>
+        <textarea id="reason" rows="3" maxlength="200" placeholder="Enter detention reason"></textarea>
+
+        <div class="row">
+            <button id="submit" class="primary">Submit</button>
+            <button id="cancel">Cancel</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
