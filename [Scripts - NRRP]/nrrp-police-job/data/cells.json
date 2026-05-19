@@ -1,0 +1,12 @@
+{
+    "1": {
+        "id": 1,
+        "occupied": false,
+        "locked": false
+    },
+    "2": {
+        "id": 2,
+        "occupied": false,
+        "locked": false
+    }
+}

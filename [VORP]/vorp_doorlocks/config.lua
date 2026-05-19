@@ -1,7 +1,7 @@
 ---@class vorp_doorlocks_config
 local Config = {}
 
-Config.DevMode = false -- Set to false on live servers
+Config.DevMode = true -- Set to false on live servers
 
 Config.lang = {
     PromptText = "Press",
@@ -34,8 +34,11 @@ Config.AlertProbability = 0.5    -- 0.5 = 50% chance of alerting police if Confi
 Config.Permissions = {
     -- police
     PoliceDoors = { -- Name must match config.Doors.Perms can be any name it doesnt matter as long is unique in here
-        Police = 2, -- job name + grade if grade is 0 then anything above 0 has permissions if frade is 2 then anything above 2 has permissions
+        valentine_sheriff = 2, -- job name + grade if grade is 0 then anything above 0 has permissions if frade is 2 then anything above 2 has permissions
         -- Can add as many jobs as you wish
+    },
+    PoliceDoors = {
+        blackwater_police = 2,
     },
     -- medic
     Doctor = {
@@ -122,7 +125,7 @@ Config.Doors = {
     },
     [193903155]  = {
         Pos = vector3(-272.05209350586, 808.25830078125, 118.36851501465),
-        Name = "Door 1",
+        Name = "Cell 1",
         DoorState = 1,
         Permissions = Config.Permissions.PoliceDoors,
         BreakAble = Config.Lockpicks.location.lockpick,
@@ -131,7 +134,7 @@ Config.Doors = {
     },
     [295355979]  = {
         Pos = vector3(-273.46432495117, 809.96606445313, 118.36823272705),
-        Name = "Door 2",
+        Name = "Cell 2",
         DoorState = 1,
         Permissions = Config.Permissions.PoliceDoors,
         BreakAble = Config.Lockpicks.location.lockpick,
@@ -140,7 +143,7 @@ Config.Doors = {
     },
     [535323366]  = {
         Pos = vector3(-275.02328491211, 808.27404785156, 118.36856842041),
-        Name = "Door 3",
+        Name = "Main Cell Door",
         DoorState = 1,
         Permissions = Config.Permissions.PoliceDoors,
         BreakAble = Config.Lockpicks.location.lockpick,
@@ -189,48 +192,9 @@ Config.Doors = {
 
     -- Blackwater Police Doors
     -- Doors ID
-    [3821185084] = {
-        Pos = vector3(-757.0423583984375, -1269.92333984375, 43.06862640380859),
-        Name = "Front Door 1 (Left)",
-        DoorState = 1,
-        Permissions = Config.Permissions.PoliceDoors,
-        BreakAble = Config.Lockpicks.location.lockpick,
-        Difficulty = 3,
-        Alert = true,
-        DoubleDoor = 3410720590, -- if is double door just add the door next to it here so it open both at the same time
-    },
-    [3410720590] = {
-        Pos = vector3(-757.0423583984375, -1268.4853515625, 43.06859970092773),
-        Name = "Front Door 1 (Right)",
-        DoorState = 1,
-        Permissions = Config.Permissions.PoliceDoors,
-        BreakAble = Config.Lockpicks.location.lockpick,
-        Difficulty = 3,
-        Alert = true,
-        DoubleDoor = 1988748538, -- if is double door just add the door next to it here so it open both at the same time
-    },
-    [2810801921] = {
-        Pos = vector3(-769.1376342773438, -1268.745361328125, 43.04003143310547),
-        Name = "Back Door",
-        DoorState = 1,
-        Permissions = Config.Permissions.PoliceDoors,
-        BreakAble = Config.Lockpicks.location.lockpick,
-        Difficulty = 3,
-        Alert = true,
-    },
-    -- Cells
-    [2514996158] = {
-        Pos = vector3(-765.8612060546875, -1264.703857421875, 43.02326965332031),
-        Name = "Cell Door 1",
-        DoorState = 1,
-        Permissions = Config.Permissions.PoliceDoors,
-        BreakAble = Config.Lockpicks.location.lockpick,
-        Difficulty = 3,
-        Alert = true,
-    },
-    [2167775834] = {
-        Pos = vector3(-763.5278930664062, -1262.4609375, 43.02326583862305),
-        Name = "Cell Door 2",
+    [3527999929]  = {
+        Pos = vector3(-760.2456665039062, -1237.0382080078125, 43.47168350219726),
+        Name = "Holding Cell",
         DoorState = 1,
         Permissions = Config.Permissions.PoliceDoors,
         BreakAble = Config.Lockpicks.location.lockpick,
