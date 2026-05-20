@@ -2,6 +2,7 @@ local RESOURCE_NAME = GetCurrentResourceName()
 local CELLS_FILE = 'data/cells.json'
 local CellsState = {}
 local Core <const> = exports.vorp_core:GetCore()
+local GetPlayerDisplayName
 
 AddEventHandler("onResourceStart", function(resourceName)
     if resourceName ~= RESOURCE_NAME then return end
@@ -196,7 +197,7 @@ local function CheckPoliceAccess(source, commandName)
 
     Log(('Unauthorized %s attempt by %s (%s) [job=%s grade=%s]'):format(
         commandName,
-        GetPlayerName(source) or 'unknown',
+        GetPlayerDisplayName(source, 'unknown'),
         GetIdentifier(source) or 'no identifier',
         tostring(GetPlayerJobFromLoJobsCreator(source) or 'none'),
         tostring(GetPlayerGradeFromVorp(source) or 'none')
@@ -204,6 +205,131 @@ local function CheckPoliceAccess(source, commandName)
     Notify(source, 'You are not authorized to use police cell commands.')
     return false
 end
+
+
+local function HasLeadershipAccess(source)
+    if source == 0 or HasAdminBypass(source) then
+        return true
+    end
+
+    if not HasPoliceAccess(source) then
+        return false
+    end
+
+    local leadershipConfig = Config.Leadership or {}
+    local function IsLoJobsCreatorBossGrade()
+        if not leadershipConfig.AllowLoJobsCreatorBossGrades then
+            return false
+        end
+
+        if GetResourceState('lo_jobscreator') ~= 'started' then
+            return false
+        end
+
+        local playerState = Player(source) and Player(source).state or nil
+        if playerState then
+            if playerState.isBoss == true or playerState.IsBoss == true or playerState.jobIsBoss == true or playerState.JobIsBoss == true then
+                return true
+            end
+        end
+
+        local exportChecks = {
+            function() return exports.lo_jobscreator:IsBoss(source) end,
+            function() return exports.lo_jobscreator:IsPlayerBoss(source) end,
+            function()
+                local currentJob = GetPlayerJobFromLoJobsCreator(source)
+                if not currentJob then return false end
+                return exports.lo_jobscreator:IsBoss(source, currentJob)
+            end,
+            function()
+                local currentJob = GetPlayerJobFromLoJobsCreator(source)
+                if not currentJob then return false end
+                return exports.lo_jobscreator:IsDutyBoss(source, currentJob)
+            end
+        }
+
+        for _, fn in ipairs(exportChecks) do
+            local ok, result = pcall(fn)
+            if ok and result == true then
+                return true
+            end
+        end
+
+        return false
+    end
+
+    local function IsConfiguredBossGradeForJob()
+        local leadershipBossConfig = leadershipConfig.BossGradesByJob or {}
+        if type(leadershipBossConfig) ~= 'table' then
+            return false
+        end
+
+        local currentJob, currentGrade = GetPlayerJobData(source)
+        if not currentJob or currentGrade == nil then
+            return false
+        end
+
+        local allowedGrades = leadershipBossConfig[tostring(currentJob)]
+        if type(allowedGrades) ~= 'table' or #allowedGrades == 0 then
+            return false
+        end
+
+        local numericGrade = tonumber(currentGrade)
+        if not numericGrade then
+            return false
+        end
+
+        for _, grade in ipairs(allowedGrades) do
+            if numericGrade == tonumber(grade) then
+                return true
+            end
+        end
+
+        return false
+    end
+
+    if IsLoJobsCreatorBossGrade() then
+        return true
+    end
+
+    if IsConfiguredBossGradeForJob() then
+        return true
+    end
+
+    local allowedJobs = leadershipConfig.AllowedJobs or {}
+    if #allowedJobs == 0 then
+        return true
+    end
+
+    local jobName = GetPlayerJobFromLoJobsCreator(source)
+    if not jobName then
+        return false
+    end
+
+    for _, allowedJob in ipairs(allowedJobs) do
+        if jobName == allowedJob then
+            return true
+        end
+    end
+
+    return false
+end
+
+local function CanHireJob(jobName)
+    local leadershipConfig = Config.Leadership or {}
+    if not leadershipConfig.RestrictHireJobs then
+        return true
+    end
+
+    for _, allowedJob in ipairs(leadershipConfig.HireJobs or {}) do
+        if jobName == allowedJob then
+            return true
+        end
+    end
+
+    return false
+end
+
 
 local function GetStationForCell(cell)
     if not cell then
@@ -426,6 +552,32 @@ local function TeleportPlayer(target, coords)
     TriggerClientEvent('nrrp-police:client:teleport', target, Vector4ToTable(coords))
 end
 
+GetPlayerDisplayName = function(playerSource, fallbackLabel)
+    local sourceId = tonumber(playerSource)
+    if not sourceId then
+        return fallbackLabel or 'Unknown'
+    end
+
+    local user = Core.getUser(sourceId)
+    if user then
+        local character = user.getUsedCharacter
+        if type(character) == 'function' then
+            character = character(user)
+        end
+
+        if character then
+            local firstname = character.firstname or character.firstName or ''
+            local lastname = character.lastname or character.lastName or ''
+            local fullName = (('%s %s'):format(firstname, lastname)):gsub('^%s*(.-)%s*$', '%1')
+            if fullName ~= '' then
+                return fullName
+            end
+        end
+    end
+
+    return GetPlayerName(sourceId) or fallbackLabel or ('ID %s'):format(sourceId)
+end
+
 function JailPlayer(source, target, cellId, durationArg, reason)
     local cellConfig = GetCellConfig(cellId)
     local state = GetCellState(cellId)
@@ -447,8 +599,8 @@ function JailPlayer(source, target, cellId, durationArg, reason)
     end
 
     reason = reason and reason ~= '' and reason or 'No reason provided'
-    local officerName = source == 0 and 'Console' or (GetPlayerName(source) or 'Unknown officer')
-    local targetName = GetPlayerName(target) or ('ID %s'):format(target)
+    local officerName = source == 0 and 'Console' or GetPlayerDisplayName(source, 'Unknown officer')
+    local targetName = GetPlayerDisplayName(target, ('ID %s'):format(target))
     local status = reason
 
     if duration.detentionType == 'indefinite' then
@@ -463,7 +615,7 @@ function JailPlayer(source, target, cellId, durationArg, reason)
     state.status = status
     state.detentionType = duration.detentionType
     state.assignedBy = officerName
-    state.assignedByIdentifier = source == 0 and 'console' or GetIdentifier(source)
+    state.assignedBy = source == 0 and 'Console' or GetPlayerDisplayName(source, 'Unknown officer')
     state.jailedAt = os.time()
     state.releaseAt = duration.releaseAt
     state.notes = state.notes or nil
@@ -613,7 +765,7 @@ RegisterCommand('cellclear', function(source, args)
     ClearOccupancy(state)
     SaveCells()
     Notify(source, ('Cleared occupancy record for %s.'):format(cellConfig.label))
-    Log(('Cell clear: cell %s cleared by %s (previous: %s)'):format(cellId, source == 0 and 'Console' or (GetPlayerName(source) or 'Unknown officer'), oldName))
+    Log(('Cell clear: cell %s cleared by %s (previous: %s)'):format(cellId, source == 0 and 'Console' or GetPlayerDisplayName(source, 'Unknown officer'), oldName))
 end, false)
 
 RegisterCommand('cellnote', function(source, args)
@@ -638,7 +790,7 @@ RegisterCommand('cellnote', function(source, args)
     state.notes = note
     SaveCells()
     Notify(source, ('Updated note for cell %s.'):format(cellId))
-    Log(('Cell note: cell %s updated by %s'):format(cellId, source == 0 and 'Console' or (GetPlayerName(source) or 'Unknown officer')))
+    Log(('Cell note: cell %s updated by %s'):format(cellId, source == 0 and 'Console' or GetPlayerDisplayName(source, 'Unknown officer')))
 end, false)
 
 RegisterCommand('cellstatus', function(source, args)
@@ -663,7 +815,7 @@ RegisterCommand('cellstatus', function(source, args)
     state.status = status
     SaveCells()
     Notify(source, ('Updated status for cell %s: %s'):format(cellId, status))
-    Log(('Cell status: cell %s set to "%s" by %s'):format(cellId, status, source == 0 and 'Console' or (GetPlayerName(source) or 'Unknown officer')))
+    Log(('Cell status: cell %s set to "%s" by %s'):format(cellId, status, source == 0 and 'Console' or GetPlayerDisplayName(source, 'Unknown officer')))
 end, false)
 
 
@@ -727,6 +879,70 @@ local function GetOfficerCoords(source)
     return { x = coords.x, y = coords.y, z = coords.z }
 end
 
+local function GetCharacterFullName(playerSource)
+    local user = Core.getUser(playerSource)
+    if not user then
+        return nil
+    end
+
+    local character = user.getUsedCharacter
+    if type(character) == 'function' then
+        character = character(user)
+    end
+
+    if not character then
+        return nil
+    end
+
+    local firstname = character.firstname or character.firstName or ''
+    local lastname = character.lastname or character.lastName or ''
+    local fullName = (('%s %s'):format(firstname, lastname)):gsub('^%s*(.-)%s*$', '%1')
+
+    if fullName == '' then
+        return nil
+    end
+
+    return fullName
+end
+
+local function ResolveTargetPlayer(rawTarget)
+    local query = tostring(rawTarget or ''):gsub('^%s*(.-)%s*$', '%1')
+    if query == '' then
+        return nil, 'Please fill out all jail form fields.'
+    end
+
+    local parsedId = tonumber(query)
+    if parsedId then
+        if GetPlayerName(parsedId) then
+            return parsedId
+        end
+        return nil, ('No active player found with server ID %s.'):format(parsedId)
+    end
+
+    local normalizedQuery = query:lower()
+    local matches = {}
+
+    for _, playerSource in ipairs(GetPlayers()) do
+        local numericSource = tonumber(playerSource)
+        if numericSource then
+            local fullName = GetCharacterFullName(numericSource)
+            if fullName and fullName:lower() == normalizedQuery then
+                matches[#matches + 1] = numericSource
+            end
+        end
+    end
+
+    if #matches == 1 then
+        return matches[1]
+    end
+
+    if #matches > 1 then
+        return nil, ('Multiple active players match "%s". Please use server ID.'):format(query)
+    end
+
+    return nil, ('No active player found with name "%s".'):format(query)
+end
+
 local function GetAvailableCellsForStation(source, stationKey)
     local available = {}
 
@@ -754,12 +970,18 @@ RegisterNetEvent('nrrp-police:server:submitJailForm', function(data)
     end
 
     local stationKey = tostring(data.cellId or '')
-    local target = tonumber(data.targetId)
+    local targetInput = data.target or data.targetId or data.targetName
+    local target, targetError = ResolveTargetPlayer(targetInput)
     local durationArg = tostring(data.duration or '')
     local reason = tostring(data.reason or '')
 
-    if stationKey == '' or not target or durationArg == '' then
+    if stationKey == '' or durationArg == '' then
         Notify(source, 'Please fill out all jail form fields.')
+        return
+    end
+
+    if not target then
+        Notify(source, targetError or 'Unable to find that player.')
         return
     end
 
@@ -880,8 +1102,94 @@ RegisterCommand('sentencecell', function(source, args)
     Log(('Sentence update: cell %s set to %s by %s. Status/reason: %s'):format(cellId, durationArg, source == 0 and 'Console' or (GetPlayerName(source) or 'Unknown officer'), status))
 end, false)
 
+RegisterCommand((Config.Leadership and Config.Leadership.Command) or 'leadership', function(source, args)
+    if not HasLeadershipAccess(source) then
+        Notify(source, 'You are not authorized to use leadership actions.')
+        return
+    end
 
+    local action = (args[1] or ''):lower()
+    if action == '' or action == 'help' then
+        Notify(source, 'Leadership command usage:')
+        Notify(source, '/leadership hire [serverId] [jobName] [grade(optional)]')
+        Notify(source, '/leadership fire [serverId]')
+        Notify(source, '/leadership setgrade [serverId] [grade]')
+        return
+    end
 
+    local target = tonumber(args[2])
+    if not target then
+        Notify(source, 'Target server id is required.')
+        return
+    end
+
+    local targetUser = Core.getUser(target)
+    if not targetUser then
+        Notify(source, 'Target player not found.')
+        return
+    end
+
+    local targetCharacter = targetUser.getUsedCharacter
+    if type(targetCharacter) == 'function' then
+        targetCharacter = targetCharacter(targetUser)
+    end
+
+    if not targetCharacter then
+        Notify(source, 'Could not access target character.')
+        return
+    end
+
+    if action == 'hire' then
+        local jobName = tostring(args[3] or '')
+        if jobName == '' then
+            Notify(source, 'Usage: /leadership hire [serverId] [jobName] [grade(optional)]')
+            return
+        end
+
+        if not CanHireJob(jobName) then
+            Notify(source, ('You cannot assign the "%s" job from leadership command.'):format(jobName))
+            return
+        end
+
+        local grade = tonumber(args[4]) or tonumber((Config.Leadership and Config.Leadership.DefaultHireGrade) or 0) or 0
+        targetCharacter.setJob(jobName, true)
+        targetCharacter.setJobGrade(grade, true)
+        targetCharacter.setJobLabel(jobName, true)
+
+        Notify(source, ('Assigned %s to %s (grade %s).'):format(GetPlayerName(target) or ('ID ' .. target), jobName, tostring(grade)))
+        Notify(target, ('You were assigned to %s (grade %s).'):format(jobName, tostring(grade)))
+        Log(('Leadership hire: %s assigned %s to %s grade %s'):format(source == 0 and 'Console' or (GetPlayerName(source) or ('ID ' .. source)), GetPlayerName(target) or ('ID ' .. target), jobName, tostring(grade)))
+        return
+    end
+
+    if action == 'fire' then
+        local fireToJob = (Config.Leadership and Config.Leadership.FireToJob) or 'unemployed'
+        local fireToLabel = (Config.Leadership and Config.Leadership.FireToLabel) or 'Unemployed'
+        targetCharacter.setJob(fireToJob, true)
+        targetCharacter.setJobLabel(fireToLabel, true)
+
+        Notify(source, ('Removed %s from current police role.'):format(GetPlayerName(target) or ('ID ' .. target)))
+        Notify(target, ('You were set to %s.'):format(fireToLabel))
+        Log(('Leadership fire: %s removed %s to %s'):format(source == 0 and 'Console' or (GetPlayerName(source) or ('ID ' .. source)), GetPlayerName(target) or ('ID ' .. target), fireToJob))
+        return
+    end
+
+    if action == 'setgrade' then
+        local grade = tonumber(args[3])
+        if not grade then
+            Notify(source, 'Usage: /leadership setgrade [serverId] [grade]')
+            return
+        end
+
+        targetCharacter.setJobGrade(grade, true)
+        Notify(source, ('Updated %s to grade %s.'):format(GetPlayerName(target) or ('ID ' .. target), tostring(grade)))
+        Notify(target, ('Your job grade was set to %s.'):format(tostring(grade)))
+        Log(('Leadership setgrade: %s set %s to grade %s'):format(source == 0 and 'Console' or (GetPlayerName(source) or ('ID ' .. source)), GetPlayerName(target) or ('ID ' .. target), tostring(grade)))
+        return
+    end
+
+    Notify(source, 'Unknown leadership action. Use /leadership help.')
+end, false)
 
 CreateThread(function()
     LoadCells()

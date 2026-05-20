@@ -62,8 +62,7 @@ document.getElementById('submit').addEventListener('click', async () => {
     const durationIndex = Number(durationSlider.value) || 0;
 
     await post('submitJailForm', {
-        targetId,
-        targetName: targetRaw,
+        target: targetRaw,
         cellId: locationSelect.value,
         duration: durations[durationIndex].value,
         reason: reasonInput.value.trim()

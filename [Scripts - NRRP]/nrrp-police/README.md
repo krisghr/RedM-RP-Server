@@ -162,6 +162,17 @@ Shows every configured cell and its current state:
 - Assigned by
 - Notes
 
+### `/leadership`
+
+Chat replacement for a boss menu:
+
+- `/leadership help`
+- `/leadership hire [serverId] [jobName] [grade(optional)]`
+- `/leadership fire [serverId]`
+- `/leadership setgrade [serverId] [grade]`
+
+This is intended to replace map-marker boss interactions with command-only leadership actions. Configure permissions and allowed hire jobs in `Config.Leadership`.
+
 ### `/cellassign [cellId] [name...]`
 
 Creates a manual RP occupancy record without teleporting anyone.

@@ -18,6 +18,42 @@ Config.AllowedJobs = {
     'us_marshal'
 }
 
+Config.Leadership = {
+    Command = 'leadership',
+    -- If true, players flagged as a "Boss" grade in lo_jobscreator can always
+    -- use leadership actions (still requires general police access/admin/console).
+    AllowLoJobsCreatorBossGrades = true,
+    -- Fallback boss-grade mapping by job name for servers where lo_jobscreator
+    -- does not expose boss status through exports/state.
+    -- Example:
+    -- BossGradesByJob = {
+    --   valentine_sheriff = { 4, 5 },
+    --   blackwater_sheriff = { 4 },
+    -- }
+    BossGradesByJob = {
+        valentine_sheriff = { 4 },
+        blackwater_sheriff = { 3 },
+        saint_denis_police = { 4 },
+        us_marshal = { 4 }
+    },
+    -- Jobs that are allowed to run hire/fire actions.
+    -- Leave empty to allow any police-access user to manage leadership actions.
+    AllowedJobs = {
+        'us_marshal'
+    },
+    -- If true, leadership users can only assign jobs that are listed below.
+    RestrictHireJobs = true,
+    HireJobs = {
+        'valentine_sheriff',
+        'blackwater_sheriff',
+        'saint_denis_police',
+        'us_marshal'
+    },
+    DefaultHireGrade = 0,
+    FireToJob = 'unemployed',
+    FireToLabel = 'Unemployed'
+}
+
 -- Add full identifiers here for development/testing access bypasses.
 -- Examples: 'license:xxxxxxxx', 'steam:110000xxxxxxxxx', 'fivem:123456'
 Config.AdminIdentifiers = {}
