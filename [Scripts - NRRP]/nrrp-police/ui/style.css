@@ -1,12 +1,19 @@
-html,
+@import url('https://fonts.googleapis.com/css2?family=Rye&family=Special+Elite&display=swap');
+@font-face {
+	font-family: "Special Elite";
+	src: url('SpecialElite-Regular.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    width: 100%;
-    height: 100%;
-    font-family: Arial, sans-serif;
-    color: #f5f5f5;
+    max-height: 100vh;
+    font-family: "Special Elite", Georgia, serif;
+    color: #c49a61;
     background: transparent;
-    overflow: hidden;
 }
 
 .hidden {
@@ -14,25 +21,46 @@ body {
 }
 
 #panel {
-    display: none;
-    width: 420px;
-    margin: 10vh auto;
-    background: rgba(18, 18, 18, 0.96);
-    border: 1px solid #555;
-    border-radius: 8px;
-    padding: 16px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.65);
+position: relative;
+  width: 80vw;
+  max-width: 1030px;
+  min-height: 800px;
+  margin: 6vh auto;
+  background: url('assets/jail-booking-bg-small.png');
+  overflow: hidden;
 }
 
-h2 {
-    margin: 0 0 12px 0;
-    font-size: 22px;
+#xCancel {
+position: absolute;
+  top: 38px;
+  right: 63px;
+  z-index: 5;
+  width: 51px;
+  height: 50px;
+  border-radius: 50%;
+  font-family: Georgia, serif;
+  font-size: 42px;
+  line-height: 48px;
+  color: #9d7849;
+  background: rgba(0, 0, 0, 0.28);
+  border: 2px solid transparent;
+  cursor: pointer;
 }
 
-label {
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 4px;
+#xCancel:hover {
+    color: #e0c18b;
+    border-color: #c49a61;
+}
+
+.form-grid {
+position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 14px 42px;
+  width: 488px;
+  right: 10%;
+  top: 22%;
 }
 
 input,
@@ -40,33 +68,133 @@ select,
 textarea,
 button {
     width: 100%;
-    box-sizing: border-box;
-    border-radius: 4px;
-    border: 1px solid #666;
-    background: #242424;
-    color: #fff;
-    padding: 8px;
-    font-size: 14px;
+    font-family: "Special Elite", Georgia, serif;
+}
+
+input,
+select,
+textarea {
+border: none;
+  background: transparent;
+  color: #d4b98b;
+  font-size: 22px;
+  outline: none;
+  padding: 13px 21px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgba(179, 146, 98, 0.65);
+}
+
+select {
+appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, #a88452 50%), linear-gradient(135deg, #a88452 50%, transparent 50%), linear-gradient(rgba(15, 13, 10, 0), rgba(7, 7, 6, 0));
+  background-position: calc(100% - 30px) 50%, calc(100% - 20px) 50%, 0 0;
+  background-size: 10px 10px, 10px 10px, 100% 100%;
+  background-repeat: no-repeat;
+  margin-top: 23px;
 }
 
 textarea {
-    resize: vertical;
+height: 115px;
+  padding: 13px 21px;
+  top: 38px;
+  position: relative;
+  right: 8px;
+}
+
+.slider-wrap {
+    padding: 4px 10px 0;
+}
+
+.duration-readout {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Rye", Georgia, serif;
+    font-size: 22px;
+    color: #c19a61;
+    text-transform: uppercase;
+}
+
+input[type="range"] {
+padding: 0;
+  height: 34px;
+  border: 0;
+  background: transparent;
+  position: relative;
+  right: 15px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    height: 8px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+width: 32px;
+  height: 33px;
+  border-radius: 50%;
+  border: none;
+  background: url('assets/jail-booking-range-slider-thumb.png');
+}
+
+input[type="range"]::-moz-range-track {
+    height: 8px;
+}
+
+input[type="range"]::-moz-range-thumb {
+width: 32px;
+  height: 33px;
+  border-radius: 50%;
+  border: none;
+  background: url('assets/jail-booking-range-slider-thumb.png');
+}
+
+.ticks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    font-family: "Rye", Georgia, serif;
+    font-size: 15px;
+    color: #a57a45;
 }
 
 .row {
-    display: flex;
-    gap: 8px;
-    margin-top: 14px;
+position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 38px;
+  bottom: 9%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 button {
+    width: 271px;
+    height: 65px;
+    padding: 5px;
+    background: transparent;
+    font-family: "Rye", Georgia, serif;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     cursor: pointer;
-}
-
-button.primary {
-    background: #2f7d32;
+    border: none;
+    color: #c49a61;
 }
 
 button:hover {
-    filter: brightness(1.12);
+    color: #ead5a8;
+}
+
+.footer-note {
+    position: relative;
+    z-index: 2;
+    margin: 34px 0 0;
+    text-align: center;
+    font-size: 19px;
+    letter-spacing: 2px;
+    color: #9a713e;
 }

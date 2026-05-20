@@ -2,7 +2,7 @@
 Config = {}
 
 Config.Debug = {
-	print = true,
+	print = false,
 	control = false,
 	cancel = false,
 }

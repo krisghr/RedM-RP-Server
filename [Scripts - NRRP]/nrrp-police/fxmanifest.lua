@@ -18,5 +18,8 @@ files {
     'data/cells.json',
     'ui/index.html',
     'ui/style.css',
-    'ui/script.js'
+    'ui/script.js',
+    'ui/SpecialElite.ttf',
+    'ui/assets/jail-booking-bg-small.png',
+    'ui/assets/jail-booking-range-slider-thumb.png'
 }

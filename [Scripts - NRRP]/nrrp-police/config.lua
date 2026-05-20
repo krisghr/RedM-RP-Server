@@ -62,6 +62,13 @@ Config.Cells = {
     {
         id = 2,
         station = 'valentine',
+        label = 'Valentine Cell 1',
+        jailCoords = vector4(0.0, 0.0, 0.0, 0.0),
+        releaseCoords = vector4(0.0, 0.0, 0.0, 0.0)
+    },
+    {
+        id = 3,
+        station = 'valentine',
         label = 'Valentine Cell 2',
         jailCoords = vector4(0.0, 0.0, 0.0, 0.0),
         releaseCoords = vector4(0.0, 0.0, 0.0, 0.0)

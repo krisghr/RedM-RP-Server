@@ -1,4 +1,8 @@
 {
+    "3": {
+        "occupied": false,
+        "id": 3
+    },
     "1": {
         "occupied": false,
         "id": 1,

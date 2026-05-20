@@ -697,8 +697,63 @@ RegisterNetEvent('nrrp-police:server:submitJailForm', function(data)
     TriggerClientEvent('nrrp-police:client:closeJailUi', source)
 end)
 
-RegisterCommand('jailcell', function(source, args, rawCommand)
-    print('[nrrp-police] /jailcell used by source:', source)
+local function BuildJailUiPayload(source)
+    local allowedLocations = {}
+    local allLocations = {}
+
+    for _, cell in ipairs(Config.Cells or {}) do
+        local entry = {
+            id = tonumber(cell.id),
+            station = GetStationForCell(cell),
+            label = cell.label or ('Cell %s'):format(tostring(cell.id))
+        }
+
+        allLocations[#allLocations + 1] = entry
+        if CanUseCellForJob(source, cell) then
+            allowedLocations[#allowedLocations + 1] = entry
+        end
+    end
+
+    local usingFallback = #allowedLocations == 0 and #allLocations > 0
+
+    return {
+        locations = usingFallback and allLocations or allowedLocations,
+        usingPermissionFallback = usingFallback
+    }
+end
+
+RegisterNetEvent('nrrp-police:server:submitJailForm', function(data)
+    local source = source
+    if not CheckPoliceAccess(source, 'Jail form submission') then
+        return
+    end
+
+    if type(data) ~= 'table' then
+        Notify(source, 'Invalid jail form submission.')
+        return
+    end
+
+    local cellId = tonumber(data.cellId)
+    local target = tonumber(data.targetId)
+    local durationArg = tostring(data.duration or '')
+    local reason = tostring(data.reason or '')
+
+    if not cellId or not target or durationArg == '' then
+        Notify(source, 'Please fill out all jail form fields.')
+        return
+    end
+
+    local cellConfig = GetCellConfig(cellId)
+    if not cellConfig or not CanUseCellForJob(source, cellConfig) then
+        Notify(source, 'You are not allowed to use that jail location.')
+        return
+    end
+
+    JailPlayer(source, target, cellId, durationArg, reason)
+    TriggerClientEvent('nrrp-police:client:closeJailUi', source)
+end)
+
+RegisterCommand('jailcell', function(source)
 
     if not CheckPoliceAccess(source, '/jailcell') then
         print('[nrrp-police] /jailcell blocked: no police access')
@@ -706,12 +761,13 @@ RegisterCommand('jailcell', function(source, args, rawCommand)
     end
 
     local payload = BuildJailUiPayload(source)
-    print('[nrrp-police] jail UI locations:', json.encode(payload))
-
     if #payload.locations == 0 then
-        Notify(source, 'No jail locations are available for your job permissions.')
-        print('[nrrp-police] /jailcell blocked: no locations available')
+        Notify(source, 'No jail locations are configured.')
         return
+    end
+
+if payload.usingPermissionFallback then
+        Notify(source, 'No job-specific jail locations matched; showing all locations instead.')
     end
 
     print('[nrrp-police] opening jail UI')

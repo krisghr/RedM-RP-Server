@@ -37,11 +37,7 @@ RegisterNetEvent('nrrp-police:client:teleport', function(coords)
 end)
 
 RegisterNetEvent('nrrp-police:client:openJailUi', function(payload)
-    print('[nrrp-police][client] received openJailUi')
-    print(json.encode(payload))
-
     SetUiOpen(true)
-
     SendNUIMessage({
         action = 'openJailUi',
         payload = payload or {}
@@ -55,6 +51,7 @@ end)
 
 RegisterNUICallback('closeJailUi', function(_, cb)
     SetUiOpen(false)
+    SendNUIMessage({ action = 'closeJailUi' })
     cb({ ok = true })
 end)
 

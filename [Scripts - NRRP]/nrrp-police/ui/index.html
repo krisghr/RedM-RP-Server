@@ -8,23 +8,33 @@
 </head>
 <body>
     <div id="panel" class="hidden">
-        <h2>Jail Booking</h2>
+        <button id="xCancel" type="button"></button>
 
-        <label for="target">Prisoner ID / Name</label>
-        <input id="target" type="text" placeholder="Server ID (required) - Name optional" />
+        <div class="divider"></div>
 
-        <label for="location">Jail Location</label>
-        <select id="location"></select>
+        <div class="form-grid">
 
-        <label for="duration">Detention Time: <span id="durationLabel">30m</span></label>
-        <input id="duration" type="range" min="0" max="73" value="0" />
+            <input id="target" type="text" placeholder="Enter ID or Name..." />
 
-        <label for="reason">Reason</label>
-        <textarea id="reason" rows="3" maxlength="200" placeholder="Enter detention reason"></textarea>
+            <select id="location">
+                <option>placeholder</option>
+                <option>placeholder</option>
+                <option>placeholder</option>
+            </select>
+
+            <div class="slider-wrap">
+                <div class="duration-readout">
+                    <span id="durationLabel">30m</span>
+                </div>
+                <input id="duration" type="range" min="0" max="73" value="0" />
+            </div>
+
+            <textarea id="reason" rows="4" maxlength="200" placeholder="Enter reason..."></textarea>
+        </div>
 
         <div class="row">
-            <button id="submit" class="primary">Submit</button>
             <button id="cancel">Cancel</button>
+            <button id="submit" class="primary">Submit Booking</button>
         </div>
     </div>
 
