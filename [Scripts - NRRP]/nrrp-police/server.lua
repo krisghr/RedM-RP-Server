@@ -477,6 +477,22 @@ function JailPlayer(source, target, cellId, durationArg, reason)
     return true
 end
 
+local function GetReleaseCoordsForCell(cell)
+    if not cell then
+        return nil
+    end
+
+    local stationKey = GetStationForCell(cell)
+    local station = stationKey and Config.Stations and Config.Stations[stationKey] or nil
+
+    if station and station.releaseCoords then
+        return station.releaseCoords
+    end
+
+    return cell.releaseCoords
+end
+
+
 function ReleaseCell(source, cellId, automatic)
     local cellConfig = GetCellConfig(cellId)
     local state = GetCellState(cellId)
@@ -498,7 +514,10 @@ function ReleaseCell(source, cellId, automatic)
     local prisonerSource = GetOnlinePrisonerSource(state)
 
     if prisonerSource then
-        TeleportPlayer(prisonerSource, cellConfig.releaseCoords)
+        local releaseCoords = GetReleaseCoordsForCell(cellConfig)
+        if releaseCoords then
+            TeleportPlayer(prisonerSource, releaseCoords)
+        end
         Notify(prisonerSource, ('You have been released from %s.'):format(cellConfig.label))
     end
 
@@ -649,77 +668,78 @@ end, false)
 
 
 local function BuildJailUiPayload(source)
-    local locations = {}
+    local allowedStations = {}
+    local allStations = {}
+    local seenAllowed = {}
+    local seenAll = {}
 
     for _, cell in ipairs(Config.Cells or {}) do
-        if CanUseCellForJob(source, cell) then
-            locations[#locations + 1] = {
-                id = tonumber(cell.id),
-                station = GetStationForCell(cell),
-                label = cell.label or ('Cell %s'):format(tostring(cell.id))
-            }
+        local stationKey = GetStationForCell(cell)
+        if stationKey and Config.Stations and Config.Stations[stationKey] then
+            if not seenAll[stationKey] then
+                seenAll[stationKey] = true
+                allStations[#allStations + 1] = {
+                    id = stationKey,
+                    label = Config.Stations[stationKey].label or stationKey
+                }
+            end
+
+            if CanUseCellForJob(source, cell) and not seenAllowed[stationKey] then
+                seenAllowed[stationKey] = true
+                allowedStations[#allowedStations + 1] = {
+                    id = stationKey,
+                    label = Config.Stations[stationKey].label or stationKey
+                }
+            end
         end
     end
 
+    local usingFallback = #allowedStations == 0 and #allStations > 0
+
     return {
-        locations = locations
+        locations = usingFallback and allStations or allowedStations,
+        usingPermissionFallback = usingFallback
     }
 end
 
-RegisterNetEvent('nrrp-police:server:submitJailForm', function(data)
-    local source = source
-    if not CheckPoliceAccess(source, 'Jail form submission') then
-        return
+local function GetDistanceBetweenCoords(a, b)
+    local dx = (a.x or 0.0) - (b.x or 0.0)
+    local dy = (a.y or 0.0) - (b.y or 0.0)
+    local dz = (a.z or 0.0) - (b.z or 0.0)
+    return math.sqrt((dx * dx) + (dy * dy) + (dz * dz))
+end
+
+local function GetOfficerCoords(source)
+    if source == 0 then
+        return nil
     end
 
- if type(data) ~= 'table' then
-        Notify(source, 'Invalid jail form submission.')
-        return
+    local ped = GetPlayerPed(source)
+    if not ped or ped <= 0 then
+        return nil
     end
 
-    local cellId = tonumber(data.cellId)
-    local target = tonumber(data.targetId)
-    local durationArg = tostring(data.duration or '')
-    local reason = tostring(data.reason or '')
-
-    if not cellId or not target or durationArg == '' then
-        Notify(source, 'Please fill out all jail form fields.')
-        return
+    local coords = GetEntityCoords(ped)
+    if not coords then
+        return nil
     end
 
-    local cellConfig = GetCellConfig(cellId)
-    if not cellConfig or not CanUseCellForJob(source, cellConfig) then
-        Notify(source, 'You are not allowed to use that jail location.')
-        return
-    end
+    return { x = coords.x, y = coords.y, z = coords.z }
+end
 
-    JailPlayer(source, target, cellId, durationArg, reason)
-    TriggerClientEvent('nrrp-police:client:closeJailUi', source)
-end)
-
-local function BuildJailUiPayload(source)
-    local allowedLocations = {}
-    local allLocations = {}
+local function GetAvailableCellsForStation(source, stationKey)
+    local available = {}
 
     for _, cell in ipairs(Config.Cells or {}) do
-        local entry = {
-            id = tonumber(cell.id),
-            station = GetStationForCell(cell),
-            label = cell.label or ('Cell %s'):format(tostring(cell.id))
-        }
-
-        allLocations[#allLocations + 1] = entry
-        if CanUseCellForJob(source, cell) then
-            allowedLocations[#allowedLocations + 1] = entry
+        if GetStationForCell(cell) == stationKey and CanUseCellForJob(source, cell) then
+            local state = GetCellState(cell.id)
+            if state and not state.occupied then
+                available[#available + 1] = cell
+            end
         end
     end
 
-    local usingFallback = #allowedLocations == 0 and #allLocations > 0
-
-    return {
-        locations = usingFallback and allLocations or allowedLocations,
-        usingPermissionFallback = usingFallback
-    }
+   return available
 end
 
 RegisterNetEvent('nrrp-police:server:submitJailForm', function(data)
@@ -733,30 +753,58 @@ RegisterNetEvent('nrrp-police:server:submitJailForm', function(data)
         return
     end
 
-    local cellId = tonumber(data.cellId)
+    local stationKey = tostring(data.cellId or '')
     local target = tonumber(data.targetId)
     local durationArg = tostring(data.duration or '')
     local reason = tostring(data.reason or '')
 
-    if not cellId or not target or durationArg == '' then
+    if stationKey == '' or not target or durationArg == '' then
         Notify(source, 'Please fill out all jail form fields.')
         return
     end
 
-    local cellConfig = GetCellConfig(cellId)
-    if not cellConfig or not CanUseCellForJob(source, cellConfig) then
-        Notify(source, 'You are not allowed to use that jail location.')
+local stationConfig = Config.Stations and Config.Stations[stationKey] or nil
+    if not stationConfig then
+        Notify(source, 'You selected an invalid jail location.')
         return
     end
 
-    JailPlayer(source, target, cellId, durationArg, reason)
+    local availableCells = GetAvailableCellsForStation(source, stationKey)
+    if #availableCells == 0 then
+        Notify(source, ('No open cells are available at %s.'):format(stationConfig.label or stationKey))
+        return
+    end
+
+    local officerCoords = GetOfficerCoords(source)
+    local maxDistance = tonumber(Config.JailBookingMaxDistance) or 50.0
+    local isNearStation = false
+
+    if not officerCoords then
+        Notify(source, 'Could not verify your location for jail booking.')
+        return
+    end
+
+    for _, cell in ipairs(availableCells) do
+        if GetDistanceBetweenCoords(officerCoords, cell.jailCoords) <= maxDistance then
+            isNearStation = true
+            break
+        end
+    end
+
+    if not isNearStation then
+        Notify(source, ('You must be within %.1f meters of %s to use /jail.'):format(maxDistance, stationConfig.label or stationKey))
+        return
+    end
+
+  local selectedCell = availableCells[math.random(#availableCells)]
+    JailPlayer(source, target, selectedCell.id, durationArg, reason)
     TriggerClientEvent('nrrp-police:client:closeJailUi', source)
 end)
 
-RegisterCommand('jailcell', function(source)
+RegisterCommand('jail', function(source)
 
-    if not CheckPoliceAccess(source, '/jailcell') then
-        print('[nrrp-police] /jailcell blocked: no police access')
+    if not CheckPoliceAccess(source, '/jail') then
+        print('[nrrp-police] /jail blocked: no police access')
         return
     end
 

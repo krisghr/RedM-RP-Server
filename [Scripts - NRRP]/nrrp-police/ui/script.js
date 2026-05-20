@@ -64,7 +64,7 @@ document.getElementById('submit').addEventListener('click', async () => {
     await post('submitJailForm', {
         targetId,
         targetName: targetRaw,
-        cellId: Number(locationSelect.value),
+        cellId: locationSelect.value,
         duration: durations[durationIndex].value,
         reason: reasonInput.value.trim()
     });

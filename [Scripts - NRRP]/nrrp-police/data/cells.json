@@ -1,16 +1,43 @@
 {
-    "3": {
-        "occupied": false,
-        "id": 3
+    "10": {
+        "id": 10,
+        "occupied": false
     },
     "1": {
-        "occupied": false,
         "id": 1,
-        "locked": false
+        "occupied": false
     },
     "2": {
-        "occupied": false,
+        "locked": false,
         "id": 2,
-        "locked": false
+        "occupied": false
+    },
+    "3": {
+        "id": 3,
+        "occupied": false
+    },
+    "4": {
+        "id": 4,
+        "occupied": false
+    },
+    "5": {
+        "id": 5,
+        "occupied": false
+    },
+    "6": {
+        "id": 6,
+        "occupied": false
+    },
+    "7": {
+        "id": 7,
+        "occupied": false
+    },
+    "8": {
+        "id": 8,
+        "occupied": false
+    },
+    "9": {
+        "id": 9,
+        "occupied": false
     }
 }
